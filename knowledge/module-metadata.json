@@ -1,0 +1,187 @@
+{
+  "source": "lp-builder/knowledge/component-library.html",
+  "modules": [
+    {
+      "id": "hero-bleed-flex",
+      "label": "Hero Bleed Flex",
+      "category": "hero",
+      "source": "component-library.html",
+      "status": "active"
+    },
+    {
+      "id": "hero-bleed-flex-centered",
+      "label": "Hero Bleed Flex Centered",
+      "category": "hero",
+      "source": "component-library.html",
+      "status": "active"
+    },
+    {
+      "id": "hero-split",
+      "label": "Hero Split",
+      "category": "hero",
+      "source": "component-library.html",
+      "status": "active"
+    },
+    {
+      "id": "teaser-2col",
+      "label": "Teaser 2 Columns",
+      "category": "teaser",
+      "source": "component-library.html",
+      "status": "active"
+    },
+    {
+      "id": "teaser-3col",
+      "label": "Teaser 3 Columns",
+      "category": "teaser",
+      "source": "component-library.html",
+      "status": "active"
+    },
+    {
+      "id": "teaser-4col",
+      "label": "Teaser 4 Columns",
+      "category": "teaser",
+      "source": "component-library.html",
+      "status": "active"
+    },
+    {
+      "id": "teaser-split-image-right",
+      "label": "Teaser Split Image Right",
+      "category": "teaser",
+      "source": "component-library.html",
+      "status": "active"
+    },
+    {
+      "id": "teaser-split-image-left",
+      "label": "Teaser Split Image Left",
+      "category": "teaser",
+      "source": "component-library.html",
+      "status": "active"
+    },
+    {
+      "id": "steps-3col",
+      "label": "Steps 3 Columns",
+      "category": "steps",
+      "source": "component-library.html",
+      "status": "active"
+    },
+    {
+      "id": "steps-4col",
+      "label": "Steps 4 Columns",
+      "category": "steps",
+      "source": "component-library.html",
+      "status": "active"
+    },
+    {
+      "id": "accordion",
+      "label": "Accordion",
+      "category": "content",
+      "source": "component-library.html",
+      "status": "active"
+    },
+    {
+      "id": "counter-animated",
+      "label": "Counter Animated",
+      "category": "content",
+      "source": "component-library.html",
+      "status": "active"
+    },
+    {
+      "id": "callout--base",
+      "label": "Callout Base",
+      "category": "callout",
+      "source": "component-library.html",
+      "status": "active"
+    },
+    {
+      "id": "callout--illu",
+      "label": "Callout Illustration",
+      "category": "callout",
+      "source": "component-library.html",
+      "status": "active"
+    },
+    {
+      "id": "callout--expert",
+      "label": "Callout Expert",
+      "category": "callout",
+      "source": "component-library.html",
+      "status": "active"
+    },
+    {
+      "id": "benefits-3col",
+      "label": "Benefits 3 Columns",
+      "category": "content",
+      "source": "component-library.html",
+      "status": "active"
+    },
+    {
+      "id": "benefits-2col",
+      "label": "Benefits 2 Columns",
+      "category": "content",
+      "source": "component-library.html",
+      "status": "active"
+    },
+    {
+      "id": "ekomi-reviews",
+      "label": "eKomi Reviews",
+      "category": "social-proof",
+      "source": "component-library.html",
+      "status": "active"
+    },
+    {
+      "id": "servicetiles",
+      "label": "Service Tiles",
+      "category": "tiles",
+      "source": "component-library.html",
+      "status": "active"
+    },
+    {
+      "id": "checkmark-list",
+      "label": "Checkmark List",
+      "category": "content",
+      "source": "component-library.html",
+      "status": "active"
+    },
+    {
+      "id": "lp-sticky-footer",
+      "label": "Sticky Footer",
+      "category": "utility",
+      "source": "component-library.html",
+      "status": "active"
+    },
+    {
+      "id": "pricing-list",
+      "label": "Pricing List",
+      "category": "tiles",
+      "source": "component-library.html",
+      "status": "active"
+    },
+    {
+      "id": "content-cards-2col",
+      "label": "Content Cards 2 Columns",
+      "category": "tiles",
+      "source": "component-library.html",
+      "status": "active"
+    },
+    {
+      "id": "content-cards-3col",
+      "label": "Content Cards 3 Columns",
+      "category": "tiles",
+      "source": "component-library.html",
+      "status": "active"
+    },
+    {
+      "id": "action-tiles_rle",
+      "label": "Action Tiles Real Estate",
+      "category": "tiles",
+      "source": "component-library.html",
+      "status": "active"
+    },
+    {
+      "id": "video--youtube",
+      "label": "Video YouTube",
+      "category": "media",
+      "source": "component-library.html",
+      "status": "active"
+    }
+  ]
+}

@@ -1,0 +1,340 @@
+
+
+/* =========================================================
+   LP Creator – core-foundations.css (canonical)
+
+   Enthält Foundations / Utilities + defensiven Typo-Guard.
+
+   NICHT enthalten:
+   - Grid (AEM Clientlib)
+   - Buttons (AEM Clientlib)
+
+   Typografie:
+   - Cosma ist die Quelle der Wahrheit
+   - Dieser Typo-Block ist ein reiner Guard / Fallback
+   - Keine neuen Typoklassen
+   - Keine Farben, keine Margins
+   ========================================================= */
+
+/* AEM: reserviertes Topmodul ausblenden
+   damit der erste Content (Hero) bündig unter der Navigation startet */
+.topmodule-wrapper {
+  display: none;
+}
+
+
+
+/* =========================================================
+   COLORS
+   ========================================================= */
+
+/* ---------- Base & Neutral ---------- */
+.lp-color-teal       { background:#3DF5DC !important; }
+.lp-color-charcoal   { background:#333333 !important; }
+.lp-color-white      { background:#FFFFFF !important; }
+.lp-color-sand       { background:#FBF8F6 !important; }
+.lp-color-grey-light { background:#F5F5F5 !important; }
+.lp-color-grey-soft  { background:#E8E5E3 !important; }
+
+/* ---------- Accent ---------- */
+.lp-color-orange { background:#FF9626 !important; }
+.lp-color-yellow { background:#EFF933 !important; }
+.lp-color-blue   { background:#24E3FF !important; }
+.lp-color-purple { background:#D5AAFF !important; }
+
+/* ---------- Hover-only (STRICT) ---------- */
+.lp-hover-teal      { background:#55E6CB !important; }
+.lp-hover-charcoal { background:#484848 !important; }
+.lp-hover-teal:hover      { background:#55E6CB !important; }
+.lp-hover-charcoal:hover  { background:#484848 !important; }
+.lp-hover-sand:hover      { background:#FBF8F6 !important; }
+
+/* ---------- Borders ---------- */
+.lp-border-soft { border:1px solid #E0E0E0 !important; }
+.lp-border-weak { border:1px solid #BDBBB9 !important; }
+
+/* ---------- Text ---------- */
+.lp-text-charcoal { color:#333333 !important; }
+.lp-text-white    { color:#FFFFFF !important; }
+.lp-text-grey-muted { color:#6A6A69 !important; }
+
+
+
+/* =========================================================
+   Headlines and Body-texts DESKTOP DEFAULTS
+   ========================================================= */
+
+/* ---------- Headings ---------- */
+
+/* heading-xl */
+.font-heading-xlarge-regular,
+.font-heading-xlarge-bold{
+  font-size:48px !important;
+  line-height:58px !important;
+}
+
+/* heading-l */
+.font-heading-large-regular,
+.font-heading-large-bold{
+  font-size:34px !important;
+  line-height:44px !important;
+}
+
+/* heading-m */
+.font-heading-medium-regular,
+.font-heading-medium-bold{
+  font-size:26px !important;
+  line-height:36px !important;
+}
+
+/* heading-s */
+.font-heading-small-regular,
+.font-heading-small-bold{
+  font-size:20px !important;
+  line-height:30px !important;
+}
+
+/* ---------- Body ---------- */
+
+/* body-l */
+.font-body-large-regular,
+.font-body-large-bold{
+  font-size:16px !important;
+  line-height:26px !important;
+}
+
+/* body-m */
+.font-body-medium-regular,
+.font-body-medium-bold{
+  font-size:14px !important;
+  line-height:22px !important;
+}
+
+/* body-s */
+.font-body-small-regular,
+.font-body-small-bold{
+  font-size:12px !important;
+  line-height:18px !important;
+}
+
+/* =========================================================
+   Headlines and Body-texts MOBILE OVERRIDES (GUARD)
+   Breakpoint: max-width 668px (AEM palm)
+   ========================================================= */
+@media (max-width:668px){
+
+  /* heading-xl */
+  .font-heading-xlarge-regular,
+  .font-heading-xlarge-bold{
+    font-size:32px !important;
+    line-height:38px !important;
+  }
+
+  /* heading-l */
+  .font-heading-large-regular,
+  .font-heading-large-bold{
+    font-size:28px !important;
+    line-height:36px !important;
+  }
+
+  /* heading-m */
+  .font-heading-medium-regular,
+  .font-heading-medium-bold{
+    font-size:24px !important;
+    line-height:34px !important;
+  }
+}
+
+
+
+/* =========================================================
+   FULL BLEED (Background Wrapper)
+   ========================================================= */
+
+.lp-full-bleed{
+  position:relative;
+  width:100%;
+}
+
+.lp-full-bleed__inner{
+  position:relative;
+  z-index:1;
+}
+
+.lp-full-bleed::before{
+  content:"";
+  position:absolute;
+  left:50%;
+  transform:translateX(-50%);
+  width:100vw;
+  top:0;
+  bottom:0;
+  background:transparent;
+  pointer-events:none;
+  z-index:0;
+}
+
+/* Background modifiers */
+.lp-full-bleed--bg-white::before{ background:#FFFFFF; }
+.lp-full-bleed--bg-sand::before{ background:#FBF8F6; }
+.lp-full-bleed--bg-grey-light::before{ background:#F5F5F5; }
+.lp-full-bleed--bg-grey-soft::before{ background:#E8E5E3; }
+.lp-full-bleed--bg-charcoal::before{ background:#333333; }
+
+/* Optional vertical padding */
+.lp-full-bleed--pad-s  .lp-full-bleed__inner{ padding-top:12px; padding-bottom:12px; }
+.lp-full-bleed--pad-m  .lp-full-bleed__inner{ padding-top:16px; padding-bottom:16px; }
+.lp-full-bleed--pad-l  .lp-full-bleed__inner{ padding-top:24px; padding-bottom:24px; }
+.lp-full-bleed--pad-xl .lp-full-bleed__inner{ padding-top:32px; padding-bottom:32px; }
+
+
+/* =========================================================
+   BORDER RADIUS (Adapter auf Cosma Tokens)
+   ========================================================= */
+
+.lp-radius-rounded { border-radius: var(--border-radius-rounded) !important; }
+
+.lp-radius-2  { border-radius: var(--border-radius-50) !important; }
+.lp-radius-4  { border-radius: var(--border-radius-100) !important; }
+.lp-radius-8  { border-radius: var(--border-radius-200) !important; }
+.lp-radius-12 { border-radius: var(--border-radius-300) !important; }
+.lp-radius-16 { border-radius: var(--border-radius-400) !important; }
+.lp-radius-24 { border-radius: var(--border-radius-600) !important; }
+.lp-radius-40 { border-radius: var(--border-radius-1000) !important; }
+
+
+/* =========================================================
+   ELEVATION
+   ========================================================= */
+
+:root{
+  --elevation-0:  0px 0px 0px 0px rgba(0,0,0,0.00);
+  --elevation-10: 0px 1px 2px 0px rgba(0,0,0,0.04);
+  --elevation-20: 0px 2px 4px 0px rgba(0,0,0,0.08);
+  --elevation-30: 0px 4px 8px 0px rgba(0,0,0,0.10);
+  --elevation-40: 0px 8px 16px 0px rgba(0,0,0,0.12);
+  --elevation-50: 0px 16px 24px 0px rgba(0,0,0,0.14);
+  --elevation-60: 0px 24px 32px 0px rgba(0,0,0,0.16);
+  --elevation-70: 0px 32px 48px 0px rgba(0,0,0,0.20);
+
+  --elevation-top:   0px -4px 8px 0px rgba(0,0,0,0.10);
+  --elevation-left:  -4px 0px 8px 0px rgba(0,0,0,0.10);
+  --elevation-right: 4px 0px 8px 0px rgba(0,0,0,0.10);
+  --elevation-down:  0px 4px 8px 0px rgba(0,0,0,0.10);
+}
+
+.lp-elevation-0  { box-shadow: var(--elevation-0) !important; }
+.lp-elevation-10 { box-shadow: var(--elevation-10) !important; }
+.lp-elevation-20 { box-shadow: var(--elevation-20) !important; }
+.lp-elevation-30 { box-shadow: var(--elevation-30) !important; }
+.lp-elevation-40 { box-shadow: var(--elevation-40) !important; }
+.lp-elevation-50 { box-shadow: var(--elevation-50) !important; }
+.lp-elevation-60 { box-shadow: var(--elevation-60) !important; }
+.lp-elevation-70 { box-shadow: var(--elevation-70) !important; }
+
+.lp-elevation-top   { box-shadow: var(--elevation-top) !important; }
+.lp-elevation-left  { box-shadow: var(--elevation-left) !important; }
+.lp-elevation-right { box-shadow: var(--elevation-right) !important; }
+.lp-elevation-down  { box-shadow: var(--elevation-down) !important; }
+
+
+/* =========================================================
+   IMAGES (Utilities)
+   ========================================================= */
+
+.lp-img-fluid{
+  display:block;
+  width:100%;
+  height:auto;
+}
+
+.lp-media{
+  position:relative;
+  overflow:hidden;
+  background:#E3E3E3;
+}
+
+.lp-media--16x9::before,
+.lp-media--3x2::before,
+.lp-media--4x3::before,
+.lp-media--1x1::before{
+  content:"";
+  display:block;
+}
+
+.lp-media--4x3::before{ padding-top:75%; }
+.lp-media--16x9::before{ padding-top:56.25%; }
+.lp-media--3x2::before{ padding-top:66.6667%; }
+.lp-media--1x1::before{ padding-top:100%; }
+
+.lp-media__inner{
+  position:absolute;
+  inset:0;
+}
+
+.lp-media__inner img{
+  width:100%;
+  height:100%;
+  display:block;
+}
+
+.lp-media--contain img{ object-fit:contain; }
+.lp-media--cover img{ object-fit:cover; }
+
+.lp-media__inner img[src=""]{
+  display:none;
+}
+.lp-media--logo{
+  height:80px;
+  min-height:80px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.lp-media--logo::before{
+  display:none !important;
+}
+
+.lp-media--logo .lp-img-fluid{
+  height:100%;
+  width:auto;
+  object-fit:contain;
+}
+
+.lp-media--logo.lp-media--filled{
+  background:transparent;
+}
+
+/* =========================================================
+   LP Creator – Spacer Modules
+   ========================================================= */
+
+.lp-spacer-xl {
+  display: block;
+  width: 100%;
+  height: 80px;
+}
+@media (max-width: 668px){
+  .lp-spacer-xl{
+    height: 50px;
+  }
+}
+
+.lp-spacer-l {
+  display: block;
+  width: 100%;
+  height: 40px;
+}
+/* =========================================================
+   TEXT HIGHLIGHT (inline)
+   ========================================================= */
+
+.lp-text-highlight{
+  background: linear-gradient(
+    transparent 60%,
+    #3DF5DC 60%
+  );
+  padding: 0 2px;
+}
+

@@ -1,0 +1,29 @@
+.page-header, .page-footer, #credential_picker_iframe {display:none}
+.content-layout main, .content-layout main article {margin:0 !important}
+.content-wrapper {
+    padding: 0;
+}
+.form.form--default #recaptcha-container {
+  display: inline-flex;
+  flex-direction: column;
+  margin-top: 16px;
+  float: right;
+  align-items: end;
+}
+.form.form--default #recaptcha-container .button-primary {
+  width: fit-content;
+  margin-top: 16px;
+}
+.form.form--default .recaptcha-error {
+  color: #b00020;
+  font-size: 0.875rem;
+  margin: 0.25rem 0 0;
+}
+
+@media (max-width: 668px) {
+  .form.form--default #recaptcha-container {
+    float: none;
+    align-items: center;
+    width: 100%;
+  }
+}

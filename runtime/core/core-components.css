@@ -1,0 +1,1465 @@
+/* =========================================================
+   Modul: hero-bleed (new version with height-control)
+   ========================================================= */
+
+.hero-bleed-flex,
+.hero-bleed-flex-centered{
+  position:relative;
+}
+
+.hero-bleed-flex__image,
+.hero-bleed-flex-centered__image{
+  position:absolute;
+  inset:0;
+  width:100vw;
+  margin-left:calc(50% - 50vw);
+  overflow:hidden;
+  z-index:0;
+}
+
+.hero-bleed-flex__image img,
+.hero-bleed-flex-centered__image img{
+  position:absolute;
+  inset:0;
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  display:block;
+}
+
+.hero-bleed-flex__inner,
+.hero-bleed-flex-centered__inner{
+  position:relative;
+  z-index:1;
+}
+
+/* Spacer Heights Desktop */
+.hero-bleed-flex__space-s,
+.hero-bleed-flex-centered__space-s{ height:50px; }
+
+.hero-bleed-flex__space-m,
+.hero-bleed-flex-centered__space-m{ height:100px; }
+
+.hero-bleed-flex__space-l,
+.hero-bleed-flex-centered__space-l{ height:150px; }
+
+.hero-bleed-flex__space-xl,
+.hero-bleed-flex-centered__space-xl{ height:200px; }
+
+/* Spacer Heights Mobile */
+@media (max-width:668px){
+  .hero-bleed-flex__space-s,
+  .hero-bleed-flex-centered__space-s{ height:30px; }
+
+  .hero-bleed-flex__space-m,
+  .hero-bleed-flex-centered__space-m{ height:60px; }
+
+  .hero-bleed-flex__space-l,
+  .hero-bleed-flex-centered__space-l{ height:90px; }
+
+  .hero-bleed-flex__space-xl,
+  .hero-bleed-flex-centered__space-xl{ height:120px; }
+}
+
+/* Centered Variant Layout */
+.hero-bleed-flex-centered__content{
+  display:grid;
+  justify-items:center;
+  width:48%;
+  margin-left:auto;
+  margin-right:auto;
+  text-align:center;
+}
+
+/* Target Tablet & Below */
+@media (max-width: 768px) {
+  .hero-bleed-flex .grid .grid-item.one-half {
+      width: 100% !important;
+  }
+  .hero-bleed-flex-centered__content{
+    width:100%;
+    text-align:left;
+    justify-items:start;
+  }
+}
+
+/* =========================================================
+   Modul: hero-bleed (old version without height-control)
+   ========================================================= */
+
+.hero-bleed{
+  position: relative;
+  display: grid;
+  align-items: center;
+}
+
+.hero-bleed__image{
+  position: relative;
+  z-index: 0;
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+  height: 53.1rem;
+}
+
+.hero-bleed__image,
+.hero-bleed__content{
+  grid-row: 1 / -1;
+  grid-column: 1 / -1;
+}
+
+.hero-bleed__content{
+  position: relative;
+  z-index: 1;
+  display: grid;
+  justify-items: start;
+  padding: 32px;
+  width: 48%;
+}
+
+@media (max-width: 900px){
+  .hero-bleed__content{
+    width: 100%;
+  }
+}
+
+@media (max-width: 668px){
+  .hero-bleed__image{
+    height: 20rem;
+  }
+
+  .hero-bleed__image,
+  .hero-bleed__content{
+    grid-row: auto;
+    grid-column: auto;
+  }
+
+  .hero-bleed__content{
+    padding: 0;
+    padding-top: 24px;
+    width: 100%;
+  }
+}
+
+/* =========================================================
+   Overlay stacking fix (Hero)
+   ========================================================= */
+
+.hero-bleed__image .lp-media__inner{
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+}
+
+.hero-bleed__content{
+  position: relative;
+  z-index: 2;
+}
+
+
+/* =========================================================
+   Modul: hero-bleed-centered (old version without height-control)
+   ========================================================= */
+
+.hero-bleed-centered{
+  position: relative;
+  display: grid;
+  align-items: center;
+}
+
+.hero-bleed-centered .hero-bleed__image{
+  position: relative;
+  z-index: 0;
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+  height: 53.1rem;
+}
+
+.hero-bleed-centered .hero-bleed__image,
+.hero-bleed-centered .hero-bleed__content{
+  grid-row: 1 / -1;
+  grid-column: 1 / -1;
+}
+
+.hero-bleed-centered .hero-bleed__content{
+  position: relative;
+  z-index: 2;
+  display: grid;
+  justify-items: center;
+  padding: 32px;
+  width: 48%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+@media (max-width: 900px){
+  .hero-bleed-centered .hero-bleed__content{
+    width: 100%;
+  }
+}
+
+@media (max-width: 668px){
+  .hero-bleed-centered .hero-bleed__image{
+    height: 20rem;
+  }
+
+  .hero-bleed-centered .hero-bleed__image,
+  .hero-bleed-centered .hero-bleed__content{
+    grid-row: auto;
+    grid-column: auto;
+  }
+
+  .hero-bleed-centered .hero-bleed__content{
+    padding: 0;
+    padding-top: 24px;
+    width: 100%;
+    text-align: left;
+    justify-items: start;
+  }
+}
+
+/* =========================================================
+   Overlay stacking fix (Hero – centered only)
+   ========================================================= */
+
+.hero-bleed-centered .hero-bleed__image .lp-media__inner{
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+}
+
+
+
+/* =========================================================
+   Modul: hero-split
+   Typ: Hero Sondermodul (Split)
+   ========================================================= */
+
+.hero-split{
+  position:relative;
+  width:100vw;
+  margin-left:calc(50% - 50vw);
+  overflow-x:clip;
+  height:clamp(360px, 35vw, 500px);
+}
+
+.hero-split__inner{
+  max-width:1157px;
+  margin:0 auto;
+  padding:0 16px;
+  height:100%;
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  align-items:stretch;
+  position:relative;
+  z-index:1;
+}
+
+.hero-split__text{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:flex-start;
+  padding-right:32px;
+}
+
+.hero-split__spacer{
+  min-height:1px;
+}
+
+.hero-split__visual{
+  position:absolute;
+  top:0;
+  bottom:0;
+  left:50%;
+  right:0;
+  overflow:hidden;
+}
+
+.hero-split__visual .lp-media__inner{
+  position:absolute;
+  inset:0;
+}
+
+@media (max-width:1120px){
+  .hero-split__text{
+    padding-right:16px;
+  }
+}
+
+@media (max-width:900px){
+  .hero-split{
+    height:auto;
+  }
+
+  .hero-split__inner{
+    display:flex;
+    flex-direction:column;
+    height:auto;
+  }
+
+  .hero-split__spacer{
+    display:none;
+  }
+
+  .hero-split__visual{
+    position:relative;
+    left:auto;
+    right:auto;
+    top:auto;
+    bottom:auto;
+    width:100%;
+    height:180px;
+  }
+
+  .hero-split__text{
+    padding-right:0;
+    padding-top:24px;
+    padding-bottom:32px;
+  }
+}
+
+@media (max-width:669px){
+  .hero-split__text{
+    padding-top:16px;
+    padding-bottom:24px;
+  }
+}
+
+
+/* =========================================================
+   Modul: steps-3col / steps-4col
+   ========================================================= */
+
+.steps-3col__step,
+.steps-4col__step{
+  position: relative;
+}
+
+.steps-3col__step-header,
+.steps-4col__step-header{
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.steps-3col__step-number,
+.steps-4col__step-number{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  flex: 0 0 auto;
+  background-color: #FFFFFF;
+  border: 1px solid #E0E0E0;
+  color: #333333;
+  box-sizing: border-box;
+  z-index: 2;
+}
+
+.steps-3col__step-line,
+.steps-4col__step-line{
+  z-index: 1;
+}
+
+.steps-3col__step-title,
+.steps-4col__step-title{
+  margin: 0 16px;
+}
+
+.steps-3col__step-line,
+.steps-4col__step-line{
+  flex: 1;
+  height: 1px;
+  background-color: #333333;
+}
+
+.steps-3col__steps .grid-item:last-child .steps-3col__step-line,
+.steps-4col__steps .grid-item:last-child .steps-4col__step-line{
+  display: none;
+}
+
+@media (max-width: 740px){
+  .steps-3col__step,
+  .steps-4col__step{
+    padding-left: 56px;
+  }
+
+  .steps-3col__step-number,
+  .steps-4col__step-number{
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+
+  .steps-3col__step-header,
+  .steps-4col__step-header{
+    display: block;
+    margin-bottom: 8px;
+  }
+
+  .steps-3col__step-title,
+  .steps-4col__step-title{
+    margin: 0 0 8px 0;
+  }
+
+  .steps-3col__step-line,
+  .steps-4col__step-line{
+    position: absolute;
+    left: 20px;
+    top: 40px;
+    bottom: -16px;
+    width: 1px;
+    height: auto;
+    background-color: #333333;
+  }
+
+  .steps-3col__steps .grid-item:last-child .steps-3col__step-line,
+  .steps-4col__steps .grid-item:last-child .steps-4col__step-line{
+    display: none;
+  }
+}
+
+
+/* =========================================================
+   Modul: teaser-split-image-left / teaser-split-image-right
+   ========================================================= */
+
+.teaser-split{
+  overflow-x:clip;
+}
+
+.teaser-split__grid{
+  align-items:stretch;
+}
+
+.teaser-split__content{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:flex-start;
+  height:100%;
+}
+
+.teaser-split__content-col{
+  display:flex;
+}
+
+.teaser-split__cta{
+  display:inline-flex;
+  align-self:flex-start;
+}
+
+@media (max-width:668px){
+  .teaser-split-image-right .teaser-split__media-col{
+    order:1;
+  }
+
+  .teaser-split-image-right .teaser-split__content-col{
+    order:2;
+  }
+}
+
+
+
+/* =========================================================
+   Modul: callout
+   ========================================================= */
+
+.callout{
+  display:block;
+}
+
+.callout--base,
+.callout--illu,
+.callout--expert{
+  padding:40px 48px;
+}
+
+@media (max-width:668px){
+  .callout--base,
+  .callout--illu,
+  .callout--expert{
+    padding:24px;
+  }
+}
+
+.callout__layout{
+  display:flex;
+  gap:24px;
+}
+
+.callout__media{
+  flex:0 0 auto;
+}
+
+@media (max-width:668px){
+  .callout__layout{
+    flex-direction:column;
+    gap:16px;
+  }
+}
+
+.callout__illu{
+  width:56px;
+  height:56px;
+}
+
+.callout__expert{
+  display:flex;
+  gap:12px;
+  margin-top:16px;
+}
+
+.callout__avatar{
+  width:48px;
+  height:48px;
+  border-radius:9999px;
+}
+
+
+/* =========================================================
+   Modul: ekomi-reviews
+   ========================================================= */
+
+.ekomi-reviews__badge-wrapper{
+  text-align:center;
+}
+
+.ekomi-reviews__headline{
+  text-align:center;
+}
+
+.ekomi-reviews__intro{
+  text-align:center;
+}
+
+.ekomi-reviews__badge{
+  display:block;
+  width:112px;
+  height:auto;
+  margin:0 auto;
+}
+
+.ekomi-reviews__list{
+  align-items:flex-start;
+}
+
+.ekomi-reviews__meta{
+  display:flex;
+  align-items:center;
+  gap:8px;
+}
+
+.ekomi-reviews__avatar{
+  width:32px;
+  height:32px;
+  border-radius:9999px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  flex:0 0 auto;
+}
+
+.ekomi-reviews__avatar-icon{
+  display:block;
+  width:24px;
+  height:24px;
+}
+
+.ekomi-reviews__rating{
+  display:flex;
+  align-items:center;
+  gap:8px;
+}
+
+.ekomi-reviews__stars{
+  display:inline-flex;
+  align-items:center;
+  gap:4px;
+}
+
+.ekomi-reviews__star{
+  display:block;
+  width:22px;
+  height:22px;
+}
+
+
+/* =========================================================
+   Modul: servicetiles
+   ========================================================= */
+
+.servicetiles__link{
+  display:block;
+  height:100%;
+  text-decoration:none;
+  color:inherit;
+}
+
+.servicetiles__link:hover{
+  text-decoration:none;
+  color:inherit;
+}
+
+.servicetiles__card{
+  height:100%;
+  padding:16px;
+  position:relative;
+}
+
+.servicetiles__card h3{
+  margin-bottom:8px;
+}
+
+.servicetiles__header{
+  margin-bottom:16px;
+}
+
+.servicetiles__icon{
+  display:block;
+}
+
+.servicetiles__icon--desktop{
+  width:48px;
+  height:48px;
+}
+
+.servicetiles__icon--mobile{
+  display:none;
+  width:24px;
+  height:24px;
+}
+
+.servicetiles__badge{
+  position:absolute;
+  top:16px;
+  right:16px;
+  display:block;
+}
+
+.servicetiles__badge img{
+  display:block;
+  width:120px;
+  height:48px;
+}
+
+
+
+
+
+
+
+@media (max-width:668px){
+  .servicetiles__badge{
+    top:8px;
+    right:8px;
+  }
+
+  .servicetiles__badge img{
+    width:60px;
+    height:24px;
+  }
+
+  .servicetiles__card{
+    padding:8px;
+  }
+
+  .servicetiles__header{
+    margin-bottom:8px;
+  }
+
+  .servicetiles__card h3{
+    margin-bottom:4px;
+    font-size:14px;
+    line-height:20px;
+  }
+
+  .servicetiles__icon--desktop{
+    display:none;
+  }
+
+  .servicetiles__icon--mobile{
+    display:block;
+  }
+}
+
+
+/* =========================================================
+   Modul: checkmark-list
+   ========================================================= */
+
+.checkmark-list{
+  margin:0;
+  padding:0;
+}
+
+.checkmark-list li{
+  list-style:none;
+}
+
+.checkmark-list__item{
+  display:flex;
+  align-items:flex-start;
+  gap:8px;
+  margin-bottom:8px;
+}
+
+.checkmark-list__item:last-child{
+  margin-bottom:0;
+}
+
+.checkmark-list__icon{
+  flex:0 0 auto;
+  width:20px;
+  height:20px;
+  margin-top:2px;
+}
+
+.checkmark-list__icon::before{
+  content:"";
+  display:block;
+  width:100%;
+  height:100%;
+  background-image:url("https://www.static-immobilienscout24.de/statpic/_/ae25c93f00cf707c6c92965a14d7fe50_checkmark.svg");
+  background-repeat:no-repeat;
+  background-size:contain;
+}
+
+.checkmark-list__text{
+  margin:0;
+}
+
+/* =========================================================
+   Accordion (modern, global – FINAL)
+   Bestandteil von core-components.css
+   Zweck:
+   - Produktionsstabiles Accordion-Pattern
+   - JS steuert State (.is-open) + Inline-max-height
+   - CSS steuert ausschließlich Darstellung & Transition
+   ========================================================= */
+
+/* Wrapper */
+.accordion {
+  border-top: 0px;
+}
+
+/* Headline */
+.accordion__headline {
+  margin-bottom: var(--space-m, 24px);
+}
+
+/* Item */
+.accordion__item {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+/* Trigger (Button) */
+.accordion__trigger {
+  appearance: none;
+  background: none;
+  border: 0;
+  width: 100%;
+  padding: var(--space-m, 20px) 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  text-align: left;
+}
+
+.accordion__question {
+  font-size: inherit;
+}
+
+/* Chevron */
+.accordion__chevron {
+  width: 16px;
+  height: 16px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+/* Default: geschlossen → Pfeil nach unten */
+.accordion__chevron::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 8px;
+  height: 8px;
+  border-right: 2px solid currentColor;
+  border-bottom: 2px solid currentColor;
+  transform: translate(-50%, -50%) rotate(45deg);
+  transition: transform 0.2s ease;
+}
+
+/* Panel */
+.accordion__panel {
+  overflow: hidden;
+  max-height: 0; /* wird durch JS gesetzt */
+  transition: max-height 0.25s ease;
+}
+
+.accordion__panel p {
+  padding-bottom: var(--space-m, 20px);
+}
+
+/* Open state */
+.accordion__item.is-open .accordion__chevron::before {
+  transform: translate(-50%, -50%) rotate(-135deg); /* Pfeil nach oben */
+}
+
+.accordion__item.is-open .accordion__trigger {
+  padding-bottom: var(--space-s, 12px);
+}
+
+/* Accessibility: Fokus */
+.accordion__trigger:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 2px;
+}
+/* =========================================================
+   Counter Animated (modern, global)
+   Bestandteil von core-components.css
+   Zweck:
+   - Spacing & Typo-Feinjustierung für Counter-Modul
+   - Keine Animation (kommt aus core-interactions.js)
+   ========================================================= */
+
+.counter-animated__item > [class^="font-heading-"],
+.counter-animated__item > [class*=" font-heading-"] {
+  margin-bottom: 0; /* kein Abstand unter dem Zahlenwert */
+}
+
+.counter-animated__label {
+  margin-bottom: var(--space-m, 16px);
+}
+
+/* Sicherstellen, dass Text sauber getrennt ist */
+.counter-animated__item p:last-child {
+  margin-bottom: 0;
+}
+/* =========================================================
+   Sticky Footer – Modul-CSS (AEM-konform)
+   ========================================================= */
+
+.lp-sticky-footer{
+  position:fixed;
+  left:0;
+  right:0;
+  bottom:0;
+  z-index:100;
+
+  transform:translateY(100%);
+  transition:transform 0.3s ease;
+  box-shadow:0 -4px 12px rgba(0,0,0,0.12);
+}
+
+.lp-sticky-footer.is-visible{
+  transform:translateY(0);
+}
+
+.lp-sticky-footer::before{
+  content:"";
+  position:absolute;
+  left:50%;
+  transform:translateX(-50%);
+  bottom:0;
+  width:100vw;
+  height:100%;
+  background:#ffffff;
+  z-index:0;
+}
+
+.lp-sticky-footer__inner{
+  position:relative;
+  z-index:1;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  padding:16px 0;
+}
+
+@media (max-width:640px){
+  .lp-sticky-footer__inner{
+    padding-left:16px;
+    padding-right:16px;
+  }
+}
+/* =========================================================
+   Modul: pricing-list
+   ========================================================= */
+
+.pricing-list .grid{
+  align-items:stretch;
+}
+
+.pricing-list .grid-item{
+  display:flex;
+  flex-direction:column;
+}
+
+.pricing-list__card{
+  display:flex;
+  flex-direction:column;
+  height:100%;
+  background:#ffffff;
+}
+
+.pricing-list__price-row{
+  display:flex;
+  align-items:flex-end;
+  gap:8px;
+  flex-wrap:wrap;
+}
+
+.pricing-list__price{
+  line-height:1;
+}
+
+.pricing-list__period{
+  padding-bottom:4px;
+}
+
+.pricing-list__card .checkmark-list{
+  margin-top:0;
+}
+
+.pricing-list__card .ai-button{
+  margin-top:auto;
+}
+/* =========================================================
+   Modul-Familie: content-cards
+   Varianten:
+   - content-cards-3col
+   - content-cards-2col
+
+   LP-Creator-konform (Core-CSS):
+   - KEINE Farben
+   - KEINE Typografie
+   - KEIN Grid
+   - NUR Struktur & Layout
+   ========================================================= */
+
+/* =========================================================
+   Gemeinsame Card-Basis
+   ========================================================= */
+
+.content-cards-3col__card,
+.content-cards-2col__card{
+  height:100%;
+  border-radius: var(--border-radius-300);
+}
+
+/* =========================================================
+   Gemeinsamer Media-Slot
+   - fixer Slot
+   - deterministisches Verhalten
+   ========================================================= */
+
+.content-cards-3col__media,
+.content-cards-2col__media{
+  width:100%;
+  height:100px;
+  display:flex;
+  align-items:center;
+  justify-content:flex-start;
+  margin-bottom:16px;
+}
+
+/* =========================================================
+   Eingesetzte Bilder (alle Typen)
+   - contain über Höhe
+   ========================================================= */
+
+.content-cards-3col__media img,
+.content-cards-2col__media img{
+  max-height:100%;
+  max-width:100%;
+  width:auto;
+  height:auto;
+  display:block;
+}
+
+/* =========================================================
+   Placeholder (Library / Empty State)
+   - Farbe kommt aus Foundations / Utilities
+   ========================================================= */
+
+.content-cards-3col__placeholder,
+.content-cards-2col__placeholder{
+  width:100%;
+  height:100%;
+}
+
+
+
+/* =========================================================
+   Carousel – Shared Styles (2 / 3 / 4 Col)
+   ========================================================= */
+
+.carousel-2col__swiper{
+  overflow:hidden;
+  position:relative;
+  width:100%;
+}
+
+/* Shared wrapper logic for ALL variants */
+.carousel-2col .swiper-wrapper,
+.carousel-3col .swiper-wrapper,
+.carousel-4col .swiper-wrapper{
+  display:flex;
+  flex-wrap:nowrap;
+  list-style:none;
+  padding:0;
+  margin:0;
+  will-change:transform;
+  transition:transform 0.35s ease;
+  opacity:0; /* hide until JS sets widths */
+}
+
+.carousel-2col.carousel-ready .swiper-wrapper,
+.carousel-3col.carousel-ready .swiper-wrapper,
+.carousel-4col.carousel-ready .swiper-wrapper{
+  opacity:1;
+}
+
+.carousel-2col .swiper-slide,
+.carousel-3col .swiper-slide,
+.carousel-4col .swiper-slide{
+  flex:0 0 auto;
+   /* prevents flash of multiple items before JS sets widths */
+}
+
+/* Media */
+.carousel-2col__media{
+  position:relative;
+  border-radius:24px;
+  overflow:hidden;
+  margin-bottom:16px;
+}
+
+/* 4:3 Ratio */
+.carousel-2col__media::before{
+  content:"";
+  display:block;
+  padding-top:75%; /* 4:3 */
+}
+
+.carousel-2col__media img{
+  position:absolute;
+  inset:0;
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  display:block;
+}
+
+/* Overlay + Arrows */
+.carousel-2col__overlay{
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  height:100%;
+  pointer-events:none;
+}
+
+.carousel-2col__arrow{
+  width:48px;
+  height:48px;
+  border-radius:9999px;
+  background:#fff;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  box-shadow:0 6px 16px rgba(0,0,0,.12);
+  border:none;
+  cursor:pointer;
+  pointer-events:auto;
+  position:absolute;
+  top:37.5%; /* half of 75% (4:3 ratio height) */
+  transform:translateY(-50%);
+}
+
+.carousel-2col__arrow--prev{ left:12px; }
+.carousel-2col__arrow--next{ right:12px; }
+
+.carousel-2col__arrow img{
+  width:24px;
+  height:24px;
+}
+
+.carousel-2col__arrow--next img{ transform:rotate(180deg); }
+
+/* Pagination */
+.carousel-2col__pagination-wrap{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  gap:5px;
+  margin-top:16px;
+}
+
+.carousel-2col__pagination{
+  display:flex;
+  gap:5px;
+}
+
+.carousel-2col__pagination button{
+  width:8px;
+  height:8px;
+  min-width:8px;
+  min-height:8px;
+  padding:0;
+  margin:0;
+  border-radius:50%;
+  line-height:1;
+  display:block;
+  border:none;
+  background:#E8E5E3;
+}
+
+@media(max-width:668px){
+  .carousel-2col__overlay{ display:none; }
+}
+
+
+
+/* =========================================================
+   action-tiles_rle
+   ========================================================= */
+
+.action-tiles_rle {
+  position: relative;
+  padding: 60px 24px 60px 24px;
+  overflow: visible;
+}
+
+/* Badge */
+.action-tiles_rle .action-tiles_rle__badge {
+  position: absolute;
+  top: -40px;
+  right: -40px;
+  z-index: 10;
+  pointer-events: none;
+  width: 240px;
+  background: transparent !important;
+}
+
+/* Allowed badge colors (Foundation classes only) */
+.action-tiles_rle .action-tiles_rle__badge.lp-color-teal { color: #3DF5DC !important; }
+.action-tiles_rle .action-tiles_rle__badge.lp-color-orange { color: #FF9626 !important; }
+.action-tiles_rle .action-tiles_rle__badge.lp-color-yellow { color: #EFF933 !important; }
+.action-tiles_rle .action-tiles_rle__badge.lp-color-blue { color: #24E3FF !important; }
+.action-tiles_rle .action-tiles_rle__badge.lp-color-purple { color: #D5AAFF !important; }
+.action-tiles_rle .action-tiles_rle__badge.lp-color-charcoal { color: #333333 !important; }
+.action-tiles_rle .action-tiles_rle__badge.lp-color-charcoal .badge-text { color: #FFFFFF !important; }
+
+.action-tiles_rle .badge-shape {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.action-tiles_rle .badge-text {
+  position: absolute;
+  width: 190px;
+  height: 55px;
+  top: 42%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+  text-align: center;
+  overflow: hidden;
+  box-sizing: border-box;
+  color: #333333;
+}
+
+.action-tiles_rle .badge-line-1 {
+  font-size: 18px;
+  line-height: 1;
+  font-weight: 700;
+  margin: 0;
+}
+
+.action-tiles_rle .badge-line-2 {
+  font-size: 14px;
+  line-height: 1;
+  font-weight: 600;
+  margin: 0;
+}
+
+/* Headline */
+.action-tiles_rle .action-tiles_rle__body {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+/* Tiles */
+.action-tiles_rle .action-tiles_rle__tile {
+  display: block;
+  width: 100%;
+  padding: 28px 18px;
+  background: #ffffff;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.2s ease;
+  position: relative;
+}
+
+
+.action-tiles_rle .action-tiles_rle__link {
+  position: absolute;
+  inset: 0;
+}
+
+.action-tiles_rle .action-tiles_rle__tile:hover {
+  background-color: #3df5dc;
+}
+
+.action-tiles_rle .action-tiles_rle__tile img {
+  width: 48px !important;
+  height: 48px !important;
+  max-width: 48px !important;
+  max-height: 48px !important;
+  margin: 0 auto 12px auto;
+  display: block;
+}
+
+/* Desktop USP layout */
+.action-tiles_rle .checkmark-list {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  gap: 56px;
+}
+
+/* ================= Mobile ================= */
+@media (max-width: 900px) {
+
+  .action-tiles_rle {
+    padding: 64px 16px;
+  }
+
+  .action-tiles_rle .action-tiles_rle__badge {
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    right: auto;
+    transform: translateX(-50%);
+    width: 200px;
+  }
+
+  .action-tiles_rle .action-tiles_rle__body {
+    margin-top: 20px;
+  }
+
+  .action-tiles_rle .checkmark-list {
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+    margin-top: 24px;
+  }
+
+  .action-tiles_rle .checkmark-list__item {
+    margin-bottom: 0;
+  }
+}
+
+/* =========================================================
+   Modul: teaser-2,-3,-4col
+   Struktur-Fix für gleichmäßige CTA-Ausrichtung
+   ========================================================= */
+
+.teaser-2col .grid,
+.teaser-3col .grid,
+.teaser-4col .grid{
+  align-items: stretch;
+}
+
+.teaser-2col .grid-item,
+.teaser-3col .grid-item,
+.teaser-4col .grid-item{
+  display: flex;
+  flex-direction: column;
+}
+
+.teaser__card{
+  display:flex;
+  flex-direction:column;
+  height:100%;
+}
+
+.teaser__footer{
+  margin-top:auto;
+}
+
+
+/* =========================================================
+   Modul: seo-module
+   ========================================================= */
+
+   .seo-module{
+    max-width:720px;
+    margin-left:auto;
+    margin-right:auto;
+  }
+  
+  /* Force video aspect ratio for images inside SEO module */
+  .seo-module .lp-media--4x3::before{
+    padding-top:56.25%;
+  }
+  
+  /* List styling */
+  .seo-module ul{
+    list-style:disc;
+    
+    list-style-position:outside;
+  }
+  
+  .seo-module ol{
+    
+    list-style-position:outside;
+  }
+  
+  .seo-module ul li:nth-child(n),
+  .seo-module ol li:nth-child(n){
+    margin-left:1.5em;
+  }
+
+  /* =========================================================
+   Modul: video--youtube
+   ========================================================= */
+
+   .video-module__inner {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.video-module__title {
+  text-align: center;
+}
+
+.video-module__media {
+  cursor: pointer;
+}
+
+.video-module__media:hover .video-module__play {
+  transform: scale(1.1);
+  box-shadow: 0 12px 28px rgba(0,0,0,0.2);
+}
+
+/* make sure the media inner is the positioning context */
+.video-module__media .lp-media__inner {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  display: grid;
+  place-items: center;
+}
+
+/* poster must absolutely cover the 16:9 container */
+.video-module__poster {
+  position: absolute;
+z-index:4;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* center the circular play button inside the same positioned container */
+.video-module__play {
+  width: 96px;
+  height: 96px;
+  border-radius: 9999px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+  z-index: 5;
+  padding: 0;
+  background: var(--lp-teal, #2FEEDA);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+/* svg sizing inside button */
+.video-module__play svg {
+  width: 40px;
+  height: 40px;
+  display: block;
+}
+
+/* iframe fills same slot and has black bg while loading */
+.video-module__player {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  border: 0;
+  z-index: 3;
+background:#000;
+}
+
+/* hide poster + button when playing */
+.video-module.is-playing .video-module__poster { display: none; }
+.video-module.is-playing .video-module__play { display: none; }
+
+.video-module__notice{
+  margin-top:8px;
+  font-size:12px;
+  line-height:1.4;
+  color:#6b7280;
+text-align: center;
+}
+
+/* responsive tweaks */
+@media (max-width: 668px) {
+  .video-module__play { width: 72px; height: 72px; }
+}
+
+/* =========================================================
+ Modul: form--default
+ ========================================================= */    
+       
+.form.form--default #recaptcha-container {
+  display: inline-flex;
+  flex-direction: column;
+  margin-top: 16px;
+  float: right;
+  align-items: end;
+  }
+
+  .form.form--default #recaptcha-container .button-primary {
+    width: fit-content;
+    margin-top: 16px;
+  }
+
+  .form.form--default .recaptcha-error {
+  color: #b00020;
+  font-size: 0.875rem;
+  margin: 0.25rem 0 0;
+  }
+
+  @media (max-width: 668px) {
+  .form.form--default #recaptcha-container {
+      float: none;
+      align-items: center;
+      width: 100%;
+    }
+  }

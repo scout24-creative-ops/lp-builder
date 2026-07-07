@@ -1,0 +1,189 @@
+
+
+
+/* Basis immer explizit an <a> binden (AEM-sicher) */
+a.ai-button,
+a.ai-button:link,
+a.ai-button:visited{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+
+  padding:16px 24px;
+  border-radius:9999px;
+
+  font-size:16px;
+  line-height:16px;
+  font-weight:700;
+
+  border:1px solid transparent;
+  box-sizing:border-box;
+
+  cursor:pointer;
+  white-space:nowrap;
+
+  text-decoration:none !important;
+  user-select:none;
+  -webkit-tap-highlight-color:transparent;
+
+  transition:background-color .2s ease, border-color .2s ease, color .2s ease;
+}
+
+@media (max-width:668px){
+  a.ai-button{
+    width:100%;
+  }
+}
+
+/* Hover / Active / Focus immer explizit */
+a.ai-button:hover,
+a.ai-button:active,
+a.ai-button:focus,
+a.ai-button:focus-visible{
+  text-decoration:none !important;
+  outline:none !important;
+  box-shadow:none !important;
+}
+
+/* Disabled-State */
+a.ai-button.is-disabled,
+a.ai-button[aria-disabled="true"]{
+  opacity:.5;
+  cursor:not-allowed;
+  pointer-events:none;
+}
+
+
+/* =========================================================
+   BUTTON VARIANTS
+   ========================================================= */
+
+/* ---------- Filled: Default ---------- */
+a.ai-button.button-filled-default{
+  background-color:#333333;
+  color:#ffffff !important;
+  border-color:#333333;
+}
+
+
+a.ai-button.button-filled-default:hover,
+a.ai-button.button-filled-default:active{
+  background-color:#484848;
+  color:#ffffff !important;
+  border-color:#484848;
+}
+
+
+/* ---------- Filled: Brand ---------- */
+a.ai-button.button-filled-brand{
+  background-color:#3DF5DC;
+  color:#333333 !important;
+  border-color:#3DF5DC;
+}
+
+
+a.ai-button.button-filled-brand:hover,
+a.ai-button.button-filled-brand:active{
+  background-color:#55E6CB;
+  color:#333333 !important;
+  border-color:#55E6CB;
+}
+
+
+/* ---------- Outline: Strong ---------- */
+a.ai-button.button-outline-strong{
+  background-color:#ffffff;
+  color:#333333 !important;
+  border-color:#333333;
+}
+
+
+a.ai-button.button-outline-strong:hover,
+a.ai-button.button-outline-strong:active{
+  background-color:#E8E5E3;
+  color:#333333 !important;
+  border-color:#333333;
+}
+
+
+/* ---------- Outline: Weak ---------- */
+a.ai-button.button-outline-weak{
+  background-color:#ffffff;
+  color:#333333 !important;
+  border-color:#BDBBB9;
+}
+
+
+a.ai-button.button-outline-weak:hover,
+a.ai-button.button-outline-weak:active{
+  background-color:#E8E5E3;
+  color:#333333 !important;
+  border-color:#333333;
+}
+
+
+/* =========================================================
+   TEXTLINKS – GLOBAL
+   ========================================================= */
+
+a.ai-textlink,
+a.ai-textlink:link,
+a.ai-textlink:visited{
+  font-size:16px;
+  line-height:26px;   /* body-large */
+  font-weight:700;    /* bold */
+
+  color:#333333 !important;
+  text-decoration:none;
+}
+
+
+a.ai-textlink:hover,
+a.ai-textlink:active{
+  color:#333333 !important;
+  text-decoration:underline;
+}
+
+
+a.ai-textlink:focus,
+a.ai-textlink:focus-visible{
+  outline:none;
+  color:#333333 !important;
+  text-decoration:underline;
+}
+
+
+/* =========================================================
+   CHEVRON TEXTLINK – TEASER PATTERN
+   ========================================================= */
+
+a.teaser-grid__textlink,
+a.teaser-grid__textlink:link,
+a.teaser-grid__textlink:visited,
+a.teaser-grid__textlink:active,
+a.teaser-grid__textlink:focus,
+a.teaser-grid__textlink:focus-visible{
+  display:inline-flex;
+  align-items:center;
+  gap:6px;
+
+  color:#333333 !important;
+
+  text-decoration:underline !important;
+  text-decoration-color:currentColor;
+  text-underline-offset:2px;
+
+  outline:none;
+  box-shadow:none;
+
+  font-size:16px;
+  line-height:26px;
+  font-weight:700;
+}
+
+
+.teaser-grid__textlink-icon{
+  display:inline-block;
+  flex:0 0 auto;
+}
+
