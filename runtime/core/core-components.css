@@ -383,7 +383,12 @@
   display: none;
 }
 
-@media (max-width: 740px){
+@media (max-width: 768px){
+  .steps-3col__steps .palm-one-whole,
+  .steps-4col__steps .palm-one-whole{
+    width:100% !important;
+  }
+
   .steps-3col__step,
   .steps-4col__step{
     padding-left: 56px;
@@ -454,6 +459,22 @@
   align-self:flex-start;
 }
 
+.teaser-split-colour{
+  padding:40px;
+  border-radius:var(--border-radius-600);
+  overflow:hidden;
+}
+
+.teaser-split-colour .teaser-split__media-col{
+  display:flex;
+}
+
+.teaser-split-colour .teaser-split__media{
+  height:100%;
+  min-height:260px;
+  width:100%;
+}
+
 @media (max-width:668px){
   .teaser-split-image-right .teaser-split__media-col{
     order:1;
@@ -461,6 +482,14 @@
 
   .teaser-split-image-right .teaser-split__content-col{
     order:2;
+  }
+
+  .teaser-split-colour{
+    padding:24px;
+  }
+
+  .teaser-split-colour .teaser-split__media{
+    min-height:220px;
   }
 }
 
@@ -932,6 +961,85 @@
 
 .pricing-list__card .ai-button{
   margin-top:auto;
+}
+
+/* =========================================================
+   Modul: b2b-package-list
+   ========================================================= */
+
+.b2b-package-list {
+  color: #333333;
+}
+
+.b2b-package-list__podium {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  align-items: end;
+  border-top: 1px solid #d1cecd;
+  border-bottom: 1px solid #d1cecd;
+}
+
+.b2b-package-list__package {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-width: 0;
+  border-radius: 24px;
+}
+
+.b2b-package-list__package--silver {
+  min-height: 368px;
+  background: #d4d1d1;
+}
+
+.b2b-package-list__package--gold {
+  min-height: 434px;
+  background: #f1cc4e;
+}
+
+.b2b-package-list__package--bronze {
+  min-height: 300px;
+  background: #de925b;
+}
+
+.b2b-package-list__label {
+  align-self: flex-start;
+  max-width: 100%;
+  padding: 2px 6px;
+  overflow-wrap: anywhere;
+  border-radius: 999px;
+  background: #333333;
+  color: #ffffff;
+  line-height: 18px !important;
+}
+
+.b2b-package-list__title {
+  border-bottom: 1px solid #333333;
+}
+
+.b2b-package-list__footer {
+  display: flex;
+  justify-content: flex-end;
+}
+
+@media (max-width: 900px) {
+  .b2b-package-list__podium {
+    grid-template-columns: 1fr;
+    align-items: stretch;
+  }
+
+  .b2b-package-list__package--silver,
+  .b2b-package-list__package--gold,
+  .b2b-package-list__package--bronze {
+    min-height: 0;
+  }
+}
+
+@media (max-width: 668px) {
+  .b2b-package-list__footer {
+    justify-content: stretch;
+  }
 }
 /* =========================================================
    Modul-Familie: content-cards
