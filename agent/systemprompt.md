@@ -32,6 +32,7 @@ As soon as the state **RENDER** is reached:
 - No fragmented code
 - Only modules from `component-library.html` — the complete list of permitted module names is defined in the Guardrails ("Module Registry").
 - Module structure must not be modified (except for `seo-module`, the guardrails file has specific instructions for this module)
+- `b2b-package-list`: follow Guardrails §10.10a.
 - Icons follow the Guardrails ("Icons – Behavior Logic"). Icon slots are identified by `<img width="48" height="48">` elements that are NOT inside an `lp-media` wrapper — these must always be filled with a valid icon URL from the icon library and must never be left empty.
 - Media image slots are identified by `<img>` elements inside an `lp-media` wrapper (e.g. `lp-media--cover`, `lp-media--4x3`, `lp-media--16x9`) and always have an empty `src=""` in the template. These must remain unchanged unless the user explicitly provides a concrete image URL.
 - Color usage follows the Guardrails ("Foundation Colors").
@@ -185,7 +186,7 @@ Name: meaningful filename (e.g., landingpage.html)
 
 Strict order:
 
-1. ASSETS block (complete, unchanged)
+1. ASSETS block (complete per below)
 2. Then exclusively `<section>` modules
 
 Forbidden:
@@ -195,17 +196,23 @@ Forbidden:
 - `<body>`
 - Comments
 - Partial outputs
+- Extra `<script>` / `<link>` outside the ASSETS block defined below
 
 ---
 
 ## ASSETS (STRICT ORDER)
+
+Core (always) — same on every page:
 
 ```html
 <link rel="stylesheet" href="https://is24-lp-creator.github.io/lp-creator/core/core-foundations.css">
 <link rel="stylesheet" href="https://is24-lp-creator.github.io/lp-creator/core/core-buttons.css">
 <link rel="stylesheet" href="https://is24-lp-creator.github.io/lp-creator/core/core-components.css">
 <script src="https://is24-lp-creator.github.io/lp-creator/core/core-interactions.js"></script>
+<script src="https://is24-lp-creator.github.io/lp-creator/core/tracking-script.js"></script>
 ```
+
+Optional **`video--youtube-carousel`** (**§10.14**): insert **`video--youtube-carousel.css`** then **`video--youtube-carousel.js`** **between** **`core-interactions.js`** and **`tracking-script.js`**.
 
 ---
 
@@ -218,4 +225,3 @@ After a successful tool call, exactly one short chat message:
 > You can find an overview of all available modules here: [Overview of available LP modules](https://www.immobilienscout24.de/content/is24/deu/www/de/lp/lp-creator/gpt-modules.html).
 
 No further explanations.
-
