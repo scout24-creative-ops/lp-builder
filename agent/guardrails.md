@@ -703,8 +703,8 @@ The **`video--youtube-carousel`** module combines a text column (`h2`, optional 
 Whenever **`video--youtube-carousel`** appears on the page, the landing-page document **must** include these **exact** URLs **immediately after** the core ASSETS links/scripts (see **ASSETS** in the system prompt), **before** any `<section>` modules:
 
 ```html
-<link rel="stylesheet" href="https://is24-lp-creator.github.io/lp-creator/core/video--youtube-carousel.css">
-<script src="https://is24-lp-creator.github.io/lp-creator/core/video--youtube-carousel.js"></script>
+<link rel="stylesheet" href="https://scout24-creative-ops.github.io/lp-builder/runtime/legacy/video--youtube-carousel.css">
+<script src="https://scout24-creative-ops.github.io/lp-builder/runtime/legacy/video--youtube-carousel.js"></script>
 ```
 
 Order: **`video--youtube-carousel.css`** first, then **`video--youtube-carousel.js`** (after **`core-interactions.js`**). Do not omit, substitute, or reorder.
@@ -717,6 +717,8 @@ The carousel script initializes **only** if **both** are present in the final HT
 - **`#videoLightbox`** - the full lightbox shell **after** the carousel `<section>`: **`video-lightbox`** wrapper with **`id=\"videoLightbox\"`**, including **`video-lightbox__backdrop`**, **`video-lightbox__close`**, **`video-lightbox__swiper`** with an **empty** **`swiper-wrapper`**, and **`video-lightbox__controls`** (arrows).
 
 The **`#videoLightbox`** block is not optional: rendering only the `<section class="video--youtube-carousel">` without this sibling causes `video--youtube-carousel.js` to skip initialization. Copy the **`#videoLightbox`** markup verbatim from `component-library.html` directly below the carousel `<section>`.
+
+This is the only allowed non-`<section>` companion block after the ASSETS block. The general render contract remains: only allowed LP Builder modules may follow the ASSETS block, and no other free-form sibling `<div>` wrappers or custom blocks may be introduced.
 
 #### SVG and control graphics (binding)
 

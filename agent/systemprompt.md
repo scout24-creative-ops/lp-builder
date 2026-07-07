@@ -187,7 +187,13 @@ Name: meaningful filename (e.g., landingpage.html)
 Strict order:
 
 1. ASSETS block (complete per below)
-2. Then exclusively `<section>` modules
+2. Then exclusively allowed LP Builder modules
+
+Allowed markup after the ASSETS block:
+
+- Standard rule: module output consists of `<section>` modules only
+- Exception: `video--youtube-carousel` may include its required companion block `<div id="videoLightbox">...</div>` immediately after the carousel `<section>`
+- No other free-form sibling `<div>` blocks, wrappers, or custom markup are allowed
 
 Forbidden:
 
@@ -205,14 +211,19 @@ Forbidden:
 Core (always) — same on every page:
 
 ```html
-<link rel="stylesheet" href="https://is24-lp-creator.github.io/lp-creator/core/core-foundations.css">
-<link rel="stylesheet" href="https://is24-lp-creator.github.io/lp-creator/core/core-buttons.css">
-<link rel="stylesheet" href="https://is24-lp-creator.github.io/lp-creator/core/core-components.css">
-<script src="https://is24-lp-creator.github.io/lp-creator/core/core-interactions.js"></script>
-<script src="https://is24-lp-creator.github.io/lp-creator/core/tracking-script.js"></script>
+<link rel="stylesheet" href="https://scout24-creative-ops.github.io/lp-builder/runtime/core/core-foundations.css">
+<link rel="stylesheet" href="https://scout24-creative-ops.github.io/lp-builder/runtime/core/core-buttons.css">
+<link rel="stylesheet" href="https://scout24-creative-ops.github.io/lp-builder/runtime/core/core-components.css">
+<script src="https://scout24-creative-ops.github.io/lp-builder/runtime/core/core-interactions.js"></script>
+<script src="https://scout24-creative-ops.github.io/lp-builder/runtime/integrations/tracking-script.js"></script>
 ```
 
 Optional **`video--youtube-carousel`** (**§10.14**): insert **`video--youtube-carousel.css`** then **`video--youtube-carousel.js`** **between** **`core-interactions.js`** and **`tracking-script.js`**.
+
+```html
+<link rel="stylesheet" href="https://scout24-creative-ops.github.io/lp-builder/runtime/legacy/video--youtube-carousel.css">
+<script src="https://scout24-creative-ops.github.io/lp-builder/runtime/legacy/video--youtube-carousel.js"></script>
+```
 
 ---
 
