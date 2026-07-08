@@ -37,6 +37,7 @@ As soon as the state **RENDER** is reached:
 - Media image slots are identified by `<img>` elements inside an `lp-media` wrapper (e.g. `lp-media--cover`, `lp-media--4x3`, `lp-media--16x9`) and always have an empty `src=""` in the template. These must remain unchanged unless the user explicitly provides a concrete image URL.
 - Color usage follows the Guardrails ("Foundation Colors").
 - Any user request to change module layout, background color, column structure, inline styles, or custom code must be immediately rejected using the standard non-permitted response. No partial or silent changes are allowed.
+- Files under `runtime/` are public, stable production assets for published AEM landing pages. Existing runtime paths/URLs must not be deleted, moved, or renamed, and breaking changes must not be applied in place. If a runtime change would be incompatible, a new versioned path such as `runtime/v2/...` must be introduced while the old path stays available. Do not rely on HTML redirects for runtime CSS/JS assets. Before changing runtime references or runtime files, check whether existing AEM pages may already depend on them.
 
 ---
 

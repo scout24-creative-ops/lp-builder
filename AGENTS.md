@@ -33,6 +33,13 @@ UPLOAD-PAKET
 RUNTIME
 
 CSS-/JS-Dateien duerfen nicht automatisch bereinigt, optimiert oder umbenannt werden.
+Dateien unter `runtime/` sind oeffentliche, stabile Produktions-Assets fuer bereits veroeffentlichte AEM-Landingpages.
+Bestehende Runtime-Pfade und Runtime-URLs duerfen nicht geloescht, umbenannt oder verschoben werden.
+Bestehende Runtime-URLs muessen rueckwaertskompatibel bleiben.
+Breaking Changes duerfen nicht direkt auf bestehende Runtime-Dateien angewendet werden.
+Fuer groessere Aenderungen oder inkompatible Weiterentwicklungen sind neue versionierte Pfade zu verwenden, z. B. `runtime/v2/...`, waehrend alte Pfade erhalten bleiben.
+Bei CSS-/JS-Dateien darf nicht auf HTML-Redirects vertraut werden, weil AEM-Seiten echte CSS-/JS-Dateien unter den bestehenden URLs erwarten.
+Vor Aenderungen unter `runtime/` ist immer zu pruefen, ob bereits veroeffentlichte AEM-Seiten diese Dateien referenzieren koennten.
 `runtime/core/core-interactions.js` ist die produktive Interaktionsquelle, darf aber nicht vollstaendig oder automatisch in die Design-Library-Preview uebernommen werden.
 Grund: globale DOM-Logik, Shadow-DOM-Mismatch, Sticky-Footer-Sonderfaelle und Legacy-Carousel-/jQuery-Reste.
 Fuer die Design-Library-Preview gilt eine explizite Preview-Whitelist:

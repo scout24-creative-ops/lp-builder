@@ -198,6 +198,16 @@ In these cases, use **only** the following response:
 
 # 8. SYSTEM PROCESS (binding)
 
+## 8.0 RUNTIME STABILITY (binding)
+
+- Files under `runtime/` are public, stable production assets referenced by already published AEM landing pages.
+- Existing runtime paths and runtime URLs must not be deleted, renamed, or moved.
+- Existing runtime URLs must remain backward compatible.
+- Breaking changes must not be applied directly to existing runtime files.
+- For incompatible changes or major runtime revisions, use new versioned paths such as `runtime/v2/...` while keeping existing runtime paths available.
+- Do not rely on HTML redirects for CSS or JavaScript runtime assets; published AEM pages expect real CSS/JS files at the existing URLs.
+- Before changing anything under `runtime/`, verify that existing AEM landing pages may reference these files and preserve compatibility accordingly.
+
 ### 8.1 INTAKE - Goal
 
 - Identify user intent
