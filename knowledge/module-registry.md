@@ -31,6 +31,7 @@ The following is the complete list of available modules and their exact names. O
 - `servicetiles`
 - `action-tiles_rle`
 - `pricing-list`
+- `b2b-package-list`
 - `content-cards-2col`
 - `content-cards-3col`
 
@@ -41,6 +42,7 @@ The following is the complete list of available modules and their exact names. O
 
 **Media modules:**
 - `video--youtube`
+- `video--youtube-carousel`
 
 **Utility modules:**
 - `lp-sticky-footer`

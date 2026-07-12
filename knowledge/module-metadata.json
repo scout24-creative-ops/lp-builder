@@ -156,6 +156,13 @@
       "status": "active"
     },
     {
+      "id": "b2b-package-list",
+      "label": "B2B Package List",
+      "category": "tiles",
+      "source": "component-library.html",
+      "status": "active"
+    },
+    {
       "id": "content-cards-2col",
       "label": "Content Cards 2 Columns",
       "category": "tiles",
@@ -179,6 +186,13 @@
     {
       "id": "video--youtube",
       "label": "Video YouTube",
+      "category": "media",
+      "source": "component-library.html",
+      "status": "active"
+    },
+    {
+      "id": "video--youtube-carousel",
+      "label": "Video YouTube Carousel",
       "category": "media",
       "source": "component-library.html",
       "status": "active"
