@@ -13,6 +13,8 @@ The following is the complete list of available modules and their exact names. O
 - `teaser-4col`
 - `teaser-split-image-right`
 - `teaser-split-image-left`
+- `teaser-split-colour-image-right`
+- `teaser-split-colour-image-left`
 
 **Steps modules:**
 - `steps-3col`
@@ -31,6 +33,7 @@ The following is the complete list of available modules and their exact names. O
 - `servicetiles`
 - `action-tiles_rle`
 - `pricing-list`
+- `choice-card-list`
 - `b2b-package-list`
 - `content-cards-2col`
 - `content-cards-3col`
