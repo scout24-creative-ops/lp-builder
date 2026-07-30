@@ -58,6 +58,20 @@
       "status": "active"
     },
     {
+      "id": "teaser-split-colour-image-right",
+      "label": "Teaser Split Colour Image Right",
+      "category": "teaser",
+      "source": "component-library.html",
+      "status": "active"
+    },
+    {
+      "id": "teaser-split-colour-image-left",
+      "label": "Teaser Split Colour Image Left",
+      "category": "teaser",
+      "source": "component-library.html",
+      "status": "active"
+    },
+    {
       "id": "steps-3col",
       "label": "Steps 3 Columns",
       "category": "steps",
@@ -151,6 +165,13 @@
     {
       "id": "pricing-list",
       "label": "Pricing List",
+      "category": "tiles",
+      "source": "component-library.html",
+      "status": "active"
+    },
+    {
+      "id": "choice-card-list",
+      "label": "Choice Card List",
       "category": "tiles",
       "source": "component-library.html",
       "status": "active"

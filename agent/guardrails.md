@@ -30,6 +30,8 @@ The following is the complete list of available modules and their exact names. O
 - `teaser-4col`
 - `teaser-split-image-right`
 - `teaser-split-image-left`
+- `teaser-split-colour-image-right`
+- `teaser-split-colour-image-left`
 
 **Steps modules:**
 - `steps-3col`
@@ -48,6 +50,7 @@ The following is the complete list of available modules and their exact names. O
 - `servicetiles`
 - `action-tiles_rle`
 - `pricing-list`
+- `choice-card-list`
 - `b2b-package-list`
 - `content-cards-2col`
 - `content-cards-3col`
@@ -259,7 +262,7 @@ If spacer rules would be violated, **fix the BUILD/output plan** before calling 
 
 ### 9.3 Two-column teaser modules
 
-- For consecutive teaser modules of type `teaser-split-image-right` and `teaser-split-image-left`:
+- For consecutive teaser modules of type `teaser-split-image-right`, `teaser-split-image-left`, `teaser-split-colour-image-right`, and `teaser-split-colour-image-left`:
   - `lp-spacer-xl` **before** the first teaser module
   - `lp-spacer-l` **between** directly consecutive teaser modules
   - `lp-spacer-xl` **after** the last teaser module
@@ -365,11 +368,18 @@ Step text:
 
 ## 10.6 Teaser split modules
 
+- Applies to `teaser-split-image-right`, `teaser-split-image-left`, `teaser-split-colour-image-right`, and `teaser-split-colour-image-left`.
 - Headline: max. 60 characters
 - Text: max. 140 characters
 - CTA label: max. 20 characters
 - Maximum one CTA per teaser
 - A bullet point list may be added to the teaser module's content area if requested by the user.
+- Colour variants use the same teaser split structure and content rules as the standard variants.
+- Colour variants must retain their base orientation class (`teaser-split-image-right` or `teaser-split-image-left`), `teaser-split-colour`, the exact colour variant class, and exactly one approved background colour class.
+- Colour variants use `lp-color-purple` by default.
+- For `teaser-split-colour-image-right` and `teaser-split-colour-image-left` only, the background colour class may be changed by replacing `lp-color-purple` with exactly one of these approved classes: `lp-color-purple`, `lp-color-teal`, or `lp-color-yellow`.
+- No other background colour class is allowed on colour teaser variants, even if it is a permitted foundation colour elsewhere.
+- If the user requests another colour for a colour teaser variant, reject the colour request and list only the approved colour teaser choices: `lp-color-purple`, `lp-color-teal`, `lp-color-yellow`.
 
 ## 10.7 eKomi reviews (`ekomi-reviews`)
 
@@ -630,6 +640,18 @@ Each package must retain:
 - Existing classes and element order must not be changed
 - No inline styles or additional wrappers
 - No changes to podium alignment, package heights, padding, or responsive behavior
+
+## 10.10b Choice card list (`choice-card-list`)
+
+The `choice-card-list` module presents 2, 3, or 4 equal-width choice cards based on the `pricing-list` card structure, without a price row. The module markup may only be varied as follows:
+
+- The section uses `choice-card-list choice-card-list--N pricing-list`, where `N` is `2`, `3`, or `4`, and the modifier matches the number of cards.
+- The `.pricing-list__cards` wrapper remains, with cards as direct children.
+- Each card remains an `<a>` using `pricing-list__card lp-border-soft lp-radius-24 padding-l`; its `href` is the card's only link target.
+- The complete heading grid may be removed. When retained, its heading remains `h2.font-heading-medium-bold` and its text remains `p.font-body-large-regular.margin-top-s`.
+- Each card may contain, in order: its fixed inner `div`; optionally one pill label, `h3`, `p`, and `ul.checkmark-list`; then optionally one final non-link `span.ai-button`.
+- No price row, images, SVGs, emojis, nested links, extra buttons, custom wrappers, inline styles, or layout changes are allowed.
+- Card count may be changed only by duplicating or removing whole cards and updating the count modifier. Cards remain equal-width and responsive.
 
 ## 10.11 SEO module (`seo-module`)
 
