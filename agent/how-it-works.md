@@ -30,7 +30,7 @@ Du kannst:
 - Inhalte anpassen  
 - neue Module ergänzen  
 
-Nach jeder Anpassung wird das vollständige HTML neu erzeugt.
+Nach jeder Anpassung wird das vollständige AEM-HTML-Fragment neu erzeugt. Eine vollständige Standalone-Datei gibt es nur auf ausdrückliche Anfrage für eine Vorschau.
 
 ---
 
@@ -54,7 +54,7 @@ Um deine Landingpage zu veröffentlichen:
 
 1. Neue Seite in AEM anlegen (Template: IS24 Seite 2020)  
 2. HTML-Komponente hinzufügen  
-3. Generiertes HTML einfügen  
+3. Generiertes AEM-HTML-Fragment einfügen. Es enthält Assets und LP-Module, aber keine `<!doctype>`, `<html>`, `<head>` oder `<body>`-Tags.
 
 Falls du noch keinen AEM-Zugang hast:  
 stefan.harsdorff@scout24.com

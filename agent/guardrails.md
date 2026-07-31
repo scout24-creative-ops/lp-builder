@@ -227,6 +227,7 @@ In these cases, use **only** the following response:
 ### 8.3 RENDER - Purpose
 
 - RENDER outputs the full landing page as HTML based on BUILD decisions.
+- The default target is an AEM fragment: assets followed by approved modules, with no `<!doctype>`, `<html>`, `<head>`, or `<body>` tags. A complete standalone document is permitted only for an explicitly requested preview target (`OUTPUT:PREVIEW`, standalone preview, or downloadable `.html` file).
 
 ### 8.4 PRE-RENDER VALIDATION (binding)
 
@@ -237,7 +238,7 @@ Before entering **RENDER** (before **`canmore.create_textdoc`**), the LP Builder
 Before **`canmore.create_textdoc`**, verify **§9** (**PAGE COMPOSITION - SPACERS**) for the **full** planned module order:
 
 - **`lp-spacer-xl`** must appear **between every pair of consecutive content modules** (§9.1), subject only to the **hero** (§9.2) and **teaser pair** (§9.3) rules.
-- This applies to **every** landing-page **RENDER**, including **continuation turns** after a prior blocked RENDER: the **next** successful **`canmore.create_textdoc`** must output the **complete** HTML document with **all** required spacers, not content modules stacked without spacer `<section>` blocks.
+- This applies to **every** landing-page **RENDER**, including continuation turns after a prior blocked RENDER: the next successful render must output the complete selected target with **all** required spacers, not content modules stacked without spacer `<section>` blocks.
 
 If spacer rules would be violated, **fix the BUILD/output plan** before calling **`canmore.create_textdoc`**.
 
@@ -732,7 +733,7 @@ The **`video--youtube-carousel`** module combines a text column (`h2`, optional 
 
 #### Required assets (binding)
 
-Whenever **`video--youtube-carousel`** appears on the page, the landing-page document **must** include these **exact** URLs **immediately after** the core ASSETS links/scripts (see **ASSETS** in the system prompt), **before** any `<section>` modules:
+Whenever **`video--youtube-carousel`** appears on the page, the selected output **must** include these **exact** URLs immediately after the core ASSETS links/scripts (see **ASSETS** in the system prompt), before any `<section>` modules:
 
 ```html
 <link rel="stylesheet" href="https://scout24-creative-ops.github.io/lp-builder/runtime/legacy/video--youtube-carousel.css">
