@@ -112,6 +112,34 @@
     });
   }
 
+  /* =========================================
+     CHOICE CARD EXPAND LIST
+     Synchronize feature panels within each module.
+     ========================================= */
+  function initChoiceCardExpandLists() {
+    var desktopMediaQuery = window.matchMedia('(min-width: 769px)');
+    var pricingLists = document.querySelectorAll('.choice-card-expand-list.pricing-list');
+
+    pricingLists.forEach(function (pricingList) {
+      var featureToggles = Array.prototype.slice.call(
+        pricingList.querySelectorAll('.pricing-list__features-toggle')
+      );
+      var isSynchronizing = false;
+
+      featureToggles.forEach(function (toggle) {
+        toggle.addEventListener('toggle', function () {
+          if (!desktopMediaQuery.matches || isSynchronizing) return;
+
+          isSynchronizing = true;
+          featureToggles.forEach(function (otherToggle) {
+            if (otherToggle !== toggle) otherToggle.open = toggle.open;
+          });
+          isSynchronizing = false;
+        });
+      });
+    });
+  }
+
 /* =========================================
    STICKY FOOTER – SCROLL DOWN / HERO VISIBILITY (SOFTER)
    ========================================= */
@@ -311,6 +339,7 @@ function initStickyFooter() {
   onReady(function () {
     initCounterAnimated();
     initAccordion();
+    initChoiceCardExpandLists();
     initStickyFooter();
   });
 
