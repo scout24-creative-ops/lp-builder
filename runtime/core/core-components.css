@@ -1602,3 +1602,50 @@ text-align: center;
       width: 100%;
     }
   }
+
+/* =========================================================
+   Modul: card-carousel
+   Reuses teaser cards, LP media, typography, spacing, borders and radii.
+   ========================================================= */
+
+.card-carousel { overflow: visible; }
+.card-carousel__header,
+.card-carousel__controls,
+.card-carousel__track,
+.card-carousel__dots { display: flex; }
+.card-carousel__header { align-items: flex-end; justify-content: space-between; gap: 24px; }
+.card-carousel__controls { gap: 12px; }
+.card-carousel__button {
+  display: inline-flex; align-items: center; justify-content: center;
+  width: 44px; height: 44px; padding: 0; border: 1px solid #e0e0e0;
+  border-radius: 50%; background: #fff; color: #333; cursor: pointer;
+}
+.card-carousel__button:hover { border-color: #3df5dc; }
+.card-carousel__button:disabled { opacity: .4; cursor: default; }
+.card-carousel__button svg { width: 20px; height: 20px; }
+.card-carousel__viewport { overflow: hidden; }
+.card-carousel__track { gap: 24px; transition: transform 260ms ease; }
+.card-carousel__slide { flex: 0 0 calc((100% - 48px) / 3); min-width: 0; }
+.card-carousel__card { overflow: hidden; background: #fff; }
+.card-carousel__card--purple { border-color: #e4ccff; background: #e4ccff; }
+.card-carousel__media { position: relative; overflow: hidden; background: #f2f2f2; }
+.card-carousel__new-label,
+.card-carousel__value { position: absolute; top: 16px; left: 16px; }
+.card-carousel__new-label { font-size: 14px; font-weight: 700; text-transform: uppercase; }
+.card-carousel__value,
+.card-carousel__package { display: inline-flex; padding: 5px 10px; border-radius: 8px; background: #fff; }
+.card-carousel__value { border-radius: 999px; }
+.card-carousel__package--highlight { background: rgba(61, 245, 220, .8); }
+.card-carousel__dots { justify-content: center; gap: 8px; margin-top: 24px; }
+.card-carousel__dot { width: 8px; height: 8px; padding: 0; border: 0; border-radius: 999px; background: #d8d8d8; cursor: pointer; }
+.card-carousel__dot--active { width: 24px; background: #3df5dc; }
+
+@media (max-width: 1023px) { .card-carousel__slide { flex-basis: calc((100% - 24px) / 2); } }
+@media (max-width: 767px) {
+  .card-carousel__header { display: block; }
+  .card-carousel__controls, .card-carousel__dots { display: none; }
+  .card-carousel__viewport { overflow: visible; }
+  .card-carousel__track { gap: 16px; overflow-x: auto; scroll-snap-type: x mandatory; scrollbar-width: none; transform: none !important; }
+  .card-carousel__track::-webkit-scrollbar { display: none; }
+  .card-carousel__slide { flex-basis: 86%; scroll-snap-align: start; }
+}

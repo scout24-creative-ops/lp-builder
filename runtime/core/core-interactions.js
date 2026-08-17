@@ -768,3 +768,48 @@ function initStickyFooter() {
       wrapper.classList.add('is-playing');
     });
   })();
+
+/* =========================================================
+   Modul: card-carousel
+   ========================================================= */
+(function () {
+  function initialise(carousel) {
+    var track = carousel.querySelector('[data-card-carousel-track]');
+    var slides = Array.prototype.slice.call(carousel.querySelectorAll('.card-carousel__slide'));
+    var previous = carousel.querySelector('[data-card-carousel-prev]');
+    var next = carousel.querySelector('[data-card-carousel-next]');
+    var dots = carousel.querySelector('[data-card-carousel-dots]');
+    var index = 0;
+
+    if (!track || !slides.length || !previous || !next || !dots) return;
+    function visibleCount() { return window.matchMedia('(max-width: 767px)').matches ? 1 : window.matchMedia('(max-width: 1023px)').matches ? 2 : 3; }
+    function maximumIndex() { return Math.max(0, slides.length - visibleCount()); }
+    function stepSize() { return slides[0].getBoundingClientRect().width + (parseFloat(window.getComputedStyle(track).gap) || 0); }
+    function update() {
+      var max = maximumIndex();
+      index = Math.max(0, Math.min(index, max));
+      track.style.transform = window.matchMedia('(max-width: 767px)').matches ? '' : 'translateX(' + (-index * stepSize()) + 'px)';
+      previous.disabled = index === 0;
+      next.disabled = index === max;
+      Array.prototype.forEach.call(dots.children, function (dot, dotIndex) { dot.classList.toggle('card-carousel__dot--active', dotIndex === index); });
+    }
+    function buildDots() {
+      dots.innerHTML = '';
+      for (var dotIndex = 0; dotIndex <= maximumIndex(); dotIndex += 1) {
+        var dot = document.createElement('button');
+        dot.type = 'button';
+        dot.className = 'card-carousel__dot';
+        dot.setAttribute('aria-label', 'Carousel-Position ' + (dotIndex + 1));
+        dot.addEventListener('click', (function (targetIndex) { return function () { index = targetIndex; update(); }; }(dotIndex)));
+        dots.appendChild(dot);
+      }
+    }
+    previous.addEventListener('click', function () { index -= 1; update(); });
+    next.addEventListener('click', function () { index += 1; update(); });
+    window.addEventListener('resize', function () { buildDots(); update(); });
+    buildDots();
+    update();
+  }
+  function boot() { Array.prototype.forEach.call(document.querySelectorAll('[data-card-carousel]'), initialise); }
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', boot); else boot();
+}());
