@@ -229,20 +229,20 @@ In these cases, use **only** the following response:
 ### 8.3 RENDER - Purpose
 
 - RENDER outputs the full landing page as HTML based on BUILD decisions.
-- The default target is an AEM fragment: assets followed by approved modules, with no `<!doctype>`, `<html>`, `<head>`, or `<body>` tags. A complete standalone document is permitted only for an explicitly requested preview target (`OUTPUT:PREVIEW`, standalone preview, or downloadable `.html` file).
+- RENDER creates the complete AEM-ready HTML fragment as a Canvas code artifact.
 
 ### 8.4 PRE-RENDER VALIDATION (binding)
 
-Before entering **RENDER** (before **`canmore.create_textdoc`**), the LP Builder must validate **required inputs for every module** planned in BUILD.
+Before entering **RENDER** (before creating the Canvas code artifact), the LP Builder must validate **required inputs for every module** planned in BUILD.
 
 #### Spacers (binding)
 
-Before **`canmore.create_textdoc`**, verify **§9** (**PAGE COMPOSITION - SPACERS**) for the **full** planned module order:
+Before creating the Canvas code artifact, verify **§9** (**PAGE COMPOSITION - SPACERS**) for the **full** planned module order:
 
 - **`lp-spacer-xl`** must appear **between every pair of consecutive content modules** (§9.1), subject only to the **hero** (§9.2) and **teaser pair** (§9.3) rules.
-- This applies to **every** landing-page **RENDER**, including continuation turns after a prior blocked RENDER: the next successful render must output the complete selected target with **all** required spacers, not content modules stacked without spacer `<section>` blocks.
+- This applies to **every** landing-page **RENDER**, including continuation turns after a prior blocked RENDER: the next successful Canvas code artifact must contain the complete HTML document with **all** required spacers, not content modules stacked without spacer `<section>` blocks.
 
-If spacer rules would be violated, **fix the BUILD/output plan** before calling **`canmore.create_textdoc`**.
+If spacer rules would be violated, **fix the BUILD/output plan** before creating the Canvas code artifact.
 
 #### `video--youtube-carousel`
 
@@ -661,13 +661,14 @@ The `choice-card-list` module presents 2, 3, or 4 equal-width choice cards based
 The `card-carousel` module presents a horizontally browsable collection of comparable cards. It is for collections that need more than the static three-column presentation available on desktop.
 
 - The outer section remains `<section class="card-carousel" data-card-carousel>`. Its required children are `.card-carousel__header`, `.card-carousel__viewport`, and `.card-carousel__dots[data-card-carousel-dots]` in that order.
-- The header contains the fixed heading block and `.card-carousel__controls` with exactly two `button.card-carousel__button` elements using `data-card-carousel-prev` and `data-card-carousel-next`. Preserve their `type="button"` and accessible labels.
+- The header contains the fixed heading block and `.card-carousel__controls` with exactly two `button.card-carousel__button` elements using `data-card-carousel-prev` and `data-card-carousel-next`. Each contains the fixed inline SVG chevron markup from the component library. Preserve their `type="button"`, accessible labels, SVG, and data attributes. The previous button starts disabled.
 - The viewport contains exactly one `.card-carousel__track[data-card-carousel-track]`. Its direct children are `.card-carousel__slide` elements, each containing one `.card-carousel__card`.
 - Render at least four complete slides. Slides may be added or removed only as whole `.card-carousel__slide` elements; never replace the track with a grid or alter the data attributes, control buttons, dots container, or slide nesting.
+- Each `.card-carousel__card` uses `padding-l`. Its media is `.card-carousel__media lp-media lp-media--4x3 lp-media--cover lp-radius-24`, containing one `.lp-media__inner` with one lazy-loaded `img.lp-img-fluid`; optional media labels remain direct children of `.card-carousel__media`. The content wrapper follows with `margin-top-l` and must not add a second card padding utility.
 - A card may contain an optional `card-carousel__new-label` or `card-carousel__value` within its `.card-carousel__media`, an optional `card-carousel__package` in the content area, plus an image, `h3`, paragraph, and one CTA link as shown in the component library. Copy, image URL and `alt`, labels, CTA label, and CTA `href` may be adapted.
 - The optional modifiers `card-carousel__card--purple` and `card-carousel__package--highlight` may be used only as shown in the component library. No other color variants are allowed.
 - The core runtime handles desktop/tablet navigation, pagination dots, button states, and responsive behavior. On mobile, the controls and dots are hidden and the card track becomes horizontally scrollable. Do not add scripts, inline styles, custom controls, or custom carousel behavior.
-- No nested links, extra buttons, SVGs, emojis, custom wrappers, custom layout classes, or changes to the defined order of elements are allowed.
+- No nested links, extra buttons, emojis, custom wrappers, custom layout classes, or changes to the defined order of elements are allowed. The two prescribed control SVGs are the sole exception to the no-SVG rule.
 
 ## 10.10d Choice card expand list (`choice-card-expand-list`)
 
@@ -792,7 +793,7 @@ Do not substitute external icon URLs, icon fonts, emoji, or simplified shapes fo
 
 #### ID intake (binding)
 
-- As soon as the user asks for **`video--youtube-carousel`** without listing **at least five** YouTube video IDs, the LP Builder must stop and output a chat-only turn asking for **at least five** IDs (IDs only, no full URLs). Do not call **`canmore.create_textdoc`** until those IDs are known.
+- As soon as the user asks for **`video--youtube-carousel`** without listing **at least five** YouTube video IDs, the LP Builder must stop and output a chat-only turn asking for **at least five** IDs (IDs only, no full URLs). Do not create the Canvas code artifact until those IDs are known.
 - Do not ship production pages using only the example IDs pre-filled in `component-library.html` unless the user explicitly confirms those exact IDs.
 
 #### Content & elements (binding)

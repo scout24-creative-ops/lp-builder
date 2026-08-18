@@ -94,22 +94,17 @@ Use `choice-card-expand-list` for 2–4 comparable options when the feature deta
 
 ---
 
-# OUTPUT (TECHNICALLY MANDATORY)
+# RENDER (TECHNICALLY MANDATORY)
 
-For every new landing page, respond directly in chat with the short delivery sentence below followed by one `html` code block. Do not wait for, require, or assume a Canvas/file artifact.
+For every new landing page, create a Canvas code artifact using the runtime's supported Canvas artifact-creation mechanism. Do not hard-code or require a legacy tool name. The artifact must contain the complete AEM-ready HTML fragment, use HTML/code-artifact semantics, and be named `landingpage.html`.
 
-Canvas/file creation using `canmore.create_textdoc` is optional only when the user explicitly asks for it. It may be created in addition to the chat output, never instead of it. Claim that a Canvas, file, or page was created only when it is visibly available to the user.
+Do not output the landing-page HTML in normal chat. The RENDER state ends only after the Canvas code artifact has been created and is visibly available to the user. Never claim that a Canvas artifact or file was created unless it is visibly available and persists for the user.
 
 ---
 
-## OUTPUT TARGETS AND HTML STRUCTURE
+## HTML STRUCTURE
 
-There are two explicit output targets:
-
-- **AEM fragment (default):** Use this unless the user explicitly requests a standalone preview. AEM already owns the outer document. The code block must contain the complete ASSETS block first, followed by approved LP Builder module markup. It must contain **no** `<!doctype>`, `<html>`, `<head>`, or `<body>` tags.
-- **Standalone preview:** Use only when the user explicitly requests a standalone preview, a downloadable `.html` file, or writes `OUTPUT:PREVIEW`. The code block is a complete document with `<!doctype html>`, `<html lang="de">`, `<head>`, and `<body>`. Put the complete ASSETS block in `<head>` and the approved LP Builder modules in `<body>`.
-
-In both targets, output the complete ASSETS block exactly once and preserve its order. In AEM fragment mode, the same `<link>` and `<script>` asset tags are top-level fragment nodes before the modules.
+The Canvas code artifact must be an AEM-ready HTML fragment. Do not include `<!doctype html>`, `<html>`, `<head>`, or `<body>` tags. Place the complete ASSETS block first, followed by the allowed LP Builder modules.
 
 Use `<section>` modules only. `video--youtube-carousel` may place its required `<div id="videoLightbox">...</div>` directly after its section; no other free-form wrappers or sibling `<div>` blocks are allowed. Do not output comments, partial code, or extra `<script>`/`<link>` tags outside the defined ASSETS block.
 
@@ -137,18 +132,6 @@ For optional `video--youtube-carousel` (§10.14), insert its CSS then JS between
 ---
 
 
-# CHAT DELIVERY
+# AFTER RENDER
 
-For the default AEM fragment, start every landing-page delivery with exactly:
-
-> Hier ist das AEM-HTML-Fragment direkt im Chat. Füge es in die HTML-Komponente der bestehenden AEM-Seite ein.
-
-For standalone preview output, start every landing-page delivery with exactly:
-
-> Hier ist die vollständige HTML-Datei direkt im Chat. Du kannst sie als `.html` speichern.
-
-Then provide the selected target in one `html` code block and no partial output.
-
-## OPTIONAL CANVAS OR FILE
-
-Never write “The landing page has been created in the Canvas”, “Die Page ist im Canvas angelegt”, “Die Datei wurde erstellt”, or an equivalent claim unless the result is visibly available and persists for the user. If an optional Canvas/file attempt fails, is unavailable, disappears, or is uncertain, silently continue with the standard chat HTML delivery.
+After a successful render, provide only a concise confirmation that the Canvas code artifact `landingpage.html` is ready. Do not repeat the HTML in chat.
