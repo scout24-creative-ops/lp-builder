@@ -51,6 +51,7 @@ The following is the complete list of available modules and their exact names. O
 - `action-tiles_rle`
 - `pricing-list`
 - `choice-card-list`
+- `choice-card-expand-list`
 - `b2b-package-list`
 - `content-cards-2col`
 - `content-cards-3col`
@@ -653,6 +654,18 @@ The `choice-card-list` module presents 2, 3, or 4 equal-width choice cards based
 - Each card may contain, in order: its fixed inner `div`; optionally one pill label, `h3`, `p`, and `ul.checkmark-list`; then optionally one final non-link `span.ai-button`.
 - No price row, images, SVGs, emojis, nested links, extra buttons, custom wrappers, inline styles, or layout changes are allowed.
 - Card count may be changed only by duplicating or removing whole cards and updating the count modifier. Cards remain equal-width and responsive.
+
+## 10.10c Choice card expand list (`choice-card-expand-list`)
+
+The `choice-card-expand-list` module presents 2, 3, or 4 equal-width choice cards with an optional expandable feature list in every card. It reuses the `pricing-list` card structure and is intended for comparable options whose details should be disclosed on demand.
+
+- The section uses `choice-card-expand-list choice-card-expand-list--N pricing-list`, where `N` is `2`, `3`, or `4`, and the modifier matches the number of cards.
+- The `.pricing-list__cards` wrapper remains, with cards as direct children. Cards use a non-link `<article class="pricing-list__card ...">`; their CTA, if present, is a single final `<a class="ai-button ...">` inside the card.
+- Each card may contain, in order: optionally one pill label; `h3`; `p`; one `details.pricing-list__features-toggle`; and optionally one CTA. The fixed `details` markup contains `summary.pricing-list__features-summary`, a `span.pricing-list__chevron` with `aria-hidden="true"`, and `ul.checkmark-list.pricing-list__features`.
+- The `summary` text, card copy, label, feature-list items, CTA label, and CTA `href` may be adapted. The heading grid may be removed; when retained, its heading remains `h2.font-heading-medium-bold` and its text remains `p.font-body-large-regular.margin-top-s`.
+- The optional card modifiers `choice-card-expand-list__card--teal` and `choice-card-expand-list__card--purple`, and their matching label modifiers, may be used only as shown in the component library.
+- On desktop (769px and above), the runtime synchronizes all feature panels in the same module: opening or closing one panel opens or closes the others. On mobile, cards operate independently. Do not add custom scripts or alter this behavior.
+- No price row, images, SVGs, emojis, nested links, extra buttons, custom wrappers, inline styles, or layout changes are allowed. Card count may be changed only by duplicating or removing whole cards and updating the count modifier.
 
 ## 10.11 SEO module (`seo-module`)
 
