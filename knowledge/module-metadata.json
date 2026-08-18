@@ -177,6 +177,13 @@
       "status": "active"
     },
     {
+      "id": "choice-card-expand-list",
+      "label": "Choice Card Expand List",
+      "category": "tiles",
+      "source": "component-library.html",
+      "status": "active"
+    },
+    {
       "id": "card-carousel",
       "label": "Card Carousel",
       "category": "tiles",

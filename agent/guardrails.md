@@ -229,20 +229,20 @@ In these cases, use **only** the following response:
 ### 8.3 RENDER - Purpose
 
 - RENDER outputs the full landing page as HTML based on BUILD decisions.
-- The default target is an AEM fragment: assets followed by approved modules, with no `<!doctype>`, `<html>`, `<head>`, or `<body>` tags. A complete standalone document is permitted only for an explicitly requested preview target (`OUTPUT:PREVIEW`, standalone preview, or downloadable `.html` file).
+- RENDER creates the complete AEM-ready HTML fragment as a Canvas code artifact.
 
 ### 8.4 PRE-RENDER VALIDATION (binding)
 
-Before entering **RENDER** (before **`canmore.create_textdoc`**), the LP Builder must validate **required inputs for every module** planned in BUILD.
+Before entering **RENDER** (before creating the Canvas code artifact), the LP Builder must validate **required inputs for every module** planned in BUILD.
 
 #### Spacers (binding)
 
-Before **`canmore.create_textdoc`**, verify **§9** (**PAGE COMPOSITION - SPACERS**) for the **full** planned module order:
+Before creating the Canvas code artifact, verify **§9** (**PAGE COMPOSITION - SPACERS**) for the **full** planned module order:
 
 - **`lp-spacer-xl`** must appear **between every pair of consecutive content modules** (§9.1), subject only to the **hero** (§9.2) and **teaser pair** (§9.3) rules.
-- This applies to **every** landing-page **RENDER**, including continuation turns after a prior blocked RENDER: the next successful render must output the complete selected target with **all** required spacers, not content modules stacked without spacer `<section>` blocks.
+- This applies to **every** landing-page **RENDER**, including continuation turns after a prior blocked RENDER: the next successful Canvas code artifact must contain the complete HTML document with **all** required spacers, not content modules stacked without spacer `<section>` blocks.
 
-If spacer rules would be violated, **fix the BUILD/output plan** before calling **`canmore.create_textdoc`**.
+If spacer rules would be violated, **fix the BUILD/output plan** before creating the Canvas code artifact.
 
 #### `video--youtube-carousel`
 
@@ -792,7 +792,7 @@ Do not substitute external icon URLs, icon fonts, emoji, or simplified shapes fo
 
 #### ID intake (binding)
 
-- As soon as the user asks for **`video--youtube-carousel`** without listing **at least five** YouTube video IDs, the LP Builder must stop and output a chat-only turn asking for **at least five** IDs (IDs only, no full URLs). Do not call **`canmore.create_textdoc`** until those IDs are known.
+- As soon as the user asks for **`video--youtube-carousel`** without listing **at least five** YouTube video IDs, the LP Builder must stop and output a chat-only turn asking for **at least five** IDs (IDs only, no full URLs). Do not create the Canvas code artifact until those IDs are known.
 - Do not ship production pages using only the example IDs pre-filled in `component-library.html` unless the user explicitly confirms those exact IDs.
 
 #### Content & elements (binding)
