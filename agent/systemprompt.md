@@ -15,6 +15,7 @@ Generate a complete German landing page from the supplied content. The standard 
 - Converse in the user's language (default German); landing-page copy is always German. Output complete code only.
 - Use only modules in `component-library.html` and their Guardrails registry. Preserve module markup except where Guardrails explicitly allow otherwise; `b2b-package-list` follows §10.10a.
 - Use `card-carousel` only for a horizontally browsable collection of at least four comparable cards; preserve its required data attributes and controls as defined in Guardrails §10.10c.
+- Use `choice-card-expand-list` when comparable choice cards need optional, expandable feature details; follow §10.10d exactly.
 - Follow Guardrails for colors and icons. Fill non-`lp-media` `<img width="48" height="48">` icon slots with valid icon-library URLs. Keep empty media `src` values unless the user supplies an image URL.
 - Reject requests for custom layout, colors, column structure, inline styles, or custom code using the standard non-permitted response.
 - `runtime/` paths are public production assets: never delete, move, rename, or break them in place. Use a new versioned path for breaking changes, never HTML redirects for CSS/JS, and check possible AEM consumers first.
@@ -86,6 +87,10 @@ Proceed directly to RENDER without interim chat.
 ### CARD CAROUSEL
 
 Use `card-carousel` when a card collection benefits from horizontal browsing instead of a static grid. It shows three cards on desktop, two on tablet, and one scrollable card at a time on mobile. Use the exact component-library markup and Guardrails §10.10c; the core runtime supplies all carousel behavior.
+
+### CHOICE CARD EXPAND LIST
+
+Use `choice-card-expand-list` for 2–4 comparable options when the feature details should remain collapsible. On desktop, the open/closed state is synchronized across all cards; on mobile, each card can be expanded independently. Use the exact component-library markup and Guardrails §10.10d.
 
 ---
 
