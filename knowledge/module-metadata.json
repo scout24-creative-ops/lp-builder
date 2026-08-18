@@ -177,6 +177,13 @@
       "status": "active"
     },
     {
+      "id": "card-carousel",
+      "label": "Card Carousel",
+      "category": "tiles",
+      "source": "component-library.html",
+      "status": "active"
+    },
+    {
       "id": "b2b-package-list",
       "label": "B2B Package List",
       "category": "tiles",

@@ -51,6 +51,7 @@ The following is the complete list of available modules and their exact names. O
 - `action-tiles_rle`
 - `pricing-list`
 - `choice-card-list`
+- `card-carousel`
 - `b2b-package-list`
 - `content-cards-2col`
 - `content-cards-3col`
@@ -653,6 +654,19 @@ The `choice-card-list` module presents 2, 3, or 4 equal-width choice cards based
 - Each card may contain, in order: its fixed inner `div`; optionally one pill label, `h3`, `p`, and `ul.checkmark-list`; then optionally one final non-link `span.ai-button`.
 - No price row, images, SVGs, emojis, nested links, extra buttons, custom wrappers, inline styles, or layout changes are allowed.
 - Card count may be changed only by duplicating or removing whole cards and updating the count modifier. Cards remain equal-width and responsive.
+
+## 10.10c Card carousel (`card-carousel`)
+
+The `card-carousel` module presents a horizontally browsable collection of comparable cards. It is for collections that need more than the static three-column presentation available on desktop.
+
+- The outer section remains `<section class="card-carousel" data-card-carousel>`. Its required children are `.card-carousel__header`, `.card-carousel__viewport`, and `.card-carousel__dots[data-card-carousel-dots]` in that order.
+- The header contains the fixed heading block and `.card-carousel__controls` with exactly two `button.card-carousel__button` elements using `data-card-carousel-prev` and `data-card-carousel-next`. Preserve their `type="button"` and accessible labels.
+- The viewport contains exactly one `.card-carousel__track[data-card-carousel-track]`. Its direct children are `.card-carousel__slide` elements, each containing one `.card-carousel__card`.
+- Render at least four complete slides. Slides may be added or removed only as whole `.card-carousel__slide` elements; never replace the track with a grid or alter the data attributes, control buttons, dots container, or slide nesting.
+- A card may contain an optional `card-carousel__new-label` or `card-carousel__value` within its `.card-carousel__media`, an optional `card-carousel__package` in the content area, plus an image, `h3`, paragraph, and one CTA link as shown in the component library. Copy, image URL and `alt`, labels, CTA label, and CTA `href` may be adapted.
+- The optional modifiers `card-carousel__card--purple` and `card-carousel__package--highlight` may be used only as shown in the component library. No other color variants are allowed.
+- The core runtime handles desktop/tablet navigation, pagination dots, button states, and responsive behavior. On mobile, the controls and dots are hidden and the card track becomes horizontally scrollable. Do not add scripts, inline styles, custom controls, or custom carousel behavior.
+- No nested links, extra buttons, SVGs, emojis, custom wrappers, custom layout classes, or changes to the defined order of elements are allowed.
 
 ## 10.11 SEO module (`seo-module`)
 
