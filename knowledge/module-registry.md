@@ -34,6 +34,7 @@ The following is the complete list of available modules and their exact names. O
 - `action-tiles_rle`
 - `pricing-list`
 - `choice-card-list`
+- `choice-card-expand-list`
 - `card-carousel`
 - `b2b-package-list`
 - `content-cards-2col`
