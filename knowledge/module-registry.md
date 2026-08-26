@@ -28,6 +28,7 @@ The following is the complete list of available modules and their exact names. O
 - `ekomi-reviews`
 - `checkmark-list`
 - `seo-module`
+- `plan-compare`
 
 **Tile modules:**
 - `servicetiles`
