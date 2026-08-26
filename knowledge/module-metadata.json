@@ -231,6 +231,13 @@
       "category": "media",
       "source": "component-library.html",
       "status": "active"
+    },
+    {
+      "id": "plan-compare",
+      "label": "Plan Compare",
+      "category": "content",
+      "source": "component-library.html",
+      "status": "active"
     }
   ]
 }
