@@ -45,6 +45,7 @@ The following is the complete list of available modules and their exact names. O
 - `ekomi-reviews`
 - `checkmark-list`
 - `seo-module`
+- `plan-compare`
 
 **Tile modules:**
 - `servicetiles`
@@ -681,6 +682,20 @@ The `choice-card-expand-list` module presents 2, 3, or 4 equal-width choice card
 - The optional card modifiers `choice-card-expand-list__card--teal` and `choice-card-expand-list__card--purple`, and their matching label modifiers, may be used only as shown in the component library.
 - On desktop (769px and above), the runtime synchronizes all feature panels in the same module: opening or closing one panel opens or closes the others. On mobile, cards operate independently. Do not add custom scripts or alter this behavior.
 - No price row, images, SVGs, emojis, nested links, extra buttons, custom wrappers, inline styles, or layout changes are allowed. Card count may be changed only by duplicating or removing whole cards and updating the count modifier.
+
+## 10.10e Plan compare (`plan-compare`)
+
+The `plan-compare` module compares exactly two plans feature by feature. It is intended for a direct plan comparison that needs a desktop matrix and two complete mobile plan cards.
+
+- The outer `section.plan-compare`, `.plan-compare__intro`, and `.plan-compare__table` wrappers remain unchanged and in this order. The title and subtitle are outside `.plan-compare__table`.
+- The title and subtitle may be adapted or independently removed. When retained, they remain `h2.font-heading-medium-bold` and `p.font-body-large-regular.margin-top-s.margin-bottom-xl`.
+- Desktop markup remains `.plan-compare__desktop > .plan-compare__grid` with exactly three columns: feature label, first plan, second plan. The header row, each feature row, and the final CTA row must each contain exactly three direct grid children.
+- Exactly two plan columns are allowed. Do not add, remove, reorder, or nest plan columns.
+- Feature labels, plan names, CTA labels, CTA `href` values, and availability marks may be adapted. Availability marks are limited to `✓` and `–`; unavailable values retain `plan-compare__value--unavailable` on desktop and `plan-compare__unavailable` on mobile.
+- Features may be added or removed only as complete rows: update the desktop matrix and both mobile lists together, preserving the same feature order in all three representations.
+- The final desktop row retains one empty feature cell and one CTA per plan. Each mobile card retains exactly one final CTA. Preserve the existing button variants unless the user explicitly requests a different existing button variant.
+- Mobile markup remains `.plan-compare__mobile` with exactly two `.plan-compare__card` articles, one per desktop plan, each containing `h3`, `ul.plan-compare__list`, and one final CTA in that order.
+- No inline styles, custom CSS, scripts, images, SVGs, emojis, extra wrappers, additional CTAs, or layout changes are allowed.
 
 ## 10.11 SEO module (`seo-module`)
 
