@@ -1,0 +1,96 @@
+/*
+ * Contentful LP Builder bridge
+ *
+ * CoreCSS / COSMA remains the primary styling system. Add rules here only
+ * when static LPBuilder htmlSource needs a verified renderer-independent gap.
+ *
+ * Intended central delivery path: runtime/contentful/lpbuilder-bridge.css
+ * The Contentful LPBuilder renderer will load this stylesheet centrally.
+ */
+
+/*
+ * Rounded link buttons — v0.1
+ *
+ * Scope: medium, content-width links and four legacy-compatible variants.
+ * This is deliberately not a replacement for the native React ButtonRounded.
+ */
+a.lpb-button,
+a.lpb-button:link,
+a.lpb-button:visited {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  padding: var(--spacing-400) var(--spacing-600);
+  border: 1px solid transparent;
+  border-radius: var(--border-radius-rounded);
+
+  color: var(--color-text-default);
+  font: inherit;
+  font-size: var(--size-body-large);
+  font-weight: 700;
+  line-height: var(--line-height-body-large);
+  text-align: center;
+  text-decoration: none;
+  white-space: nowrap;
+
+  cursor: pointer;
+  transition: background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease, filter 0.2s ease;
+}
+
+@media (max-width: 668px) {
+  a.lpb-button {
+    width: 100%;
+  }
+}
+
+a.lpb-button:focus-visible {
+  outline: 2px solid var(--color-border-focused);
+  outline-offset: 2px;
+}
+
+a.lpb-button.is-disabled,
+a.lpb-button[aria-disabled='true'] {
+  cursor: not-allowed;
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+a.lpb-button.lpb-button--filled-default {
+  background-color: var(--color-text-default);
+  border-color: var(--color-text-default);
+  color: var(--color-text-inversive);
+}
+
+a.lpb-button.lpb-button--filled-brand {
+  background-color: var(--color-background-brand);
+  border-color: var(--color-background-brand);
+  color: var(--color-text-default);
+}
+
+a.lpb-button.lpb-button--filled-default:hover,
+a.lpb-button.lpb-button--filled-default:active,
+a.lpb-button.lpb-button--filled-brand:hover,
+a.lpb-button.lpb-button--filled-brand:active {
+  filter: brightness(0.92);
+}
+
+a.lpb-button.lpb-button--outline-strong {
+  background-color: var(--color-background-default);
+  border-color: var(--color-border-strong);
+  color: var(--color-text-default);
+}
+
+a.lpb-button.lpb-button--outline-weak {
+  background-color: var(--color-background-default);
+  border-color: var(--color-border-default);
+  color: var(--color-text-default);
+}
+
+a.lpb-button.lpb-button--outline-strong:hover,
+a.lpb-button.lpb-button--outline-strong:active,
+a.lpb-button.lpb-button--outline-weak:hover,
+a.lpb-button.lpb-button--outline-weak:active {
+  background-color: var(--color-background-weak);
+  border-color: var(--color-border-strong);
+}
