@@ -40,7 +40,7 @@ a.lpb-button:visited {
 }
 
 @media (max-width: 668px) {
-  a.lpb-button {
+  .lpb-button--mobile-full {
     width: 100%;
   }
 }
