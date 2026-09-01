@@ -126,7 +126,7 @@ a.lpb-chevron-link:active {
   font-weight: 700;
   gap: 6px;
   line-height: 26px;
-  text-decoration: underline;
+  text-decoration: none;
   text-decoration-color: currentColor;
   text-underline-offset: 2px;
 }
@@ -134,6 +134,12 @@ a.lpb-chevron-link:active {
 a.lpb-chevron-link:focus-visible {
   outline: 2px solid var(--color-border-focused);
   outline-offset: 2px;
+}
+
+a.lpb-chevron-link:hover,
+a.lpb-chevron-link:active {
+  color: #333333;
+  text-decoration: underline;
 }
 
 .lpb-chevron-link__icon {
