@@ -21,21 +21,22 @@ a.lpb-button:visited {
   align-items: center;
   justify-content: center;
   box-sizing: border-box;
-  padding: var(--spacing-400) var(--spacing-600);
+  padding: 16px 24px;
   border: 1px solid transparent;
   border-radius: var(--border-radius-rounded);
 
   color: var(--color-text-default);
   font: inherit;
-  font-size: var(--size-body-large);
+  font-size: 16px;
   font-weight: 700;
-  line-height: var(--line-height-body-large);
+  line-height: 16px;
   text-align: center;
   text-decoration: none;
+  user-select: none;
   white-space: nowrap;
 
   cursor: pointer;
-  transition: background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease, filter 0.2s ease;
+  transition: background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease, box-shadow 0.2s ease, filter 0.2s ease;
 }
 
 @media (max-width: 668px) {
@@ -57,9 +58,9 @@ a.lpb-button[aria-disabled='true'] {
 }
 
 a.lpb-button.lpb-button--filled-default {
-  background-color: var(--color-text-default);
-  border-color: var(--color-text-default);
-  color: var(--color-text-inversive);
+  background-color: #333333;
+  border-color: #333333;
+  color: #ffffff;
 }
 
 a.lpb-button.lpb-button--filled-brand {
@@ -69,16 +70,21 @@ a.lpb-button.lpb-button--filled-brand {
 }
 
 a.lpb-button.lpb-button--filled-default:hover,
-a.lpb-button.lpb-button--filled-default:active,
+a.lpb-button.lpb-button--filled-default:active {
+  background-color: #3f3f3f;
+  border-color: #3f3f3f;
+  color: #ffffff;
+}
+
 a.lpb-button.lpb-button--filled-brand:hover,
 a.lpb-button.lpb-button--filled-brand:active {
   filter: brightness(0.92);
 }
 
 a.lpb-button.lpb-button--outline-strong {
-  background-color: var(--color-background-default);
-  border-color: var(--color-border-strong);
-  color: var(--color-text-default);
+  background-color: #ffffff;
+  border-color: #333333;
+  color: #333333;
 }
 
 a.lpb-button.lpb-button--outline-weak {
@@ -88,9 +94,49 @@ a.lpb-button.lpb-button--outline-weak {
 }
 
 a.lpb-button.lpb-button--outline-strong:hover,
-a.lpb-button.lpb-button--outline-strong:active,
+a.lpb-button.lpb-button--outline-strong:active {
+  background-color: #ffffff;
+  border-color: #333333;
+  box-shadow: inset 0 0 0 1px #333333;
+  color: #333333;
+}
+
 a.lpb-button.lpb-button--outline-weak:hover,
 a.lpb-button.lpb-button--outline-weak:active {
   background-color: var(--color-background-weak);
-  border-color: var(--color-border-strong);
+  border-color: #333333;
+  box-shadow: inset 0 0 0 1px #333333;
+  color: #333333;
+}
+
+/*
+ * Chevron text link — v0.1
+ *
+ * Static, namespaced reconstruction of the existing LP Builder teaser link.
+ * The icon remains decorative and uses the established Chevron.svg asset.
+ */
+a.lpb-chevron-link,
+a.lpb-chevron-link:link,
+a.lpb-chevron-link:visited,
+a.lpb-chevron-link:active {
+  align-items: center;
+  color: #333333;
+  display: inline-flex;
+  font-size: 16px;
+  font-weight: 700;
+  gap: 6px;
+  line-height: 26px;
+  text-decoration: underline;
+  text-decoration-color: currentColor;
+  text-underline-offset: 2px;
+}
+
+a.lpb-chevron-link:focus-visible {
+  outline: 2px solid var(--color-border-focused);
+  outline-offset: 2px;
+}
+
+.lpb-chevron-link__icon {
+  display: inline-block;
+  flex: 0 0 auto;
 }
