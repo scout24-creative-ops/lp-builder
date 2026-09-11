@@ -205,6 +205,67 @@
     });
   }
 
+  /*
+   * Video YouTube
+   *
+   * Root-scoped adaptation of the legacy single-video module. No YouTube
+   * player is requested during initialization: the existing notice remains
+   * the privacy disclosure and an explicit click loads the nocookie player.
+   */
+  var initializedYoutubeModules = new WeakSet();
+
+  function getYoutubeModules(root) {
+    var modules = [];
+
+    if (typeof root.matches === 'function' && root.matches('.video--youtube')) {
+      modules.push(root);
+    }
+
+    if (typeof root.querySelectorAll === 'function') {
+      modules = modules.concat(Array.prototype.slice.call(root.querySelectorAll('.video--youtube')));
+    }
+
+    return modules;
+  }
+
+  function initializeYoutubeVideos(root) {
+    getYoutubeModules(root).forEach(function (module) {
+      if (initializedYoutubeModules.has(module)) return;
+
+      var media = typeof module.querySelector === 'function'
+        ? module.querySelector('.video-module__media')
+        : null;
+      var player = typeof module.querySelector === 'function'
+        ? module.querySelector('.video-module__player')
+        : null;
+      var playButton = typeof module.querySelector === 'function'
+        ? module.querySelector('.video-module__play')
+        : null;
+
+      if (!media || !player || !playButton || typeof media.addEventListener !== 'function') return;
+
+      media.addEventListener('click', function () {
+        if (module.classList.contains('is-playing')) return;
+
+        var videoId =
+          playButton.getAttribute('data-video-id') ||
+          media.getAttribute('data-video-id') ||
+          module.getAttribute('data-video-id');
+        if (!videoId) return;
+
+        player.setAttribute(
+          'src',
+          'https://www.youtube-nocookie.com/embed/' + videoId +
+          '?autoplay=1&rel=0&modestbranding=1&playsinline=1'
+        );
+        player.hidden = false;
+        module.classList.add('is-playing');
+      });
+
+      initializedYoutubeModules.add(module);
+    });
+  }
+
   function init(root) {
     if (!isElement(root)) return;
 
@@ -212,6 +273,7 @@
 
     initializeTabs(root);
     initializeCounters(root);
+    initializeYoutubeVideos(root);
     root.setAttribute('data-lpb-runtime-initialized', 'true');
   }
 

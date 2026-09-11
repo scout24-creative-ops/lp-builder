@@ -104,6 +104,40 @@ function counterFixture({ reducedMotion = false, withIntersectionObserver = true
   return { window, context, root, counter, getObserver: () => observer, frames, runFrame };
 }
 
+function youtubeFixture({ videoId = 'SxkN--CkcwU' } = {}) {
+  const { window, Element, context } = fixture();
+  const document = { defaultView: window };
+  const root = new Element();
+  const module = new Element();
+  const media = new Element();
+  const player = new Element();
+  const playButton = new Element();
+  [root, module, media, player, playButton].forEach(node => { node.ownerDocument = document; });
+
+  const classes = new Set();
+  module.classList = {
+    add(className) { classes.add(className); },
+    contains(className) { return classes.has(className); }
+  };
+  module.querySelector = selector => ({
+    '.video-module__media': media,
+    '.video-module__player': player,
+    '.video-module__play': playButton
+  })[selector] || null;
+  root.matches = () => false;
+  root.querySelectorAll = selector => selector === '.video--youtube' ? [module] : [];
+  media.listeners = {};
+  media.listenerAdds = 0;
+  media.addEventListener = (type, listener) => {
+    media.listenerAdds++;
+    media.listeners[type] = listener;
+  };
+  player.hidden = true;
+  if (videoId) playButton.setAttribute('data-video-id', videoId);
+
+  return { window, context, root, module, media, player, playButton };
+}
+
 test('exposes only the API and does not automatically initialize roots', () => {
   const { window, Element, context } = fixture();
   const root = new Element();
@@ -227,4 +261,40 @@ test('starts counter animation immediately without IntersectionObserver', () => 
   runFrame(0);
   runFrame(1200);
   assert.equal(counter.textContent, '98,5\u00a0%');
+});
+
+test('loads the legacy nocookie YouTube player only after an explicit video activation', () => {
+  const { window, context, root, module, media, player } = youtubeFixture();
+  vm.runInContext(source, context);
+  window.LPBuilderRuntime.init(root);
+
+  assert.equal(player.getAttribute('src'), null, 'no player connection before activation');
+  assert.equal(player.hidden, true);
+  assert.equal(module.classList.contains('is-playing'), false);
+  assert.equal(media.listenerAdds, 1);
+
+  media.listeners.click({ target: media });
+  assert.equal(
+    player.getAttribute('src'),
+    'https://www.youtube-nocookie.com/embed/SxkN--CkcwU?autoplay=1&rel=0&modestbranding=1&playsinline=1'
+  );
+  assert.equal(player.hidden, false);
+  assert.equal(module.classList.contains('is-playing'), true);
+
+  const sourceAfterFirstActivation = player.getAttribute('src');
+  media.listeners.click({ target: media });
+  assert.equal(player.getAttribute('src'), sourceAfterFirstActivation, 'the player initializes once');
+
+  window.LPBuilderRuntime.init(root);
+  assert.equal(media.listenerAdds, 1, 'repeated root initialization does not add a second listener');
+});
+
+test('leaves an incomplete YouTube module inert without creating a player connection', () => {
+  const { window, context, root, media, player } = youtubeFixture({ videoId: '' });
+  vm.runInContext(source, context);
+  window.LPBuilderRuntime.init(root);
+
+  media.listeners.click({ target: media });
+  assert.equal(player.getAttribute('src'), null);
+  assert.equal(player.hidden, true);
 });
