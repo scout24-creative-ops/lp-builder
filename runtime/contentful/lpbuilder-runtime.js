@@ -1,6 +1,6 @@
 /* LP Builder – Contentful runtime contract.
  * The renderer calls init(renderedLpRoot) after inserting the page HTML.
- * No automatic initialization or legacy module behavior belongs here yet.
+ * No automatic initialization belongs here; the renderer owns the lifecycle.
  */
 (function (window) {
   'use strict';
@@ -97,12 +97,121 @@
     });
   }
 
+  /*
+   * Counter Animated
+   *
+   * This is the root-scoped adaptation of the proven Core Runtime counter:
+   * it observes each direct heading child at a 0.4 threshold, counts for
+   * 1200ms with the original ease-out curve, and restores its exact final
+   * string when complete. The final text therefore remains the non-JS and
+   * reduced-motion fallback.
+   */
+  var observedCounters = new WeakSet();
+  var startedCounters = new WeakSet();
+
+  function getCounterItems(root) {
+    if (typeof root.querySelectorAll !== 'function') return [];
+
+    return Array.prototype.slice.call(root.querySelectorAll(
+      '.counter-animated__item > [class^="font-heading-"], ' +
+      '.counter-animated__item > [class*=" font-heading-"]'
+    ));
+  }
+
+  function prefersReducedMotion(ownerWindow) {
+    if (!ownerWindow || typeof ownerWindow.matchMedia !== 'function') return false;
+    return ownerWindow.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  }
+
+  function requestFrame(ownerWindow, callback) {
+    if (ownerWindow && typeof ownerWindow.requestAnimationFrame === 'function') {
+      return ownerWindow.requestAnimationFrame(callback);
+    }
+
+    if (ownerWindow && typeof ownerWindow.setTimeout === 'function') {
+      return ownerWindow.setTimeout(function () { callback(Date.now()); }, 16);
+    }
+
+    return window.setTimeout(function () { callback(Date.now()); }, 16);
+  }
+
+  function startCounter(item, ownerWindow) {
+    if (startedCounters.has(item)) return;
+
+    var originalText = item.textContent.trim();
+    var match = originalText.match(/(\d+[.,]?\d*)/);
+    if (!match) return;
+
+    var numberPart = match[1];
+    var prefix = originalText.slice(0, match.index);
+    var suffix = originalText.slice(match.index + numberPart.length);
+    var hasComma = numberPart.indexOf(',') !== -1;
+    var cleaned = numberPart.replace(/\./g, '').replace(',', '.');
+    var decimals = cleaned.indexOf('.') !== -1 ? cleaned.split('.')[1].length : 0;
+    var target = parseFloat(cleaned);
+    if (isNaN(target)) return;
+
+    startedCounters.add(item);
+
+    var duration = 1200;
+    var startedAt = null;
+
+    function easeOut(progress) {
+      return progress * (2 - progress);
+    }
+
+    function step(timestamp) {
+      if (startedAt === null) startedAt = timestamp;
+
+      var progress = Math.min((timestamp - startedAt) / duration, 1);
+      var value = target * easeOut(progress);
+      var display = decimals > 0 ? value.toFixed(decimals) : Math.round(value).toString();
+      if (hasComma) display = display.replace('.', ',');
+
+      item.textContent = prefix + display + suffix;
+      if (progress < 1) requestFrame(ownerWindow, step);
+      else item.textContent = originalText;
+    }
+
+    requestFrame(ownerWindow, step);
+  }
+
+  function initializeCounters(root) {
+    var items = getCounterItems(root);
+    if (!items.length) return;
+
+    var ownerWindow = root.ownerDocument.defaultView || window;
+    if (prefersReducedMotion(ownerWindow)) return;
+
+    if (typeof ownerWindow.IntersectionObserver !== 'function') {
+      items.forEach(function (item) {
+        startCounter(item, ownerWindow);
+      });
+      return;
+    }
+
+    var observer = new ownerWindow.IntersectionObserver(function (entries, activeObserver) {
+      entries.forEach(function (entry) {
+        if (!entry.isIntersecting || startedCounters.has(entry.target)) return;
+        startCounter(entry.target, ownerWindow);
+        activeObserver.unobserve(entry.target);
+      });
+    }, { threshold: 0.4 });
+
+    items.forEach(function (item) {
+      if (observedCounters.has(item) || startedCounters.has(item)) return;
+      observedCounters.add(item);
+      observer.observe(item);
+    });
+  }
+
   function init(root) {
     if (!isElement(root)) return;
 
     if (root.getAttribute('data-lpb-runtime-initialized') === 'true') return;
 
     initializeTabs(root);
+    initializeCounters(root);
     root.setAttribute('data-lpb-runtime-initialized', 'true');
   }
 
