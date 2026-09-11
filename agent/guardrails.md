@@ -15,60 +15,11 @@ This document complements:
 
 ---
 
-# MODULE REGISTRY (binding)
+# MODULE AVAILABILITY (binding)
 
-The following is the complete list of available modules and their exact names. Only these modules may be used. When the user refers to a module by any of these names, the Builder must recognise it and use it. No other module names are valid.
+`knowledge/component-library.html` is the sole source of truth for module availability. A module may be used only when it is represented by one valid, matching `LP_MODULE_START` / `LP_MODULE_END` block in that productive library.
 
-**Hero modules:**
-- `hero-bleed-flex`
-- `hero-bleed-flex-centered`
-- `hero-split`
-
-**Teaser modules:**
-- `teaser-2col`
-- `teaser-3col`
-- `teaser-4col`
-- `teaser-split-image-right`
-- `teaser-split-image-left`
-- `teaser-split-colour-image-right`
-- `teaser-split-colour-image-left`
-
-**Steps modules:**
-- `steps-3col`
-- `steps-4col`
-
-**Content modules:**
-- `accordion`
-- `counter-animated`
-- `benefits-3col`
-- `benefits-2col`
-- `ekomi-reviews`
-- `checkmark-list`
-- `seo-module`
-- `plan-compare`
-
-**Tile modules:**
-- `servicetiles`
-- `action-tiles_rle`
-- `pricing-list`
-- `choice-card-list`
-- `card-carousel`
-- `choice-card-expand-list`
-- `b2b-package-list`
-- `content-cards-2col`
-- `content-cards-3col`
-
-**Callout modules:**
-- `callout--base`
-- `callout--illu`
-- `callout--expert`
-
-**Media modules:**
-- `video--youtube`
-- `video--youtube-carousel`
-
-**Utility modules:**
-- `lp-sticky-footer`
+This document does not maintain a second module whitelist or lifecycle. Its module-specific sections define constraints for an available module's markup, content, assets, and dependencies. If a requested module has no productive Component Library block, do not invent it.
 
 ---
 
@@ -697,9 +648,11 @@ The `plan-compare` module compares exactly two plans feature by feature. It is i
 - Mobile markup remains `.plan-compare__mobile` with exactly two `.plan-compare__card` articles, one per desktop plan, each containing `h3`, `ul.plan-compare__list`, and one final CTA in that order.
 - No inline styles, custom CSS, scripts, images, SVGs, emojis, extra wrappers, additional CTAs, or layout changes are allowed.
 
-## 10.11 SEO module (`seo-module`)
+## 10.11 SEO module draft (`seo-module`, not currently available)
 
-The SEO module provides longform, crawlable content and an FAQ accordion for users and search engines. It must be rendered as a single, sequential content block (one column) to preserve semantic order, accessibility, and SEO integrity.
+`seo-module` has no productive Component Library block yet and therefore must not be rendered by LP Builder. The following constraints preserve the existing implementation work for a future canonical block; they are not a module-selection rule.
+
+When a valid productive `seo-module` block is added to `knowledge/component-library.html`, it becomes usable under the same Component Library rule as every other module. It must then remain a single, sequential longform block with an FAQ accordion for users and search engines.
 
 #### Structural constraints (strict - do not alter)
 - No two-column layout (explicit): The SEO module must not be converted to a two-column structure by adding grid classes, flex columns, or CSS that renders content side-by-side.
@@ -876,7 +829,7 @@ lp-color-purple, lp-color-charcoal."
 
 # 12. MODULE LAYOUT AND STYLE MODIFICATION REQUESTS (binding)
 
-The LP Builder must not modify module layout or visual styling based on user prompt instructions. All modules are defined in `component-library.html` and must be used as-is, unless a module's specific rules in section 10 explicitly permit a certain type of modification (for example, the `seo-module` allows optional inclusion or exclusion of its internal elements as defined in section 10.11). Any flexibility granted by a module's own rules is the maximum allowed — it does not open the module to further changes beyond what is explicitly stated.
+The LP Builder must not modify module layout or visual styling based on user prompt instructions. Productive Component Library modules must be used as-is unless their applicable section 10 rules explicitly permit a certain type of modification. Any flexibility granted by a module's own rules is the maximum allowed — it does not open the module to further changes beyond what is explicitly stated.
 
 ### 12.1 Blocked layout changes
 

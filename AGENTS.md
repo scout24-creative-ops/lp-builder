@@ -7,8 +7,8 @@ SOURCE OF TRUTH
 Der neue Source of Truth liegt in `lp-builder/`.
 `archiv/landingpage-builder-raw-import/` ist der unveraenderte Rohimport und nur Archivmaterial.
 Der Rohimport darf nicht produktiv bearbeitet werden, ausser der User fordert ausdruecklich Aenderungen am Archivbestand an.
-`knowledge/component-library.html` ist die verbindliche Modul-Source fuer LP-Module.
-`knowledge/module-metadata.json` ist die strukturierte Metadatenquelle fuer spaetere Generatoren.
+`knowledge/component-library.html` ist die verbindliche und alleinige Modul-Source fuer LP-Module. Ein Modul ist nutzbar, wenn es dort einen gueltigen, passenden `LP_MODULE_START` / `LP_MODULE_END`-Block besitzt.
+`knowledge/module-metadata.json` ist eine beschreibende, strukturierte Metadatenquelle fuer spaetere Generatoren. Sie bestimmt nicht die Modul-Verfuegbarkeit und darf keine Lifecycle-Freigabe abbilden.
 LP-Modulmarker in `knowledge/component-library.html` sind Teil der Source-Vertragsflaeche.
 Wenn eine spaetere Design-Library-Sync-Logik auf diesen Markern basiert, duerfen sie nicht entfernt oder umbenannt werden.
 `lp-builder/` ist der aktive Projektordner fuer laufende LP-Builder-Arbeit.
@@ -42,7 +42,7 @@ Bei CSS-/JS-Dateien darf nicht auf HTML-Redirects vertraut werden, weil AEM-Seit
 Vor Aenderungen unter `runtime/` ist immer zu pruefen, ob bereits veroeffentlichte AEM-Seiten diese Dateien referenzieren koennten.
 `runtime/core/core-interactions.js` ist die produktive Interaktionsquelle, darf aber nicht vollstaendig oder automatisch in die Design-Library-Preview uebernommen werden.
 Grund: globale DOM-Logik, Shadow-DOM-Mismatch, Sticky-Footer-Sonderfaelle und Legacy-Carousel-/jQuery-Reste.
-Fuer die Design-Library-Preview gilt eine explizite Preview-Whitelist:
+Fuer die Design-Library-Preview gilt eine technische Runtime-Allowlist (keine Modul-Whitelist):
 - `accordion`
 - `counter-animated`
 - `video--youtube`
@@ -54,7 +54,7 @@ LEGACY
 Dateien unter `runtime/legacy/` bleiben erhalten, bis ihre Nutzung geklaert ist.
 `runtime/legacy/*` ist bis dahin vorlaeufig geschuetzt.
 Dateien in `runtime/legacy/*` duerfen nicht geloescht, bereinigt, umbenannt oder refactored werden ohne explizites User-Go.
-Legacy-Carousel und weitere Dateien aus `runtime/legacy/*` sind nicht Teil der aktiven Design-Library-Preview.
+Legacy-Carousel und weitere Dateien aus `runtime/legacy/*` sind nicht Teil der aktiven Design-Library-Preview. Dies betrifft nur die sichere Preview-Runtime, nicht die Verfuegbarkeit eines Moduls in der produktiven Component Library.
 
 GIT
 

@@ -2,6 +2,7 @@
 
 - `agent-upload/` ist ein abgeleiteter Bereich und nicht Source of Truth.
 - Es gibt aktuell noch kein produktives Bundle in diesem Ordner.
+- Modul-Verfuegbarkeit wird ausschliesslich aus `knowledge/component-library.html` abgeleitet; dieses Manifest fuehrt keine zweite Modul-Whitelist.
 - Pflichtquellen fuer ein spaeteres Bundle:
   - `agent/systemprompt.md`
   - `agent/guardrails.md`

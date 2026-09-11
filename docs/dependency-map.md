@@ -3,15 +3,16 @@
 ## Prompt / Guardrails / Tone
 
 - `agent/systemprompt.md` definiert Identitaet, Intake-Flow, BUILD-/RENDER-Prozess und Asset-Block.
-- `agent/guardrails.md` begrenzt erlaubte Module, Strukturregeln, Icon-Verhalten, Spacer-Logik und Modulspezifika.
+- `agent/guardrails.md` definiert Strukturregeln, Icon-Verhalten, Spacer-Logik und Modulspezifika. Es ist keine zweite Modulauswahlliste.
 - `agent/tone-of-voice.md` steuert Haltung, Ansprache und sprachliche Leitplanken fuer alle LP-Texte.
 - `agent/how-it-works.md` beschreibt die Bedienung und operative Nutzung aus User-Sicht.
 
 ## Component Library
 
-- `knowledge/component-library.html` ist die produktive HTML-Modulbasis.
+- `knowledge/component-library.html` ist die produktive HTML-Modulbasis und alleinige Quelle fuer die Modul-Verfuegbarkeit.
 - Die Modulvorlagen werden durch Prompt und Guardrails referenziert.
 - Runtime-CSS und Runtime-JS setzen die dort enthaltenen Klassen- und Strukturmuster voraus.
+- Runtime-Abhaengigkeiten beeinflussen das Verhalten eines vorhandenen Moduls, nicht seine Auswahl durch einen separaten Lifecycle-Status.
 
 ## Icon Library
 
@@ -25,6 +26,12 @@
 - `runtime/core/core-buttons.css` liefert CTA- und Textlink-Styling.
 - `runtime/core/core-components.css` liefert modulspezifische Styles.
 - `runtime/core/core-interactions.js` liefert Interaktionen fuer Counter, Accordion, Sticky Footer, Video und Legacy-Karussells.
+
+## Modulverhalten mit Runtime-Abhaengigkeit
+
+- `lp-sticky-footer` und `video--youtube-carousel` bleiben produktive Component-Library-Module. Ihre Verfuegbarkeit folgt allein aus ihren Modulbloecken.
+- Ihre volle Interaktion braucht jedoch die jeweils dokumentierte Runtime im Zielrenderer. Fehlt sie, ist das eine Plattform-Abhaengigkeit, kein Lifecycle- oder Auswahlstatus des Moduls.
+- `video--youtube-carousel` benoetigt weiterhin die in den Guardrails definierten Legacy-CSS/JS-Assets und den vollstaendigen Lightbox-Begleitblock.
 
 ## Integrationen
 

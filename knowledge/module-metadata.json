@@ -5,239 +5,205 @@
       "id": "hero-bleed-flex",
       "label": "Hero Bleed Flex",
       "category": "hero",
-      "source": "component-library.html",
-      "status": "active"
+      "source": "component-library.html"
     },
     {
       "id": "hero-bleed-flex-centered",
       "label": "Hero Bleed Flex Centered",
       "category": "hero",
-      "source": "component-library.html",
-      "status": "active"
+      "source": "component-library.html"
     },
     {
       "id": "hero-split",
       "label": "Hero Split",
       "category": "hero",
-      "source": "component-library.html",
-      "status": "active"
+      "source": "component-library.html"
     },
     {
       "id": "teaser-2col",
       "label": "Teaser 2 Columns",
       "category": "teaser",
-      "source": "component-library.html",
-      "status": "active"
+      "source": "component-library.html"
     },
     {
       "id": "teaser-3col",
       "label": "Teaser 3 Columns",
       "category": "teaser",
-      "source": "component-library.html",
-      "status": "active"
+      "source": "component-library.html"
     },
     {
       "id": "teaser-4col",
       "label": "Teaser 4 Columns",
       "category": "teaser",
-      "source": "component-library.html",
-      "status": "active"
+      "source": "component-library.html"
     },
     {
       "id": "teaser-split-image-right",
       "label": "Teaser Split Image Right",
       "category": "teaser",
-      "source": "component-library.html",
-      "status": "active"
+      "source": "component-library.html"
     },
     {
       "id": "teaser-split-image-left",
       "label": "Teaser Split Image Left",
       "category": "teaser",
-      "source": "component-library.html",
-      "status": "active"
+      "source": "component-library.html"
     },
     {
       "id": "teaser-split-colour-image-right",
       "label": "Teaser Split Colour Image Right",
       "category": "teaser",
-      "source": "component-library.html",
-      "status": "active"
+      "source": "component-library.html"
     },
     {
       "id": "teaser-split-colour-image-left",
       "label": "Teaser Split Colour Image Left",
       "category": "teaser",
-      "source": "component-library.html",
-      "status": "active"
+      "source": "component-library.html"
     },
     {
       "id": "steps-3col",
       "label": "Steps 3 Columns",
       "category": "steps",
-      "source": "component-library.html",
-      "status": "active"
+      "source": "component-library.html"
     },
     {
       "id": "steps-4col",
       "label": "Steps 4 Columns",
       "category": "steps",
-      "source": "component-library.html",
-      "status": "active"
+      "source": "component-library.html"
     },
     {
       "id": "accordion",
       "label": "Accordion",
       "category": "content",
-      "source": "component-library.html",
-      "status": "active"
+      "source": "component-library.html"
     },
     {
       "id": "counter-animated",
       "label": "Counter Animated",
       "category": "content",
-      "source": "component-library.html",
-      "status": "active"
+      "source": "component-library.html"
     },
     {
       "id": "callout--base",
       "label": "Callout Base",
       "category": "callout",
-      "source": "component-library.html",
-      "status": "active"
+      "source": "component-library.html"
     },
     {
       "id": "callout--illu",
       "label": "Callout Illustration",
       "category": "callout",
-      "source": "component-library.html",
-      "status": "active"
+      "source": "component-library.html"
     },
     {
       "id": "callout--expert",
       "label": "Callout Expert",
       "category": "callout",
-      "source": "component-library.html",
-      "status": "active"
+      "source": "component-library.html"
     },
     {
       "id": "benefits-3col",
       "label": "Benefits 3 Columns",
       "category": "content",
-      "source": "component-library.html",
-      "status": "active"
+      "source": "component-library.html"
     },
     {
       "id": "benefits-2col",
       "label": "Benefits 2 Columns",
       "category": "content",
-      "source": "component-library.html",
-      "status": "active"
+      "source": "component-library.html"
     },
     {
       "id": "ekomi-reviews",
       "label": "eKomi Reviews",
       "category": "social-proof",
-      "source": "component-library.html",
-      "status": "active"
+      "source": "component-library.html"
     },
     {
       "id": "servicetiles",
       "label": "Service Tiles",
       "category": "tiles",
-      "source": "component-library.html",
-      "status": "active"
+      "source": "component-library.html"
     },
     {
       "id": "checkmark-list",
       "label": "Checkmark List",
       "category": "content",
-      "source": "component-library.html",
-      "status": "active"
+      "source": "component-library.html"
     },
     {
       "id": "lp-sticky-footer",
       "label": "Sticky Footer",
       "category": "utility",
-      "source": "component-library.html",
-      "status": "active"
+      "source": "component-library.html"
     },
     {
       "id": "pricing-list",
       "label": "Pricing List",
       "category": "tiles",
-      "source": "component-library.html",
-      "status": "active"
+      "source": "component-library.html"
     },
     {
       "id": "choice-card-list",
       "label": "Choice Card List",
       "category": "tiles",
-      "source": "component-library.html",
-      "status": "active"
+      "source": "component-library.html"
     },
     {
       "id": "choice-card-expand-list",
       "label": "Choice Card Expand List",
       "category": "tiles",
-      "source": "component-library.html",
-      "status": "active"
+      "source": "component-library.html"
     },
     {
       "id": "card-carousel",
       "label": "Card Carousel",
       "category": "tiles",
-      "source": "component-library.html",
-      "status": "active"
+      "source": "component-library.html"
     },
     {
       "id": "b2b-package-list",
       "label": "B2B Package List",
       "category": "tiles",
-      "source": "component-library.html",
-      "status": "active"
+      "source": "component-library.html"
     },
     {
       "id": "content-cards-2col",
       "label": "Content Cards 2 Columns",
       "category": "tiles",
-      "source": "component-library.html",
-      "status": "active"
+      "source": "component-library.html"
     },
     {
       "id": "content-cards-3col",
       "label": "Content Cards 3 Columns",
       "category": "tiles",
-      "source": "component-library.html",
-      "status": "active"
+      "source": "component-library.html"
     },
     {
       "id": "action-tiles_rle",
       "label": "Action Tiles Real Estate",
       "category": "tiles",
-      "source": "component-library.html",
-      "status": "active"
+      "source": "component-library.html"
     },
     {
       "id": "video--youtube",
       "label": "Video YouTube",
       "category": "media",
-      "source": "component-library.html",
-      "status": "active"
+      "source": "component-library.html"
     },
     {
       "id": "video--youtube-carousel",
       "label": "Video YouTube Carousel",
       "category": "media",
-      "source": "component-library.html",
-      "status": "active"
+      "source": "component-library.html"
     },
     {
       "id": "plan-compare",
       "label": "Plan Compare",
       "category": "content",
-      "source": "component-library.html",
-      "status": "active"
+      "source": "component-library.html"
     }
   ]
 }

@@ -13,7 +13,7 @@ Generate a complete German landing page from the supplied content. The standard 
 ## GENERAL RULES
 
 - Converse in the user's language (default German); landing-page copy is always German. Output complete code only.
-- Use only modules in `component-library.html` and their Guardrails registry. Preserve module markup except where Guardrails explicitly allow otherwise; `b2b-package-list` follows §10.10a.
+- Module availability is defined exclusively by valid productive `LP_MODULE_START` / `LP_MODULE_END` blocks in `knowledge/component-library.html`. Use those modules only; Guardrails constrain their use but are not a second selection registry. Preserve module markup except where the applicable Guardrails explicitly allow otherwise; `b2b-package-list` follows §10.10a.
 - Use `card-carousel` only for a horizontally browsable collection of at least four comparable cards; preserve its required data attributes and controls as defined in Guardrails §10.10c.
 - Use `choice-card-expand-list` when comparable choice cards need optional, expandable feature details; follow §10.10d exactly.
 - Use `plan-compare` when two plans need a feature-by-feature comparison with a desktop matrix and mobile plan cards; follow §10.10e exactly.
