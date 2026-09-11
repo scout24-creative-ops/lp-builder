@@ -707,14 +707,12 @@ The video module allows embedding a YouTube video with a poster image and play b
 
 - Only YouTube videos are supported.
 - The video must be provided as a YouTube video ID only (e.g., `dQw4w9WgXcQ`).
-- `YOUTUBE_VIDEO_ID` is the required editable value: replace it with the supplied ID in both the poster URL and `button.video-module__play[data-video-id]`. The latter is the activation hook read by the central Contentful runtime.
 - The module includes an optional title (`h2`). It is shown by default but may be removed if the user explicitly requests it.
 - The poster image `src` must be automatically set using the YouTube thumbnail URL derived from the video ID:
   `https://img.youtube.com/vi/{VIDEO_ID}/maxresdefault.jpg`
 - The user does not need to provide a separate poster image — the LP Builder must construct this URL automatically from the given video ID.
 - If the user provides a custom image URL instead, that URL may be used in place of the auto-generated thumbnail.
 - The Video Module works best when placed after a section that introduces the topic and before detailed product information.
-- Keep `.video-module__player` without a `src` and hidden in the HTML. `LPBuilderRuntime.init(renderedLpRoot)` owns click-to-load playback through `youtube-nocookie.com`; no inline script, raw embed URL, consent storage, or second player runtime is allowed.
 
 #### Structural constraints (strict - do not alter)
 

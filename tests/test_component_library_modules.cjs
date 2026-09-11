@@ -12,17 +12,6 @@ function moduleIds(marker) {
   return [...componentLibrary.matchAll(new RegExp(`LP_MODULE_${marker}:\\s*([^\\s>]+)`, 'g'))].map(match => match[1]);
 }
 
-function moduleBlock(id) {
-  var start = `<!-- LP_MODULE_START: ${id} -->`;
-  var end = `<!-- LP_MODULE_END: ${id} -->`;
-  var startIndex = componentLibrary.indexOf(start);
-  var endIndex = componentLibrary.indexOf(end);
-
-  assert.notEqual(startIndex, -1, `missing ${id} start marker`);
-  assert.notEqual(endIndex, -1, `missing ${id} end marker`);
-  return componentLibrary.slice(startIndex, endIndex + end.length);
-}
-
 test('Component Library module markers are complete and unique', () => {
   const starts = moduleIds('START');
   const ends = moduleIds('END');
@@ -39,13 +28,4 @@ test('descriptive metadata exactly follows productive Component Library modules'
 
   assert.deepEqual([...metadataIds].sort(), [...starts].sort());
   assert.ok(metadata.modules.every(module => !Object.hasOwn(module, 'status')));
-});
-
-test('YouTube video contract exposes one editable runtime activation ID', () => {
-  const video = moduleBlock('video--youtube');
-
-  assert.match(video, /https:\/\/img\.youtube\.com\/vi\/YOUTUBE_VIDEO_ID\/maxresdefault\.jpg/);
-  assert.match(video, /class="video-module__play lp-color-teal"[\s\S]*data-video-id="YOUTUBE_VIDEO_ID"/);
-  assert.match(video, /class="video-module__player"[\s\S]*hidden/);
-  assert.doesNotMatch(video, /class="video-module__player"[\s\S]*\ssrc=/);
 });
