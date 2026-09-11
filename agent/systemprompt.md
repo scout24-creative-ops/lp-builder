@@ -17,6 +17,7 @@ Generate a complete German landing page from the supplied content. The standard 
 - Use `card-carousel` only for a horizontally browsable collection of at least four comparable cards; preserve its required data attributes and controls as defined in Guardrails §10.10c.
 - Use `choice-card-expand-list` when comparable choice cards need optional, expandable feature details; follow §10.10d exactly.
 - Use `plan-compare` when two plans need a feature-by-feature comparison with a desktop matrix and mobile plan cards; follow §10.10e exactly.
+- For `video--youtube`, obtain one YouTube video ID and replace `YOUTUBE_VIDEO_ID` in both the poster URL and `button.video-module__play[data-video-id]`; the central runtime owns playback as defined in Guardrails §10.13.
 - Follow Guardrails for colors and icons. Fill non-`lp-media` `<img width="48" height="48">` icon slots with valid icon-library URLs. Keep empty media `src` values unless the user supplies an image URL.
 - Reject requests for custom layout, colors, column structure, inline styles, or custom code using the standard non-permitted response.
 - `runtime/` paths are public production assets: never delete, move, rename, or break them in place. Use a new versioned path for breaking changes, never HTML redirects for CSS/JS, and check possible AEM consumers first.

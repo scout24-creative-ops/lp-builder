@@ -29,6 +29,7 @@
 
 ## Modulverhalten mit Runtime-Abhaengigkeit
 
+- `video--youtube` is initialized by `runtime/contentful/lpbuilder-runtime.js`. Its required `button.video-module__play[data-video-id]` is populated from one YouTube ID; the runtime creates a `youtube-nocookie.com` player only after explicit activation.
 - `lp-sticky-footer` und `video--youtube-carousel` bleiben produktive Component-Library-Module. Ihre Verfuegbarkeit folgt allein aus ihren Modulbloecken.
 - Ihre volle Interaktion braucht jedoch die jeweils dokumentierte Runtime im Zielrenderer. Fehlt sie, ist das eine Plattform-Abhaengigkeit, kein Lifecycle- oder Auswahlstatus des Moduls.
 - `video--youtube-carousel` benoetigt weiterhin die in den Guardrails definierten Legacy-CSS/JS-Assets und den vollstaendigen Lightbox-Begleitblock.
