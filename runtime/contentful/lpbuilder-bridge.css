@@ -312,21 +312,29 @@ a.lpb-chevron-link:active {
 .lpb-ekomi-reviews .ekomi-reviews__avatar { align-items: center; border-radius: 9999px; display: flex; flex: 0 0 auto; height: 32px; justify-content: center; width: 32px; }
 .lpb-ekomi-reviews .ekomi-reviews__avatar-icon { display: block; height: 24px; width: 24px; }
 .lpb-ekomi-reviews .ekomi-reviews__star { display: block; height: 22px; width: 22px; }
-.lpb-card-carousel__card { overflow: hidden; }
-.lpb-card-carousel__media { aspect-ratio: 4 / 3; max-width: 100%; overflow: hidden; position: relative; }
+.lpb-card-carousel[data-lpb-card-carousel] { overflow: visible; }
+.lpb-card-carousel__card { background: var(--color-background-default, #ffffff); display: flex; flex: 1 1 auto; flex-direction: column; overflow: hidden; }
+.lpb-card-carousel__media { aspect-ratio: 4 / 3; background: var(--color-background-weak, #f2f2f2); max-width: 100%; overflow: hidden; position: relative; }
 .lpb-card-carousel__media > .lpb-image--responsive { height: 100%; object-fit: cover; width: 100%; }
 .lpb-card-carousel__badge { left: 16px; position: absolute; top: 16px; z-index: 1; }
-.lpb-card-carousel__header, .lpb-card-carousel__controls, .lpb-card-carousel__dots { display: flex; }
+.lpb-card-carousel__header, .lpb-card-carousel__controls, .lpb-card-carousel__track, .lpb-card-carousel__dots { display: flex; }
 .lpb-card-carousel__viewport { overflow: hidden; }
+/* Legacy grid carousel output remains supported for already generated pages. */
 .lpb-card-carousel__viewport > .grid { flex-wrap: nowrap; }
 .lpb-card-carousel__viewport .grid-item { flex: 0 0 33.333333%; max-width: 33.333333%; }
 .lpb-card-carousel__header { align-items: flex-end; gap: var(--space-l, 24px); justify-content: space-between; }
 .lpb-card-carousel__controls { flex: 0 0 auto; gap: var(--space-s, 12px); }
-.lpb-card-carousel__control { align-items: center; border: 1px solid var(--color-border-default); border-radius: 50%; display: inline-flex; height: 44px; justify-content: center; width: 44px; }
-.lpb-card-carousel__control--disabled { opacity: .4; }
-.lpb-card-carousel__dots { gap: var(--space-s, 8px); justify-content: center; }
-.lpb-card-carousel__dot { background: var(--color-border-default); border-radius: 9999px; height: 8px; width: 8px; }
-.lpb-card-carousel__dot--active { background: var(--color-text-default); width: 24px; }
+.lpb-card-carousel__control { align-items: center; appearance: none; background: var(--color-background-default, #ffffff); border: 1px solid var(--color-border-default); border-radius: 50%; color: var(--color-text-default, #333333); cursor: pointer; display: inline-flex; height: 44px; justify-content: center; padding: 0; width: 44px; }
+.lpb-card-carousel__control:hover { border-color: var(--color-background-brand, #3df5dc); }
+.lpb-card-carousel__control:disabled, .lpb-card-carousel__control--disabled { cursor: default; opacity: .4; }
+.lpb-card-carousel__control svg { height: 20px; width: 20px; }
+.lpb-card-carousel__track { align-items: stretch; gap: var(--space-l, 24px); transition: transform 260ms ease; }
+.lpb-card-carousel__slide { display: flex; flex: 0 0 calc((100% - 48px) / 3); min-width: 0; }
+.lpb-card-carousel__body { display: flex; flex: 1 1 auto; flex-direction: column; }
+.lpb-card-carousel__link { margin-top: auto; }
+.lpb-card-carousel__dots { gap: var(--space-s, 8px); justify-content: center; margin-top: var(--space-l, 24px); }
+.lpb-card-carousel__dot { appearance: none; background: var(--color-border-default); border: 0; border-radius: 9999px; cursor: pointer; height: 8px; padding: 0; width: 8px; }
+.lpb-card-carousel__dot--active { background: var(--color-background-brand, #3df5dc); width: 24px; }
 .lpb-accordion .accordion__headline { margin-bottom: var(--space-m, 24px); }
 .lpb-accordion .accordion__item { border-bottom: 1px solid var(--color-border-default); }
 .lpb-accordion .accordion__trigger { align-items: center; appearance: none; background: none; border: 0; color: inherit; cursor: default; display: flex; justify-content: space-between; padding: var(--space-m, 20px) 0; text-align: left; width: 100%; }
@@ -339,7 +347,7 @@ a.lpb-chevron-link:active {
 @media (min-width: 901px) {
   .lpb-hero--bleed:not(.lpb-hero--centered) .lpb-hero__content { margin-left: auto; margin-right: auto; max-width: 1157px; padding: 0 16px; }
 }
-@media (max-width: 1023px) { .lpb-card-carousel__viewport .grid-item { flex-basis: 50%; max-width: 50%; } }
+@media (max-width: 1023px) { .lpb-card-carousel__viewport .grid-item { flex-basis: 50%; max-width: 50%; } .lpb-card-carousel__slide { flex-basis: calc((100% - 24px) / 2); } }
 @media (max-width: 900px) {
   .lpb-hero--split { height: auto; }
   .lpb-hero--split .lpb-hero__inner { display: flex; flex-direction: column; height: auto; }
@@ -367,7 +375,7 @@ a.lpb-chevron-link:active {
   .lpb-steps__title { align-self: center; grid-column: 2; grid-row: 1; margin: 0 0 8px; }
   .lpb-steps__content { grid-column: 2; grid-row: 2; margin-top: 0; min-width: 0; }
   .lpb-video__play { height: 72px; width: 72px; }
-  .lpb-card-carousel__header { display: block; } .lpb-card-carousel__controls, .lpb-card-carousel__dots { display: none; } .lpb-card-carousel__viewport { overflow-x: auto; scroll-snap-type: x mandatory; } .lpb-card-carousel__viewport .grid-item { flex-basis: 100%; max-width: 100%; scroll-snap-align: start; }
+  .lpb-card-carousel__header { display: block; } .lpb-card-carousel__controls, .lpb-card-carousel__dots { display: none; } .lpb-card-carousel__viewport { overflow-x: auto; scroll-snap-type: x mandatory; } .lpb-card-carousel__track { gap: var(--space-m, 16px); overflow-x: auto; scroll-snap-type: x mandatory; transform: none !important; } .lpb-card-carousel__track::-webkit-scrollbar { display: none; } .lpb-card-carousel__slide { flex-basis: 86%; scroll-snap-align: start; } .lpb-card-carousel__viewport .grid-item { flex-basis: 100%; max-width: 100%; scroll-snap-align: start; }
   .lpb-hero__space--s { height: 30px; } .lpb-hero__space--m { height: 60px; } .lpb-hero__space--l { height: 90px; } .lpb-hero__space--xl { height: 120px; }
   .lpb-hero--split .lpb-hero__content { padding-bottom: 24px; padding-top: 16px; }
 }
