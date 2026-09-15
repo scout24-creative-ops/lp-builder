@@ -328,6 +328,101 @@
   }
 
   /*
+   * Sticky footer
+   *
+   * Each footer follows its nearest preceding split hero within the rendered
+   * LP root. Library-static previews are deliberately excluded: their
+   * visibility is owned by the visual module library, not this runtime.
+   */
+  var initializedStickyFooters = new WeakSet();
+
+  function getStickyFooters(root) {
+    var footers = [];
+    var selector = '.lpb-sticky-footer:not(.lpb-sticky-footer--library-static)';
+
+    if (typeof root.matches === 'function' && root.matches(selector)) {
+      footers.push(root);
+    }
+
+    if (typeof root.querySelectorAll === 'function') {
+      footers = footers.concat(Array.prototype.slice.call(
+        root.querySelectorAll(selector)
+      ));
+    }
+
+    return footers;
+  }
+
+  function getStickyHeroes(root) {
+    var heroes = [];
+    var selector = '.hero-split, .lpb-hero--split';
+
+    if (typeof root.matches === 'function' && root.matches(selector)) {
+      heroes.push(root);
+    }
+
+    if (typeof root.querySelectorAll === 'function') {
+      heroes = heroes.concat(Array.prototype.slice.call(
+        root.querySelectorAll(selector)
+      ));
+    }
+
+    return heroes;
+  }
+
+  function closestPrecedingStickyHero(footer, heroes) {
+    var precedingHeroes = heroes.filter(function (hero) {
+      return hero !== footer && typeof hero.compareDocumentPosition === 'function' &&
+        (hero.compareDocumentPosition(footer) & 4) !== 0;
+    });
+
+    return precedingHeroes.length ? precedingHeroes[precedingHeroes.length - 1] : null;
+  }
+
+  function initializeStickyFooters(root) {
+    var heroes = getStickyHeroes(root);
+
+    getStickyFooters(root).forEach(function (footer) {
+      if (initializedStickyFooters.has(footer)) return;
+
+      footer.classList.remove('is-visible');
+      var hero = closestPrecedingStickyHero(footer, heroes);
+      var ownerWindow = footer.ownerDocument.defaultView || window;
+
+      // Fail safely when the page has no unambiguous preceding hero or the
+      // browser lacks IntersectionObserver: the footer remains hidden.
+      if (!hero || typeof ownerWindow.IntersectionObserver !== 'function') {
+        initializedStickyFooters.add(footer);
+        return;
+      }
+
+      var heroVisible = true;
+      var lastScrollY = ownerWindow.scrollY || 0;
+      var observer = new ownerWindow.IntersectionObserver(function (entries) {
+        entries.forEach(function (entry) {
+          if (entry.target !== hero) return;
+          heroVisible = entry.isIntersecting;
+          if (heroVisible) footer.classList.remove('is-visible');
+        });
+      }, { threshold: 0.45, rootMargin: '160px 0px 0px' });
+
+      observer.observe(hero);
+
+      if (typeof ownerWindow.addEventListener === 'function') {
+        ownerWindow.addEventListener('scroll', function () {
+          var currentY = ownerWindow.scrollY || 0;
+          if (currentY > lastScrollY && !heroVisible) {
+            footer.classList.add('is-visible');
+          }
+          lastScrollY = currentY;
+        }, { passive: true });
+      }
+
+      initializedStickyFooters.add(footer);
+    });
+  }
+
+  /*
    * Card carousel
    *
    * The AEM card-carousel behaviour is adapted to the root-scoped
@@ -554,6 +649,7 @@
     initializeCounters(root);
     initializeYoutubeVideos(root);
     initializeAccordions(root);
+    initializeStickyFooters(root);
     initializeCardCarousels(root);
     initializeLibraryCopyControls(root);
     root.setAttribute('data-lpb-runtime-initialized', 'true');

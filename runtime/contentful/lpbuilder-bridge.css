@@ -298,8 +298,10 @@ a.lpb-chevron-link:active {
 .lpb-hero--split .lpb-hero__spacer { min-height: 1px; }
 .lpb-hero--split .lpb-hero__media { bottom: 0; left: 50%; right: 0; top: 0; }
 
-/* Visual-only modules intentionally remain free of behavioural runtime. */
-.lpb-sticky-footer { bottom: 0; box-shadow: 0 -4px 12px rgba(0, 0, 0, .12); left: 0; position: fixed; right: 0; z-index: 100; }
+/* Sticky footer — root-scoped runtime toggles .is-visible after the split hero. */
+.lpb-sticky-footer:not(.lpb-sticky-footer--library-static) { bottom: 0; box-shadow: 0 -4px 12px rgba(0, 0, 0, .12); left: 0; position: fixed; right: 0; transform: translateY(100%); transition: transform .3s ease; z-index: 100; }
+.lpb-sticky-footer:not(.lpb-sticky-footer--library-static).is-visible { transform: translateY(0); }
+.lpb-sticky-footer:not(.lpb-sticky-footer--library-static)::before { background: #ffffff; bottom: 0; content: ""; height: 100%; left: 50%; position: absolute; transform: translateX(-50%); width: 100vw; z-index: 0; }
 .lpb-sticky-footer.lpb-sticky-footer--preview { transform: translateY(0); }
 .lpb-sticky-footer__inner { align-items: center; display: flex; justify-content: center; padding: 16px 0; }
 .lpb-video { margin-left: auto; margin-right: auto; max-width: 900px; width: 100%; }
@@ -391,4 +393,7 @@ a.lpb-chevron-link:active {
   .lpb-card-carousel__header { display: block; } .lpb-card-carousel__controls, .lpb-card-carousel__dots { display: none; } .lpb-card-carousel__viewport { overflow-x: auto; scroll-snap-type: x mandatory; } .lpb-card-carousel__track { gap: var(--space-m, 16px); overflow-x: auto; scroll-snap-type: x mandatory; transform: none !important; } .lpb-card-carousel__track::-webkit-scrollbar { display: none; } .lpb-card-carousel__slide { flex-basis: 86%; scroll-snap-align: start; } .lpb-card-carousel__viewport .grid-item { flex-basis: 100%; max-width: 100%; scroll-snap-align: start; }
   .lpb-hero__space--s { height: 30px; } .lpb-hero__space--m { height: 60px; } .lpb-hero__space--l { height: 90px; } .lpb-hero__space--xl { height: 120px; }
   .lpb-hero--split .lpb-hero__content { padding-bottom: 24px; padding-top: 16px; }
+}
+@media (max-width: 640px) {
+  .lpb-sticky-footer__inner { padding-left: 16px; padding-right: 16px; }
 }
