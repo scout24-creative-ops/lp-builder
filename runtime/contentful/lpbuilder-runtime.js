@@ -266,6 +266,86 @@
     });
   }
 
+  /*
+   * Library copy controls
+   *
+   * Contentful sanitizes scripts and inline event handlers from htmlSource.
+   * The visual module library therefore opts in declaratively with
+   * data-lpb-library-copy; generated LP modules never use this attribute.
+   */
+  function getLibraryCopyControls(root) {
+    if (typeof root.querySelectorAll !== 'function') return [];
+
+    return Array.prototype.slice.call(root.querySelectorAll('[data-lpb-library-copy]'));
+  }
+
+  function copyLibraryModuleName(ownerDocument, value) {
+    var ownerWindow = ownerDocument && ownerDocument.defaultView;
+    var navigator = ownerWindow && ownerWindow.navigator;
+
+    function fallbackCopy() {
+      if (!ownerDocument || typeof ownerDocument.createElement !== 'function' ||
+        !ownerDocument.body || typeof ownerDocument.execCommand !== 'function') {
+        return Promise.reject(new Error('Clipboard API is unavailable.'));
+      }
+
+      var textarea = ownerDocument.createElement('textarea');
+      textarea.value = value;
+      textarea.setAttribute('readonly', 'readonly');
+      textarea.style.position = 'fixed';
+      textarea.style.opacity = '0';
+      ownerDocument.body.appendChild(textarea);
+      textarea.select();
+
+      var copied = ownerDocument.execCommand('copy');
+      textarea.remove();
+
+      return copied
+        ? Promise.resolve()
+        : Promise.reject(new Error('Clipboard copy failed.'));
+    }
+
+    if (navigator && navigator.clipboard &&
+      typeof navigator.clipboard.writeText === 'function') {
+      return navigator.clipboard.writeText(value).catch(fallbackCopy);
+    }
+
+    return fallbackCopy();
+  }
+
+  function initializeLibraryCopyControls(root) {
+    getLibraryCopyControls(root).forEach(function (control) {
+      if (control.getAttribute('data-lpb-library-copy-initialized') === 'true') return;
+
+      var button = typeof control.querySelector === 'function'
+        ? control.querySelector('.module-copy__button')
+        : null;
+      var moduleName = control.getAttribute('data-module');
+      if (!button || !moduleName || typeof button.addEventListener !== 'function') return;
+
+      button.addEventListener('click', function () {
+        copyLibraryModuleName(control.ownerDocument, moduleName).then(function () {
+          control.classList.add('is-copied');
+
+          var ownerWindow = control.ownerDocument.defaultView || window;
+          var clearSuccessState = function () {
+            control.classList.remove('is-copied');
+          };
+
+          if (typeof ownerWindow.setTimeout === 'function') {
+            ownerWindow.setTimeout(clearSuccessState, 700);
+          } else {
+            window.setTimeout(clearSuccessState, 700);
+          }
+        }).catch(function () {
+          // Preserve the default icon when neither clipboard mechanism succeeds.
+        });
+      });
+
+      control.setAttribute('data-lpb-library-copy-initialized', 'true');
+    });
+  }
+
   function init(root) {
     if (!isElement(root)) return;
 
@@ -274,6 +354,7 @@
     initializeTabs(root);
     initializeCounters(root);
     initializeYoutubeVideos(root);
+    initializeLibraryCopyControls(root);
     root.setAttribute('data-lpb-runtime-initialized', 'true');
   }
 
