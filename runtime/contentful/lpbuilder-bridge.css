@@ -162,6 +162,15 @@ a.lpb-chevron-link:active {
 .lpb-icon--24 { font-size: 24px; line-height: 24px; }
 .lpb-icon--48 { font-size: 48px; line-height: 48px; }
 
+/* Checkmark list — static SVG pattern shared by the active module library. */
+.checkmark-list { margin: 0; padding: 0; }
+.checkmark-list li { list-style: none; }
+.checkmark-list__item { align-items: flex-start; display: flex; gap: 8px; margin-bottom: 8px; }
+.checkmark-list__item:last-child { margin-bottom: 0; }
+.checkmark-list__icon { flex: 0 0 auto; height: 20px; margin-top: 2px; width: 20px; }
+.checkmark-list__icon::before { background-image: url("https://www.static-immobilienscout24.de/statpic/_/ae25c93f00cf707c6c92965a14d7fe50_checkmark.svg"); background-repeat: no-repeat; background-size: contain; content: ""; display: block; height: 100%; width: 100%; }
+.checkmark-list__text { margin: 0; }
+
 .lpb-surface--brand { background-color: var(--color-background-brand); }
 .lpb-surface--default { background-color: var(--color-background-default); }
 .lpb-surface--weak { background-color: var(--color-background-weak); }
