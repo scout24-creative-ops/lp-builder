@@ -267,67 +267,6 @@
   }
 
   /*
-   * Accordion
-   *
-   * Root-scoped adaptation of the active accordion contract. Each item
-   * keeps its own state so multiple panels and multiple accordions may be
-   * open independently.
-   */
-  var initializedAccordions = new WeakSet();
-
-  function getAccordionRoots(root) {
-    var accordions = [];
-
-    if (typeof root.matches === 'function' && root.matches('.lpb-accordion')) {
-      accordions.push(root);
-    }
-
-    if (typeof root.querySelectorAll === 'function') {
-      accordions = accordions.concat(Array.prototype.slice.call(
-        root.querySelectorAll('.lpb-accordion')
-      ));
-    }
-
-    return accordions;
-  }
-
-  function initializeAccordions(root) {
-    getAccordionRoots(root).forEach(function (accordion) {
-      if (initializedAccordions.has(accordion) ||
-        typeof accordion.querySelectorAll !== 'function') return;
-
-      Array.prototype.slice.call(
-        accordion.querySelectorAll('.accordion__trigger')
-      ).forEach(function (trigger) {
-        var item = typeof trigger.closest === 'function'
-          ? trigger.closest('.accordion__item')
-          : null;
-        var panel = item && typeof item.querySelector === 'function'
-          ? item.querySelector('.accordion__panel')
-          : null;
-
-        if (!item || !panel || typeof panel.style !== 'object') return;
-
-        function setExpanded(expanded) {
-          item.classList.toggle('is-open', expanded);
-          trigger.setAttribute('aria-expanded', expanded ? 'true' : 'false');
-          panel.style.maxHeight = expanded ? panel.scrollHeight + 'px' : '0px';
-        }
-
-        setExpanded(item.classList.contains('is-open'));
-
-        if (typeof trigger.addEventListener === 'function') {
-          trigger.addEventListener('click', function () {
-            setExpanded(!item.classList.contains('is-open'));
-          });
-        }
-      });
-
-      initializedAccordions.add(accordion);
-    });
-  }
-
-  /*
    * Sticky footer
    *
    * Each footer follows its nearest preceding split hero within the rendered
@@ -648,7 +587,6 @@
     initializeTabs(root);
     initializeCounters(root);
     initializeYoutubeVideos(root);
-    initializeAccordions(root);
     initializeStickyFooters(root);
     initializeCardCarousels(root);
     initializeLibraryCopyControls(root);
