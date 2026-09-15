@@ -267,6 +267,144 @@
   }
 
   /*
+   * Card carousel
+   *
+   * The AEM card-carousel behaviour is adapted to the root-scoped
+   * Contentful runtime. Only explicitly marked carousel roots opt in, so
+   * existing LP markup remains untouched.
+   */
+  var initializedCardCarousels = new WeakSet();
+
+  function getCardCarousels(root) {
+    var carousels = [];
+
+    if (typeof root.matches === 'function' && root.matches('[data-lpb-card-carousel]')) {
+      carousels.push(root);
+    }
+
+    if (typeof root.querySelectorAll === 'function') {
+      carousels = carousels.concat(Array.prototype.slice.call(
+        root.querySelectorAll('[data-lpb-card-carousel]')
+      ));
+    }
+
+    return carousels;
+  }
+
+  function initializeCardCarousels(root) {
+    getCardCarousels(root).forEach(function (carousel) {
+      if (initializedCardCarousels.has(carousel)) return;
+
+      var track = typeof carousel.querySelector === 'function'
+        ? carousel.querySelector('[data-lpb-card-carousel-track]')
+        : null;
+      var previous = typeof carousel.querySelector === 'function'
+        ? carousel.querySelector('[data-lpb-card-carousel-prev]')
+        : null;
+      var next = typeof carousel.querySelector === 'function'
+        ? carousel.querySelector('[data-lpb-card-carousel-next]')
+        : null;
+      var dots = typeof carousel.querySelector === 'function'
+        ? carousel.querySelector('[data-lpb-card-carousel-dots]')
+        : null;
+      var slides = track && typeof track.querySelectorAll === 'function'
+        ? Array.prototype.slice.call(track.querySelectorAll('.lpb-card-carousel__slide'))
+        : [];
+
+      if (!track || !previous || !next || !dots || !slides.length) return;
+
+      var ownerWindow = carousel.ownerDocument.defaultView || window;
+      var ownerDocument = carousel.ownerDocument;
+      var index = 0;
+
+      function visibleCount() {
+        if (typeof ownerWindow.matchMedia !== 'function') return 3;
+        if (ownerWindow.matchMedia('(max-width: 668px)').matches) return 1;
+        if (ownerWindow.matchMedia('(max-width: 1023px)').matches) return 2;
+        return 3;
+      }
+
+      function isPalm() {
+        return typeof ownerWindow.matchMedia === 'function' &&
+          ownerWindow.matchMedia('(max-width: 668px)').matches;
+      }
+
+      function maximumIndex() {
+        return Math.max(0, slides.length - visibleCount());
+      }
+
+      function stepSize() {
+        var firstSlide = slides[0];
+        var styles = typeof ownerWindow.getComputedStyle === 'function'
+          ? ownerWindow.getComputedStyle(track)
+          : null;
+        var gap = styles ? parseFloat(styles.gap) || 0 : 0;
+        var width = typeof firstSlide.getBoundingClientRect === 'function'
+          ? firstSlide.getBoundingClientRect().width
+          : firstSlide.offsetWidth || 0;
+
+        return width + gap;
+      }
+
+      function update() {
+        var maximum = maximumIndex();
+        index = Math.max(0, Math.min(index, maximum));
+        track.style.transform = isPalm()
+          ? ''
+          : 'translateX(' + (-index * stepSize()) + 'px)';
+        previous.disabled = index === 0;
+        next.disabled = index === maximum;
+
+        Array.prototype.forEach.call(dots.children, function (dot, dotIndex) {
+          var active = dotIndex === index;
+          dot.classList.toggle('lpb-card-carousel__dot--active', active);
+          if (active) dot.setAttribute('aria-current', 'true');
+          else dot.removeAttribute('aria-current');
+        });
+      }
+
+      function buildDots() {
+        while (dots.firstChild) dots.removeChild(dots.firstChild);
+
+        for (var dotIndex = 0; dotIndex <= maximumIndex(); dotIndex += 1) {
+          (function (targetIndex) {
+            var dot = ownerDocument.createElement('button');
+            dot.type = 'button';
+            dot.className = 'lpb-card-carousel__dot';
+            dot.setAttribute('aria-label', 'Carousel-Position ' + (targetIndex + 1));
+            dot.addEventListener('click', function () {
+              index = targetIndex;
+              update();
+            });
+            dots.appendChild(dot);
+          }(dotIndex));
+        }
+      }
+
+      previous.addEventListener('click', function () {
+        index -= 1;
+        update();
+      });
+      next.addEventListener('click', function () {
+        index += 1;
+        update();
+      });
+
+      if (typeof ownerWindow.addEventListener === 'function') {
+        ownerWindow.addEventListener('resize', function () {
+          buildDots();
+          update();
+        });
+      }
+
+      buildDots();
+      update();
+      initializedCardCarousels.add(carousel);
+      carousel.setAttribute('data-lpb-card-carousel-initialized', 'true');
+    });
+  }
+
+  /*
    * Library copy controls
    *
    * Contentful sanitizes scripts and inline event handlers from htmlSource.
@@ -354,6 +492,7 @@
     initializeTabs(root);
     initializeCounters(root);
     initializeYoutubeVideos(root);
+    initializeCardCarousels(root);
     initializeLibraryCopyControls(root);
     root.setAttribute('data-lpb-runtime-initialized', 'true');
   }
