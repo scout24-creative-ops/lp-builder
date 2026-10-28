@@ -387,8 +387,8 @@ a.lpb-news-nav__item:focus-visible { outline: 2px solid var(--color-border-focus
 .lpb-editorial-article__sources-list li + li { margin-top: 12px; }
 .lpb-editorial-article__sources-list a { overflow-wrap: anywhere; }
 
-/* Scaling Editorial category overview — static portal feed with shared sidebar. */
-.lpb-editorial-category-overview { max-width: 100%; width: 100%; }
+/* Scaling Editorial portal pages — static content with shared sidebar. */
+.lpb-editorial-category-overview, .lpb-editorial-article-with-sidebar { max-width: 100%; width: 100%; }
 .lpb-editorial-category-overview__header { margin-bottom: 40px; max-width: 760px; }
 .lpb-editorial-category-overview__header h1 { margin: 0 0 12px; }
 .lpb-editorial-category-overview__header > .font-body-large-regular { color: var(--color-text-weak, #6a6a69); margin: 0; }
