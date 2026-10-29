@@ -383,6 +383,10 @@ a.lpb-news-nav__item:focus-visible { outline: 2px solid var(--color-border-focus
 .lpb-editorial-article__tag { background: var(--color-background-weak, #f2f2f2); border-radius: var(--border-radius-rounded, 9999px); display: inline-block; padding: 4px 10px; }
 .lpb-editorial-article__media { aspect-ratio: 16 / 9; background: var(--color-background-weak, #f2f2f2); border-radius: var(--border-radius-600, 16px); margin: 40px 0 48px; overflow: hidden; }
 .lpb-editorial-article__media > .lpb-image--responsive { height: 100%; object-fit: cover; width: 100%; }
+.lpb-editorial-article__media--with-caption { aspect-ratio: auto; background: transparent; border-radius: 0; overflow: visible; }
+.lpb-editorial-article__media-frame { aspect-ratio: 16 / 9; background: var(--color-background-weak, #f2f2f2); border-radius: var(--border-radius-600, 16px); overflow: hidden; }
+.lpb-editorial-article__media-frame > .lpb-image--responsive { height: 100%; object-fit: cover; width: 100%; }
+.lpb-editorial-article__media-caption { color: var(--color-text-weak, #6a6a69); display: flex; flex-wrap: wrap; gap: 4px 16px; margin-top: 12px; }
 .lpb-editorial-article__body > p { margin: 0 0 24px; }
 .lpb-editorial-article__body > h2 { margin: 48px 0 16px; }
 .lpb-editorial-article__body > h3 { margin: 32px 0 16px; }
