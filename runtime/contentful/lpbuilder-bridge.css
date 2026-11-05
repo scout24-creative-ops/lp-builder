@@ -413,6 +413,24 @@ a.lpb-news-nav__item:focus-visible { outline: 2px solid #333333; outline-offset:
 .lpb-editorial-category-overview__status { color: var(--color-text-weak, #6a6a69); letter-spacing: .04em; margin: 0 0 8px; text-transform: uppercase; }
 .lpb-editorial-category-overview__empty { background: var(--color-background-weak, #f2f2f2); border-radius: var(--border-radius-400, 12px); max-width: 760px; padding: 32px; }
 .lpb-editorial-category-overview__empty > :last-child { margin-bottom: 0; }
+/* Category overview composition; article layouts and navigation stay independent. */
+.lpb-editorial-overview-featured { align-items: start; display: grid; gap: 32px; grid-template-columns: minmax(0, 2fr) minmax(0, 1fr); }
+.lpb-editorial-overview-featured > :first-child { grid-row: span 2; }
+.lpb-editorial-overview-featured > :only-child { grid-column: 1 / -1; grid-row: auto; }
+.lpb-editorial-overview-grid { display: grid; gap: 40px 32px; grid-template-columns: repeat(2, minmax(0, 1fr)); margin-top: 48px; }
+.lpb-editorial-overview-featured > *, .lpb-editorial-overview-grid > * { min-width: 0; }
+.lpb-editorial-category-overview .lpb-editorial-teaser { align-items: start; gap: 16px; grid-template-columns: minmax(0, 1fr); }
+.lpb-editorial-category-overview .lpb-editorial-teaser__content { overflow-wrap: anywhere; }
+.lpb-editorial-category-overview .lpb-editorial-teaser__content h2 { font-size: 24px; line-height: 32px; margin: 0; }
+.lpb-editorial-category-overview .lpb-editorial-teaser--lead h2 { font-size: 32px; line-height: 40px; }
+.lpb-editorial-category-overview .lpb-editorial-teaser--compact h2 { font-size: 20px; line-height: 28px; }
+.lpb-editorial-category-overview .lpb-editorial-teaser__content > .font-body-large-regular { font-size: 18px; line-height: 28px; margin-top: 12px; }
+@media (max-width: 900px) {
+  .lpb-editorial-overview-featured, .lpb-editorial-overview-grid { gap: 32px; grid-template-columns: minmax(0, 1fr); }
+  .lpb-editorial-overview-featured > :first-child { grid-row: auto; }
+  .lpb-editorial-overview-grid { margin-top: 32px; }
+  .lpb-editorial-category-overview .lpb-editorial-teaser--lead h2 { font-size: 28px; line-height: 36px; }
+}
 .lpb-editorial-portal-layout { align-items: start; display: grid; gap: 56px; grid-template-columns: minmax(0, 1fr) 320px; max-width: 100%; width: 100%; }
 .lpb-editorial-portal-layout__main, .lpb-editorial-portal-layout__sidebar { min-width: 0; }
 .lpb-editorial-portal-layout__sidebar { align-self: start; position: sticky; top: 24px; }
