@@ -425,6 +425,9 @@ a.lpb-news-nav__item:focus-visible { outline: 2px solid #333333; outline-offset:
 .lpb-editorial-category-overview .lpb-editorial-teaser--lead h2 { font-size: 32px; line-height: 40px; }
 .lpb-editorial-category-overview .lpb-editorial-teaser--compact h2 { font-size: 20px; line-height: 28px; }
 .lpb-editorial-category-overview .lpb-editorial-teaser__content > .font-body-large-regular { font-size: 18px; line-height: 28px; margin-top: 12px; }
+/* Optional three-column lower grid for the approved category-layout pilot. */
+.lpb-editorial-overview-grid--three-columns { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.lpb-editorial-overview-grid--three-columns .lpb-editorial-teaser__content h2 { font-size: 20px; line-height: 28px; }
 @media (max-width: 900px) {
   .lpb-editorial-overview-featured, .lpb-editorial-overview-grid { gap: 32px; grid-template-columns: minmax(0, 1fr); }
   .lpb-editorial-overview-featured > :first-child { grid-row: auto; }
