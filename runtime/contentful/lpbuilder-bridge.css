@@ -527,6 +527,7 @@ a.lpb-news-nav__item:focus-visible { outline: 2px solid #333333; outline-offset:
 }
 
 /* Scaling Editorial UX compositions — opt-in, static HTML; legacy pages unchanged. */
+.lpb-editorial-ux .lpb-editorial-article__header h1, .lpb-editorial-ux .lpb-editorial-ux-card__title, .lpb-editorial-ux .lpb-editorial-ux-category-lead h1, .lpb-editorial-ux .lpb-editorial-ux-reading h3 { hyphens: none; overflow-wrap: anywhere; word-break: normal; }
 .lpb-editorial-ux-root > .lpb-spacer--l { height: 24px; }
 .lpb-news-nav--ux { border: 0; margin-left: 0; margin-right: 0; width: 100%; }
 .lpb-news-nav--ux .lpb-news-nav__inner { max-width: 964px; padding-inline: 0; }
