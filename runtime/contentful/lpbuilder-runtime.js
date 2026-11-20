@@ -579,8 +579,79 @@
     });
   }
 
+  var initializedAuthorDialogs = new WeakSet();
+
+  function initializeAuthorDialogs(root) {
+    var selector = '[data-lpb-component="scaling-editorial-author-dialog"]';
+    var authors = typeof root.querySelectorAll === 'function'
+      ? Array.prototype.slice.call(root.querySelectorAll(selector)) : [];
+    if (typeof root.matches === 'function' && root.matches(selector)) authors.unshift(root);
+
+    authors.forEach(function (author) {
+      if (initializedAuthorDialogs.has(author) ||
+        author.getAttribute('data-lpb-author-dialog-initialized') === 'true') return;
+      var dialog = author.querySelector('dialog[data-lpb-author-dialog]');
+      var trigger = author.querySelector('[data-lpb-author-open]');
+      var staticName = author.querySelector('[data-lpb-author-static]');
+      var close = dialog && dialog.querySelector('[data-lpb-author-close]');
+      var heading = dialog && dialog.querySelector('[data-lpb-author-title]');
+      var bio = dialog && dialog.querySelector('[data-lpb-author-bio]');
+      if (!dialog || !trigger || !staticName || !close || !heading || !bio ||
+        !heading.textContent.trim() || !bio.textContent.trim() ||
+        !dialog.id || trigger.getAttribute('aria-controls') !== dialog.id ||
+        dialog.getAttribute('aria-labelledby') !== heading.id ||
+        dialog.getAttribute('aria-describedby') !== bio.id ||
+        typeof dialog.showModal !== 'function' || typeof dialog.close !== 'function') return;
+
+      var pointerStartedOnBackdrop = false;
+      function onBackdrop(event) {
+        if (event.target !== dialog) return false;
+        var box = dialog.getBoundingClientRect();
+        return event.clientX < box.left || event.clientX > box.right ||
+          event.clientY < box.top || event.clientY > box.bottom;
+      }
+
+      trigger.addEventListener('click', function () {
+        if (dialog.open || !dialog.isConnected) return;
+        try {
+          dialog.showModal();
+          trigger.setAttribute('aria-expanded', 'true');
+          close.focus({ preventScroll: true });
+        } catch (error) {
+          // Keep the non-interactive name if a host cannot open a native modal.
+          if (dialog.open) dialog.close();
+          trigger.hidden = true;
+          staticName.hidden = false;
+        }
+      });
+      close.addEventListener('click', function () { dialog.close(); });
+      dialog.addEventListener('pointerdown', function (event) {
+        pointerStartedOnBackdrop = onBackdrop(event);
+      });
+      dialog.addEventListener('pointercancel', function () { pointerStartedOnBackdrop = false; });
+      dialog.addEventListener('click', function (event) {
+        if (pointerStartedOnBackdrop && onBackdrop(event)) dialog.close();
+        pointerStartedOnBackdrop = false;
+      });
+      dialog.addEventListener('close', function () {
+        pointerStartedOnBackdrop = false;
+        trigger.setAttribute('aria-expanded', 'false');
+        if (trigger.isConnected && !trigger.hidden) trigger.focus({ preventScroll: true });
+      });
+
+      dialog.hidden = false;
+      trigger.hidden = false;
+      staticName.hidden = true;
+      author.setAttribute('data-lpb-author-dialog-initialized', 'true');
+      initializedAuthorDialogs.add(author);
+    });
+  }
+
   function init(root) {
     if (!isElement(root)) return;
+
+    // Live preview may replace the contents of an initialized host root.
+    initializeAuthorDialogs(root);
 
     if (root.getAttribute('data-lpb-runtime-initialized') === 'true') return;
 

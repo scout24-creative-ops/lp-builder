@@ -646,3 +646,57 @@ a.lpb-news-nav__item:focus-visible { outline: 2px solid #333333; outline-offset:
   .lpb-editorial-ux-breadcrumb li[aria-current="page"] { display: none; }
 }
 /* End Scaling Editorial UX compositions. */
+
+/* Optional author profile modal. Only the explicit dialog variant opts in. */
+[data-lpb-component="scaling-editorial-author-dialog"] [hidden] { display: none !important; }
+.lpb-editorial-author__open {
+  appearance: none; background: none; border: 0; border-radius: 2px;
+  color: inherit; cursor: pointer; font: inherit; line-height: inherit;
+  margin: 0; padding: 0; text-align: inherit; text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.lpb-editorial-author__open:focus-visible,
+.lpb-editorial-author-dialog__close:focus-visible {
+  outline: 2px solid var(--color-border-focused, #2267e8); outline-offset: 4px;
+}
+dialog.lpb-editorial-author-dialog:not([open]) { display: none; }
+dialog.lpb-editorial-author-dialog {
+  background: #fff; border: 0; border-radius: 16px; box-sizing: border-box;
+  box-shadow: 0 16px 64px rgba(0,0,0,.24); color: var(--color-text-default, #333333);
+  font-family: inherit; margin: auto; max-height: calc(100vh - 32px);
+  max-height: calc(100dvh - 32px); max-width: 560px; overflow: auto;
+  overscroll-behavior: contain; padding: 32px; width: calc(100% - 32px);
+}
+dialog.lpb-editorial-author-dialog::backdrop { background: rgba(0,0,0,.56); }
+.lpb-editorial-author-dialog__header { align-items: center; display: flex; gap: 24px; }
+.lpb-editorial-author-dialog .lpb-editorial-author-dialog__portrait {
+  border-radius: 50%; display: block; flex: 0 0 104px; height: 104px;
+  object-fit: cover; width: 104px;
+}
+.lpb-editorial-author-dialog .lpb-editorial-author-dialog__title {
+  color: inherit; font-size: 26px; font-weight: 700; line-height: 34px;
+  margin: 0; overflow-wrap: anywhere;
+}
+.lpb-editorial-author-dialog .lpb-editorial-author-dialog__role {
+  color: var(--color-text-weak, #6a6a69); font-size: 16px; line-height: 24px; margin: 8px 0 0;
+}
+.lpb-editorial-author-dialog .lpb-editorial-author-dialog__bio {
+  color: inherit; font-size: 16px; line-height: 26px; margin: 24px 0 0;
+  overflow-wrap: anywhere;
+}
+.lpb-editorial-author-dialog__actions { display: flex; justify-content: flex-end; margin-top: 24px; }
+.lpb-editorial-author-dialog__close {
+  appearance: none; background: #fff; border: 1px solid #333333;
+  border-radius: 24px; color: inherit; cursor: pointer; font: inherit;
+  font-size: 16px; font-weight: 700; line-height: 24px; min-height: 44px; padding: 9px 20px;
+}
+.lpb-editorial-author-dialog__close:hover { background: #f2f2f2; }
+/* Native :modal alone does not prevent background scroll; removal also clears this lock. */
+:root:has(dialog.lpb-editorial-author-dialog[open]) { overflow: hidden; }
+@media (max-width: 480px) {
+  dialog.lpb-editorial-author-dialog { padding: 24px; }
+  .lpb-editorial-author-dialog__header { align-items: flex-start; flex-direction: column; gap: 16px; }
+  .lpb-editorial-author-dialog .lpb-editorial-author-dialog__portrait { flex-basis: 88px; height: 88px; width: 88px; }
+  .lpb-editorial-author-dialog .lpb-editorial-author-dialog__title { font-size: 24px; line-height: 32px; }
+}
+
