@@ -1,0 +1,58 @@
+name: Snapshot LP source before cleanup
+on:
+  push:
+    branches: ["chore/archive-lp-before-cleanup-20261121"]
+permissions:
+  contents: read
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: 6ea766255cfa13e31341f56720dfbc5fe8582229
+          fetch-depth: 0
+          persist-credentials: false
+      - name: Export and restore original history
+        run: |
+          python3 - <<'PY'
+          import pathlib,subprocess,hashlib,json
+          refs={"refs/heads/canvas-render-artifact":"7c505439c21752461f5288ebced6ee0c7826805c","refs/heads/card-carousel":"303bd5e9cfe99721a39137a5e2157d8d7127e9bb","refs/heads/choice-card-expand-list":"d8a232f18e831665a4031a821f81da9194ca5c88","refs/heads/ciaran/lp-builder-aem-output":"a6ad85716f3bfd9ae36907a7af65981a7efa21a5","refs/heads/distribution/freeze-aem-source":"b10e308c3d20faaef0758c23cbce7d77bcd7c2d9","refs/heads/feat/unified-lp-builder-20261121":"e00f34a9c4cd507872753172b7b9a0085ed0f512","refs/heads/feature/plan-compare-module":"ae1c01a446be51ad695e8042ce7e84ea8801305e","refs/heads/fix/teaser-split-media-cover":"9e7813ea03451d77f27131666d72d0155557686b","refs/heads/main":"6ea766255cfa13e31341f56720dfbc5fe8582229","refs/heads/restore-colour-teasers-and-choice-cards":"48c955c864e5520776a2697d44cc12ee860824e5","refs/heads/update-from-freelancer-core":"22c20a803230b7bf3412c96947ffb432f1125bb2"}
+          def git(*args):
+              return subprocess.check_output(['git',*args])
+          for ref,sha in refs.items():
+              assert git('rev-parse',sha).decode().strip()==sha
+              subprocess.run(['git','update-ref',ref,sha],check=True)
+          out=pathlib.Path('archive-output');out.mkdir()
+          bundle=out/'lp-builder.bundle'
+          subprocess.run(['git','bundle','create',str(bundle),*refs.keys()],check=True)
+          subprocess.run(['git','bundle','verify',str(bundle)],check=True)
+          restored=pathlib.Path('archive-verify.git')
+          subprocess.run(['git','clone','--mirror',str(bundle),str(restored)],check=True)
+          actual=dict(line.split() for line in subprocess.check_output(['git','--git-dir',str(restored),'for-each-ref','--format=%(refname) %(objectname)']).decode().splitlines())
+          assert actual==refs
+          subprocess.run(['git','--git-dir',str(restored),'fsck','--full'],check=True)
+          files=[]
+          for record in git('ls-tree','-r','-z','6ea766255cfa13e31341f56720dfbc5fe8582229').split(b'\0'):
+              if not record:continue
+              head,name=record.split(b'\t',1);mode,kind,blob=head.decode().split()
+              if kind!='blob':continue
+              raw=git('cat-file','blob',blob)
+              files.append({'path':name.decode(),'mode':mode,'blob':blob,'bytes':len(raw),'sha256':hashlib.sha256(raw).hexdigest()})
+          parts=[]
+          with bundle.open('rb') as source:
+              i=0
+              while chunk:=source.read(4*1024*1024):
+                  i+=1;name=f'lp-builder.bundle.part-{i:03d}';(out/name).write_bytes(chunk)
+                  parts.append({'path':name,'bytes':len(chunk),'sha256':hashlib.sha256(chunk).hexdigest(),'gitBlob':hashlib.sha1(b'blob '+str(len(chunk)).encode()+b'\0'+chunk).hexdigest()})
+          manifest={'date':'2026-11-21','repository':'scout24-creative-ops/lp-builder','main':'6ea766255cfa13e31341f56720dfbc5fe8582229','refs':refs,'commit_count':int(git('rev-list','--count',*refs.keys())),'files':files,'bundle':{'bytes':bundle.stat().st_size,'sha256':hashlib.sha256(bundle.read_bytes()).hexdigest(),'parts':parts},'verification':'Complete bundle verified; isolated mirror restore; exact original refs; git fsck passed.'}
+          (out/'inventory.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n')
+          bundle.unlink()
+          print(f"Verified {len(files)} files, {len(refs)} refs, {len(parts)} parts.")
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: complete-lp-before-cleanup-archive
+          path: archive-output/
+          compression-level: 0
+          retention-days: 1
