@@ -1,7 +1,8 @@
 # LP Builder: Entwicklung und Bestandsschutz
 
 Dieses Repository ist die aktive Quelle für den Content-Factory-LP-Builder.
-Gemeinsame Design-Tokens und die Library-Entwicklung liegen in `design-system`.
+Gemeinsame Design-Tokens liegen in `design-system`. Die gesamte Library-
+Entwicklung und Veröffentlichung liegt im Repo `design-library`.
 
 ## Bereiche und Quellen
 
@@ -31,9 +32,9 @@ ARIA, Breakpoints und dokumentierte Varianten zuerst wiederverwenden.
 Ein Modulauftrag umfasst zusammenhängend HTML, Modulgrenzen/Katalog, gegebenenfalls
 Entwicklungs-CSS/JS, Skill-Kopien sowie die notwendige Library-Anbindung. Neue
 Quellen in der Library aus `modules/` lesen; keine archivierte GPT-Bibliothek oder
-zweite öffentliche Library pflegen. Die frühere Contentful-Library mit alten
-lokalen Checkout-Pfaden ist kein aktiver Veröffentlichungsweg. Ihre Neuanbindung
-ist ein eigener noch offener Schritt; dieser Umbau publiziert keine Library.
+zweite öffentliche Library pflegen. Vorschauen direkt im Repo `design-library`
+regenerieren, prüfen und dort per PR veröffentlichen. Es gibt keinen separaten
+Contentful-Library- oder repoübergreifenden Kopier-/Veröffentlichungsweg mehr.
 
 Neue Runtime-Logik ausschließlich unter `modules/contentful-runtime/` vorbereiten.
 Keine automatische Synchronisierung nach `runtime/`, Contentful, Frontend oder

@@ -30,5 +30,8 @@ Distributionsmanifest bleibt unverändert und ist kein Rollback-Auftrag.
 
 Kein installierter Skill, keine Contentful-Seite, kein Frontend und keine
 öffentliche Asset-Datei wurde durch die Quellbereinigung aktualisiert. Die
-Neuanbindung der Contentful-Module an die gemeinsame Design Library ist noch
-offen; eine Änderung hier ist kein Library-Publish.
+aktuelle Design Library liest die Module direkt aus diesem Repo. Oberfläche,
+Generatoren und Veröffentlichung liegen gemeinsam in
+[design-library](https://github.com/scout24-creative-ops/design-library).
+Moduländerungen dort regenerieren und prüfen; ein Builder-Merge allein
+aktualisiert die veröffentlichte Library nicht.
