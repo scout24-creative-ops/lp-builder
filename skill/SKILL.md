@@ -5,6 +5,10 @@ description: "Erstelle allgemeine Blueprint-Landingpages mit freigegebenen Demo-
 
 # Content-Factory-LP-Builder
 
+## Layout reference
+
+Read [the generated channel layout contract](references/layout.json) when assessing module geometry. Reference viewports are design/test sizes; keep mobile layouts fluid. The surrounding renderer or email shell owns the outer container. Do not duplicate its padding or introduce new module structures from this contract. A development-CSS change is not a released runtime.
+
 ## Quellen und Anschluss
 
 Verwende dieses Paket als eigenständige Regelbasis. Der frühere Agent, der separate Skill `contentful-lp-builder`, andere Chats und dort angehängte Dateien sind keine Laufzeitabhängigkeiten. Alle benötigten Regeln, Vorlagen und Testinhalte sind hier enthalten.

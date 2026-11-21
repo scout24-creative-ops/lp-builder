@@ -1,0 +1,27 @@
+{
+  "generatedFrom": "design-system/tokens/brands/immoscout24.json#layout.lp",
+  "containerMaxWidth": 1200,
+  "paddingInline": [
+    {
+      "minWidth": 0,
+      "value": 16
+    },
+    {
+      "minWidth": 669,
+      "value": 24
+    },
+    {
+      "minWidth": 1014,
+      "value": 32
+    }
+  ],
+  "referenceViewports": {
+    "desktop": 1600,
+    "mobile": 392
+  },
+  "notes": [
+    "Contentful renderer geometry verified on 2026-11-21 with a neutral draft page. Width includes padding.",
+    "Reference viewports are design/test sizes, never fixed mobile content widths.",
+    "Full-bleed media may reach the viewport edges; content aligns to the renderer container."
+  ]
+}

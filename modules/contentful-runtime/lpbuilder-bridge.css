@@ -293,7 +293,7 @@ a.lpb-chevron-link:active {
 .lpb-hero__panel { border-radius: 24px; }
 .lpb-hero--centered .lpb-hero__content { display: grid; justify-items: center; margin-left: auto; margin-right: auto; text-align: center; width: 48%; }
 .lpb-hero--split { height: clamp(360px, 35vw, 500px); }
-.lpb-hero--split .lpb-hero__inner { align-items: stretch; display: grid; grid-template-columns: 1fr 1fr; height: 100%; margin: 0 auto; max-width: 1157px; padding: 0 16px; }
+.lpb-hero--split .lpb-hero__inner { align-items: stretch; display: grid; grid-template-columns: 1fr 1fr; height: 100%; margin: 0 auto;  }
 .lpb-hero--split .lpb-hero__content { align-items: flex-start; display: flex; flex-direction: column; justify-content: center; padding-right: 32px; }
 .lpb-hero--split .lpb-hero__spacer { min-height: 1px; }
 .lpb-hero--split .lpb-hero__media { bottom: 0; left: 50%; right: 0; top: 0; }
@@ -470,7 +470,7 @@ a.lpb-news-nav__item:focus-visible { outline: 2px solid #333333; outline-offset:
 .lpb-editorial-more-articles .lpb-editorial-more-articles__date { color: var(--color-text-weak, #6a6a69); font-size: 12px; line-height: 18px; margin: 8px 0 0; }
 
 @media (min-width: 901px) {
-  .lpb-hero--bleed:not(.lpb-hero--centered) .lpb-hero__content { margin-left: auto; margin-right: auto; max-width: 1157px; padding: 0 16px; }
+  .lpb-hero--bleed:not(.lpb-hero--centered) .lpb-hero__content { margin-left: auto; margin-right: auto;  }
 }
 @media (min-width: 669px) { .lpb-news-nav__inner { padding-inline: var(--spacing-600, 24px); } }
 @media (min-width: 1014px) { .lpb-news-nav__inner { padding-inline: var(--spacing-800, 32px); } }
@@ -646,3 +646,19 @@ a.lpb-news-nav__item:focus-visible { outline: 2px solid #333333; outline-offset:
   .lpb-editorial-ux-breadcrumb li[aria-current="page"] { display: none; }
 }
 /* End Scaling Editorial UX compositions. */
+
+/* BEGIN GENERATED CONTENT FACTORY LAYOUT */
+:root { --lpb-container-max: 1200px; --lpb-page-gutter: 16px; }
+@media (min-width: 669px) { :root { --lpb-page-gutter: 24px; } }
+@media (min-width: 1014px) { :root { --lpb-page-gutter: 32px; } }
+.lpb-hero--split .lpb-hero__inner,
+.lpb-hero--bleed:not(.lpb-hero--centered) .lpb-hero__content {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: var(--lpb-container-max);
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: var(--lpb-page-gutter);
+  padding-right: var(--lpb-page-gutter);
+}
+/* END GENERATED CONTENT FACTORY LAYOUT */
