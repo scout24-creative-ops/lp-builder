@@ -32,6 +32,15 @@ class Sources(unittest.TestCase):
     def test_runtime_copies_are_identical_to_authoring_sources(self):
         for path,content in sync.outputs().items():self.assertEqual(content,path.read_text(),str(path))
 
+    def test_layout_contract_and_development_hero_container(self):
+        layout=json.loads((ROOT/'modules/layout.json').read_text())
+        css=(ROOT/'modules/contentful-runtime/lpbuilder-bridge.css').read_text()
+        self.assertEqual(1200,layout['containerMaxWidth'])
+        self.assertEqual({'desktop':1600,'mobile':392},layout['referenceViewports'])
+        self.assertIn('--lpb-container-max: 1200px',css)
+        self.assertNotIn('max-width: 1157px',css)
+        self.assertIn('max-width: 1157px',(ROOT/'runtime/contentful/lpbuilder-bridge.css').read_text())
+
     def test_all_34_modules_pass_the_existing_guard(self):
         self.assertEqual(34,len(CANON))
         for name,block in CANON.items():

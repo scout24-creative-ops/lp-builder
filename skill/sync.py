@@ -8,6 +8,7 @@ import re
 SKILL = Path(__file__).resolve().parent
 ROOT = SKILL.parent
 SOURCES = {
+    'layout.json': 'modules/layout.json',
     'component-library.html': 'modules/component-library.html',
     'module-guards.md': 'modules/module-guards.md',
     'building-policy.md': 'templates/building-policy.md',

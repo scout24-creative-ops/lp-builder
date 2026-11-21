@@ -35,3 +35,14 @@ Generatoren und Veröffentlichung liegen gemeinsam in
 [design-library](https://github.com/scout24-creative-ops/design-library).
 Moduländerungen dort regenerieren und prüfen; ein Builder-Merge allein
 aktualisiert die veröffentlichte Library nicht.
+
+## Layout-Abgleich
+
+Die gemeinsame Quelle ist `design-system/tokens/brands/immoscout24.json#layout`.
+`modules/layout.json` ist daraus generiert und wird mit dem bestehenden
+`skill/sync.py` nach `skill/references/layout.json` übernommen. Referenz-Viewports
+sind Prüfgrößen; mobile Module bleiben flüssig.
+
+Änderungen an Entwicklungs-/Vorschau-CSS sind kein Plattform-Release. Die
+vorhandene öffentliche LP-Runtime und installierte Iterable-Snippets werden
+durch diese Dateien nicht geändert.
