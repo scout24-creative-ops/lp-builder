@@ -40,6 +40,8 @@ class Sources(unittest.TestCase):
     def test_steps_cannot_lose_a_step(self):
         raw=validator.BLOCK.search(CANON['steps-3col'])[2]
         tree=validator.Parser(raw).root
+        complete='<!-- LP_MODULE_START: steps-3col -->'+serialize(tree)+'<!-- LP_MODULE_END: steps-3col -->'
+        self.assertEqual(['steps-3col'],validator.validate(page(complete)))
         grid=next(n for n in validator.walk(tree) if len([c for c in n.children if c.has('grid-item')])==3)
         grid.children.remove([c for c in grid.children if c.has('grid-item')][-1])
         broken='<!-- LP_MODULE_START: steps-3col -->'+serialize(tree)+'<!-- LP_MODULE_END: steps-3col -->'
