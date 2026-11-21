@@ -1,19 +1,19 @@
-# LP Builder – bestehende Runtime-Auslieferung
+# Stabile öffentliche Runtime
 
-Seit 15. November 2026 ist dieses Repo eine reine Auslieferung fuer bestehende URLs. Neue LP-Builder-Arbeit findet im privaten [Contentful-Hauptrepo](https://github.com/scout24-creative-ops/lp-builder-contentful) statt. AEM-Entwicklung wird nicht fortgesetzt.
+Das Repo enthält Entwicklungsquellen und geschützte Bestandsauslieferung.
+Entwicklung unter `modules/`, `templates/`, `skill/`; vorhandene AEM-Quellen unter
+`aem/`. Der aktuelle Schutzvertrag liegt in `runtime-lock.json`.
 
-Alle zwoelf Runtime-Dateien bleiben bytegleich zu Commit `bb716b8ca251c5e386cdd26dde0690f007467219`. Ihre Pfade, Datei-Modi und SHA-256-/Git-Blob-IDs stehen in `distribution-manifest.json`. Der Repo-Name, die Sichtbarkeit und die bestehenden Pages-Pfade bleiben erhalten. Es gibt keine CSS-/JS-Weiterleitungen und keine Umstellung bestehender Seiten.
+Alle zwölf Dateien unter `runtime/` behalten Pfad und Inhalt. Bestehende Seiten
+laden CSS/JS direkt von `https://scout24-creative-ops.github.io/lp-builder/runtime/`.
+Keine HTML-Redirects für Assets und keine automatische Übernahme der gesonderten
+Contentful-Entwicklungs-Runtime. Neue inkompatible Auslieferung versionieren.
 
-Die frueheren AEM-Prompts, Modul-/Icon-Bibliotheken, Tests und Dokumentationen liegen mit vollstaendiger Historie im privaten [Projektarchiv](https://github.com/scout24-creative-ops/project-archive/tree/main/projects/lp-builder/aem). Die Entfernung dieser Entwicklungsdateien beendet keine Runtime-URL.
+Das unveränderte `distribution-manifest.json` dokumentiert einen älteren Stand.
+Zwei Contentful-Dateien weichen bereits vor dieser Bereinigung davon ab; die
+heutigen Git-Blob- und SHA-256-Werte sind im Runtime-Lock erfasst. Nicht zurücksetzen.
+Öffentliche Pfade unter `scout24-creative-ops/public` ebenfalls erhalten.
 
-Die Design-Library-Anbindung wird separat erneuert. Alte AEM-Syncs, die hier `knowledge/component-library.html` erwarten, sind nach der Quellarchivierung kein aktiver Entwicklungsweg mehr. Die bestehende veroeffentlichte Library und deren Tokens wurden durch diese Umstellung nicht veraendert.
-
-Kuenftige Contentful-Releases brauchen eine ausdrueckliche Freigabe. Private Entwicklungscommits werden nicht automatisch hierher kopiert. Ein Pages-Build fuer diesen Rollenwechsel ist lediglich eine erneute Auslieferung derselben Runtime-Bytes.
-
-
-## Gemeinsames Hauptrepo — 21. November 2026
-
-Dieses Repository nimmt jetzt unter `aem/` und `contentful/` auch die jeweiligen
-Quellen auf. Die oben dokumentierte reine Distributionsrolle ist damit abgeloest.
-Die zwoelf bestehenden Runtime-Dateien und ihre URL-Vertraege bleiben identisch.
-Private Recovery-Archive und interne Arbeitsmaterialien werden nicht uebernommen.
+Contentful kann andere zentrale Renderer-Assets laden. Ein Repo-Merge ist kein
+Frontend-/Contentful-/AWS-Release und ändert keine gespeicherte Seite oder
+installierte GPT-/Skill-Konfiguration. Library-Veröffentlichung separat behandeln.

@@ -1,22 +1,34 @@
 # LP Builder
 
-Gemeinsames Repository fuer AEM und Contentful.
+Aktive Contentful-Module und Skill an einer Stelle; bestehende AEM-Seiten behalten ihre Auslieferung.
 
-| Ordner | Aufgabe |
-|---|---|
-| `aem/` | Bestehende AEM-Modulquellen und Builder-Regeln |
-| `contentful/` | Contentful-Module, Builder-Paket und Entwicklungsdateien |
-| `runtime/` | Bestehende oeffentliche CSS-/JS-Adressen, unveraendert |
+| Bereich | Inhalt |
+| --- | --- |
+| [modules](modules/) | 34 Page Modules, 13 Komponenten, Modulgrenzen und Entwicklungs-Runtime |
+| [templates](templates/) | Building Policy, neutraler Blueprint und CF-Testbauplan |
+| [skill](skill/) | Vollständiges eigenständiges Paket des funktionierenden LP-Builders |
+| [projects](projects/) | Kompatibilitätsbeispiel und Herkunfts-/Archivnachweise |
+| [aem](aem/) | Unverändert erhaltener GPT-/AEM-Bestand |
+| [runtime](runtime/) | Zwölf unveränderte öffentliche CSS-/JS-Dateien |
 
-Die bisherigen URLs unter `https://scout24-creative-ops.github.io/lp-builder/runtime/`
-bleiben erhalten. Die Zusammenfuehrung veroeffentlicht keinen neuen Runtime-Stand
-und fuehrt keine CMS-, Iterable-, Salesforce- oder Skill-Aktion aus.
+Arbeitsregeln: [AGENTS.md](AGENTS.md). Module zentral unter `modules/` bearbeiten;
+Runtime-Kopien mit `python3 skill/sync.py` erzeugen und mit `--check` prüfen.
+Versionen über Git-Historie und Releases führen, nicht über parallele Skill-Ordner.
 
-Der Contentful-Bestand stammt aus dem bisherigen privaten Hauptrepo. Nur die im
-Manifest aufgefuehrten, geprueften Quellen und Testdaten wurden uebernommen;
-Recovery-Archive, AWS-Arbeitsmaterialien und Screenshots verbleiben privat.
-Die AEM-Quellen stammen aus dem bestehenden privaten Projektarchiv.
+Die früheren über 200 Editorial-Entwürfe, alten GPT-Pakete, visuellen Test-Libraries,
+Crawls und ursprünglichen Tests sind vollständig im privaten
+`scout24-creative-ops/_archive/repositories/lp-builder/2026-11-21/` gesichert.
+Sie sind historische Referenzen und keine aktuelle Skill-Konfiguration.
+[projects/repository-migration.json](projects/repository-migration.json) ordnet jede
+der 390 bisherigen Dateien zu. Der bekannte alte UX-Test benötigt weiterhin
+fehlende Original-Designexports; diese Aufräumung löst oder versteckt das nicht.
 
-Siehe `AGENTS.md`, `repository-consolidation.json` und die bereichsspezifischen
-Instructions. Die weitere Bereinigung alter Paket- und Entwicklungsordner folgt
-getrennt nach Abgleich mit den heute installierten Skills.
+Die fünf vom aktuellen AEM-GPT verwendeten URLs werden mit einem echten
+[HTML-Beispiel](projects/aem-compatibility/landingpage.html) geprüft. Alle zwölf
+Assets sind im [aktuellen Runtime-Lock](runtime-lock.json) geschützt. Das ältere
+Distributionsmanifest bleibt unverändert und ist kein Rollback-Auftrag.
+
+Kein installierter Skill, keine Contentful-Seite, kein Frontend und keine
+öffentliche Asset-Datei wurde durch die Quellbereinigung aktualisiert. Die
+Neuanbindung der Contentful-Module an die gemeinsame Design Library ist noch
+offen; eine Änderung hier ist kein Library-Publish.
