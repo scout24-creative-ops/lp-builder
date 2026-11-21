@@ -1,0 +1,193 @@
+ICON LIBRARY – LP CREATOR
+
+ROLLE
+
+- Diese Datei ist die verbindliche Single Source of Truth für alle Icons im LP Creator.
+- Sie dient ausschließlich als Referenz- und Regelwerk.
+- Sie ist **keine** HTML-, Render- oder Runtime-Datei.
+
+GRUNDREGELN
+
+- Diese Datei ist die **einzige erlaubte Quelle** für Icons im LP Creator.
+- Die hier definierten Icon-URLs sind **unveränderlich**.
+- Es dürfen **keine anderen Icons** außerhalb dieser Datei verwendet werden.
+
+ABGRENZUNG
+
+- Icons ≠ Content-Bilder
+- Icons ≠ Illustrationen
+- Icons ≠ Diagramme
+- Icons ≠ UI-Komponenten
+
+VERHALTENSLOGIK (REFERENZ)
+
+- Die Auswahl und Zuordnung von Icons erfolgt **nicht** in dieser Datei.
+- Die verbindliche Auswahl-, Bucket- und Fallback-Logik ist in den **Guardrails** definiert.
+- Diese Datei stellt ausschließlich die erlaubten Icons (Buckets und URLs) bereit.
+
+ICON SET
+
+[security-trust]
+
+- icon-09
+  url: [https://media.ffycdn.net/eu/scout24/UPrtErppeQCXuBsbehK5.svg](https://media.ffycdn.net/eu/scout24/UPrtErppeQCXuBsbehK5.svg)
+  meaning: Sicherheit und geprüfte Anbieter
+
+- icon-17
+  url: [https://media.ffycdn.net/eu/scout24/eyJwYXRoIjoic2NvdXQyNFwvYWNjb3VudHNcLzFjXC80MDAwMjM0XC9wcm9qZWN0c1wvMTAwXC9hc3NldHNcLzBmXC8zMzQwM1wvNWU1MjNmNjI3MWVmNjI1ZGEyMjRlMTJiZTA5ODIzODUtMTYxNDk0MzcwMi5zdmcifQ\:scout24\:LNm95BZWbmdP8RnpAjJgYc2F0LRKJlkPIrdYmFJlCNE](https://media.ffycdn.net/eu/scout24/eyJwYXRoIjoic2NvdXQyNFwvYWNjb3VudHNcLzFjXC80MDAwMjM0XC9wcm9qZWN0c1wvMTAwXC9hc3NldHNcLzBmXC8zMzQwM1wvNWU1MjNmNjI3MWVmNjI1ZGEyMjRlMTJiZTA5ODIzODUtMTYxNDk0MzcwMi5zdmcifQ\:scout24\:LNm95BZWbmdP8RnpAjJgYc2F0LRKJlkPIrdYmFJlCNE)
+  meaning: Sicherheit und Schutz
+
+- icon-18
+  url: [https://media.ffycdn.net/eu/scout24/eyJwYXRoIjoic2NvdXQyNFwvYWNjb3VudHNcLzFjXC80MDAwMjM0XC9wcm9qZWN0c1wvMTAwXC9hc3NldHNcL2E5XC8zMzM0MlwvZDFiN2VjNTk4YjFhZTIyMjEwMTQzYTQzMWYzNDcyNjMtMTYxNDk0MzYyNy5zdmcifQ\:scout24\:t1X-luoz07-xaz6\_0d5Nd60PI703DfscIvNT4QaTZU8](https://media.ffycdn.net/eu/scout24/eyJwYXRoIjoic2NvdXQyNFwvYWNjb3VudHNcLzFjXC80MDAwMjM0XC9wcm9qZWN0c1wvMTAwXC9hc3NldHNcL2E5XC8zMzM0MlwvZDFiN2VjNTk4YjFhZTIyMjEwMTQzYTQzMWYzNDcyNjMtMTYxNDk0MzYyNy5zdmcifQ\:scout24\:t1X-luoz07-xaz6_0d5Nd60PI703DfscIvNT4QaTZU8)
+  meaning: Vertrauensvolle Begleitung
+
+[general-positive]
+
+- icon-10
+  url: [https://media.ffycdn.net/eu/scout24/eyJwYXRoIjoic2NvdXQyNFwvYWNjb3VudHNcLzFjXC80MDAwMjM0XC9wcm9qZWN0c1wvMTAwXC9hc3NldHNcL2YyXC8zMzQ3OVwvZGU3ZDkwZWU3Njg4ODMwNTNmZDNiMGMwYjIwNDFmZWEtMTYxNDk0Mzc3My5zdmcifQ\:scout24\:wYJeApH9M4PG6F9Nlj\_8WB\_HDkIsDZKse8xAvzgvyVc](https://media.ffycdn.net/eu/scout24/eyJwYXRoIjoic2NvdXQyNFwvYWNjb3VudHNcLzFjXC80MDAwMjM0XC9wcm9qZWN0c1wvMTAwXC9hc3NldHNcL2YyXC8zMzQ3OVwvZGU3ZDkwZWU3Njg4ODMwNTNmZDNiMGMwYjIwNDFmZWEtMTYxNDk0Mzc3My5zdmcifQ\:scout24\:wYJeApH9M4PG6F9Nlj_8WB_HDkIsDZKse8xAvzgvyVc)
+  meaning: Allgemeiner positiver Vorteil
+
+- icon-11
+  url: [https://media.ffycdn.net/eu/scout24/eyJwYXRoIjoic2NvdXQyNFwvYWNjb3VudHNcLzFjXC80MDAwMjM0XC9wcm9qZWN0c1wvMTAwXC9hc3NldHNcLzM0XC8zMzM1NVwvMmYwYWMzOTNkM2JmMmExNzgzNmQ0MmFkNTllOWExM2EtMTYxNDk0MzYyNy5zdmcifQ\:scout24\:t-iQOQmGicHzv3apyhcFtKRSlnR0oMuQQeJCbU60vSo](https://media.ffycdn.net/eu/scout24/eyJwYXRoIjoic2NvdXQyNFwvYWNjb3VudHNcLzFjXC80MDAwMjM0XC9wcm9qZWN0c1wvMTAwXC9hc3NldHNcLzM0XC8zMzM1NVwvMmYwYWMzOTNkM2JmMmExNzgzNmQ0MmFkNTllOWExM2EtMTYxNDk0MzYyNy5zdmcifQ\:scout24\:t-iQOQmGicHzv3apyhcFtKRSlnR0oMuQQeJCbU60vSo)
+  meaning: Allgemeiner Vorteil bestätigt
+
+- icon-12
+  url: [https://media.ffycdn.net/eu/scout24/eyJwYXRoIjoic2NvdXQyNFwvYWNjb3VudHNcLzFjXC80MDAwMjM0XC9wcm9qZWN0c1wvMTAwXC9hc3NldHNcLzUyXC8zMzM2OFwvODU4YjdmYjhmZDA4ZmRjMTBjZjA2ODBiOTgyMWEyOTEtMTYxNDk0MzcwMi5zdmcifQ\:scout24:6T\_gmEhwoAytjHoKW7VAPX16twRd-nTlv-2lJBxmyu4](https://media.ffycdn.net/eu/scout24/eyJwYXRoIjoic2NvdXQyNFwvYWNjb3VudHNcLzFjXC80MDAwMjM0XC9wcm9qZWN0c1wvMTAwXC9hc3NldHNcLzUyXC8zMzM2OFwvODU4YjdmYjhmZDA4ZmRjMTBjZjA2ODBiOTgyMWEyOTEtMTYxNDk0MzcwMi5zdmcifQ\:scout24:6T_gmEhwoAytjHoKW7VAPX16twRd-nTlv-2lJBxmyu4)
+  meaning: Positiver Servicevorteil
+
+- icon-13
+  url: [https://media.ffycdn.net/eu/scout24/eyJwYXRoIjoic2NvdXQyNFwvYWNjb3VudHNcLzFjXC80MDAwMjM0XC9wcm9qZWN0c1wvMTAwXC9hc3NldHNcLzFlXC8zMzQxM1wvNWFlZDdhMDBiOTlmNWVhYjYwMmEyZWI1YWJhYThiMWItMTYxNDk0MzcwMi5zdmcifQ\:scout24\:VwSKWO1m0RJ1skL4dErennzIEBcBpuZqJnuEpvM4JGA](https://media.ffycdn.net/eu/scout24/eyJwYXRoIjoic2NvdXQyNFwvYWNjb3VudHNcLzFjXC80MDAwMjM0XC9wcm9qZWN0c1wvMTAwXC9hc3NldHNcLzFlXC8zMzQxM1wvNWFlZDdhMDBiOTlmNWVhYjYwMmEyZWI1YWJhYThiMWItMTYxNDk0MzcwMi5zdmcifQ\:scout24\:VwSKWO1m0RJ1skL4dErennzIEBcBpuZqJnuEpvM4JGA)
+  meaning: Allgemeiner Nutzen
+
+- icon-38
+  url: [https://media.ffycdn.net/eu/scout24/eyJwYXRoIjoic2NvdXQyNFwvYWNjb3VudHNcLzFjXC80MDAwMjM0XC9wcm9qZWN0c1wvMTAwXC9hc3NldHNcL2JlXC8zODU3NFwvYWQzYzI0MmM2ZjNkODA1ODU0NTRhODEwM2VjNDg4MDItMTYzNjM3NTcyNy5zdmcifQ\:scout24\:RLW4yoPrv5HC3FrFiIAVawWMzzJl8u56bB\_3eEnt050](https://media.ffycdn.net/eu/scout24/eyJwYXRoIjoic2NvdXQyNFwvYWNjb3VudHNcLzFjXC80MDAwMjM0XC9wcm9qZWN0c1wvMTAwXC9hc3NldHNcL2JlXC8zODU3NFwvYWQzYzI0MmM2ZjNkODA1ODU0NTRhODEwM2VjNDg4MDItMTYzNjM3NTcyNy5zdmcifQ\:scout24\:RLW4yoPrv5HC3FrFiIAVawWMzzJl8u56bB_3eEnt050)
+  meaning: Allgemeiner Vorteil
+
+- icon-39
+  url: [https://media.ffycdn.net/eu/scout24/MYwYfeJyVLpbH6JRNbqr.svg](https://media.ffycdn.net/eu/scout24/MYwYfeJyVLpbH6JRNbqr.svg)
+  meaning: Allgemeiner Servicevorteil
+
+[price-saving]
+
+- icon-14
+  url: [https://media.ffycdn.net/eu/scout24/eyJwYXRoIjoic2NvdXQyNFwvYWNjb3VudHNcLzFjXC80MDAwMjM0XC9wcm9qZWN0c1wvMTAwXC9hc3NldHNcL2M5XC8zODU3MlwvYmYzYjFmZjI2ZjM2MGZhZjNjNDM3NDA4MTgxNzRmNmQtMTYzNjM3NTcyNy5zdmcifQ\:scout24\:E0xqA3OmlPaXN9TIzclKlJsxEPHCj6eEpWSG0qhIF\_E](https://media.ffycdn.net/eu/scout24/eyJwYXRoIjoic2NvdXQyNFwvYWNjb3VudHNcLzFjXC80MDAwMjM0XC9wcm9qZWN0c1wvMTAwXC9hc3NldHNcL2M5XC8zODU3MlwvYmYzYjFmZjI2ZjM2MGZhZjNjNDM3NDA4MTgxNzRmNmQtMTYzNjM3NTcyNy5zdmcifQ\:scout24\:E0xqA3OmlPaXN9TIzclKlJsxEPHCj6eEpWSG0qhIF_E)
+  meaning: Sparvorteil
+
+- icon-15
+  url: [https://media.ffycdn.net/eu/scout24/eyJwYXRoIjoic2NvdXQyNFwvYWNjb3VudHNcLzFjXC80MDAwMjM0XC9wcm9qZWN0c1wvMTAwXC9hc3NldHNcLzk4XC8zMzQ5MlwvMDM4MWVmODIwMjc5ZWU1NDc4NDg0YTU5Yzk4ZDIzZGMtMTYxNDk0Mzc3My5zdmcifQ\:scout24\:eNeaxw\_\_t9Up\_V7nBMHErwucl7YcD6zGTfNvrRmq1fc](https://media.ffycdn.net/eu/scout24/eyJwYXRoIjoic2NvdXQyNFwvYWNjb3VudHNcLzFjXC80MDAwMjM0XC9wcm9qZWN0c1wvMTAwXC9hc3NldHNcLzk4XC8zMzQ5MlwvMDM4MWVmODIwMjc5ZWU1NDc4NDg0YTU5Yzk4ZDIzZGMtMTYxNDk0Mzc3My5zdmcifQ\:scout24\:eNeaxw__t9Up_V7nBMHErwucl7YcD6zGTfNvrRmq1fc)
+  meaning: Preisvorteile
+
+- icon-16
+  url: [https://media.ffycdn.net/eu/scout24/eyJwYXRoIjoic2NvdXQyNFwvYWNjb3VudHNcLzFjXC80MDAwMjM0XC9wcm9qZWN0c1wvMTAwXC9hc3NldHNcL2UxXC80MDc0NlwvYWNhZmMyNjRhZTE0MzBiZmQzMzkxNDM0ZGNmMTExMjgtMTY0ODczOTg4MS5zdmcifQ\:scout24\:akLoC80l98g\_qwGw3juzfsmhH6C6aUYgzry8OHeUdpc](https://media.ffycdn.net/eu/scout24/eyJwYXRoIjoic2NvdXQyNFwvYWNjb3VudHNcLzFjXC80MDAwMjM0XC9wcm9qZWN0c1wvMTAwXC9hc3NldHNcL2UxXC80MDc0NlwvYWNhZmMyNjRhZTE0MzBiZmQzMzkxNDM0ZGNmMTExMjgtMTY0ODczOTg4MS5zdmcifQ\:scout24\:akLoC80l98g_qwGw3juzfsmhH6C6aUYgzry8OHeUdpc)
+  meaning: Transparente Kosten
+
+[speed-process]
+
+- icon-19
+  url: [https://media.ffycdn.net/eu/scout24/eyJwYXRoIjoic2NvdXQyNFwvYWNjb3VudHNcLzFjXC80MDAwMjM0XC9wcm9qZWN0c1wvMTAwXC9hc3NldHNcL2Y0XC8zODU5MlwvMDJiOWJjNWY3YzcyYTY3ZjRjMDBjNTU1ZTc0NmMzODUtMTYzNjM3NTcyNy5zdmcifQ\:scout24\:KPt4zgI1dFi6S\_KG-tFCqtVBkB75awaxkzaanWBrVro](https://media.ffycdn.net/eu/scout24/eyJwYXRoIjoic2NvdXQyNFwvYWNjb3VudHNcLzFjXC80MDAwMjM0XC9wcm9qZWN0c1wvMTAwXC9hc3NldHNcL2Y0XC8zODU5MlwvMDJiOWJjNWY3YzcyYTY3ZjRjMDBjNTU1ZTc0NmMzODUtMTYzNjM3NTcyNy5zdmcifQ\:scout24\:KPt4zgI1dFi6S_KG-tFCqtVBkB75awaxkzaanWBrVro)
+  meaning: Schneller Ablauf
+
+- icon-20
+  url: [https://media.ffycdn.net/eu/scout24/eyJwYXRoIjoic2NvdXQyNFwvYWNjb3VudHNcLzFjXC80MDAwMjM0XC9wcm9qZWN0c1wvMTAwXC9hc3NldHNcLzAxXC8zNTc5N1wvZTRhM2NhODQ4ZTliOWM3MDkzOTU2YzE3ODZmNTI5ZWEtMTYyODc3ODExNi5zdmcifQ\:scout24\:VJ5tlv6CQKS0uL-FG0pPyNBm2IUljUnJaCch5qaQ-Bs](https://media.ffycdn.net/eu/scout24/eyJwYXRoIjoic2NvdXQyNFwvYWNjb3VudHNcLzFjXC80MDAwMjM0XC9wcm9qZWN0c1wvMTAwXC9hc3NldHNcLzAxXC8zNTc5N1wvZTRhM2NhODQ4ZTliOWM3MDkzOTU2YzE3ODZmNTI5ZWEtMTYyODc3ODExNi5zdmcifQ\:scout24\:VJ5tlv6CQKS0uL-FG0pPyNBm2IUljUnJaCch5qaQ-Bs)
+  meaning: Strukturierter Prozess
+
+- icon-21
+  url: [https://media.ffycdn.net/eu/scout24/eyJwYXRoIjoic2NvdXQyNFwvYWNjb3VudHNcLzFjXC80MDAwMjM0XC9wcm9qZWN0c1wvMTAwXC9hc3NldHNcLzQ0XC8zMzM3OFwvYWJlZGU0NTVlZTQ1YzE2NjdlNTlmMGM4ZTdhYTUxZmYtMTYxNDk0MzcwMi5zdmcifQ\:scout24\:y3xGojq0c94CMJ5ZjfNSIhOIhJop5u0cTQU9ANv-aB4](https://media.ffycdn.net/eu/scout24/eyJwYXRoIjoic2NvdXQyNFwvYWNjb3VudHNcLzFjXC80MDAwMjM0XC9wcm9qZWN0c1wvMTAwXC9hc3NldHNcLzQ0XC8zMzM3OFwvYWJlZGU0NTVlZTQ1YzE2NjdlNTlmMGM4ZTdhYTUxZmYtMTYxNDk0MzcwMi5zdmcifQ\:scout24\:y3xGojq0c94CMJ5ZjfNSIhOIhJop5u0cTQU9ANv-aB4)
+  meaning: Zügiger Abschluss
+
+[performance-success]
+
+- icon-22
+  url: [https://media.ffycdn.net/eu/scout24/eyJwYXRoIjoic2NvdXQyNFwvYWNjb3VudHNcLzFjXC80MDAwMjM0XC9wcm9qZWN0c1wvMTAwXC9hc3NldHNcLzNjXC8zMzMwM1wvNzM0Yjc0ZmQ2YmIwZjRlOGNlZTBiYzczOTVlYzIwY2UtMTYxNDk0MzYyNy5zdmcifQ\:scout24\:H72zMON4A7H-Pc6KR3QUi3lHrS-bNu3aTfYdQwHtHl0](https://media.ffycdn.net/eu/scout24/eyJwYXRoIjoic2NvdXQyNFwvYWNjb3VudHNcLzFjXC80MDAwMjM0XC9wcm9qZWN0c1wvMTAwXC9hc3NldHNcLzNjXC8zMzMwM1wvNzM0Yjc0ZmQ2YmIwZjRlOGNlZTBiYzczOTVlYzIwY2UtMTYxNDk0MzYyNy5zdmcifQ\:scout24\:H72zMON4A7H-Pc6KR3QUi3lHrS-bNu3aTfYdQwHtHl0)
+  meaning: Starke Performance
+
+- icon-23
+  url: [https://media.ffycdn.net/eu/scout24/eyJwYXRoIjoic2NvdXQyNFwvYWNjb3VudHNcLzFjXC80MDAwMjM0XC9wcm9qZWN0c1wvMTAwXC9hc3NldHNcL2NiXC8zMzM2MlwvNjM2OGQyNjcyMTFhYjY0ODdiODg1Y2FjYzA3ZmFiZGMtMTYxNDk0MzYyNy5zdmcifQ\:scout24\:BoKG7ncCML31fd-nCrYuZVCRixKz\_x3Vkqr07eUwmuU](https://media.ffycdn.net/eu/scout24/eyJwYXRoIjoic2NvdXQyNFwvYWNjb3VudHNcLzFjXC80MDAwMjM0XC9wcm9qZWN0c1wvMTAwXC9hc3NldHNcL2NiXC8zMzM2MlwvNjM2OGQyNjcyMTFhYjY0ODdiODg1Y2FjYzA3ZmFiZGMtMTYxNDk0MzYyNy5zdmcifQ\:scout24\:BoKG7ncCML31fd-nCrYuZVCRixKz_x3Vkqr07eUwmuU)
+  meaning: Mehr Sichtbarkeit
+
+- icon-24
+  url: [https://media.ffycdn.net/eu/scout24/eyJwYXRoIjoic2NvdXQyNFwvYWNjb3VudHNcLzFjXC80MDAwMjM0XC9wcm9qZWN0c1wvMTAwXC9hc3NldHNcL2U3XC8zNTc4NFwvZDNkMTg3MDU0YzdlMzE0NzcwODU1NmZmNzE3NDRkZDAtMTYyODc3ODExNi5zdmcifQ\:scout24:9sk6736nsXVx7qBBdNjv7tqc\_NDgWOOFYd5XSrzNO-s](https://media.ffycdn.net/eu/scout24/eyJwYXRoIjoic2NvdXQyNFwvYWNjb3VudHNcLzFjXC80MDAwMjM0XC9wcm9qZWN0c1wvMTAwXC9hc3NldHNcL2U3XC8zNTc4NFwvZDNkMTg3MDU0YzdlMzE0NzcwODU1NmZmNzE3NDRkZDAtMTYyODc3ODExNi5zdmcifQ\:scout24:9sk6736nsXVx7qBBdNjv7tqc_NDgWOOFYd5XSrzNO-s)
+  meaning: Erfolgreiche Vermarktung
+
+[expertise-advice]
+
+- icon-25
+  url: [https://media.ffycdn.net/eu/scout24/eyJwYXRoIjoic2NvdXQyNFwvYWNjb3VudHNcLzFjXC80MDAwMjM0XC9wcm9qZWN0c1wvMTAwXC9hc3NldHNcL2E5XC8zMzM0MlwvZDFiN2VjNTk4YjFhZTIyMjEwMTQzYTQzMWYzNDcyNjMtMTYxNDk0MzYyNy5zdmcifQ\:scout24\:t1X-luoz07-xaz6\_0d5Nd60PI703DfscIvNT4QaTZU8](https://media.ffycdn.net/eu/scout24/eyJwYXRoIjoic2NvdXQyNFwvYWNjb3VudHNcLzFjXC80MDAwMjM0XC9wcm9qZWN0c1wvMTAwXC9hc3NldHNcL2E5XC8zMzM0MlwvZDFiN2VjNTk4YjFhZTIyMjEwMTQzYTQzMWYzNDcyNjMtMTYxNDk0MzYyNy5zdmcifQ\:scout24\:t1X-luoz07-xaz6_0d5Nd60PI703DfscIvNT4QaTZU8)
+  meaning: Fachkundige Beratung
+
+- icon-26
+  url: [https://media.ffycdn.net/eu/scout24/eyJwYXRoIjoic2NvdXQyNFwvYWNjb3VudHNcLzFjXC80MDAwMjM0XC9wcm9qZWN0c1wvMTAwXC9hc3NldHNcLzVlXC8zMzQ1MVwvMzBkZDBhNGE5YTg4MDhkMmQ3ZDQyMzUyODhlNGZmZWUtMTYxNDk0Mzc3My5zdmcifQ\:scout24:9vegNLtda3yYHfAaoNkS35IHhhMrGU9PcC24tmuKIIk](https://media.ffycdn.net/eu/scout24/eyJwYXRoIjoic2NvdXQyNFwvYWNjb3VudHNcLzFjXC80MDAwMjM0XC9wcm9qZWN0c1wvMTAwXC9hc3NldHNcLzVlXC8zMzQ1MVwvMzBkZDBhNGE5YTg4MDhkMmQ3ZDQyMzUyODhlNGZmZWUtMTYxNDk0Mzc3My5zdmcifQ\:scout24:9vegNLtda3yYHfAaoNkS35IHhhMrGU9PcC24tmuKIIk)
+  meaning: Professionelle Unterstützung
+
+[communication-service]
+
+- icon-27
+  url: [https://media.ffycdn.net/eu/scout24/eyJwYXRoIjoic2NvdXQyNFwvYWNjb3VudHNcLzFjXC80MDAwMjM0XC9wcm9qZWN0c1wvMTAwXC9hc3NldHNcLzIyXC8zMzQ2N1wvNTJmOTA2MmU4ZDE0ZTQ5MDc1NDRhNDY1Zjc4YjViMGQtMTYxNDk0Mzc3My5zdmcifQ\:scout24\:NG-cjMlXORvHHjwiCRLFiD\_WDaORXYqzdC9tqSvJDqE](https://media.ffycdn.net/eu/scout24/eyJwYXRoIjoic2NvdXQyNFwvYWNjb3VudHNcLzFjXC80MDAwMjM0XC9wcm9qZWN0c1wvMTAwXC9hc3NldHNcLzIyXC8zMzQ2N1wvNTJmOTA2MmU4ZDE0ZTQ5MDc1NDRhNDY1Zjc4YjViMGQtMTYxNDk0Mzc3My5zdmcifQ\:scout24\:NG-cjMlXORvHHjwiCRLFiD_WDaORXYqzdC9tqSvJDqE)
+  meaning: Kommunikation und Kontakt
+
+- icon-28
+  url: [https://media.ffycdn.net/eu/scout24/eyJwYXRoIjoic2NvdXQyNFwvYWNjb3VudHNcLzFjXC80MDAwMjM0XC9wcm9qZWN0c1wvMTAwXC9hc3NldHNcL2E5XC8zMzM0MlwvZDFiN2VjNTk4YjFhZTIyMjEwMTQzYTQzMWYzNDcyNjMtMTYxNDk0MzYyNy5zdmcifQ\:scout24\:t1X-luoz07-xaz6\_0d5Nd60PI703DfscIvNT4QaTZU8](https://media.ffycdn.net/eu/scout24/eyJwYXRoIjoic2NvdXQyNFwvYWNjb3VudHNcLzFjXC80MDAwMjM0XC9wcm9qZWN0c1wvMTAwXC9hc3NldHNcL2E5XC8zMzM0MlwvZDFiN2VjNTk4YjFhZTIyMjEwMTQzYTQzMWYzNDcyNjMtMTYxNDk0MzYyNy5zdmcifQ\:scout24\:t1X-luoz07-xaz6_0d5Nd60PI703DfscIvNT4QaTZU8)
+  meaning: Persönliche Betreuung
+
+- icon-42
+  url: [https://media.ffycdn.net/eu/scout24/eyJwYXRoIjoic2NvdXQyNFwvYWNjb3VudHNcLzFjXC80MDAwMjM0XC9wcm9qZWN0c1wvMTAwXC9hc3NldHNcL2M3XC8zMzQyNlwvNWE1ZjUwZmY2MWVlZDg5MDA4NDVmMzU5ZjdiMjVmNDEtMTYxNDk0MzcwMi5zdmcifQ\:scout24\:NQx132C5gOGtaHR3SBqP3kcvJOLi-lIfwsBBvOUt1yk](https://media.ffycdn.net/eu/scout24/eyJwYXRoIjoic2NvdXQyNFwvYWNjb3VudHNcLzFjXC80MDAwMjM0XC9wcm9qZWN0c1wvMTAwXC9hc3NldHNcL2M3XC8zMzQyNlwvNWE1ZjUwZmY2MWVlZDg5MDA4NDVmMzU5ZjdiMjVmNDEtMTYxNDk0MzcwMi5zdmcifQ\:scout24\:NQx132C5gOGtaHR3SBqP3kcvJOLi-lIfwsBBvOUt1yk)
+  meaning: E-Mail-Kommunikation
+
+[reach-location]
+
+- icon-29
+  url: [https://media.ffycdn.net/eu/scout24/eyJwYXRoIjoic2NvdXQyNFwvYWNjb3VudHNcLzFjXC80MDAwMjM0XC9wcm9qZWN0c1wvMTAwXC9hc3NldHNcL2E3XC8zNTc3N1wvMmQ4ZTc1YTcyNjZhYjgwZTllOWQ0YjhjNzAxZTRjOWQtMTYyODc3ODA5My5zdmcifQ\:scout24:6BEUFthlOlAVKvvXq3qrtg2WF8xWvOAatYC4qdZ8Nyw](https://media.ffycdn.net/eu/scout24/eyJwYXRoIjoic2NvdXQyNFwvYWNjb3VudHNcLzFjXC80MDAwMjM0XC9wcm9qZWN0c1wvMTAwXC9hc3NldHNcL2E3XC8zNTc3N1wvMmQ4ZTc1YTcyNjZhYjgwZTllOWQ0YjhjNzAxZTRjOWQtMTYyODc3ODA5My5zdmcifQ\:scout24:6BEUFthlOlAVKvvXq3qrtg2WF8xWvOAatYC4qdZ8Nyw)
+  meaning: Immobilie und Lage
+
+- icon-30
+  url: [https://media.ffycdn.net/eu/scout24/eyJwYXRoIjoic2NvdXQyNFwvYWNjb3VudHNcLzFjXC80MDAwMjM0XC9wcm9qZWN0c1wvMTAwXC9hc3NldHNcLzBjXC8zODU3OFwvYzNmYzAxNGQyMmE5NmY5MDI5NmI5MTQyMjBlNjRhYWQtMTYzNjM3NTcyNy5zdmcifQ\:scout24\:yzybtj2QeQkTRG689-VWR5jYu3E29AnfoLlSsVHQmVg](https://media.ffycdn.net/eu/scout24/eyJwYXRoIjoic2NvdXQyNFwvYWNjb3VudHNcLzFjXC80MDAwMjM0XC9wcm9qZWN0c1wvMTAwXC9hc3NldHNcLzBjXC8zODU3OFwvYzNmYzAxNGQyMmE5NmY5MDI5NmI5MTQyMjBlNjRhYWQtMTYzNjM3NTcyNy5zdmcifQ\:scout24\:yzybtj2QeQkTRG689-VWR5jYu3E29AnfoLlSsVHQmVg)
+  meaning: Reichweite und Zielgruppen
+
+[home-property]
+
+- icon-41
+  url: [https://media.ffycdn.net/eu/scout24/eyJwYXRoIjoic2NvdXQyNFwvYWNjb3VudHNcLzFjXC80MDAwMjM0XC9wcm9qZWN0c1wvMTAwXC9hc3NldHNcLzJmXC8zODU1NFwvZDZjYTkxMjE1MzIxYjg5MDY2OWUwMzFkOTQ3YmU1ZTctMTYzNjM3NTcyNy5zdmcifQ\:scout24\:q5GASTIk5sTmmjnjo2AXMT7K1VW8uBdBEUHbDl\_ubFs](https://media.ffycdn.net/eu/scout24/eyJwYXRoIjoic2NvdXQyNFwvYWNjb3VudHNcLzFjXC80MDAwMjM0XC9wcm9qZWN0c1wvMTAwXC9hc3NldHNcLzJmXC8zODU1NFwvZDZjYTkxMjE1MzIxYjg5MDY2OWUwMzFkOTQ3YmU1ZTctMTYzNjM3NTcyNy5zdmcifQ\:scout24\:q5GASTIk5sTmmjnjo2AXMT7K1VW8uBdBEUHbDl_ubFs)
+  meaning: Immobilie und Zuhause
+
+[target-group]
+
+- icon-43
+  url: [https://media.ffycdn.net/eu/scout24/eyJwYXRoIjoic2NvdXQyNFwvYWNjb3VudHNcLzFjXC80MDAwMjM0XC9wcm9qZWN0c1wvMTAwXC9hc3NldHNcLzdkXC8zMzQxMlwvMmE0YWY2M2YzMTU0ZjFjOTJiMWJjZGVjM2M1ZDkyYzItMTYxNDk0MzcwMi5zdmcifQ\:scout24\:VTaz3JqHNJxJZak2aaodaSKwm3wKcwj73Bsi0qX55zk](https://media.ffycdn.net/eu/scout24/eyJwYXRoIjoic2NvdXQyNFwvYWNjb3VudHNcLzFjXC80MDAwMjM0XC9wcm9qZWN0c1wvMTAwXC9hc3NldHNcLzdkXC8zMzQxMlwvMmE0YWY2M2YzMTU0ZjFjOTJiMWJjZGVjM2M1ZDkyYzItMTYxNDk0MzcwMi5zdmcifQ\:scout24\:VTaz3JqHNJxJZak2aaodaSKwm3wKcwj73Bsi0qX55zk)
+  meaning: Zielgruppen und Nutzer\:innen
+
+[documents-contract]
+
+- icon-31
+  url: [https://media.ffycdn.net/eu/scout24/eyJwYXRoIjoic2NvdXQyNFwvYWNjb3VudHNcLzFjXC80MDAwMjM0XC9wcm9qZWN0c1wvMTAwXC9hc3NldHNcL2I4XC80MDc0N1wvMzg4ZTVhMTI4YzYzY2FiMTU2ODRkM2NiYjM2MGQ1Y2YtMTY0ODc0MDI4OC5zdmcifQ\:scout24\:qSjxW6oIO3qewKXVEa3FNEJf2Jx4lxwVOYr3bLWMzCM](https://media.ffycdn.net/eu/scout24/eyJwYXRoIjoic2NvdXQyNFwvYWNjb3VudHNcLzFjXC80MDAwMjM0XC9wcm9qZWN0c1wvMTAwXC9hc3NldHNcL2I4XC80MDc0N1wvMzg4ZTVhMTI4YzYzY2FiMTU2ODRkM2NiYjM2MGQ1Y2YtMTY0ODc0MDI4OC5zdmcifQ\:scout24\:qSjxW6oIO3qewKXVEa3FNEJf2Jx4lxwVOYr3bLWMzCM)
+  meaning: Unterlagen und Dokumente
+
+- icon-32
+  url: [https://media.ffycdn.net/eu/scout24/eyJwYXRoIjoic2NvdXQyNFwvYWNjb3VudHNcLzFjXC80MDAwMjM0XC9wcm9qZWN0c1wvMTAwXC9hc3NldHNcLzg1XC8zODU2NlwvMzBhOWYzODJkMWQzYjJlOWY3NzMzMjdhZDg4YTMwYmUtMTYzNjM3NTcyNy5zdmcifQ\:scout24\:BYVjS4VcIlES63xENIKFtK8\_x1kls\_zEf31-GKNzFeg](https://media.ffycdn.net/eu/scout24/eyJwYXRoIjoic2NvdXQyNFwvYWNjb3VudHNcLzFjXC80MDAwMjM0XC9wcm9qZWN0c1wvMTAwXC9hc3NldHNcLzg1XC8zODU2NlwvMzBhOWYzODJkMWQzYjJlOWY3NzMzMjdhZDg4YTMwYmUtMTYzNjM3NTcyNy5zdmcifQ\:scout24\:BYVjS4VcIlES63xENIKFtK8_x1kls_zEf31-GKNzFeg)
+  meaning: Vertrag und Vereinbarungen
+
+- icon-33
+  url: [https://media.ffycdn.net/eu/scout24/eyJwYXRoIjoic2NvdXQyNFwvYWNjb3VudHNcLzFjXC80MDAwMjM0XC9wcm9qZWN0c1wvMTAwXC9hc3NldHNcLzQ4XC8zMzQ5MFwvYjkwMDM0M2ZhYzVhODRjODQ0ZTcwMDkzYzhjODdiMTctMTYxNDk0Mzc3My5zdmcifQ\:scout24\:QzkPsJu4wHiUSb2ics0qd8b7M1-l52lU3w0l5h13kZo](https://media.ffycdn.net/eu/scout24/eyJwYXRoIjoic2NvdXQyNFwvYWNjb3VudHNcLzFjXC80MDAwMjM0XC9wcm9qZWN0c1wvMTAwXC9hc3NldHNcLzQ4XC8zMzQ5MFwvYjkwMDM0M2ZhYzVhODRjODQ0ZTcwMDkzYzhjODdiMTctMTYxNDk0Mzc3My5zdmcifQ\:scout24\:QzkPsJu4wHiUSb2ics0qd8b7M1-l52lU3w0l5h13kZo)
+  meaning: Dokumente und Formulare
+
+[calendar-time]
+
+- icon-34
+  url: [https://media.ffycdn.net/eu/scout24/eyJwYXRoIjoic2NvdXQyNFwvYWNjb3VudHNcLzFjXC80MDAwMjM0XC9wcm9qZWN0c1wvMTAwXC9hc3NldHNcLzQ0XC8zMzM3OFwvYWJlZGU0NTVlZTQ1YzE2NjdlNTlmMGM4ZTdhYTUxZmYtMTYxNDk0MzcwMi5zdmcifQ\:scout24\:y3xGojq0c94CMJ5ZjfNSIhOIhJop5u0cTQU9ANv-aB4](https://media.ffycdn.net/eu/scout24/eyJwYXRoIjoic2NvdXQyNFwvYWNjb3VudHNcLzFjXC80MDAwMjM0XC9wcm9qZWN0c1wvMTAwXC9hc3NldHNcLzQ0XC8zMzM3OFwvYWJlZGU0NTVlZTQ1YzE2NjdlNTlmMGM4ZTdhYTUxZmYtMTYxNDk0MzcwMi5zdmcifQ\:scout24\:y3xGojq0c94CMJ5ZjfNSIhOIhJop5u0cTQU9ANv-aB4)
+  meaning: Termin und Planung
+
+- icon-35
+  url: [https://media.ffycdn.net/eu/scout24/eyJwYXRoIjoic2NvdXQyNFwvYWNjb3VudHNcLzFjXC80MDAwMjM0XC9wcm9qZWN0c1wvMTAwXC9hc3NldHNcL2Y0XC8zODU5MlwvMDJiOWJjNWY3YzcyYTY3ZjRjMDBjNTU1ZTc0NmMzODUtMTYzNjM3NTcyNy5zdmcifQ\:scout24\:KPt4zgI1dFi6S\_KG-tFCqtVBkB75awaxkzaanWBrVro](https://media.ffycdn.net/eu/scout24/eyJwYXRoIjoic2NvdXQyNFwvYWNjb3VudHNcLzFjXC80MDAwMjM0XC9wcm9qZWN0c1wvMTAwXC9hc3NldHNcL2Y0XC8zODU5MlwvMDJiOWJjNWY3YzcyYTY3ZjRjMDBjNTU1ZTc0NmMzODUtMTYzNjM3NTcyNy5zdmcifQ\:scout24\:KPt4zgI1dFi6S_KG-tFCqtVBkB75awaxkzaanWBrVro)
+  meaning: Schnelle Terminprozesse
+
+[support-clarity]
+
+- icon-36
+  url: [https://media.ffycdn.net/eu/scout24/eyJwYXRoIjoic2NvdXQyNFwvYWNjb3VudHNcLzFjXC80MDAwMjM0XC9wcm9qZWN0c1wvMTAwXC9hc3NldHNcLzM4XC8zMzQxNlwvOTNkZGIxNDdkMmIwZWUwMDIwYTEzNmM3YmFiY2E2YWMtMTYxNDk0MzcwMi5zdmcifQ\:scout24:1fFJ2ailNhVbdOwkL\_W\_spm4KKocEBROC2rYfs-YOLI](https://media.ffycdn.net/eu/scout24/eyJwYXRoIjoic2NvdXQyNFwvYWNjb3VudHNcLzFjXC80MDAwMjM0XC9wcm9qZWN0c1wvMTAwXC9hc3NldHNcLzM4XC8zMzQxNlwvOTNkZGIxNDdkMmIwZWUwMDIwYTEzNmM3YmFiY2E2YWMtMTYxNDk0MzcwMi5zdmcifQ\:scout24:1fFJ2ailNhVbdOwkL_W_spm4KKocEBROC2rYfs-YOLI)
+  meaning: Hilfe und Unterstützung
+
+[digital-comfort]
+
+- icon-40
+  url: [https://media.ffycdn.net/eu/scout24/eyJwYXRoIjoic2NvdXQyNFwvYWNjb3VudHNcLzFjXC80MDAwMjM0XC9wcm9qZWN0c1wvMTAwXC9hc3NldHNcL2JlXC8zODU3N1wvMzdlYTAxMDllYzdkNDFkZmE0ZmQ2MTA4NTc2ZGU2NzUtMTYzNjM3NTcyNy5zdmcifQ\:scout24\:cIr9yW0W8UBtYRrSC-QkbTPYjg3dcj4sBsR4ZdNCV6M](https://media.ffycdn.net/eu/scout24/eyJwYXRoIjoic2NvdXQyNFwvYWNjb3VudHNcLzFjXC80MDAwMjM0XC9wcm9qZWN0c1wvMTAwXC9hc3NldHNcL2JlXC8zODU3N1wvMzdlYTAxMDllYzdkNDFkZmE0ZmQ2MTA4NTc2ZGU2NzUtMTYzNjM3NTcyNy5zdmcifQ\:scout24\:cIr9yW0W8UBtYRrSC-QkbTPYjg3dcj4sBsR4ZdNCV6M)
+  meaning: Digitale und komfortable Abwicklung
+

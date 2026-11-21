@@ -1,0 +1,19 @@
+/* Local host simulation only. Contentful supplies its own foundations and frame. */
+@font-face { font-family: 'Make It Better'; font-style: normal; font-weight: 400; font-display: swap; src: url('../../assets/scaling-editorial/ux/fonts/MakeItBetter-Regular.woff2') format('woff2'); }
+@font-face { font-family: 'Make It Better'; font-style: normal; font-weight: 700; font-display: swap; src: url('../../assets/scaling-editorial/ux/fonts/MakeItBetter-Bold.woff2') format('woff2'); }
+@font-face { font-family: 'Make It Better'; font-style: normal; font-weight: 800; font-display: swap; src: url('../../assets/scaling-editorial/ux/fonts/MakeItBetter-XBold.woff2') format('woff2'); }
+:root { --color-text-default: #333333; --color-text-weak: #6a6a69; --color-background-brand: #3df5dc; --color-background-weak: #fbf8f6; --color-border-default: #d9d9d9; --color-border-focused: #333333; --font-family-standard: 'Make It Better', Arial, sans-serif; }
+*, *::before, *::after { box-sizing: border-box; }
+body { margin: 0; font-family: var(--font-family-standard); color: #333333; line-height: 1.5714; -webkit-font-smoothing: antialiased; }
+.preview-content { margin: 0 auto; max-width: 1200px; padding-inline: 16px; width: 100%; }
+p { margin: 0 0 16px; }
+h1, h2, h3 { font-weight: 700; }
+.font-heading-large-bold { font-size: 34px; line-height: 44px; }
+.font-heading-medium-bold { font-size: 26px; line-height: 36px; }
+.font-heading-small-bold { font-size: 20px; line-height: 30px; }
+.font-body-large-regular { font-size: 16px; line-height: 26px; }
+.font-body-medium-regular { font-size: 14px; line-height: 22px; }
+.font-body-small-regular, .font-body-small-bold { font-size: 12px; line-height: 18px; }
+.font-body-small-bold { font-weight: 700; }
+@media (min-width: 669px) { .preview-content { padding-inline: 24px; } }
+@media (min-width: 1014px) { .preview-content { padding-inline: 32px; } }

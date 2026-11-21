@@ -1,0 +1,110 @@
+:root {
+  --color-background-brand: #3df5dc;
+  --color-background-default: #fff;
+  --color-background-weak: #f2f2f2;
+  --color-border-default: #d9d9d9;
+  --color-border-focused: #3df5dc;
+  --color-text-default: #333;
+  --color-text-inversive: #fff;
+  --color-text-weak: #6a6a69;
+  --gray-1000: #333;
+}
+
+* { box-sizing: border-box; }
+html { background: var(--color-background-default); color: var(--color-text-default); }
+body { font-family: Arial, Helvetica, sans-serif; margin: 0; }
+a { color: inherit; }
+img { display: block; max-width: 100%; }
+.font-heading-large-bold { font-size: clamp(2rem, 4vw, 2.625rem); font-weight: 700; line-height: 1.2; }
+.font-heading-medium-bold { font-size: 1.625rem; font-weight: 700; line-height: 1.3; }
+.font-heading-small-bold { font-size: 1.25rem; font-weight: 700; line-height: 1.35; }
+.font-body-large-regular { font-size: 1rem; line-height: 1.625; }
+.font-body-medium-regular { font-size: .875rem; line-height: 1.55; }
+.font-body-small-bold { font-size: .75rem; font-weight: 700; line-height: 1.5; }
+.lpb-surface--weak { background: var(--color-background-weak); }
+
+.prototype-notice {
+  align-items: center;
+  background: #fff4ce;
+  border-bottom: 1px solid #e0c96f;
+  display: flex;
+  font-size: .8125rem;
+  gap: 12px;
+  justify-content: center;
+  line-height: 1.45;
+  padding: 10px 16px;
+  text-align: center;
+}
+.prototype-notice strong { white-space: nowrap; }
+.prototype-main { overflow-x: clip; width: 100%; }
+.prototype-host-content { margin: 0 auto; max-width: 1200px; padding-inline: 16px; width: 100%; }
+.portal-page-heading { margin: 56px 0 40px; max-width: 760px; }
+.portal-page-heading h1 { margin: 0 0 12px; }
+.portal-page-heading > p:last-child { color: var(--color-text-weak); margin: 0; }
+.portal-prototype-kicker { color: var(--color-text-weak); font-size: .75rem; font-weight: 700; letter-spacing: .04em; margin: 0 0 10px; text-transform: uppercase; }
+
+.portal-layout { align-items: start; display: grid; gap: 56px; grid-template-columns: minmax(0, 1fr) 320px; padding-bottom: 80px; }
+.portal-feed { min-width: 0; }
+.portal-teaser { border-top: 1px solid var(--color-border-default); padding: 32px 0; }
+.portal-teaser:first-child { border-top: 0; padding-top: 0; }
+.portal-teaser__link { display: grid; gap: 28px; grid-template-columns: minmax(240px, 42%) minmax(0, 1fr); text-decoration: none; }
+.portal-teaser__link:hover h2, .portal-teaser__link:focus-visible h2 { text-decoration: underline; text-decoration-thickness: 2px; text-underline-offset: 3px; }
+.portal-teaser__link:focus-visible { outline: 3px solid var(--color-border-focused); outline-offset: 5px; }
+.portal-teaser__media { aspect-ratio: 16 / 9; background: var(--color-background-weak); border-radius: 12px; margin: 0; overflow: hidden; }
+.portal-teaser__media img { height: 100%; object-fit: cover; width: 100%; }
+.portal-teaser__content { align-self: center; min-width: 0; }
+.portal-teaser__content h2 { margin: 10px 0; }
+.portal-teaser__content > p:not(.portal-eyebrow) { color: var(--color-text-weak); margin: 0 0 16px; }
+.portal-eyebrow { align-items: center; color: var(--color-text-weak); display: flex; flex-wrap: wrap; font-size: .75rem; font-weight: 700; gap: 8px; margin: 0; }
+.portal-demo-label { background: var(--color-background-brand); border-radius: 999px; color: var(--color-text-default); display: inline-block; padding: 3px 8px; }
+.portal-teaser__cta { font-weight: 700; }
+.portal-teaser__cta span { display: inline-block; transition: transform .15s ease; }
+.portal-teaser__link:hover .portal-teaser__cta span { transform: translateX(4px); }
+
+.portal-sidebar { align-self: start; border-top: 4px solid var(--color-background-brand); position: sticky; top: 24px; }
+.portal-sidebar h2 { margin: 16px 0 4px; }
+.portal-sidebar ul { list-style: none; margin: 0; padding: 0; }
+.portal-sidebar li + li { border-top: 1px solid var(--color-border-default); }
+.portal-sidebar__link { align-items: start; display: grid; gap: 14px; grid-template-columns: 96px minmax(0, 1fr); padding: 18px 0; text-decoration: none; }
+.portal-sidebar__link:hover, .portal-sidebar__link:focus-visible { text-decoration: underline; text-underline-offset: 2px; }
+.portal-sidebar__link:focus-visible { outline: 3px solid var(--color-border-focused); outline-offset: 3px; }
+.portal-sidebar__link img { aspect-ratio: 16 / 9; border-radius: 6px; height: auto; object-fit: cover; width: 96px; }
+.portal-sidebar__link span { font-size: .875rem; font-weight: 700; line-height: 1.35; min-width: 0; }
+.portal-sidebar__link small { color: var(--color-text-weak); display: block; font-size: .6875rem; font-weight: 400; margin-bottom: 5px; }
+
+.portal-detail-back { margin: 40px 0 32px; }
+.portal-detail-back a { font-size: .875rem; font-weight: 700; text-underline-offset: 3px; }
+.portal-layout--detail { grid-template-columns: minmax(0, 1fr) 320px; }
+.portal-layout--detail .lpb-editorial-article { min-width: 0; }
+.portal-layout--detail .lpb-editorial-article__header,
+.portal-layout--detail .lpb-editorial-article__body { max-width: 720px; }
+.portal-layout--detail .portal-prototype-kicker { display: block; }
+
+@media (min-width: 669px) {
+  .prototype-host-content { padding-inline: 24px; }
+}
+
+@media (min-width: 1014px) {
+  .prototype-host-content { padding-inline: 32px; }
+}
+
+@media (max-width: 899px) {
+  .portal-layout, .portal-layout--detail { gap: 56px; grid-template-columns: minmax(0, 1fr); }
+  .portal-sidebar { position: static; }
+}
+
+@media (max-width: 668px) {
+  .prototype-notice { align-items: flex-start; flex-direction: column; gap: 2px; text-align: left; }
+  .portal-page-heading { margin: 40px 0 32px; }
+  .portal-layout { padding-bottom: 56px; }
+  .portal-teaser { padding: 28px 0; }
+  .portal-teaser__link { gap: 18px; grid-template-columns: minmax(0, 1fr); }
+  .portal-teaser__content { align-self: auto; }
+  .portal-detail-back { margin: 28px 0; }
+  .portal-sidebar__link { grid-template-columns: 88px minmax(0, 1fr); }
+  .portal-sidebar__link img { width: 88px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .portal-teaser__cta span { transition: none; }
+}

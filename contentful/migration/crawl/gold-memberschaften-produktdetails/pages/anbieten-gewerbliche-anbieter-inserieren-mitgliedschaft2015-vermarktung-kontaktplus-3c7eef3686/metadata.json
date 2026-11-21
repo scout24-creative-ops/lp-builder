@@ -1,0 +1,31 @@
+{
+  "page_id": "anbieten-gewerbliche-anbieter-inserieren-mitgliedschaft2015-vermarktung-kontaktplus-3c7eef3686",
+  "product_name": "Konfigurieren Sie schnell und einfach individuelle Kontaktformulare.\nKontaktPlus",
+  "source_category": [
+    "Produktbestandteile"
+  ],
+  "source_tile_text": [
+    "Konfigurieren Sie schnell und einfach individuelle Kontaktformulare.\nKontaktPlus"
+  ],
+  "source_url": "https://www.immobilienscout24.de/anbieten/gewerbliche-anbieter/inserieren/mitgliedschaft2015/vermarktung/kontaktplus.html",
+  "final_url": "https://www.immobilienscout24.de/anbieten/gewerbliche-anbieter/inserieren/mitgliedschaft2015/vermarktung/kontaktplus.html",
+  "http_status": 200,
+  "title": "KontaktPlus: Vorqualifizierte Kontaktanfragen für Immobilienmakler",
+  "meta_description": "Definieren Sie, welche Informationen Sie über Ihre:n Interessent:in erfahren wollen und erhalten damit schon vorqualifizierte Kontaktanfragen. So finden Sie schnell und effizient den:die passende:n Kandidat:in.",
+  "canonical": "https://www.immobilienscout24.de/anbieten/gewerbliche-anbieter/inserieren/mitgliedschaft2015/vermarktung/kontaktplus.html",
+  "h1": "Produktbestandteil",
+  "redirect_chain": [
+
+  ],
+  "migration_classification": "CUSTOM",
+  "migration_notes": "Interactive or product-specific components detected; exact rebuild/review likely.",
+  "browser_capture": {
+    "rendered": true,
+    "screenshot": true,
+    "browser_status": 0,
+    "browser_log": "ailed. CVReturn: -6670\n[72840:1015815:0914/205644.622293:ERROR:ui/display/mac/cv_display_link_mac.mm:195] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670\n[72840:1015815:0914/205644.731054:ERROR:ui/display/mac/cv_display_link_mac.mm:195] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670\n[72840:1015815:0914/205644.761744:ERROR:ui/display/mac/cv_display_link_mac.mm:195] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670\n[72840:1015815:0914/205644.804567:ERROR:ui/display/mac/cv_display_link_mac.mm:195] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670\n[72840:1015815:0914/205644.838635:ERROR:ui/display/mac/cv_display_link_mac.mm:195] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670\n[72840:1015815:0914/205644.885098:ERROR:ui/display/mac/cv_display_link_mac.mm:195] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670\n[72834:1015735:0914/205644.887659:ERROR:google_apis/gcm/engine/registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT\n[72840:1015815:0914/205644.919810:ERROR:ui/display/mac/cv_display_link_mac.mm:195] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670\nCreated TensorFlow Lite XNNPACK delegate for CPU.\n[72834:1015668:0914/205712.641760:ERROR:chrome/browser/ui/webui/ntp/new_tab_ui.cc:54] Requested load of chrome://newtab/ for incorrect profile type.\n[72834:1015668:0914/205712.642677:ERROR:chrome/browser/ui/webui/ntp/new_tab_ui.cc:54] Requested load of chrome://newtab/ for incorrect profile type.\n",
+    "screenshot_status": 0,
+    "screenshot_log": "ERROR:base/mac/process_requirement.cc:159] Unable to derive validation category for current process. Signature validation of current process failed: Error Domain=NSOSStatusErrorDomain Code=-67065 \"(null)\" (-67065)\n[46643:5754905:0914/205718.715620:ERROR:base/mac/process_requirement.cc:542] ProcessIsSignedAndFulfillsRequirement: Error Domain=NSOSStatusErrorDomain Code=-67065 \"(null)\" (-67065)\n[46643:5754909:0914/205718.731418:ERROR:google_apis/gcm/engine/registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT\n158443 bytes written to file /Users/dboehme/Projects/LP/LP Builder – Contentful/migration/crawl/gold-memberschaften-produktdetails/pages/anbieten-gewerbliche-anbieter-inserieren-mitgliedschaft2015-vermarktung-kontaktplus-3c7eef3686/screenshot-fullpage.png\n"
+  },
+  "crawl_time": "2026-09-14T18:57:24Z"
+}

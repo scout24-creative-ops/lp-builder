@@ -1,0 +1,3889 @@
+[
+  {
+    "url": "https://box-is24-cms-frontend.s24-fep.eu-west-1.infinity.s24cloud.net/dev-scaling-editorial-ux-home-test-20261106/",
+    "viewport": 1280,
+    "scrollWidth": 1280,
+    "content": {
+      "x": 72,
+      "y": 150,
+      "width": 1136,
+      "height": 2405.484375,
+      "right": 1208,
+      "bottom": 2555.484375
+    },
+    "gridColumns": [
+      4,
+      4
+    ],
+    "main": null,
+    "sidebar": null,
+    "categories": [
+      {
+        "text": "Immobilienmarkt",
+        "href": "https://box-is24-cms-frontend.s24-fep.eu-west-1.infinity.s24cloud.net/dev-scaling-editorial-ux-category-test-20261106"
+      },
+      {
+        "text": "Mieten",
+        "href": "https://box-is24-cms-frontend.s24-fep.eu-west-1.infinity.s24cloud.net/dev-scaling-editorial-mieten-mvp"
+      },
+      {
+        "text": "Kaufen & Verkaufen",
+        "href": "https://box-is24-cms-frontend.s24-fep.eu-west-1.infinity.s24cloud.net/dev-scaling-editorial-kaufen-verkaufen-mvp"
+      },
+      {
+        "text": "Finanzen",
+        "href": "https://box-is24-cms-frontend.s24-fep.eu-west-1.infinity.s24cloud.net/dev-scaling-editorial-finanzen-mvp"
+      },
+      {
+        "text": "Recht & Politik",
+        "href": "https://box-is24-cms-frontend.s24-fep.eu-west-1.infinity.s24cloud.net/dev-scaling-editorial-wohnrecht-mvp"
+      },
+      {
+        "text": "Wohnen & Architektur",
+        "href": "https://box-is24-cms-frontend.s24-fep.eu-west-1.infinity.s24cloud.net/dev-scaling-editorial-wohnen-architektur-mvp"
+      },
+      {
+        "text": "Lifestyle",
+        "href": "https://box-is24-cms-frontend.s24-fep.eu-west-1.infinity.s24cloud.net/dev-scaling-editorial-lifestyle-mvp"
+      }
+    ],
+    "navScrollable": false,
+    "longHeadlinePassed": true,
+    "focusPassed": true,
+    "disabledButtons": 1,
+    "headings": [
+      {
+        "level": "H1",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt",
+        "fontSize": "34px",
+        "lineHeight": "41.82px",
+        "box": {
+          "x": 72,
+          "y": 490.578125,
+          "width": 689.328125,
+          "height": 125.4375,
+          "right": 761.328125,
+          "bottom": 616.015625
+        }
+      },
+      {
+        "level": "H3",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "fontSize": "14px",
+        "lineHeight": "19.6px",
+        "box": {
+          "x": 929.328125,
+          "y": 171,
+          "width": 278.671875,
+          "height": 39.1875,
+          "right": 1208,
+          "bottom": 210.1875
+        }
+      },
+      {
+        "level": "H3",
+        "text": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+        "fontSize": "14px",
+        "lineHeight": "19.6px",
+        "box": {
+          "x": 929.328125,
+          "y": 279.1875,
+          "width": 278.671875,
+          "height": 39.1875,
+          "right": 1208,
+          "bottom": 318.375
+        }
+      },
+      {
+        "level": "H3",
+        "text": "Ut enim ad minim veniam",
+        "fontSize": "14px",
+        "lineHeight": "19.6px",
+        "box": {
+          "x": 929.328125,
+          "y": 387.375,
+          "width": 278.671875,
+          "height": 19.59375,
+          "right": 1208,
+          "bottom": 406.96875
+        }
+      },
+      {
+        "level": "H2",
+        "text": "Im Trend",
+        "fontSize": "24px",
+        "lineHeight": "33.6px",
+        "box": {
+          "x": 72,
+          "y": 769.3125,
+          "width": 1136,
+          "height": 33.59375,
+          "right": 1208,
+          "bottom": 802.90625
+        }
+      },
+      {
+        "level": "H3",
+        "text": "Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
+        "fontSize": "15px",
+        "lineHeight": "20px",
+        "box": {
+          "x": 72,
+          "y": 1000.90625,
+          "width": 272,
+          "height": 60,
+          "right": 344,
+          "bottom": 1060.90625
+        }
+      },
+      {
+        "level": "H3",
+        "text": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore",
+        "fontSize": "15px",
+        "lineHeight": "20px",
+        "box": {
+          "x": 360,
+          "y": 1000.90625,
+          "width": 272,
+          "height": 40,
+          "right": 632,
+          "bottom": 1040.90625
+        }
+      },
+      {
+        "level": "H3",
+        "text": "Excepteur sint occaecat cupidatat non proident",
+        "fontSize": "15px",
+        "lineHeight": "20px",
+        "box": {
+          "x": 648,
+          "y": 1000.90625,
+          "width": 272,
+          "height": 40,
+          "right": 920,
+          "bottom": 1040.90625
+        }
+      },
+      {
+        "level": "H3",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "fontSize": "15px",
+        "lineHeight": "20px",
+        "box": {
+          "x": 936,
+          "y": 1000.90625,
+          "width": 272,
+          "height": 40,
+          "right": 1208,
+          "bottom": 1040.90625
+        }
+      },
+      {
+        "level": "H2",
+        "text": "Immobilienmarkt aktuell",
+        "fontSize": "24px",
+        "lineHeight": "33.6px",
+        "box": {
+          "x": 72,
+          "y": 1100.90625,
+          "width": 1136,
+          "height": 33.59375,
+          "right": 1208,
+          "bottom": 1134.5
+        }
+      },
+      {
+        "level": "H3",
+        "text": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+        "fontSize": "15px",
+        "lineHeight": "20px",
+        "box": {
+          "x": 72,
+          "y": 1332.5,
+          "width": 272,
+          "height": 40,
+          "right": 344,
+          "bottom": 1372.5
+        }
+      },
+      {
+        "level": "H3",
+        "text": "Ut enim ad minim veniam",
+        "fontSize": "15px",
+        "lineHeight": "20px",
+        "box": {
+          "x": 360,
+          "y": 1332.5,
+          "width": 272,
+          "height": 20,
+          "right": 632,
+          "bottom": 1352.5
+        }
+      },
+      {
+        "level": "H3",
+        "text": "Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
+        "fontSize": "15px",
+        "lineHeight": "20px",
+        "box": {
+          "x": 648,
+          "y": 1332.5,
+          "width": 272,
+          "height": 60,
+          "right": 920,
+          "bottom": 1392.5
+        }
+      },
+      {
+        "level": "H3",
+        "text": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore",
+        "fontSize": "15px",
+        "lineHeight": "20px",
+        "box": {
+          "x": 936,
+          "y": 1332.5,
+          "width": 272,
+          "height": 40,
+          "right": 1208,
+          "bottom": 1372.5
+        }
+      },
+      {
+        "level": "H2",
+        "text": "Excepteur sint occaecat cupidatat non proident",
+        "fontSize": "14px",
+        "lineHeight": "21px",
+        "box": {
+          "x": 90,
+          "y": 1482.5,
+          "width": 1100,
+          "height": 21,
+          "right": 1190,
+          "bottom": 1503.5
+        }
+      },
+      {
+        "level": "H2",
+        "text": "Die meistgesehenen Immobilien diese Woche",
+        "fontSize": "24px",
+        "lineHeight": "33.6px",
+        "box": {
+          "x": 72,
+          "y": 1631.5,
+          "width": 1136,
+          "height": 33.59375,
+          "right": 1208,
+          "bottom": 1665.09375
+        }
+      },
+      {
+        "level": "H3",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "fontSize": "12px",
+        "lineHeight": "18px",
+        "box": {
+          "x": 185,
+          "y": 1726.09375,
+          "width": 247.328125,
+          "height": 36,
+          "right": 432.328125,
+          "bottom": 1762.09375
+        }
+      },
+      {
+        "level": "H3",
+        "text": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+        "fontSize": "12px",
+        "lineHeight": "18px",
+        "box": {
+          "x": 568.328125,
+          "y": 1726.09375,
+          "width": 247.328125,
+          "height": 36,
+          "right": 815.65625,
+          "bottom": 1762.09375
+        }
+      },
+      {
+        "level": "H3",
+        "text": "Ut enim ad minim veniam",
+        "fontSize": "12px",
+        "lineHeight": "18px",
+        "box": {
+          "x": 951.65625,
+          "y": 1726.09375,
+          "width": 138.234375,
+          "height": 18,
+          "right": 1089.890625,
+          "bottom": 1744.09375
+        }
+      },
+      {
+        "level": "H2",
+        "text": "Themenwelten",
+        "fontSize": "24px",
+        "lineHeight": "33.6px",
+        "box": {
+          "x": 72,
+          "y": 1849.09375,
+          "width": 1136,
+          "height": 33.59375,
+          "right": 1208,
+          "bottom": 1882.6875
+        }
+      },
+      {
+        "level": "H3",
+        "text": "Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
+        "fontSize": "16px",
+        "lineHeight": "22px",
+        "box": {
+          "x": 86,
+          "y": 1993.484375,
+          "width": 247,
+          "height": 66,
+          "right": 333,
+          "bottom": 2059.484375
+        }
+      },
+      {
+        "level": "H3",
+        "text": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore",
+        "fontSize": "16px",
+        "lineHeight": "22px",
+        "box": {
+          "x": 373,
+          "y": 1993.484375,
+          "width": 247,
+          "height": 66,
+          "right": 620,
+          "bottom": 2059.484375
+        }
+      },
+      {
+        "level": "H3",
+        "text": "Excepteur sint occaecat cupidatat non proident",
+        "fontSize": "16px",
+        "lineHeight": "22px",
+        "box": {
+          "x": 660,
+          "y": 2015.484375,
+          "width": 247,
+          "height": 44,
+          "right": 907,
+          "bottom": 2059.484375
+        }
+      },
+      {
+        "level": "H2",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "fontSize": "20px",
+        "lineHeight": "30px",
+        "box": {
+          "x": 493,
+          "y": 2136.484375,
+          "width": 501.484375,
+          "height": 30,
+          "right": 994.484375,
+          "bottom": 2166.484375
+        }
+      }
+    ],
+    "images": [
+      {
+        "src": "https://www.static-immobilienscout24.de/fro/lpbuilder-contentful-placeholder/_/1920x1080.png",
+        "role": "lpb-editorial-ux-card__image",
+        "rendered": {
+          "x": 72,
+          "y": 150,
+          "width": 689.328125,
+          "height": 301.578125,
+          "right": 761.328125,
+          "bottom": 451.578125
+        },
+        "actualPixels": [
+          1920,
+          1080
+        ],
+        "loaded": true,
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://www.static-immobilienscout24.de/fro/lpbuilder-contentful-placeholder/_/1920x1080.png",
+        "role": "lpb-editorial-ux-compact__image",
+        "rendered": {
+          "x": 793.328125,
+          "y": 150,
+          "width": 120,
+          "height": 80,
+          "right": 913.328125,
+          "bottom": 230
+        },
+        "actualPixels": [
+          1920,
+          1080
+        ],
+        "loaded": true,
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://www.static-immobilienscout24.de/fro/lpbuilder-contentful-placeholder/_/1920x1080.png",
+        "role": "lpb-editorial-ux-compact__image",
+        "rendered": {
+          "x": 793.328125,
+          "y": 258.1875,
+          "width": 120,
+          "height": 80,
+          "right": 913.328125,
+          "bottom": 338.1875
+        },
+        "actualPixels": [
+          1920,
+          1080
+        ],
+        "loaded": true,
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://www.static-immobilienscout24.de/fro/lpbuilder-contentful-placeholder/_/1920x1080.png",
+        "role": "lpb-editorial-ux-compact__image",
+        "rendered": {
+          "x": 793.328125,
+          "y": 366.375,
+          "width": 120,
+          "height": 80,
+          "right": 913.328125,
+          "bottom": 446.375
+        },
+        "actualPixels": [
+          1920,
+          1080
+        ],
+        "loaded": true,
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://www.static-immobilienscout24.de/fro/lpbuilder-contentful-placeholder/_/1920x1080.png",
+        "role": "lpb-editorial-ux-card__image",
+        "rendered": {
+          "x": 72,
+          "y": 818.90625,
+          "width": 272,
+          "height": 153,
+          "right": 344,
+          "bottom": 971.90625
+        },
+        "actualPixels": [
+          1920,
+          1080
+        ],
+        "loaded": true,
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://www.static-immobilienscout24.de/fro/lpbuilder-contentful-placeholder/_/1920x1080.png",
+        "role": "lpb-editorial-ux-card__image",
+        "rendered": {
+          "x": 360,
+          "y": 818.90625,
+          "width": 272,
+          "height": 153,
+          "right": 632,
+          "bottom": 971.90625
+        },
+        "actualPixels": [
+          1920,
+          1080
+        ],
+        "loaded": true,
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://www.static-immobilienscout24.de/fro/lpbuilder-contentful-placeholder/_/1920x1080.png",
+        "role": "lpb-editorial-ux-card__image",
+        "rendered": {
+          "x": 648,
+          "y": 818.90625,
+          "width": 272,
+          "height": 153,
+          "right": 920,
+          "bottom": 971.90625
+        },
+        "actualPixels": [
+          1920,
+          1080
+        ],
+        "loaded": true,
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://www.static-immobilienscout24.de/fro/lpbuilder-contentful-placeholder/_/1920x1080.png",
+        "role": "lpb-editorial-ux-card__image",
+        "rendered": {
+          "x": 936,
+          "y": 818.90625,
+          "width": 272,
+          "height": 153,
+          "right": 1208,
+          "bottom": 971.90625
+        },
+        "actualPixels": [
+          1920,
+          1080
+        ],
+        "loaded": true,
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://www.static-immobilienscout24.de/fro/lpbuilder-contentful-placeholder/_/1920x1080.png",
+        "role": "lpb-editorial-ux-card__image",
+        "rendered": {
+          "x": 72,
+          "y": 1150.5,
+          "width": 272,
+          "height": 153,
+          "right": 344,
+          "bottom": 1303.5
+        },
+        "actualPixels": [
+          1920,
+          1080
+        ],
+        "loaded": true,
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://www.static-immobilienscout24.de/fro/lpbuilder-contentful-placeholder/_/1920x1080.png",
+        "role": "lpb-editorial-ux-card__image",
+        "rendered": {
+          "x": 360,
+          "y": 1150.5,
+          "width": 272,
+          "height": 153,
+          "right": 632,
+          "bottom": 1303.5
+        },
+        "actualPixels": [
+          1920,
+          1080
+        ],
+        "loaded": true,
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://www.static-immobilienscout24.de/fro/lpbuilder-contentful-placeholder/_/1920x1080.png",
+        "role": "lpb-editorial-ux-card__image",
+        "rendered": {
+          "x": 648,
+          "y": 1150.5,
+          "width": 272,
+          "height": 153,
+          "right": 920,
+          "bottom": 1303.5
+        },
+        "actualPixels": [
+          1920,
+          1080
+        ],
+        "loaded": true,
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://www.static-immobilienscout24.de/fro/lpbuilder-contentful-placeholder/_/1920x1080.png",
+        "role": "lpb-editorial-ux-card__image",
+        "rendered": {
+          "x": 936,
+          "y": 1150.5,
+          "width": 272,
+          "height": 153,
+          "right": 1208,
+          "bottom": 1303.5
+        },
+        "actualPixels": [
+          1920,
+          1080
+        ],
+        "loaded": true,
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://www.static-immobilienscout24.de/fro/lpbuilder-contentful-placeholder/_/1920x1080.png",
+        "role": "lpb-editorial-ux-property__image",
+        "rendered": {
+          "x": 73,
+          "y": 1716.09375,
+          "width": 100,
+          "height": 76,
+          "right": 173,
+          "bottom": 1792.09375
+        },
+        "actualPixels": [
+          1920,
+          1080
+        ],
+        "loaded": true,
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://www.static-immobilienscout24.de/fro/lpbuilder-contentful-placeholder/_/1920x1080.png",
+        "role": "lpb-editorial-ux-property__image",
+        "rendered": {
+          "x": 456.328125,
+          "y": 1716.09375,
+          "width": 100,
+          "height": 76,
+          "right": 556.328125,
+          "bottom": 1792.09375
+        },
+        "actualPixels": [
+          1920,
+          1080
+        ],
+        "loaded": true,
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://www.static-immobilienscout24.de/fro/lpbuilder-contentful-placeholder/_/1920x1080.png",
+        "role": "lpb-editorial-ux-property__image",
+        "rendered": {
+          "x": 839.65625,
+          "y": 1716.09375,
+          "width": 100,
+          "height": 76,
+          "right": 939.65625,
+          "bottom": 1792.09375
+        },
+        "actualPixels": [
+          1920,
+          1080
+        ],
+        "loaded": true,
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://www.static-immobilienscout24.de/fro/lpbuilder-contentful-placeholder/_/1920x1080.png",
+        "role": "lpb-editorial-ux-topic__image",
+        "rendered": {
+          "x": 72,
+          "y": 1898.6875,
+          "width": 275,
+          "height": 172.796875,
+          "right": 347,
+          "bottom": 2071.484375
+        },
+        "actualPixels": [
+          1920,
+          1080
+        ],
+        "loaded": true,
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://www.static-immobilienscout24.de/fro/lpbuilder-contentful-placeholder/_/1920x1080.png",
+        "role": "lpb-editorial-ux-topic__image",
+        "rendered": {
+          "x": 359,
+          "y": 1898.6875,
+          "width": 275,
+          "height": 172.796875,
+          "right": 634,
+          "bottom": 2071.484375
+        },
+        "actualPixels": [
+          1920,
+          1080
+        ],
+        "loaded": true,
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://www.static-immobilienscout24.de/fro/lpbuilder-contentful-placeholder/_/1920x1080.png",
+        "role": "lpb-editorial-ux-topic__image",
+        "rendered": {
+          "x": 646,
+          "y": 1898.6875,
+          "width": 275,
+          "height": 172.796875,
+          "right": 921,
+          "bottom": 2071.484375
+        },
+        "actualPixels": [
+          1920,
+          1080
+        ],
+        "loaded": true,
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://www.static-immobilienscout24.de/fro/lpbuilder-contentful-placeholder/_/1920x1080.png",
+        "role": "lpb-editorial-ux-plus__image",
+        "rendered": {
+          "x": 89,
+          "y": 2128.484375,
+          "width": 380,
+          "height": 285,
+          "right": 469,
+          "bottom": 2413.484375
+        },
+        "actualPixels": [
+          1920,
+          1080
+        ],
+        "loaded": true,
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      }
+    ],
+    "articleCorrection": null,
+    "allChecksPassed": true,
+    "host": {
+      "allGrey": true,
+      "testLinks": [
+        "https://box-is24-cms-frontend.s24-fep.eu-west-1.infinity.s24cloud.net/dev-scaling-editorial-ux-home-test-20261106",
+        "https://box-is24-cms-frontend.s24-fep.eu-west-1.infinity.s24cloud.net/dev-scaling-editorial-ux-category-test-20261106",
+        "https://box-is24-cms-frontend.s24-fep.eu-west-1.infinity.s24cloud.net/dev-scaling-editorial-ux-article-test-20261106"
+      ],
+      "stylesheets": [
+        "https://box-is24-cms-frontend.s24-fep.eu-west-1.infinity.s24cloud.net/cms/assets/_next/static/css/e05c95919818111c.css",
+        "https://box-is24-cms-frontend.s24-fep.eu-west-1.infinity.s24cloud.net/cms/assets/_next/static/css/5a7070104db519cf.css",
+        "https://box-is24-cms-frontend.s24-fep.eu-west-1.infinity.s24cloud.net/cms/assets/_next/static/css/e3459ca62d4d737c.css",
+        "https://box-is24-cms-frontend.s24-fep.eu-west-1.infinity.s24cloud.net/cms/assets/_next/static/css/9de1399f4e41326b.css",
+        "https://box-is24-cms-frontend.s24-fep.eu-west-1.infinity.s24cloud.net/cms/assets/_next/static/css/a11e453204a0536b.css",
+        "https://box-is24-cms-frontend.s24-fep.eu-west-1.infinity.s24cloud.net/cms/assets/_next/static/css/230c842888247193.css",
+        "https://box-is24-cms-frontend.s24-fep.eu-west-1.infinity.s24cloud.net/cms/assets/_next/static/css/4f1c91d456cccc84.css",
+        "https://box-is24-cms-frontend.s24-fep.eu-west-1.infinity.s24cloud.net/cms/assets/_next/static/css/da3866dfa2a3a102.css",
+        "https://box-is24-cms-frontend.s24-fep.eu-west-1.infinity.s24cloud.net/cms/assets/_next/static/css/73b7d73f69077142.css",
+        "https://scout24-creative-ops.github.io/lp-builder/runtime/contentful/lpbuilder-bridge.css"
+      ],
+      "font": "\"Make It Better\", Verdana, \"DejaVu Sans\", Arial, Helvetica, sans-serif",
+      "fonts": [
+        {
+          "weight": 400,
+          "loaded": true
+        },
+        {
+          "weight": 700,
+          "loaded": true
+        },
+        {
+          "weight": 800,
+          "loaded": true
+        }
+      ],
+      "avatar": null,
+      "navHeight": 40,
+      "rootCount": 1
+    },
+    "consoleErrors": [
+      "Access to XMLHttpRequest at 'https://api.header.sandbox-immobilienscout24.de/api/v1/getByCookie' from origin 'https://box-is24-cms-frontend.s24-fep.eu-west-1.infinity.s24cloud.net' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+      "Failed to load resource: net::ERR_FAILED",
+      "Access to fetch at 'https://sso.immobilienscout24.de/sso/me' from origin 'https://box-is24-cms-frontend.s24-fep.eu-west-1.infinity.s24cloud.net' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+      "Failed to load resource: net::ERR_FAILED"
+    ],
+    "screenshot": "home-desktop.png",
+    "actualLeadClickPassed": true
+  },
+  {
+    "url": "https://box-is24-cms-frontend.s24-fep.eu-west-1.infinity.s24cloud.net/dev-scaling-editorial-ux-home-test-20261106/",
+    "viewport": 390,
+    "scrollWidth": 390,
+    "content": {
+      "x": 16,
+      "y": 120,
+      "width": 358,
+      "height": 5237.328125,
+      "right": 374,
+      "bottom": 5357.328125
+    },
+    "gridColumns": [
+      1,
+      1
+    ],
+    "main": null,
+    "sidebar": null,
+    "categories": [
+      {
+        "text": "Immobilienmarkt",
+        "href": "https://box-is24-cms-frontend.s24-fep.eu-west-1.infinity.s24cloud.net/dev-scaling-editorial-ux-category-test-20261106"
+      },
+      {
+        "text": "Mieten",
+        "href": "https://box-is24-cms-frontend.s24-fep.eu-west-1.infinity.s24cloud.net/dev-scaling-editorial-mieten-mvp"
+      },
+      {
+        "text": "Kaufen & Verkaufen",
+        "href": "https://box-is24-cms-frontend.s24-fep.eu-west-1.infinity.s24cloud.net/dev-scaling-editorial-kaufen-verkaufen-mvp"
+      },
+      {
+        "text": "Finanzen",
+        "href": "https://box-is24-cms-frontend.s24-fep.eu-west-1.infinity.s24cloud.net/dev-scaling-editorial-finanzen-mvp"
+      },
+      {
+        "text": "Recht & Politik",
+        "href": "https://box-is24-cms-frontend.s24-fep.eu-west-1.infinity.s24cloud.net/dev-scaling-editorial-wohnrecht-mvp"
+      },
+      {
+        "text": "Wohnen & Architektur",
+        "href": "https://box-is24-cms-frontend.s24-fep.eu-west-1.infinity.s24cloud.net/dev-scaling-editorial-wohnen-architektur-mvp"
+      },
+      {
+        "text": "Lifestyle",
+        "href": "https://box-is24-cms-frontend.s24-fep.eu-west-1.infinity.s24cloud.net/dev-scaling-editorial-lifestyle-mvp"
+      }
+    ],
+    "navScrollable": true,
+    "longHeadlinePassed": true,
+    "focusPassed": true,
+    "disabledButtons": 1,
+    "headings": [
+      {
+        "level": "H1",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt",
+        "fontSize": "22px",
+        "lineHeight": "27.06px",
+        "box": {
+          "x": 16,
+          "y": 315.625,
+          "width": 358,
+          "height": 81.140625,
+          "right": 374,
+          "bottom": 396.765625
+        }
+      },
+      {
+        "level": "H3",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "fontSize": "14px",
+        "lineHeight": "19.6px",
+        "box": {
+          "x": 152,
+          "y": 567.765625,
+          "width": 222,
+          "height": 39.1875,
+          "right": 374,
+          "bottom": 606.953125
+        }
+      },
+      {
+        "level": "H3",
+        "text": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+        "fontSize": "14px",
+        "lineHeight": "19.6px",
+        "box": {
+          "x": 152,
+          "y": 675.953125,
+          "width": 222,
+          "height": 39.1875,
+          "right": 374,
+          "bottom": 715.140625
+        }
+      },
+      {
+        "level": "H3",
+        "text": "Ut enim ad minim veniam",
+        "fontSize": "14px",
+        "lineHeight": "19.6px",
+        "box": {
+          "x": 152,
+          "y": 784.140625,
+          "width": 222,
+          "height": 19.59375,
+          "right": 374,
+          "bottom": 803.734375
+        }
+      },
+      {
+        "level": "H2",
+        "text": "Im Trend",
+        "fontSize": "17px",
+        "lineHeight": "23.8px",
+        "box": {
+          "x": 16,
+          "y": 883.140625,
+          "width": 358,
+          "height": 23.796875,
+          "right": 374,
+          "bottom": 906.9375
+        }
+      },
+      {
+        "level": "H3",
+        "text": "Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
+        "fontSize": "15px",
+        "lineHeight": "20px",
+        "box": {
+          "x": 16,
+          "y": 1153.3125,
+          "width": 358,
+          "height": 40,
+          "right": 374,
+          "bottom": 1193.3125
+        }
+      },
+      {
+        "level": "H3",
+        "text": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore",
+        "fontSize": "15px",
+        "lineHeight": "20px",
+        "box": {
+          "x": 16,
+          "y": 1447.6875,
+          "width": 358,
+          "height": 40,
+          "right": 374,
+          "bottom": 1487.6875
+        }
+      },
+      {
+        "level": "H3",
+        "text": "Excepteur sint occaecat cupidatat non proident",
+        "fontSize": "15px",
+        "lineHeight": "20px",
+        "box": {
+          "x": 16,
+          "y": 1742.0625,
+          "width": 358,
+          "height": 20,
+          "right": 374,
+          "bottom": 1762.0625
+        }
+      },
+      {
+        "level": "H3",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "fontSize": "15px",
+        "lineHeight": "20px",
+        "box": {
+          "x": 16,
+          "y": 2016.4375,
+          "width": 358,
+          "height": 40,
+          "right": 374,
+          "bottom": 2056.4375
+        }
+      },
+      {
+        "level": "H2",
+        "text": "Immobilienmarkt aktuell",
+        "fontSize": "17px",
+        "lineHeight": "23.8px",
+        "box": {
+          "x": 16,
+          "y": 2096.4375,
+          "width": 358,
+          "height": 23.796875,
+          "right": 374,
+          "bottom": 2120.234375
+        }
+      },
+      {
+        "level": "H3",
+        "text": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+        "fontSize": "15px",
+        "lineHeight": "20px",
+        "box": {
+          "x": 16,
+          "y": 2366.609375,
+          "width": 358,
+          "height": 40,
+          "right": 374,
+          "bottom": 2406.609375
+        }
+      },
+      {
+        "level": "H3",
+        "text": "Ut enim ad minim veniam",
+        "fontSize": "15px",
+        "lineHeight": "20px",
+        "box": {
+          "x": 16,
+          "y": 2660.984375,
+          "width": 358,
+          "height": 20,
+          "right": 374,
+          "bottom": 2680.984375
+        }
+      },
+      {
+        "level": "H3",
+        "text": "Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
+        "fontSize": "15px",
+        "lineHeight": "20px",
+        "box": {
+          "x": 16,
+          "y": 2935.359375,
+          "width": 358,
+          "height": 40,
+          "right": 374,
+          "bottom": 2975.359375
+        }
+      },
+      {
+        "level": "H3",
+        "text": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore",
+        "fontSize": "15px",
+        "lineHeight": "20px",
+        "box": {
+          "x": 16,
+          "y": 3229.734375,
+          "width": 358,
+          "height": 40,
+          "right": 374,
+          "bottom": 3269.734375
+        }
+      },
+      {
+        "level": "H2",
+        "text": "Excepteur sint occaecat cupidatat non proident",
+        "fontSize": "14px",
+        "lineHeight": "21px",
+        "box": {
+          "x": 34,
+          "y": 3359.734375,
+          "width": 322,
+          "height": 21,
+          "right": 356,
+          "bottom": 3380.734375
+        }
+      },
+      {
+        "level": "H2",
+        "text": "Die meistgesehenen Immobilien diese Woche",
+        "fontSize": "17px",
+        "lineHeight": "23.8px",
+        "box": {
+          "x": 16,
+          "y": 3508.734375,
+          "width": 358,
+          "height": 23.796875,
+          "right": 374,
+          "bottom": 3532.53125
+        }
+      },
+      {
+        "level": "H3",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "fontSize": "12px",
+        "lineHeight": "18px",
+        "box": {
+          "x": 129,
+          "y": 3593.53125,
+          "width": 236,
+          "height": 36,
+          "right": 365,
+          "bottom": 3629.53125
+        }
+      },
+      {
+        "level": "H3",
+        "text": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+        "fontSize": "12px",
+        "lineHeight": "18px",
+        "box": {
+          "x": 129,
+          "y": 3701.53125,
+          "width": 236,
+          "height": 36,
+          "right": 365,
+          "bottom": 3737.53125
+        }
+      },
+      {
+        "level": "H3",
+        "text": "Ut enim ad minim veniam",
+        "fontSize": "12px",
+        "lineHeight": "18px",
+        "box": {
+          "x": 129,
+          "y": 3809.53125,
+          "width": 138.234375,
+          "height": 18,
+          "right": 267.234375,
+          "bottom": 3827.53125
+        }
+      },
+      {
+        "level": "H2",
+        "text": "Themenwelten",
+        "fontSize": "17px",
+        "lineHeight": "23.8px",
+        "box": {
+          "x": 16,
+          "y": 3916.53125,
+          "width": 358,
+          "height": 23.796875,
+          "right": 374,
+          "bottom": 3940.328125
+        }
+      },
+      {
+        "level": "H3",
+        "text": "Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
+        "fontSize": "16px",
+        "lineHeight": "22px",
+        "box": {
+          "x": 30,
+          "y": 4020.328125,
+          "width": 330,
+          "height": 44,
+          "right": 360,
+          "bottom": 4064.328125
+        }
+      },
+      {
+        "level": "H3",
+        "text": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore",
+        "fontSize": "16px",
+        "lineHeight": "22px",
+        "box": {
+          "x": 30,
+          "y": 4152.328125,
+          "width": 330,
+          "height": 44,
+          "right": 360,
+          "bottom": 4196.328125
+        }
+      },
+      {
+        "level": "H3",
+        "text": "Excepteur sint occaecat cupidatat non proident",
+        "fontSize": "16px",
+        "lineHeight": "22px",
+        "box": {
+          "x": 30,
+          "y": 4284.328125,
+          "width": 330,
+          "height": 44,
+          "right": 360,
+          "bottom": 4328.328125
+        }
+      },
+      {
+        "level": "H2",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "fontSize": "20px",
+        "lineHeight": "30px",
+        "box": {
+          "x": 33,
+          "y": 4664.328125,
+          "width": 324,
+          "height": 60,
+          "right": 357,
+          "bottom": 4724.328125
+        }
+      }
+    ],
+    "images": [
+      {
+        "src": "https://www.static-immobilienscout24.de/fro/lpbuilder-contentful-placeholder/_/1920x1080.png",
+        "role": "lpb-editorial-ux-card__image",
+        "rendered": {
+          "x": 16,
+          "y": 120,
+          "width": 358,
+          "height": 156.625,
+          "right": 374,
+          "bottom": 276.625
+        },
+        "actualPixels": [
+          1920,
+          1080
+        ],
+        "loaded": true,
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://www.static-immobilienscout24.de/fro/lpbuilder-contentful-placeholder/_/1920x1080.png",
+        "role": "lpb-editorial-ux-compact__image",
+        "rendered": {
+          "x": 16,
+          "y": 546.765625,
+          "width": 120,
+          "height": 80,
+          "right": 136,
+          "bottom": 626.765625
+        },
+        "actualPixels": [
+          1920,
+          1080
+        ],
+        "loaded": true,
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://www.static-immobilienscout24.de/fro/lpbuilder-contentful-placeholder/_/1920x1080.png",
+        "role": "lpb-editorial-ux-compact__image",
+        "rendered": {
+          "x": 16,
+          "y": 654.953125,
+          "width": 120,
+          "height": 80,
+          "right": 136,
+          "bottom": 734.953125
+        },
+        "actualPixels": [
+          1920,
+          1080
+        ],
+        "loaded": true,
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://www.static-immobilienscout24.de/fro/lpbuilder-contentful-placeholder/_/1920x1080.png",
+        "role": "lpb-editorial-ux-compact__image",
+        "rendered": {
+          "x": 16,
+          "y": 763.140625,
+          "width": 120,
+          "height": 80,
+          "right": 136,
+          "bottom": 843.140625
+        },
+        "actualPixels": [
+          1920,
+          1080
+        ],
+        "loaded": true,
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://www.static-immobilienscout24.de/fro/lpbuilder-contentful-placeholder/_/1920x1080.png",
+        "role": "lpb-editorial-ux-card__image",
+        "rendered": {
+          "x": 16,
+          "y": 922.9375,
+          "width": 358,
+          "height": 201.375,
+          "right": 374,
+          "bottom": 1124.3125
+        },
+        "actualPixels": [
+          1920,
+          1080
+        ],
+        "loaded": true,
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://www.static-immobilienscout24.de/fro/lpbuilder-contentful-placeholder/_/1920x1080.png",
+        "role": "lpb-editorial-ux-card__image",
+        "rendered": {
+          "x": 16,
+          "y": 1217.3125,
+          "width": 358,
+          "height": 201.375,
+          "right": 374,
+          "bottom": 1418.6875
+        },
+        "actualPixels": [
+          1920,
+          1080
+        ],
+        "loaded": true,
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://www.static-immobilienscout24.de/fro/lpbuilder-contentful-placeholder/_/1920x1080.png",
+        "role": "lpb-editorial-ux-card__image",
+        "rendered": {
+          "x": 16,
+          "y": 1511.6875,
+          "width": 358,
+          "height": 201.375,
+          "right": 374,
+          "bottom": 1713.0625
+        },
+        "actualPixels": [
+          1920,
+          1080
+        ],
+        "loaded": true,
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://www.static-immobilienscout24.de/fro/lpbuilder-contentful-placeholder/_/1920x1080.png",
+        "role": "lpb-editorial-ux-card__image",
+        "rendered": {
+          "x": 16,
+          "y": 1786.0625,
+          "width": 358,
+          "height": 201.375,
+          "right": 374,
+          "bottom": 1987.4375
+        },
+        "actualPixels": [
+          1920,
+          1080
+        ],
+        "loaded": true,
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://www.static-immobilienscout24.de/fro/lpbuilder-contentful-placeholder/_/1920x1080.png",
+        "role": "lpb-editorial-ux-card__image",
+        "rendered": {
+          "x": 16,
+          "y": 2136.234375,
+          "width": 358,
+          "height": 201.375,
+          "right": 374,
+          "bottom": 2337.609375
+        },
+        "actualPixels": [
+          1920,
+          1080
+        ],
+        "loaded": true,
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://www.static-immobilienscout24.de/fro/lpbuilder-contentful-placeholder/_/1920x1080.png",
+        "role": "lpb-editorial-ux-card__image",
+        "rendered": {
+          "x": 16,
+          "y": 2430.609375,
+          "width": 358,
+          "height": 201.375,
+          "right": 374,
+          "bottom": 2631.984375
+        },
+        "actualPixels": [
+          1920,
+          1080
+        ],
+        "loaded": true,
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://www.static-immobilienscout24.de/fro/lpbuilder-contentful-placeholder/_/1920x1080.png",
+        "role": "lpb-editorial-ux-card__image",
+        "rendered": {
+          "x": 16,
+          "y": 2704.984375,
+          "width": 358,
+          "height": 201.375,
+          "right": 374,
+          "bottom": 2906.359375
+        },
+        "actualPixels": [
+          1920,
+          1080
+        ],
+        "loaded": true,
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://www.static-immobilienscout24.de/fro/lpbuilder-contentful-placeholder/_/1920x1080.png",
+        "role": "lpb-editorial-ux-card__image",
+        "rendered": {
+          "x": 16,
+          "y": 2999.359375,
+          "width": 358,
+          "height": 201.375,
+          "right": 374,
+          "bottom": 3200.734375
+        },
+        "actualPixels": [
+          1920,
+          1080
+        ],
+        "loaded": true,
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://www.static-immobilienscout24.de/fro/lpbuilder-contentful-placeholder/_/1920x1080.png",
+        "role": "lpb-editorial-ux-property__image",
+        "rendered": {
+          "x": 17,
+          "y": 3583.53125,
+          "width": 100,
+          "height": 76,
+          "right": 117,
+          "bottom": 3659.53125
+        },
+        "actualPixels": [
+          1920,
+          1080
+        ],
+        "loaded": true,
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://www.static-immobilienscout24.de/fro/lpbuilder-contentful-placeholder/_/1920x1080.png",
+        "role": "lpb-editorial-ux-property__image",
+        "rendered": {
+          "x": 17,
+          "y": 3691.53125,
+          "width": 100,
+          "height": 76,
+          "right": 117,
+          "bottom": 3767.53125
+        },
+        "actualPixels": [
+          1920,
+          1080
+        ],
+        "loaded": true,
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://www.static-immobilienscout24.de/fro/lpbuilder-contentful-placeholder/_/1920x1080.png",
+        "role": "lpb-editorial-ux-property__image",
+        "rendered": {
+          "x": 17,
+          "y": 3799.53125,
+          "width": 100,
+          "height": 76,
+          "right": 117,
+          "bottom": 3875.53125
+        },
+        "actualPixels": [
+          1920,
+          1080
+        ],
+        "loaded": true,
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://www.static-immobilienscout24.de/fro/lpbuilder-contentful-placeholder/_/1920x1080.png",
+        "role": "lpb-editorial-ux-topic__image",
+        "rendered": {
+          "x": 16,
+          "y": 3956.328125,
+          "width": 358,
+          "height": 120,
+          "right": 374,
+          "bottom": 4076.328125
+        },
+        "actualPixels": [
+          1920,
+          1080
+        ],
+        "loaded": true,
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://www.static-immobilienscout24.de/fro/lpbuilder-contentful-placeholder/_/1920x1080.png",
+        "role": "lpb-editorial-ux-topic__image",
+        "rendered": {
+          "x": 16,
+          "y": 4088.328125,
+          "width": 358,
+          "height": 120,
+          "right": 374,
+          "bottom": 4208.328125
+        },
+        "actualPixels": [
+          1920,
+          1080
+        ],
+        "loaded": true,
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://www.static-immobilienscout24.de/fro/lpbuilder-contentful-placeholder/_/1920x1080.png",
+        "role": "lpb-editorial-ux-topic__image",
+        "rendered": {
+          "x": 16,
+          "y": 4220.328125,
+          "width": 358,
+          "height": 120,
+          "right": 374,
+          "bottom": 4340.328125
+        },
+        "actualPixels": [
+          1920,
+          1080
+        ],
+        "loaded": true,
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://www.static-immobilienscout24.de/fro/lpbuilder-contentful-placeholder/_/1920x1080.png",
+        "role": "lpb-editorial-ux-plus__image",
+        "rendered": {
+          "x": 33,
+          "y": 4397.328125,
+          "width": 324,
+          "height": 243,
+          "right": 357,
+          "bottom": 4640.328125
+        },
+        "actualPixels": [
+          1920,
+          1080
+        ],
+        "loaded": true,
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      }
+    ],
+    "articleCorrection": null,
+    "allChecksPassed": true,
+    "host": {
+      "allGrey": true,
+      "testLinks": [
+        "https://box-is24-cms-frontend.s24-fep.eu-west-1.infinity.s24cloud.net/dev-scaling-editorial-ux-home-test-20261106",
+        "https://box-is24-cms-frontend.s24-fep.eu-west-1.infinity.s24cloud.net/dev-scaling-editorial-ux-category-test-20261106",
+        "https://box-is24-cms-frontend.s24-fep.eu-west-1.infinity.s24cloud.net/dev-scaling-editorial-ux-article-test-20261106"
+      ],
+      "stylesheets": [
+        "https://box-is24-cms-frontend.s24-fep.eu-west-1.infinity.s24cloud.net/cms/assets/_next/static/css/e05c95919818111c.css",
+        "https://box-is24-cms-frontend.s24-fep.eu-west-1.infinity.s24cloud.net/cms/assets/_next/static/css/5a7070104db519cf.css",
+        "https://box-is24-cms-frontend.s24-fep.eu-west-1.infinity.s24cloud.net/cms/assets/_next/static/css/e3459ca62d4d737c.css",
+        "https://box-is24-cms-frontend.s24-fep.eu-west-1.infinity.s24cloud.net/cms/assets/_next/static/css/9de1399f4e41326b.css",
+        "https://box-is24-cms-frontend.s24-fep.eu-west-1.infinity.s24cloud.net/cms/assets/_next/static/css/a11e453204a0536b.css",
+        "https://box-is24-cms-frontend.s24-fep.eu-west-1.infinity.s24cloud.net/cms/assets/_next/static/css/230c842888247193.css",
+        "https://box-is24-cms-frontend.s24-fep.eu-west-1.infinity.s24cloud.net/cms/assets/_next/static/css/4f1c91d456cccc84.css",
+        "https://box-is24-cms-frontend.s24-fep.eu-west-1.infinity.s24cloud.net/cms/assets/_next/static/css/da3866dfa2a3a102.css",
+        "https://box-is24-cms-frontend.s24-fep.eu-west-1.infinity.s24cloud.net/cms/assets/_next/static/css/73b7d73f69077142.css",
+        "https://accounts.google.com/gsi/style",
+        "https://scout24-creative-ops.github.io/lp-builder/runtime/contentful/lpbuilder-bridge.css"
+      ],
+      "font": "\"Make It Better\", Verdana, \"DejaVu Sans\", Arial, Helvetica, sans-serif",
+      "fonts": [
+        {
+          "weight": 400,
+          "loaded": true
+        },
+        {
+          "weight": 700,
+          "loaded": true
+        },
+        {
+          "weight": 800,
+          "loaded": true
+        }
+      ],
+      "avatar": null,
+      "navHeight": 40,
+      "rootCount": 1
+    },
+    "consoleErrors": [
+      "Failed to load resource: the server responded with a status of 403 ()",
+      "Not signed in with the identity provider.",
+      "Access to fetch at 'https://sso.immobilienscout24.de/sso/me' from origin 'https://box-is24-cms-frontend.s24-fep.eu-west-1.infinity.s24cloud.net' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+      "Failed to load resource: net::ERR_FAILED",
+      "Access to XMLHttpRequest at 'https://api.header.sandbox-immobilienscout24.de/api/v1/getByCookie' from origin 'https://box-is24-cms-frontend.s24-fep.eu-west-1.infinity.s24cloud.net' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: the server responded with a status of 403 ()",
+      "Not signed in with the identity provider."
+    ],
+    "screenshot": "home-mobile.png",
+    "actualLeadClickPassed": true
+  },
+  {
+    "url": "https://box-is24-cms-frontend.s24-fep.eu-west-1.infinity.s24cloud.net/dev-scaling-editorial-ux-category-test-20261106/",
+    "viewport": 1280,
+    "scrollWidth": 1280,
+    "content": {
+      "x": 72,
+      "y": 150,
+      "width": 1136,
+      "height": 1616.40625,
+      "right": 1208,
+      "bottom": 1766.40625
+    },
+    "gridColumns": [
+      4,
+      4
+    ],
+    "main": null,
+    "sidebar": null,
+    "categories": [
+      {
+        "text": "Immobilienmarkt",
+        "href": "https://box-is24-cms-frontend.s24-fep.eu-west-1.infinity.s24cloud.net/dev-scaling-editorial-ux-category-test-20261106"
+      },
+      {
+        "text": "Mieten",
+        "href": "https://box-is24-cms-frontend.s24-fep.eu-west-1.infinity.s24cloud.net/dev-scaling-editorial-mieten-mvp"
+      },
+      {
+        "text": "Kaufen & Verkaufen",
+        "href": "https://box-is24-cms-frontend.s24-fep.eu-west-1.infinity.s24cloud.net/dev-scaling-editorial-kaufen-verkaufen-mvp"
+      },
+      {
+        "text": "Finanzen",
+        "href": "https://box-is24-cms-frontend.s24-fep.eu-west-1.infinity.s24cloud.net/dev-scaling-editorial-finanzen-mvp"
+      },
+      {
+        "text": "Recht & Politik",
+        "href": "https://box-is24-cms-frontend.s24-fep.eu-west-1.infinity.s24cloud.net/dev-scaling-editorial-wohnrecht-mvp"
+      },
+      {
+        "text": "Wohnen & Architektur",
+        "href": "https://box-is24-cms-frontend.s24-fep.eu-west-1.infinity.s24cloud.net/dev-scaling-editorial-wohnen-architektur-mvp"
+      },
+      {
+        "text": "Lifestyle",
+        "href": "https://box-is24-cms-frontend.s24-fep.eu-west-1.infinity.s24cloud.net/dev-scaling-editorial-lifestyle-mvp"
+      }
+    ],
+    "navScrollable": false,
+    "longHeadlinePassed": true,
+    "focusPassed": true,
+    "disabledButtons": 1,
+    "headings": [
+      {
+        "level": "H1",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt",
+        "fontSize": "36px",
+        "lineHeight": "44.28px",
+        "box": {
+          "x": 706,
+          "y": 188.3125,
+          "width": 502,
+          "height": 177.0625,
+          "right": 1208,
+          "bottom": 365.375
+        }
+      },
+      {
+        "level": "H2",
+        "text": "Im Trend",
+        "fontSize": "24px",
+        "lineHeight": "33.6px",
+        "box": {
+          "x": 72,
+          "y": 528.625,
+          "width": 1136,
+          "height": 33.59375,
+          "right": 1208,
+          "bottom": 562.21875
+        }
+      },
+      {
+        "level": "H3",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "fontSize": "15px",
+        "lineHeight": "20px",
+        "box": {
+          "x": 72,
+          "y": 760.21875,
+          "width": 272,
+          "height": 40,
+          "right": 344,
+          "bottom": 800.21875
+        }
+      },
+      {
+        "level": "H3",
+        "text": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+        "fontSize": "15px",
+        "lineHeight": "20px",
+        "box": {
+          "x": 360,
+          "y": 760.21875,
+          "width": 272,
+          "height": 40,
+          "right": 632,
+          "bottom": 800.21875
+        }
+      },
+      {
+        "level": "H3",
+        "text": "Ut enim ad minim veniam",
+        "fontSize": "15px",
+        "lineHeight": "20px",
+        "box": {
+          "x": 648,
+          "y": 760.21875,
+          "width": 272,
+          "height": 20,
+          "right": 920,
+          "bottom": 780.21875
+        }
+      },
+      {
+        "level": "H3",
+        "text": "Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
+        "fontSize": "15px",
+        "lineHeight": "20px",
+        "box": {
+          "x": 936,
+          "y": 760.21875,
+          "width": 272,
+          "height": 60,
+          "right": 1208,
+          "bottom": 820.21875
+        }
+      },
+      {
+        "level": "H2",
+        "text": "Immobilienmarkt aktuell",
+        "fontSize": "24px",
+        "lineHeight": "33.6px",
+        "box": {
+          "x": 72,
+          "y": 860.21875,
+          "width": 1136,
+          "height": 33.59375,
+          "right": 1208,
+          "bottom": 893.8125
+        }
+      },
+      {
+        "level": "H3",
+        "text": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore",
+        "fontSize": "15px",
+        "lineHeight": "20px",
+        "box": {
+          "x": 72,
+          "y": 1091.8125,
+          "width": 272,
+          "height": 40,
+          "right": 344,
+          "bottom": 1131.8125
+        }
+      },
+      {
+        "level": "H3",
+        "text": "Excepteur sint occaecat cupidatat non proident",
+        "fontSize": "15px",
+        "lineHeight": "20px",
+        "box": {
+          "x": 360,
+          "y": 1091.8125,
+          "width": 272,
+          "height": 40,
+          "right": 632,
+          "bottom": 1131.8125
+        }
+      },
+      {
+        "level": "H3",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "fontSize": "15px",
+        "lineHeight": "20px",
+        "box": {
+          "x": 648,
+          "y": 1091.8125,
+          "width": 272,
+          "height": 40,
+          "right": 920,
+          "bottom": 1131.8125
+        }
+      },
+      {
+        "level": "H3",
+        "text": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+        "fontSize": "15px",
+        "lineHeight": "20px",
+        "box": {
+          "x": 936,
+          "y": 1091.8125,
+          "width": 272,
+          "height": 40,
+          "right": 1208,
+          "bottom": 1131.8125
+        }
+      },
+      {
+        "level": "H2",
+        "text": "Die meistgesehenen Immobilien diese Woche",
+        "fontSize": "24px",
+        "lineHeight": "33.6px",
+        "box": {
+          "x": 72,
+          "y": 1171.8125,
+          "width": 1136,
+          "height": 33.59375,
+          "right": 1208,
+          "bottom": 1205.40625
+        }
+      },
+      {
+        "level": "H3",
+        "text": "Ut enim ad minim veniam",
+        "fontSize": "12px",
+        "lineHeight": "18px",
+        "box": {
+          "x": 185,
+          "y": 1266.40625,
+          "width": 138.234375,
+          "height": 18,
+          "right": 323.234375,
+          "bottom": 1284.40625
+        }
+      },
+      {
+        "level": "H3",
+        "text": "Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
+        "fontSize": "12px",
+        "lineHeight": "18px",
+        "box": {
+          "x": 568.328125,
+          "y": 1266.40625,
+          "width": 247.328125,
+          "height": 36,
+          "right": 815.65625,
+          "bottom": 1302.40625
+        }
+      },
+      {
+        "level": "H3",
+        "text": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore",
+        "fontSize": "12px",
+        "lineHeight": "18px",
+        "box": {
+          "x": 951.65625,
+          "y": 1266.40625,
+          "width": 247.34375,
+          "height": 36,
+          "right": 1199,
+          "bottom": 1302.40625
+        }
+      },
+      {
+        "level": "H2",
+        "text": "Excepteur sint occaecat cupidatat non proident",
+        "fontSize": "20px",
+        "lineHeight": "30px",
+        "box": {
+          "x": 493,
+          "y": 1414.40625,
+          "width": 439.328125,
+          "height": 30,
+          "right": 932.328125,
+          "bottom": 1444.40625
+        }
+      }
+    ],
+    "images": [
+      {
+        "src": "https://www.static-immobilienscout24.de/fro/lpbuilder-contentful-placeholder/_/1920x1080.png",
+        "role": "lpb-editorial-ux-category-lead__image",
+        "rendered": {
+          "x": 72,
+          "y": 150,
+          "width": 602,
+          "height": 338.625,
+          "right": 674,
+          "bottom": 488.625
+        },
+        "actualPixels": [
+          1920,
+          1080
+        ],
+        "loaded": true,
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://www.static-immobilienscout24.de/fro/lpbuilder-contentful-placeholder/_/1920x1080.png",
+        "role": "lpb-editorial-ux-card__image",
+        "rendered": {
+          "x": 72,
+          "y": 578.21875,
+          "width": 272,
+          "height": 153,
+          "right": 344,
+          "bottom": 731.21875
+        },
+        "actualPixels": [
+          1920,
+          1080
+        ],
+        "loaded": true,
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://www.static-immobilienscout24.de/fro/lpbuilder-contentful-placeholder/_/1920x1080.png",
+        "role": "lpb-editorial-ux-card__image",
+        "rendered": {
+          "x": 360,
+          "y": 578.21875,
+          "width": 272,
+          "height": 153,
+          "right": 632,
+          "bottom": 731.21875
+        },
+        "actualPixels": [
+          1920,
+          1080
+        ],
+        "loaded": true,
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://www.static-immobilienscout24.de/fro/lpbuilder-contentful-placeholder/_/1920x1080.png",
+        "role": "lpb-editorial-ux-card__image",
+        "rendered": {
+          "x": 648,
+          "y": 578.21875,
+          "width": 272,
+          "height": 153,
+          "right": 920,
+          "bottom": 731.21875
+        },
+        "actualPixels": [
+          1920,
+          1080
+        ],
+        "loaded": true,
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://www.static-immobilienscout24.de/fro/lpbuilder-contentful-placeholder/_/1920x1080.png",
+        "role": "lpb-editorial-ux-card__image",
+        "rendered": {
+          "x": 936,
+          "y": 578.21875,
+          "width": 272,
+          "height": 153,
+          "right": 1208,
+          "bottom": 731.21875
+        },
+        "actualPixels": [
+          1920,
+          1080
+        ],
+        "loaded": true,
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://www.static-immobilienscout24.de/fro/lpbuilder-contentful-placeholder/_/1920x1080.png",
+        "role": "lpb-editorial-ux-card__image",
+        "rendered": {
+          "x": 72,
+          "y": 909.8125,
+          "width": 272,
+          "height": 153,
+          "right": 344,
+          "bottom": 1062.8125
+        },
+        "actualPixels": [
+          1920,
+          1080
+        ],
+        "loaded": true,
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://www.static-immobilienscout24.de/fro/lpbuilder-contentful-placeholder/_/1920x1080.png",
+        "role": "lpb-editorial-ux-card__image",
+        "rendered": {
+          "x": 360,
+          "y": 909.8125,
+          "width": 272,
+          "height": 153,
+          "right": 632,
+          "bottom": 1062.8125
+        },
+        "actualPixels": [
+          1920,
+          1080
+        ],
+        "loaded": true,
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://www.static-immobilienscout24.de/fro/lpbuilder-contentful-placeholder/_/1920x1080.png",
+        "role": "lpb-editorial-ux-card__image",
+        "rendered": {
+          "x": 648,
+          "y": 909.8125,
+          "width": 272,
+          "height": 153,
+          "right": 920,
+          "bottom": 1062.8125
+        },
+        "actualPixels": [
+          1920,
+          1080
+        ],
+        "loaded": true,
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://www.static-immobilienscout24.de/fro/lpbuilder-contentful-placeholder/_/1920x1080.png",
+        "role": "lpb-editorial-ux-card__image",
+        "rendered": {
+          "x": 936,
+          "y": 909.8125,
+          "width": 272,
+          "height": 153,
+          "right": 1208,
+          "bottom": 1062.8125
+        },
+        "actualPixels": [
+          1920,
+          1080
+        ],
+        "loaded": true,
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://www.static-immobilienscout24.de/fro/lpbuilder-contentful-placeholder/_/1920x1080.png",
+        "role": "lpb-editorial-ux-property__image",
+        "rendered": {
+          "x": 73,
+          "y": 1256.40625,
+          "width": 100,
+          "height": 76,
+          "right": 173,
+          "bottom": 1332.40625
+        },
+        "actualPixels": [
+          1920,
+          1080
+        ],
+        "loaded": true,
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://www.static-immobilienscout24.de/fro/lpbuilder-contentful-placeholder/_/1920x1080.png",
+        "role": "lpb-editorial-ux-property__image",
+        "rendered": {
+          "x": 456.328125,
+          "y": 1256.40625,
+          "width": 100,
+          "height": 76,
+          "right": 556.328125,
+          "bottom": 1332.40625
+        },
+        "actualPixels": [
+          1920,
+          1080
+        ],
+        "loaded": true,
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://www.static-immobilienscout24.de/fro/lpbuilder-contentful-placeholder/_/1920x1080.png",
+        "role": "lpb-editorial-ux-property__image",
+        "rendered": {
+          "x": 839.65625,
+          "y": 1256.40625,
+          "width": 100,
+          "height": 76,
+          "right": 939.65625,
+          "bottom": 1332.40625
+        },
+        "actualPixels": [
+          1920,
+          1080
+        ],
+        "loaded": true,
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://www.static-immobilienscout24.de/fro/lpbuilder-contentful-placeholder/_/1920x1080.png",
+        "role": "lpb-editorial-ux-plus__image",
+        "rendered": {
+          "x": 89,
+          "y": 1406.40625,
+          "width": 380,
+          "height": 285,
+          "right": 469,
+          "bottom": 1691.40625
+        },
+        "actualPixels": [
+          1920,
+          1080
+        ],
+        "loaded": true,
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      }
+    ],
+    "articleCorrection": null,
+    "allChecksPassed": true,
+    "host": {
+      "allGrey": true,
+      "testLinks": [
+        "https://box-is24-cms-frontend.s24-fep.eu-west-1.infinity.s24cloud.net/dev-scaling-editorial-ux-home-test-20261106",
+        "https://box-is24-cms-frontend.s24-fep.eu-west-1.infinity.s24cloud.net/dev-scaling-editorial-ux-category-test-20261106",
+        "https://box-is24-cms-frontend.s24-fep.eu-west-1.infinity.s24cloud.net/dev-scaling-editorial-ux-article-test-20261106"
+      ],
+      "stylesheets": [
+        "https://box-is24-cms-frontend.s24-fep.eu-west-1.infinity.s24cloud.net/cms/assets/_next/static/css/e05c95919818111c.css",
+        "https://box-is24-cms-frontend.s24-fep.eu-west-1.infinity.s24cloud.net/cms/assets/_next/static/css/5a7070104db519cf.css",
+        "https://box-is24-cms-frontend.s24-fep.eu-west-1.infinity.s24cloud.net/cms/assets/_next/static/css/e3459ca62d4d737c.css",
+        "https://box-is24-cms-frontend.s24-fep.eu-west-1.infinity.s24cloud.net/cms/assets/_next/static/css/9de1399f4e41326b.css",
+        "https://box-is24-cms-frontend.s24-fep.eu-west-1.infinity.s24cloud.net/cms/assets/_next/static/css/a11e453204a0536b.css",
+        "https://box-is24-cms-frontend.s24-fep.eu-west-1.infinity.s24cloud.net/cms/assets/_next/static/css/230c842888247193.css",
+        "https://box-is24-cms-frontend.s24-fep.eu-west-1.infinity.s24cloud.net/cms/assets/_next/static/css/4f1c91d456cccc84.css",
+        "https://box-is24-cms-frontend.s24-fep.eu-west-1.infinity.s24cloud.net/cms/assets/_next/static/css/da3866dfa2a3a102.css",
+        "https://box-is24-cms-frontend.s24-fep.eu-west-1.infinity.s24cloud.net/cms/assets/_next/static/css/73b7d73f69077142.css",
+        "https://scout24-creative-ops.github.io/lp-builder/runtime/contentful/lpbuilder-bridge.css"
+      ],
+      "font": "\"Make It Better\", Verdana, \"DejaVu Sans\", Arial, Helvetica, sans-serif",
+      "fonts": [
+        {
+          "weight": 400,
+          "loaded": true
+        },
+        {
+          "weight": 700,
+          "loaded": true
+        },
+        {
+          "weight": 800,
+          "loaded": true
+        }
+      ],
+      "avatar": null,
+      "navHeight": 40,
+      "rootCount": 1
+    },
+    "consoleErrors": [
+      "Access to XMLHttpRequest at 'https://api.header.sandbox-immobilienscout24.de/api/v1/getByCookie' from origin 'https://box-is24-cms-frontend.s24-fep.eu-west-1.infinity.s24cloud.net' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+      "Failed to load resource: net::ERR_FAILED",
+      "Access to fetch at 'https://sso.immobilienscout24.de/sso/me' from origin 'https://box-is24-cms-frontend.s24-fep.eu-west-1.infinity.s24cloud.net' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+      "Failed to load resource: net::ERR_FAILED"
+    ],
+    "screenshot": "category-desktop.png",
+    "actualLeadClickPassed": true
+  },
+  {
+    "url": "https://box-is24-cms-frontend.s24-fep.eu-west-1.infinity.s24cloud.net/dev-scaling-editorial-ux-category-test-20261106/",
+    "viewport": 390,
+    "scrollWidth": 390,
+    "content": {
+      "x": 16,
+      "y": 120,
+      "width": 358,
+      "height": 4076.09375,
+      "right": 374,
+      "bottom": 4196.09375
+    },
+    "gridColumns": [
+      1,
+      1
+    ],
+    "main": null,
+    "sidebar": null,
+    "categories": [
+      {
+        "text": "Immobilienmarkt",
+        "href": "https://box-is24-cms-frontend.s24-fep.eu-west-1.infinity.s24cloud.net/dev-scaling-editorial-ux-category-test-20261106"
+      },
+      {
+        "text": "Mieten",
+        "href": "https://box-is24-cms-frontend.s24-fep.eu-west-1.infinity.s24cloud.net/dev-scaling-editorial-mieten-mvp"
+      },
+      {
+        "text": "Kaufen & Verkaufen",
+        "href": "https://box-is24-cms-frontend.s24-fep.eu-west-1.infinity.s24cloud.net/dev-scaling-editorial-kaufen-verkaufen-mvp"
+      },
+      {
+        "text": "Finanzen",
+        "href": "https://box-is24-cms-frontend.s24-fep.eu-west-1.infinity.s24cloud.net/dev-scaling-editorial-finanzen-mvp"
+      },
+      {
+        "text": "Recht & Politik",
+        "href": "https://box-is24-cms-frontend.s24-fep.eu-west-1.infinity.s24cloud.net/dev-scaling-editorial-wohnrecht-mvp"
+      },
+      {
+        "text": "Wohnen & Architektur",
+        "href": "https://box-is24-cms-frontend.s24-fep.eu-west-1.infinity.s24cloud.net/dev-scaling-editorial-wohnen-architektur-mvp"
+      },
+      {
+        "text": "Lifestyle",
+        "href": "https://box-is24-cms-frontend.s24-fep.eu-west-1.infinity.s24cloud.net/dev-scaling-editorial-lifestyle-mvp"
+      }
+    ],
+    "navScrollable": true,
+    "longHeadlinePassed": true,
+    "focusPassed": true,
+    "disabledButtons": 1,
+    "headings": [
+      {
+        "level": "H1",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt",
+        "fontSize": "22px",
+        "lineHeight": "27.06px",
+        "box": {
+          "x": 16,
+          "y": 356.375,
+          "width": 358,
+          "height": 81.140625,
+          "right": 374,
+          "bottom": 437.515625
+        }
+      },
+      {
+        "level": "H2",
+        "text": "Im Trend",
+        "fontSize": "17px",
+        "lineHeight": "23.8px",
+        "box": {
+          "x": 16,
+          "y": 592.703125,
+          "width": 358,
+          "height": 23.796875,
+          "right": 374,
+          "bottom": 616.5
+        }
+      },
+      {
+        "level": "H3",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "fontSize": "15px",
+        "lineHeight": "20px",
+        "box": {
+          "x": 16,
+          "y": 862.875,
+          "width": 358,
+          "height": 40,
+          "right": 374,
+          "bottom": 902.875
+        }
+      },
+      {
+        "level": "H3",
+        "text": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+        "fontSize": "15px",
+        "lineHeight": "20px",
+        "box": {
+          "x": 16,
+          "y": 1157.25,
+          "width": 358,
+          "height": 40,
+          "right": 374,
+          "bottom": 1197.25
+        }
+      },
+      {
+        "level": "H3",
+        "text": "Ut enim ad minim veniam",
+        "fontSize": "15px",
+        "lineHeight": "20px",
+        "box": {
+          "x": 16,
+          "y": 1451.625,
+          "width": 358,
+          "height": 20,
+          "right": 374,
+          "bottom": 1471.625
+        }
+      },
+      {
+        "level": "H3",
+        "text": "Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
+        "fontSize": "15px",
+        "lineHeight": "20px",
+        "box": {
+          "x": 16,
+          "y": 1726,
+          "width": 358,
+          "height": 40,
+          "right": 374,
+          "bottom": 1766
+        }
+      },
+      {
+        "level": "H2",
+        "text": "Immobilienmarkt aktuell",
+        "fontSize": "17px",
+        "lineHeight": "23.8px",
+        "box": {
+          "x": 16,
+          "y": 1806,
+          "width": 358,
+          "height": 23.796875,
+          "right": 374,
+          "bottom": 1829.796875
+        }
+      },
+      {
+        "level": "H3",
+        "text": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore",
+        "fontSize": "15px",
+        "lineHeight": "20px",
+        "box": {
+          "x": 16,
+          "y": 2076.171875,
+          "width": 358,
+          "height": 40,
+          "right": 374,
+          "bottom": 2116.171875
+        }
+      },
+      {
+        "level": "H3",
+        "text": "Excepteur sint occaecat cupidatat non proident",
+        "fontSize": "15px",
+        "lineHeight": "20px",
+        "box": {
+          "x": 16,
+          "y": 2370.546875,
+          "width": 358,
+          "height": 20,
+          "right": 374,
+          "bottom": 2390.546875
+        }
+      },
+      {
+        "level": "H3",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "fontSize": "15px",
+        "lineHeight": "20px",
+        "box": {
+          "x": 16,
+          "y": 2644.921875,
+          "width": 358,
+          "height": 40,
+          "right": 374,
+          "bottom": 2684.921875
+        }
+      },
+      {
+        "level": "H3",
+        "text": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+        "fontSize": "15px",
+        "lineHeight": "20px",
+        "box": {
+          "x": 16,
+          "y": 2939.296875,
+          "width": 358,
+          "height": 40,
+          "right": 374,
+          "bottom": 2979.296875
+        }
+      },
+      {
+        "level": "H2",
+        "text": "Die meistgesehenen Immobilien diese Woche",
+        "fontSize": "17px",
+        "lineHeight": "23.8px",
+        "box": {
+          "x": 16,
+          "y": 3019.296875,
+          "width": 358,
+          "height": 23.796875,
+          "right": 374,
+          "bottom": 3043.09375
+        }
+      },
+      {
+        "level": "H3",
+        "text": "Ut enim ad minim veniam",
+        "fontSize": "12px",
+        "lineHeight": "18px",
+        "box": {
+          "x": 129,
+          "y": 3104.09375,
+          "width": 138.234375,
+          "height": 18,
+          "right": 267.234375,
+          "bottom": 3122.09375
+        }
+      },
+      {
+        "level": "H3",
+        "text": "Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
+        "fontSize": "12px",
+        "lineHeight": "18px",
+        "box": {
+          "x": 129,
+          "y": 3196.09375,
+          "width": 236,
+          "height": 36,
+          "right": 365,
+          "bottom": 3232.09375
+        }
+      },
+      {
+        "level": "H3",
+        "text": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore",
+        "fontSize": "12px",
+        "lineHeight": "18px",
+        "box": {
+          "x": 129,
+          "y": 3304.09375,
+          "width": 236,
+          "height": 36,
+          "right": 365,
+          "bottom": 3340.09375
+        }
+      },
+      {
+        "level": "H2",
+        "text": "Excepteur sint occaecat cupidatat non proident",
+        "fontSize": "20px",
+        "lineHeight": "30px",
+        "box": {
+          "x": 33,
+          "y": 3711.09375,
+          "width": 324,
+          "height": 60,
+          "right": 357,
+          "bottom": 3771.09375
+        }
+      }
+    ],
+    "images": [
+      {
+        "src": "https://www.static-immobilienscout24.de/fro/lpbuilder-contentful-placeholder/_/1920x1080.png",
+        "role": "lpb-editorial-ux-category-lead__image",
+        "rendered": {
+          "x": 16,
+          "y": 120,
+          "width": 358,
+          "height": 201.375,
+          "right": 374,
+          "bottom": 321.375
+        },
+        "actualPixels": [
+          1920,
+          1080
+        ],
+        "loaded": true,
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://www.static-immobilienscout24.de/fro/lpbuilder-contentful-placeholder/_/1920x1080.png",
+        "role": "lpb-editorial-ux-card__image",
+        "rendered": {
+          "x": 16,
+          "y": 632.5,
+          "width": 358,
+          "height": 201.375,
+          "right": 374,
+          "bottom": 833.875
+        },
+        "actualPixels": [
+          1920,
+          1080
+        ],
+        "loaded": true,
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://www.static-immobilienscout24.de/fro/lpbuilder-contentful-placeholder/_/1920x1080.png",
+        "role": "lpb-editorial-ux-card__image",
+        "rendered": {
+          "x": 16,
+          "y": 926.875,
+          "width": 358,
+          "height": 201.375,
+          "right": 374,
+          "bottom": 1128.25
+        },
+        "actualPixels": [
+          1920,
+          1080
+        ],
+        "loaded": true,
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://www.static-immobilienscout24.de/fro/lpbuilder-contentful-placeholder/_/1920x1080.png",
+        "role": "lpb-editorial-ux-card__image",
+        "rendered": {
+          "x": 16,
+          "y": 1221.25,
+          "width": 358,
+          "height": 201.375,
+          "right": 374,
+          "bottom": 1422.625
+        },
+        "actualPixels": [
+          1920,
+          1080
+        ],
+        "loaded": true,
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://www.static-immobilienscout24.de/fro/lpbuilder-contentful-placeholder/_/1920x1080.png",
+        "role": "lpb-editorial-ux-card__image",
+        "rendered": {
+          "x": 16,
+          "y": 1495.625,
+          "width": 358,
+          "height": 201.375,
+          "right": 374,
+          "bottom": 1697
+        },
+        "actualPixels": [
+          1920,
+          1080
+        ],
+        "loaded": true,
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://www.static-immobilienscout24.de/fro/lpbuilder-contentful-placeholder/_/1920x1080.png",
+        "role": "lpb-editorial-ux-card__image",
+        "rendered": {
+          "x": 16,
+          "y": 1845.796875,
+          "width": 358,
+          "height": 201.375,
+          "right": 374,
+          "bottom": 2047.171875
+        },
+        "actualPixels": [
+          1920,
+          1080
+        ],
+        "loaded": true,
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://www.static-immobilienscout24.de/fro/lpbuilder-contentful-placeholder/_/1920x1080.png",
+        "role": "lpb-editorial-ux-card__image",
+        "rendered": {
+          "x": 16,
+          "y": 2140.171875,
+          "width": 358,
+          "height": 201.375,
+          "right": 374,
+          "bottom": 2341.546875
+        },
+        "actualPixels": [
+          1920,
+          1080
+        ],
+        "loaded": true,
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://www.static-immobilienscout24.de/fro/lpbuilder-contentful-placeholder/_/1920x1080.png",
+        "role": "lpb-editorial-ux-card__image",
+        "rendered": {
+          "x": 16,
+          "y": 2414.546875,
+          "width": 358,
+          "height": 201.375,
+          "right": 374,
+          "bottom": 2615.921875
+        },
+        "actualPixels": [
+          1920,
+          1080
+        ],
+        "loaded": true,
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://www.static-immobilienscout24.de/fro/lpbuilder-contentful-placeholder/_/1920x1080.png",
+        "role": "lpb-editorial-ux-card__image",
+        "rendered": {
+          "x": 16,
+          "y": 2708.921875,
+          "width": 358,
+          "height": 201.375,
+          "right": 374,
+          "bottom": 2910.296875
+        },
+        "actualPixels": [
+          1920,
+          1080
+        ],
+        "loaded": true,
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://www.static-immobilienscout24.de/fro/lpbuilder-contentful-placeholder/_/1920x1080.png",
+        "role": "lpb-editorial-ux-property__image",
+        "rendered": {
+          "x": 17,
+          "y": 3094.09375,
+          "width": 100,
+          "height": 76,
+          "right": 117,
+          "bottom": 3170.09375
+        },
+        "actualPixels": [
+          1920,
+          1080
+        ],
+        "loaded": true,
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://www.static-immobilienscout24.de/fro/lpbuilder-contentful-placeholder/_/1920x1080.png",
+        "role": "lpb-editorial-ux-property__image",
+        "rendered": {
+          "x": 17,
+          "y": 3186.09375,
+          "width": 100,
+          "height": 76,
+          "right": 117,
+          "bottom": 3262.09375
+        },
+        "actualPixels": [
+          1920,
+          1080
+        ],
+        "loaded": true,
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://www.static-immobilienscout24.de/fro/lpbuilder-contentful-placeholder/_/1920x1080.png",
+        "role": "lpb-editorial-ux-property__image",
+        "rendered": {
+          "x": 17,
+          "y": 3294.09375,
+          "width": 100,
+          "height": 76,
+          "right": 117,
+          "bottom": 3370.09375
+        },
+        "actualPixels": [
+          1920,
+          1080
+        ],
+        "loaded": true,
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://www.static-immobilienscout24.de/fro/lpbuilder-contentful-placeholder/_/1920x1080.png",
+        "role": "lpb-editorial-ux-plus__image",
+        "rendered": {
+          "x": 33,
+          "y": 3444.09375,
+          "width": 324,
+          "height": 243,
+          "right": 357,
+          "bottom": 3687.09375
+        },
+        "actualPixels": [
+          1920,
+          1080
+        ],
+        "loaded": true,
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      }
+    ],
+    "articleCorrection": null,
+    "allChecksPassed": true,
+    "host": {
+      "allGrey": true,
+      "testLinks": [
+        "https://box-is24-cms-frontend.s24-fep.eu-west-1.infinity.s24cloud.net/dev-scaling-editorial-ux-home-test-20261106",
+        "https://box-is24-cms-frontend.s24-fep.eu-west-1.infinity.s24cloud.net/dev-scaling-editorial-ux-category-test-20261106",
+        "https://box-is24-cms-frontend.s24-fep.eu-west-1.infinity.s24cloud.net/dev-scaling-editorial-ux-article-test-20261106"
+      ],
+      "stylesheets": [
+        "https://box-is24-cms-frontend.s24-fep.eu-west-1.infinity.s24cloud.net/cms/assets/_next/static/css/e05c95919818111c.css",
+        "https://box-is24-cms-frontend.s24-fep.eu-west-1.infinity.s24cloud.net/cms/assets/_next/static/css/5a7070104db519cf.css",
+        "https://box-is24-cms-frontend.s24-fep.eu-west-1.infinity.s24cloud.net/cms/assets/_next/static/css/e3459ca62d4d737c.css",
+        "https://box-is24-cms-frontend.s24-fep.eu-west-1.infinity.s24cloud.net/cms/assets/_next/static/css/9de1399f4e41326b.css",
+        "https://box-is24-cms-frontend.s24-fep.eu-west-1.infinity.s24cloud.net/cms/assets/_next/static/css/a11e453204a0536b.css",
+        "https://box-is24-cms-frontend.s24-fep.eu-west-1.infinity.s24cloud.net/cms/assets/_next/static/css/230c842888247193.css",
+        "https://box-is24-cms-frontend.s24-fep.eu-west-1.infinity.s24cloud.net/cms/assets/_next/static/css/4f1c91d456cccc84.css",
+        "https://box-is24-cms-frontend.s24-fep.eu-west-1.infinity.s24cloud.net/cms/assets/_next/static/css/da3866dfa2a3a102.css",
+        "https://box-is24-cms-frontend.s24-fep.eu-west-1.infinity.s24cloud.net/cms/assets/_next/static/css/73b7d73f69077142.css",
+        "https://scout24-creative-ops.github.io/lp-builder/runtime/contentful/lpbuilder-bridge.css"
+      ],
+      "font": "\"Make It Better\", Verdana, \"DejaVu Sans\", Arial, Helvetica, sans-serif",
+      "fonts": [
+        {
+          "weight": 400,
+          "loaded": true
+        },
+        {
+          "weight": 700,
+          "loaded": true
+        },
+        {
+          "weight": 800,
+          "loaded": true
+        }
+      ],
+      "avatar": null,
+      "navHeight": 40,
+      "rootCount": 1
+    },
+    "consoleErrors": [
+      "Failed to load resource: the server responded with a status of 403 ()",
+      "Not signed in with the identity provider.",
+      "Access to XMLHttpRequest at 'https://api.header.sandbox-immobilienscout24.de/api/v1/getByCookie' from origin 'https://box-is24-cms-frontend.s24-fep.eu-west-1.infinity.s24cloud.net' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+      "Failed to load resource: net::ERR_FAILED",
+      "Access to fetch at 'https://sso.immobilienscout24.de/sso/me' from origin 'https://box-is24-cms-frontend.s24-fep.eu-west-1.infinity.s24cloud.net' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+      "Failed to load resource: net::ERR_FAILED"
+    ],
+    "screenshot": "category-mobile.png",
+    "actualLeadClickPassed": true
+  },
+  {
+    "url": "https://box-is24-cms-frontend.s24-fep.eu-west-1.infinity.s24cloud.net/dev-scaling-editorial-ux-article-test-20261106/",
+    "viewport": 1280,
+    "scrollWidth": 1280,
+    "content": {
+      "x": 72,
+      "y": 150,
+      "width": 1136,
+      "height": 3473.15625,
+      "right": 1208,
+      "bottom": 3623.15625
+    },
+    "gridColumns": [],
+    "main": {
+      "x": 72,
+      "y": 212,
+      "width": 747,
+      "height": 3353.15625,
+      "right": 819,
+      "bottom": 3565.15625
+    },
+    "sidebar": {
+      "x": 859,
+      "y": 212,
+      "width": 349,
+      "height": 660,
+      "right": 1208,
+      "bottom": 872
+    },
+    "categories": [
+      {
+        "text": "Immobilienmarkt",
+        "href": "https://box-is24-cms-frontend.s24-fep.eu-west-1.infinity.s24cloud.net/dev-scaling-editorial-ux-category-test-20261106"
+      },
+      {
+        "text": "Mieten",
+        "href": "https://box-is24-cms-frontend.s24-fep.eu-west-1.infinity.s24cloud.net/dev-scaling-editorial-mieten-mvp"
+      },
+      {
+        "text": "Kaufen & Verkaufen",
+        "href": "https://box-is24-cms-frontend.s24-fep.eu-west-1.infinity.s24cloud.net/dev-scaling-editorial-kaufen-verkaufen-mvp"
+      },
+      {
+        "text": "Finanzen",
+        "href": "https://box-is24-cms-frontend.s24-fep.eu-west-1.infinity.s24cloud.net/dev-scaling-editorial-finanzen-mvp"
+      },
+      {
+        "text": "Recht & Politik",
+        "href": "https://box-is24-cms-frontend.s24-fep.eu-west-1.infinity.s24cloud.net/dev-scaling-editorial-wohnrecht-mvp"
+      },
+      {
+        "text": "Wohnen & Architektur",
+        "href": "https://box-is24-cms-frontend.s24-fep.eu-west-1.infinity.s24cloud.net/dev-scaling-editorial-wohnen-architektur-mvp"
+      },
+      {
+        "text": "Lifestyle",
+        "href": "https://box-is24-cms-frontend.s24-fep.eu-west-1.infinity.s24cloud.net/dev-scaling-editorial-lifestyle-mvp"
+      }
+    ],
+    "navScrollable": false,
+    "longHeadlinePassed": true,
+    "focusPassed": true,
+    "disabledButtons": 2,
+    "headings": [
+      {
+        "level": "H1",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt",
+        "fontSize": "40px",
+        "lineHeight": "50px",
+        "box": {
+          "x": 72,
+          "y": 212,
+          "width": 747,
+          "height": 150,
+          "right": 819,
+          "bottom": 362
+        }
+      },
+      {
+        "level": "H2",
+        "text": "Ut enim ad minim veniam",
+        "fontSize": "26px",
+        "lineHeight": "36px",
+        "box": {
+          "x": 72,
+          "y": 1442.1875,
+          "width": 747,
+          "height": 36,
+          "right": 819,
+          "bottom": 1478.1875
+        }
+      },
+      {
+        "level": "H3",
+        "text": "Excepteur sint occaecat cupidatat non proident",
+        "fontSize": "20px",
+        "lineHeight": "30px",
+        "box": {
+          "x": 72,
+          "y": 1820.1875,
+          "width": 747,
+          "height": 30,
+          "right": 819,
+          "bottom": 1850.1875
+        }
+      },
+      {
+        "level": "H2",
+        "text": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+        "fontSize": "26px",
+        "lineHeight": "36px",
+        "box": {
+          "x": 72,
+          "y": 2002.1875,
+          "width": 747,
+          "height": 72,
+          "right": 819,
+          "bottom": 2074.1875
+        }
+      },
+      {
+        "level": "H2",
+        "text": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore",
+        "fontSize": "26px",
+        "lineHeight": "36px",
+        "box": {
+          "x": 72,
+          "y": 2424.1875,
+          "width": 747,
+          "height": 72,
+          "right": 819,
+          "bottom": 2496.1875
+        }
+      },
+      {
+        "level": "H2",
+        "text": "Quellen",
+        "fontSize": "18px",
+        "lineHeight": "26px",
+        "box": {
+          "x": 72,
+          "y": 2767.1875,
+          "width": 747,
+          "height": 26,
+          "right": 819,
+          "bottom": 2793.1875
+        }
+      },
+      {
+        "level": "H2",
+        "text": "Markt in 60 Sekunden",
+        "fontSize": "14px",
+        "lineHeight": "21px",
+        "box": {
+          "x": 90,
+          "y": 2857.1875,
+          "width": 711,
+          "height": 21,
+          "right": 801,
+          "bottom": 2878.1875
+        }
+      },
+      {
+        "level": "H2",
+        "text": "Ut enim ad minim veniam",
+        "fontSize": "20px",
+        "lineHeight": "30px",
+        "box": {
+          "x": 416,
+          "y": 3074.15625,
+          "width": 228.234375,
+          "height": 30,
+          "right": 644.234375,
+          "bottom": 3104.15625
+        }
+      },
+      {
+        "level": "H2",
+        "text": "Weiterlesen",
+        "fontSize": "17px",
+        "lineHeight": "24px",
+        "box": {
+          "x": 859,
+          "y": 212,
+          "width": 349,
+          "height": 24,
+          "right": 1208,
+          "bottom": 236
+        }
+      },
+      {
+        "level": "H3",
+        "text": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore",
+        "fontSize": "12px",
+        "lineHeight": "16px",
+        "box": {
+          "x": 951,
+          "y": 267,
+          "width": 257,
+          "height": 32,
+          "right": 1208,
+          "bottom": 299
+        }
+      },
+      {
+        "level": "H3",
+        "text": "Excepteur sint occaecat cupidatat non proident",
+        "fontSize": "12px",
+        "lineHeight": "16px",
+        "box": {
+          "x": 951,
+          "y": 337,
+          "width": 257,
+          "height": 32,
+          "right": 1208,
+          "bottom": 369
+        }
+      },
+      {
+        "level": "H3",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "fontSize": "12px",
+        "lineHeight": "16px",
+        "box": {
+          "x": 951,
+          "y": 407,
+          "width": 257,
+          "height": 32,
+          "right": 1208,
+          "bottom": 439
+        }
+      },
+      {
+        "level": "H2",
+        "text": "Aktuelle Mietwohnungen",
+        "fontSize": "17px",
+        "lineHeight": "24px",
+        "box": {
+          "x": 859,
+          "y": 486,
+          "width": 349,
+          "height": 24,
+          "right": 1208,
+          "bottom": 510
+        }
+      },
+      {
+        "level": "H3",
+        "text": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+        "fontSize": "12px",
+        "lineHeight": "18px",
+        "box": {
+          "x": 972,
+          "y": 571,
+          "width": 227,
+          "height": 36,
+          "right": 1199,
+          "bottom": 607
+        }
+      },
+      {
+        "level": "H3",
+        "text": "Ut enim ad minim veniam",
+        "fontSize": "12px",
+        "lineHeight": "18px",
+        "box": {
+          "x": 972,
+          "y": 679,
+          "width": 138.234375,
+          "height": 18,
+          "right": 1110.234375,
+          "bottom": 697
+        }
+      },
+      {
+        "level": "H3",
+        "text": "Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
+        "fontSize": "12px",
+        "lineHeight": "18px",
+        "box": {
+          "x": 972,
+          "y": 771,
+          "width": 227,
+          "height": 54,
+          "right": 1199,
+          "bottom": 825
+        }
+      }
+    ],
+    "images": [
+      {
+        "src": "https://www.static-immobilienscout24.de/fro/lpbuilder-contentful-placeholder/_/1920x1080.png",
+        "role": "lpb-editorial-author__avatar",
+        "rendered": {
+          "x": 72,
+          "y": 395,
+          "width": 56,
+          "height": 56,
+          "right": 128,
+          "bottom": 451
+        },
+        "actualPixels": [
+          1920,
+          1080
+        ],
+        "loaded": true,
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://www.static-immobilienscout24.de/fro/lpbuilder-contentful-placeholder/_/1920x1080.png",
+        "role": "lpb-image--responsive",
+        "rendered": {
+          "x": 72,
+          "y": 562,
+          "width": 747,
+          "height": 420.1875,
+          "right": 819,
+          "bottom": 982.1875
+        },
+        "actualPixels": [
+          1920,
+          1080
+        ],
+        "loaded": true,
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://www.static-immobilienscout24.de/fro/lpbuilder-contentful-placeholder/_/1920x1080.png",
+        "role": "lpb-editorial-ux-plus__image",
+        "rendered": {
+          "x": 89,
+          "y": 3066.15625,
+          "width": 303,
+          "height": 227.25,
+          "right": 392,
+          "bottom": 3293.40625
+        },
+        "actualPixels": [
+          1920,
+          1080
+        ],
+        "loaded": true,
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://www.static-immobilienscout24.de/fro/lpbuilder-contentful-placeholder/_/1920x1080.png",
+        "role": "lpb-editorial-ux-reading__image",
+        "rendered": {
+          "x": 859,
+          "y": 250,
+          "width": 80,
+          "height": 56,
+          "right": 939,
+          "bottom": 306
+        },
+        "actualPixels": [
+          1920,
+          1080
+        ],
+        "loaded": true,
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://www.static-immobilienscout24.de/fro/lpbuilder-contentful-placeholder/_/1920x1080.png",
+        "role": "lpb-editorial-ux-reading__image",
+        "rendered": {
+          "x": 859,
+          "y": 320,
+          "width": 80,
+          "height": 56,
+          "right": 939,
+          "bottom": 376
+        },
+        "actualPixels": [
+          1920,
+          1080
+        ],
+        "loaded": true,
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://www.static-immobilienscout24.de/fro/lpbuilder-contentful-placeholder/_/1920x1080.png",
+        "role": "lpb-editorial-ux-reading__image",
+        "rendered": {
+          "x": 859,
+          "y": 390,
+          "width": 80,
+          "height": 56,
+          "right": 939,
+          "bottom": 446
+        },
+        "actualPixels": [
+          1920,
+          1080
+        ],
+        "loaded": true,
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://www.static-immobilienscout24.de/fro/lpbuilder-contentful-placeholder/_/1920x1080.png",
+        "role": "lpb-editorial-ux-property__image",
+        "rendered": {
+          "x": 860,
+          "y": 561,
+          "width": 100,
+          "height": 76,
+          "right": 960,
+          "bottom": 637
+        },
+        "actualPixels": [
+          1920,
+          1080
+        ],
+        "loaded": true,
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://www.static-immobilienscout24.de/fro/lpbuilder-contentful-placeholder/_/1920x1080.png",
+        "role": "lpb-editorial-ux-property__image",
+        "rendered": {
+          "x": 860,
+          "y": 669,
+          "width": 100,
+          "height": 76,
+          "right": 960,
+          "bottom": 745
+        },
+        "actualPixels": [
+          1920,
+          1080
+        ],
+        "loaded": true,
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://www.static-immobilienscout24.de/fro/lpbuilder-contentful-placeholder/_/1920x1080.png",
+        "role": "lpb-editorial-ux-property__image",
+        "rendered": {
+          "x": 860,
+          "y": 761,
+          "width": 100,
+          "height": 76,
+          "right": 960,
+          "bottom": 837
+        },
+        "actualPixels": [
+          1920,
+          1080
+        ],
+        "loaded": true,
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      }
+    ],
+    "articleCorrection": {
+      "author": {
+        "x": 72,
+        "y": 386,
+        "width": 720,
+        "height": 74,
+        "right": 792,
+        "bottom": 460
+      },
+      "google": {
+        "x": 72,
+        "y": 484,
+        "width": 747,
+        "height": 54,
+        "right": 819,
+        "bottom": 538
+      },
+      "titleImage": {
+        "x": 72,
+        "y": 562,
+        "width": 747,
+        "height": 446.1875,
+        "right": 819,
+        "bottom": 1008.1875
+      },
+      "intro": {
+        "x": 72,
+        "y": 1032.1875,
+        "width": 747,
+        "height": 52,
+        "right": 819,
+        "bottom": 1084.1875
+      },
+      "body": {
+        "x": 72,
+        "y": 1108.1875,
+        "width": 747,
+        "height": 1707,
+        "right": 819,
+        "bottom": 2815.1875
+      },
+      "visibleBreadcrumb": [
+        "Immobilienmarkt",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt"
+      ]
+    },
+    "allChecksPassed": true,
+    "host": {
+      "allGrey": true,
+      "testLinks": [
+        "https://box-is24-cms-frontend.s24-fep.eu-west-1.infinity.s24cloud.net/dev-scaling-editorial-ux-home-test-20261106",
+        "https://box-is24-cms-frontend.s24-fep.eu-west-1.infinity.s24cloud.net/dev-scaling-editorial-ux-category-test-20261106",
+        "https://box-is24-cms-frontend.s24-fep.eu-west-1.infinity.s24cloud.net/dev-scaling-editorial-ux-article-test-20261106"
+      ],
+      "stylesheets": [
+        "https://box-is24-cms-frontend.s24-fep.eu-west-1.infinity.s24cloud.net/cms/assets/_next/static/css/e05c95919818111c.css",
+        "https://box-is24-cms-frontend.s24-fep.eu-west-1.infinity.s24cloud.net/cms/assets/_next/static/css/5a7070104db519cf.css",
+        "https://box-is24-cms-frontend.s24-fep.eu-west-1.infinity.s24cloud.net/cms/assets/_next/static/css/e3459ca62d4d737c.css",
+        "https://box-is24-cms-frontend.s24-fep.eu-west-1.infinity.s24cloud.net/cms/assets/_next/static/css/9de1399f4e41326b.css",
+        "https://box-is24-cms-frontend.s24-fep.eu-west-1.infinity.s24cloud.net/cms/assets/_next/static/css/a11e453204a0536b.css",
+        "https://box-is24-cms-frontend.s24-fep.eu-west-1.infinity.s24cloud.net/cms/assets/_next/static/css/230c842888247193.css",
+        "https://box-is24-cms-frontend.s24-fep.eu-west-1.infinity.s24cloud.net/cms/assets/_next/static/css/4f1c91d456cccc84.css",
+        "https://box-is24-cms-frontend.s24-fep.eu-west-1.infinity.s24cloud.net/cms/assets/_next/static/css/da3866dfa2a3a102.css",
+        "https://box-is24-cms-frontend.s24-fep.eu-west-1.infinity.s24cloud.net/cms/assets/_next/static/css/73b7d73f69077142.css",
+        "https://accounts.google.com/gsi/style",
+        "https://scout24-creative-ops.github.io/lp-builder/runtime/contentful/lpbuilder-bridge.css"
+      ],
+      "font": "\"Make It Better\", Verdana, \"DejaVu Sans\", Arial, Helvetica, sans-serif",
+      "fonts": [
+        {
+          "weight": 400,
+          "loaded": true
+        },
+        {
+          "weight": 700,
+          "loaded": true
+        },
+        {
+          "weight": 800,
+          "loaded": true
+        }
+      ],
+      "avatar": {
+        "width": 56,
+        "height": 56,
+        "radius": "50%"
+      },
+      "navHeight": 40,
+      "rootCount": 1
+    },
+    "consoleErrors": [
+      "Failed to load resource: the server responded with a status of 403 ()",
+      "Not signed in with the identity provider.",
+      "Access to XMLHttpRequest at 'https://api.header.sandbox-immobilienscout24.de/api/v1/getByCookie' from origin 'https://box-is24-cms-frontend.s24-fep.eu-west-1.infinity.s24cloud.net' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+      "Failed to load resource: net::ERR_FAILED",
+      "Access to fetch at 'https://sso.immobilienscout24.de/sso/me' from origin 'https://box-is24-cms-frontend.s24-fep.eu-west-1.infinity.s24cloud.net' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: the server responded with a status of 403 ()",
+      "Not signed in with the identity provider."
+    ],
+    "screenshot": "article-desktop.png",
+    "actualLeadClickPassed": true
+  },
+  {
+    "url": "https://box-is24-cms-frontend.s24-fep.eu-west-1.infinity.s24cloud.net/dev-scaling-editorial-ux-article-test-20261106/",
+    "viewport": 390,
+    "scrollWidth": 390,
+    "content": {
+      "x": 16,
+      "y": 120,
+      "width": 358,
+      "height": 5542.3125,
+      "right": 374,
+      "bottom": 5662.3125
+    },
+    "gridColumns": [],
+    "main": {
+      "x": 16,
+      "y": 182,
+      "width": 358,
+      "height": 4704.3125,
+      "right": 374,
+      "bottom": 4886.3125
+    },
+    "sidebar": {
+      "x": 16,
+      "y": 4926.3125,
+      "width": 358,
+      "height": 642,
+      "right": 374,
+      "bottom": 5568.3125
+    },
+    "categories": [
+      {
+        "text": "Immobilienmarkt",
+        "href": "https://box-is24-cms-frontend.s24-fep.eu-west-1.infinity.s24cloud.net/dev-scaling-editorial-ux-category-test-20261106"
+      },
+      {
+        "text": "Mieten",
+        "href": "https://box-is24-cms-frontend.s24-fep.eu-west-1.infinity.s24cloud.net/dev-scaling-editorial-mieten-mvp"
+      },
+      {
+        "text": "Kaufen & Verkaufen",
+        "href": "https://box-is24-cms-frontend.s24-fep.eu-west-1.infinity.s24cloud.net/dev-scaling-editorial-kaufen-verkaufen-mvp"
+      },
+      {
+        "text": "Finanzen",
+        "href": "https://box-is24-cms-frontend.s24-fep.eu-west-1.infinity.s24cloud.net/dev-scaling-editorial-finanzen-mvp"
+      },
+      {
+        "text": "Recht & Politik",
+        "href": "https://box-is24-cms-frontend.s24-fep.eu-west-1.infinity.s24cloud.net/dev-scaling-editorial-wohnrecht-mvp"
+      },
+      {
+        "text": "Wohnen & Architektur",
+        "href": "https://box-is24-cms-frontend.s24-fep.eu-west-1.infinity.s24cloud.net/dev-scaling-editorial-wohnen-architektur-mvp"
+      },
+      {
+        "text": "Lifestyle",
+        "href": "https://box-is24-cms-frontend.s24-fep.eu-west-1.infinity.s24cloud.net/dev-scaling-editorial-lifestyle-mvp"
+      }
+    ],
+    "navScrollable": true,
+    "longHeadlinePassed": true,
+    "focusPassed": true,
+    "disabledButtons": 2,
+    "headings": [
+      {
+        "level": "H1",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt",
+        "fontSize": "24px",
+        "lineHeight": "30px",
+        "box": {
+          "x": 16,
+          "y": 182,
+          "width": 358,
+          "height": 90,
+          "right": 374,
+          "bottom": 272
+        }
+      },
+      {
+        "level": "H2",
+        "text": "Ut enim ad minim veniam",
+        "fontSize": "24px",
+        "lineHeight": "32px",
+        "box": {
+          "x": 16,
+          "y": 1497.375,
+          "width": 358,
+          "height": 32,
+          "right": 374,
+          "bottom": 1529.375
+        }
+      },
+      {
+        "level": "H3",
+        "text": "Excepteur sint occaecat cupidatat non proident",
+        "fontSize": "20px",
+        "lineHeight": "30px",
+        "box": {
+          "x": 16,
+          "y": 2131.375,
+          "width": 358,
+          "height": 60,
+          "right": 374,
+          "bottom": 2191.375
+        }
+      },
+      {
+        "level": "H2",
+        "text": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+        "fontSize": "24px",
+        "lineHeight": "32px",
+        "box": {
+          "x": 16,
+          "y": 2421.375,
+          "width": 358,
+          "height": 96,
+          "right": 374,
+          "bottom": 2517.375
+        }
+      },
+      {
+        "level": "H2",
+        "text": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore",
+        "fontSize": "24px",
+        "lineHeight": "32px",
+        "box": {
+          "x": 16,
+          "y": 3127.375,
+          "width": 358,
+          "height": 96,
+          "right": 374,
+          "bottom": 3223.375
+        }
+      },
+      {
+        "level": "H2",
+        "text": "Quellen",
+        "fontSize": "18px",
+        "lineHeight": "26px",
+        "box": {
+          "x": 16,
+          "y": 3668.375,
+          "width": 358,
+          "height": 26,
+          "right": 374,
+          "bottom": 3694.375
+        }
+      },
+      {
+        "level": "H2",
+        "text": "Markt in 60 Sekunden",
+        "fontSize": "14px",
+        "lineHeight": "21px",
+        "box": {
+          "x": 34,
+          "y": 3758.375,
+          "width": 322,
+          "height": 21,
+          "right": 356,
+          "bottom": 3779.375
+        }
+      },
+      {
+        "level": "H2",
+        "text": "Ut enim ad minim veniam",
+        "fontSize": "20px",
+        "lineHeight": "30px",
+        "box": {
+          "x": 33,
+          "y": 4317.3125,
+          "width": 228.234375,
+          "height": 30,
+          "right": 261.234375,
+          "bottom": 4347.3125
+        }
+      },
+      {
+        "level": "H2",
+        "text": "Weiterlesen",
+        "fontSize": "17px",
+        "lineHeight": "24px",
+        "box": {
+          "x": 16,
+          "y": 4926.3125,
+          "width": 358,
+          "height": 24,
+          "right": 374,
+          "bottom": 4950.3125
+        }
+      },
+      {
+        "level": "H3",
+        "text": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore",
+        "fontSize": "12px",
+        "lineHeight": "16px",
+        "box": {
+          "x": 108,
+          "y": 4981.3125,
+          "width": 266,
+          "height": 32,
+          "right": 374,
+          "bottom": 5013.3125
+        }
+      },
+      {
+        "level": "H3",
+        "text": "Excepteur sint occaecat cupidatat non proident",
+        "fontSize": "12px",
+        "lineHeight": "16px",
+        "box": {
+          "x": 108,
+          "y": 5051.3125,
+          "width": 263.59375,
+          "height": 16,
+          "right": 371.59375,
+          "bottom": 5067.3125
+        }
+      },
+      {
+        "level": "H3",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "fontSize": "12px",
+        "lineHeight": "16px",
+        "box": {
+          "x": 108,
+          "y": 5121.3125,
+          "width": 266,
+          "height": 32,
+          "right": 374,
+          "bottom": 5153.3125
+        }
+      },
+      {
+        "level": "H2",
+        "text": "Aktuelle Mietwohnungen",
+        "fontSize": "17px",
+        "lineHeight": "24px",
+        "box": {
+          "x": 16,
+          "y": 5200.3125,
+          "width": 358,
+          "height": 24,
+          "right": 374,
+          "bottom": 5224.3125
+        }
+      },
+      {
+        "level": "H3",
+        "text": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+        "fontSize": "12px",
+        "lineHeight": "18px",
+        "box": {
+          "x": 129,
+          "y": 5285.3125,
+          "width": 236,
+          "height": 36,
+          "right": 365,
+          "bottom": 5321.3125
+        }
+      },
+      {
+        "level": "H3",
+        "text": "Ut enim ad minim veniam",
+        "fontSize": "12px",
+        "lineHeight": "18px",
+        "box": {
+          "x": 129,
+          "y": 5393.3125,
+          "width": 138.234375,
+          "height": 18,
+          "right": 267.234375,
+          "bottom": 5411.3125
+        }
+      },
+      {
+        "level": "H3",
+        "text": "Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
+        "fontSize": "12px",
+        "lineHeight": "18px",
+        "box": {
+          "x": 129,
+          "y": 5485.3125,
+          "width": 236,
+          "height": 36,
+          "right": 365,
+          "bottom": 5521.3125
+        }
+      }
+    ],
+    "images": [
+      {
+        "src": "https://www.static-immobilienscout24.de/fro/lpbuilder-contentful-placeholder/_/1920x1080.png",
+        "role": "lpb-editorial-author__avatar",
+        "rendered": {
+          "x": 16,
+          "y": 318,
+          "width": 56,
+          "height": 56,
+          "right": 72,
+          "bottom": 374
+        },
+        "actualPixels": [
+          1920,
+          1080
+        ],
+        "loaded": true,
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://www.static-immobilienscout24.de/fro/lpbuilder-contentful-placeholder/_/1920x1080.png",
+        "role": "lpb-image--responsive",
+        "rendered": {
+          "x": 16,
+          "y": 498,
+          "width": 358,
+          "height": 201.375,
+          "right": 374,
+          "bottom": 699.375
+        },
+        "actualPixels": [
+          1920,
+          1080
+        ],
+        "loaded": true,
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://www.static-immobilienscout24.de/fro/lpbuilder-contentful-placeholder/_/1920x1080.png",
+        "role": "lpb-editorial-ux-plus__image",
+        "rendered": {
+          "x": 33,
+          "y": 4050.3125,
+          "width": 324,
+          "height": 243,
+          "right": 357,
+          "bottom": 4293.3125
+        },
+        "actualPixels": [
+          1920,
+          1080
+        ],
+        "loaded": true,
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://www.static-immobilienscout24.de/fro/lpbuilder-contentful-placeholder/_/1920x1080.png",
+        "role": "lpb-editorial-ux-reading__image",
+        "rendered": {
+          "x": 16,
+          "y": 4964.3125,
+          "width": 80,
+          "height": 56,
+          "right": 96,
+          "bottom": 5020.3125
+        },
+        "actualPixels": [
+          1920,
+          1080
+        ],
+        "loaded": true,
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://www.static-immobilienscout24.de/fro/lpbuilder-contentful-placeholder/_/1920x1080.png",
+        "role": "lpb-editorial-ux-reading__image",
+        "rendered": {
+          "x": 16,
+          "y": 5034.3125,
+          "width": 80,
+          "height": 56,
+          "right": 96,
+          "bottom": 5090.3125
+        },
+        "actualPixels": [
+          1920,
+          1080
+        ],
+        "loaded": true,
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://www.static-immobilienscout24.de/fro/lpbuilder-contentful-placeholder/_/1920x1080.png",
+        "role": "lpb-editorial-ux-reading__image",
+        "rendered": {
+          "x": 16,
+          "y": 5104.3125,
+          "width": 80,
+          "height": 56,
+          "right": 96,
+          "bottom": 5160.3125
+        },
+        "actualPixels": [
+          1920,
+          1080
+        ],
+        "loaded": true,
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://www.static-immobilienscout24.de/fro/lpbuilder-contentful-placeholder/_/1920x1080.png",
+        "role": "lpb-editorial-ux-property__image",
+        "rendered": {
+          "x": 17,
+          "y": 5275.3125,
+          "width": 100,
+          "height": 76,
+          "right": 117,
+          "bottom": 5351.3125
+        },
+        "actualPixels": [
+          1920,
+          1080
+        ],
+        "loaded": true,
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://www.static-immobilienscout24.de/fro/lpbuilder-contentful-placeholder/_/1920x1080.png",
+        "role": "lpb-editorial-ux-property__image",
+        "rendered": {
+          "x": 17,
+          "y": 5383.3125,
+          "width": 100,
+          "height": 76,
+          "right": 117,
+          "bottom": 5459.3125
+        },
+        "actualPixels": [
+          1920,
+          1080
+        ],
+        "loaded": true,
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://www.static-immobilienscout24.de/fro/lpbuilder-contentful-placeholder/_/1920x1080.png",
+        "role": "lpb-editorial-ux-property__image",
+        "rendered": {
+          "x": 17,
+          "y": 5475.3125,
+          "width": 100,
+          "height": 76,
+          "right": 117,
+          "bottom": 5551.3125
+        },
+        "actualPixels": [
+          1920,
+          1080
+        ],
+        "loaded": true,
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      }
+    ],
+    "articleCorrection": {
+      "author": {
+        "x": 16,
+        "y": 296,
+        "width": 358,
+        "height": 100,
+        "right": 374,
+        "bottom": 396
+      },
+      "google": {
+        "x": 16,
+        "y": 420,
+        "width": 358,
+        "height": 54,
+        "right": 374,
+        "bottom": 474
+      },
+      "titleImage": {
+        "x": 16,
+        "y": 498,
+        "width": 358,
+        "height": 227.375,
+        "right": 374,
+        "bottom": 725.375
+      },
+      "intro": {
+        "x": 16,
+        "y": 749.375,
+        "width": 358,
+        "height": 130,
+        "right": 374,
+        "bottom": 879.375
+      },
+      "body": {
+        "x": 16,
+        "y": 903.375,
+        "width": 358,
+        "height": 2813,
+        "right": 374,
+        "bottom": 3716.375
+      },
+      "visibleBreadcrumb": [
+        "Immobilienmarkt"
+      ]
+    },
+    "allChecksPassed": true,
+    "host": {
+      "allGrey": true,
+      "testLinks": [
+        "https://box-is24-cms-frontend.s24-fep.eu-west-1.infinity.s24cloud.net/dev-scaling-editorial-ux-home-test-20261106",
+        "https://box-is24-cms-frontend.s24-fep.eu-west-1.infinity.s24cloud.net/dev-scaling-editorial-ux-category-test-20261106",
+        "https://box-is24-cms-frontend.s24-fep.eu-west-1.infinity.s24cloud.net/dev-scaling-editorial-ux-article-test-20261106"
+      ],
+      "stylesheets": [
+        "https://box-is24-cms-frontend.s24-fep.eu-west-1.infinity.s24cloud.net/cms/assets/_next/static/css/e05c95919818111c.css",
+        "https://box-is24-cms-frontend.s24-fep.eu-west-1.infinity.s24cloud.net/cms/assets/_next/static/css/5a7070104db519cf.css",
+        "https://box-is24-cms-frontend.s24-fep.eu-west-1.infinity.s24cloud.net/cms/assets/_next/static/css/e3459ca62d4d737c.css",
+        "https://box-is24-cms-frontend.s24-fep.eu-west-1.infinity.s24cloud.net/cms/assets/_next/static/css/9de1399f4e41326b.css",
+        "https://box-is24-cms-frontend.s24-fep.eu-west-1.infinity.s24cloud.net/cms/assets/_next/static/css/a11e453204a0536b.css",
+        "https://box-is24-cms-frontend.s24-fep.eu-west-1.infinity.s24cloud.net/cms/assets/_next/static/css/230c842888247193.css",
+        "https://box-is24-cms-frontend.s24-fep.eu-west-1.infinity.s24cloud.net/cms/assets/_next/static/css/4f1c91d456cccc84.css",
+        "https://box-is24-cms-frontend.s24-fep.eu-west-1.infinity.s24cloud.net/cms/assets/_next/static/css/da3866dfa2a3a102.css",
+        "https://box-is24-cms-frontend.s24-fep.eu-west-1.infinity.s24cloud.net/cms/assets/_next/static/css/73b7d73f69077142.css",
+        "https://scout24-creative-ops.github.io/lp-builder/runtime/contentful/lpbuilder-bridge.css"
+      ],
+      "font": "\"Make It Better\", Verdana, \"DejaVu Sans\", Arial, Helvetica, sans-serif",
+      "fonts": [
+        {
+          "weight": 400,
+          "loaded": true
+        },
+        {
+          "weight": 700,
+          "loaded": true
+        },
+        {
+          "weight": 800,
+          "loaded": true
+        }
+      ],
+      "avatar": {
+        "width": 56,
+        "height": 56,
+        "radius": "50%"
+      },
+      "navHeight": 40,
+      "rootCount": 1
+    },
+    "consoleErrors": [
+      "Access to XMLHttpRequest at 'https://api.header.sandbox-immobilienscout24.de/api/v1/getByCookie' from origin 'https://box-is24-cms-frontend.s24-fep.eu-west-1.infinity.s24cloud.net' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+      "Failed to load resource: net::ERR_FAILED",
+      "Access to fetch at 'https://sso.immobilienscout24.de/sso/me' from origin 'https://box-is24-cms-frontend.s24-fep.eu-west-1.infinity.s24cloud.net' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+      "Failed to load resource: net::ERR_FAILED"
+    ],
+    "screenshot": "article-mobile.png",
+    "actualLeadClickPassed": true
+  }
+]

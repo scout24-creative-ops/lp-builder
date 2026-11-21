@@ -1,0 +1,24 @@
+{
+  "commit": "8ef37588dffaf6962572fb86c12a1916c860d51f",
+  "artifacts": [
+    {
+      "url": "https://scout24-creative-ops.github.io/lp-builder/runtime/contentful/lpbuilder-bridge.css?commit=8ef37588dffaf6962572fb86c12a1916c860d51f",
+      "status": 200,
+      "sha256": "d41017af95eb9479cb8db906128841c728211e7de069e2b4b115a1e3dab337e6",
+      "byteExact": true
+    },
+    {
+      "url": "https://scout24-creative-ops.github.io/lp-builder/runtime/contentful/lpbuilder-runtime.js?commit=8ef37588dffaf6962572fb86c12a1916c860d51f",
+      "status": 200,
+      "sha256": "912c465663c26a3a26226db13ce8952b090b7b5d91e1c7f5fc948afb51013c90",
+      "byteExact": true
+    }
+  ],
+  "workflow": 42295345422,
+  "conclusion": "success",
+  "commits": [
+    "67b3fe20ef8d636ce8382385feed5ca9024c027a",
+    "ebe12250d476bff996bf7e49c8328aaf0e80aaa9",
+    "8ef37588dffaf6962572fb86c12a1916c860d51f"
+  ]
+}

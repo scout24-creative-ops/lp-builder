@@ -1,0 +1,30 @@
+[
+  {
+    "slug": "/dev-scaling-editorial-ux-home-test-20261106",
+    "preflight": "explicit_not_found",
+    "entryId": null,
+    "stored": false,
+    "readBackVerified": false,
+    "browserVerified": false,
+    "blocker": "18 UX image HTTPS destinations unavailable; recheck slug immediately before future create"
+  },
+  {
+    "slug": "/dev-scaling-editorial-ux-category-test-20261106",
+    "preflight": "explicit_not_found",
+    "entryId": null,
+    "stored": false,
+    "readBackVerified": false,
+    "browserVerified": false,
+    "blocker": "18 UX image HTTPS destinations unavailable; recheck slug immediately before future create"
+  },
+  {
+    "slug": "/dev-scaling-editorial-ux-article-test-20261106",
+    "preflight": "explicit_not_found",
+    "entryId": null,
+    "stored": false,
+    "readBackVerified": false,
+    "browserVerified": false,
+    "blocker": "18 UX image HTTPS destinations unavailable; recheck slug immediately before future create"
+  }
+]
+

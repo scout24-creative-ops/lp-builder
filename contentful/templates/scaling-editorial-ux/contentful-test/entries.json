@@ -1,0 +1,45 @@
+{
+  "article": {
+    "entryId": "2RuvfNtI6Yj8TlbSf385F4",
+    "slug": "/dev-scaling-editorial-ux-article-test-20261106",
+    "status": "draft",
+    "version": 4,
+    "previewUrl": "https://box-is24-cms-frontend.s24-fep.eu-west-1.infinity.s24cloud.net/dev-scaling-editorial-ux-article-test-20261106",
+    "htmlBytes": 13312,
+    "htmlSha256": "1836f68e0bfc21bf7a808541fc797fd3f08a410bba5da9863bf9bb8b9a242abb",
+    "verified": true,
+    "versionBefore": 3,
+    "publishedVersion": null,
+    "readbackExact": true,
+    "kind": "article",
+    "exactReadback": true
+  },
+  "home": {
+    "entryId": "6WCIJwOfi73csgCGC1O6ay",
+    "slug": "/dev-scaling-editorial-ux-home-test-20261106",
+    "status": "draft",
+    "version": 3,
+    "previewUrl": "https://box-is24-cms-frontend.s24-fep.eu-west-1.infinity.s24cloud.net/dev-scaling-editorial-ux-home-test-20261106",
+    "htmlBytes": 13673,
+    "htmlSha256": "1ea5ae4e3b78761862065d4c0bff09a2bda3c62dab69c1068216c61e23cc1485",
+    "verified": true,
+    "versionBefore": 2,
+    "publishedVersion": null,
+    "kind": "home",
+    "exactReadback": true
+  },
+  "category": {
+    "entryId": "ZLh6zjq5DgOlN4nYwvjmC",
+    "slug": "/dev-scaling-editorial-ux-category-test-20261106",
+    "status": "draft",
+    "version": 3,
+    "previewUrl": "https://box-is24-cms-frontend.s24-fep.eu-west-1.infinity.s24cloud.net/dev-scaling-editorial-ux-category-test-20261106",
+    "htmlBytes": 10033,
+    "htmlSha256": "b65108745be1e7bf906564042d789872c0309edd4d6e538d1fb857f73ee6c16d",
+    "verified": true,
+    "versionBefore": 2,
+    "publishedVersion": null,
+    "kind": "category",
+    "exactReadback": true
+  }
+}

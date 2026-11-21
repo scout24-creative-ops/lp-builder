@@ -1,0 +1,181 @@
+[
+  {
+    "entryId": "22O849wA6VAVgxOYVT9zvB",
+    "slug": "/dev-scaling-editorial-wohnrecht-mvp",
+    "kind": "category",
+    "baselineVersion": 11,
+    "publishedVersion": 8,
+    "bytes": 11543,
+    "sha256": "c3ad6191271bb61c958dafdedd890ce61e54439662b85de43884264a29b91339",
+    "assignedArticles": [
+      "6OL3zbn7WnUyNqOJTYqpCH",
+      "Ik1AQUW6OAxQCqgnkcq0J"
+    ],
+    "linksPreserved": true,
+    "imagesPreserved": true,
+    "articleContentExact": false
+  },
+  {
+    "entryId": "3Ae2iqznVqvIhriXHIwObO",
+    "slug": "/dev-scaling-editorial-kaufen-verkaufen-mvp",
+    "kind": "category",
+    "baselineVersion": 6,
+    "publishedVersion": 3,
+    "bytes": 11032,
+    "sha256": "59daed44eae944c543853dfd6752e0ef2d0f57035f31fd51ee2de8a6ec59c0b9",
+    "assignedArticles": [],
+    "linksPreserved": true,
+    "imagesPreserved": true,
+    "articleContentExact": false
+  },
+  {
+    "entryId": "3jW0RGwxmANB4DmBNvvo36",
+    "slug": "/dev-scaling-editorial-wohnen-architektur-mvp",
+    "kind": "category",
+    "baselineVersion": 10,
+    "publishedVersion": 3,
+    "bytes": 11401,
+    "sha256": "9cdfab1c77a89e0c4369114e7468ca3100e20077eccc7184448cd7c44e9f0387",
+    "assignedArticles": [
+      "5brtogQ8wFhVwFlkP9vli7"
+    ],
+    "linksPreserved": true,
+    "imagesPreserved": true,
+    "articleContentExact": false
+  },
+  {
+    "entryId": "45DjdzK0dQkNOXwIDOc4zh",
+    "slug": "/heizoel-preissprung-heizkostenrechnung",
+    "kind": "article",
+    "baselineVersion": 4,
+    "publishedVersion": 2,
+    "bytes": 16899,
+    "sha256": "d1ebb1ee7fb3ef8fa7cf44a27a5dcb8927d8eb9e9e09fe9446ba7677b82a3a26",
+    "assignedArticles": [],
+    "linksPreserved": true,
+    "imagesPreserved": true,
+    "articleContentExact": true
+  },
+  {
+    "entryId": "5AAlQUHwGoilHwuVLwzsdi",
+    "slug": "/dev-scaling-editorial-lifestyle-mvp",
+    "kind": "category",
+    "baselineVersion": 6,
+    "publishedVersion": 3,
+    "bytes": 10874,
+    "sha256": "71f6a5a832ecf96fc6867d6a276a0eaf0d4d3878e76c705250a6e8e83844713a",
+    "assignedArticles": [],
+    "linksPreserved": true,
+    "imagesPreserved": true,
+    "articleContentExact": false
+  },
+  {
+    "entryId": "5brtogQ8wFhVwFlkP9vli7",
+    "slug": "/haus-ohne-zentralheizung-ingolstadt",
+    "kind": "article",
+    "baselineVersion": 4,
+    "publishedVersion": null,
+    "bytes": 16204,
+    "sha256": "eea46ada7f7a5d8e5bab4a4136830de15f578ca7a6ac8cc28206cfe2adecdcd0",
+    "assignedArticles": [],
+    "linksPreserved": true,
+    "imagesPreserved": true,
+    "articleContentExact": true
+  },
+  {
+    "entryId": "5wAUjIQ8GgUwy7U6J15yOq",
+    "slug": "/generationenwechsel-eigenheime",
+    "kind": "article",
+    "baselineVersion": 5,
+    "publishedVersion": 2,
+    "bytes": 16486,
+    "sha256": "619020cdc57ee061742870827d15e6aea6a7539bfab7028e89a04b46dde3c319",
+    "assignedArticles": [],
+    "linksPreserved": true,
+    "imagesPreserved": true,
+    "articleContentExact": true
+  },
+  {
+    "entryId": "6OL3zbn7WnUyNqOJTYqpCH",
+    "slug": "/wohngeldreform-2027-geplante-aenderungen",
+    "kind": "article",
+    "baselineVersion": 5,
+    "publishedVersion": 3,
+    "bytes": 16197,
+    "sha256": "dbaa10e3068d7e009e3c11ac47d7aef9b8886e312e0f8007be18825fbea11cd9",
+    "assignedArticles": [],
+    "linksPreserved": true,
+    "imagesPreserved": true,
+    "articleContentExact": true
+  },
+  {
+    "entryId": "6mXLg2EBqEsR8RCEqqJ8Lm",
+    "slug": "/dev-scaling-editorial-finanzen-mvp",
+    "kind": "category",
+    "baselineVersion": 12,
+    "publishedVersion": 9,
+    "bytes": 11188,
+    "sha256": "86d246d8aa161c2b9b9b57272bc5ba66cc54a80495c96f9cc6975cd3b44ead57",
+    "assignedArticles": [
+      "45DjdzK0dQkNOXwIDOc4zh"
+    ],
+    "linksPreserved": true,
+    "imagesPreserved": true,
+    "articleContentExact": false
+  },
+  {
+    "entryId": "Ik1AQUW6OAxQCqgnkcq0J",
+    "slug": "/energiewende-miete-eigentum-wer-entscheidet",
+    "kind": "article",
+    "baselineVersion": 4,
+    "publishedVersion": 2,
+    "bytes": 17174,
+    "sha256": "f38b653ef8377dc986407d7360600624dc861555775142d8bb677d3827abfaa5",
+    "assignedArticles": [],
+    "linksPreserved": true,
+    "imagesPreserved": true,
+    "articleContentExact": true
+  },
+  {
+    "entryId": "LxsfE8MGOPJPbSOYTR4hw",
+    "slug": "/dev-scaling-editorial-immobilienmarkt-mvp",
+    "kind": "category",
+    "baselineVersion": 10,
+    "publishedVersion": 7,
+    "bytes": 11426,
+    "sha256": "cf217bd404fcbb601fd25481f74bf27dabc4ae3489f9d0b6958376e9e94df173",
+    "assignedArticles": [
+      "5wAUjIQ8GgUwy7U6J15yOq",
+      "Q9IRHEZmuUMcEcnVB6c3c"
+    ],
+    "linksPreserved": true,
+    "imagesPreserved": true,
+    "articleContentExact": false
+  },
+  {
+    "entryId": "Q9IRHEZmuUMcEcnVB6c3c",
+    "slug": "/baugenehmigungen-baupipeline",
+    "kind": "article",
+    "baselineVersion": 4,
+    "publishedVersion": 2,
+    "bytes": 15828,
+    "sha256": "0c602e5299c1536b810cd0f013e156217f1a4823a855dcb0d738291761fcc15f",
+    "assignedArticles": [],
+    "linksPreserved": true,
+    "imagesPreserved": true,
+    "articleContentExact": true
+  },
+  {
+    "entryId": "SoSCcB5Z1fjKJDcU9GmHG",
+    "slug": "/dev-scaling-editorial-mieten-mvp",
+    "kind": "category",
+    "baselineVersion": 6,
+    "publishedVersion": 3,
+    "bytes": 10844,
+    "sha256": "71d78a00da9797daf552745fe40505fc825c05e3971b8d65ab9cadfae3f02647",
+    "assignedArticles": [],
+    "linksPreserved": true,
+    "imagesPreserved": true,
+    "articleContentExact": false
+  }
+]
