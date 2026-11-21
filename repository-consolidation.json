@@ -1,0 +1,3155 @@
+{
+  "date": "2026-11-21",
+  "sourceCommit": "3404bfa69b4e0f16aaf75530cfe4329801451431",
+  "targetBaseCommit": "d29450101d8fd7b34f2a32c849f90babf74af7ac",
+  "imports": [
+    {
+      "path": "contentful/.gitignore",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": ".gitignore",
+      "sourceBlob": "5e391b4686692b5c9a32b8b45aac27e15eccf0b2",
+      "targetBlob": "5e391b4686692b5c9a32b8b45aac27e15eccf0b2",
+      "adapted": false
+    },
+    {
+      "path": "contentful/AGENTS.md",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "AGENTS.md",
+      "sourceBlob": "e4ad3528e73e02bb7cd17b40aa0296e175c0b710",
+      "targetBlob": "19ab0ace6465183b49dedb6f2c1460bec434d9c7",
+      "adapted": true
+    },
+    {
+      "path": "contentful/README.md",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "README.md",
+      "sourceBlob": "8d6516d487eff6d06c967cdd3ac4e8915969a2eb",
+      "targetBlob": "8d6516d487eff6d06c967cdd3ac4e8915969a2eb",
+      "adapted": false
+    },
+    {
+      "path": "contentful/SEO Module/lp-builder-seo-content-sidebar-handover.md",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "SEO Module/lp-builder-seo-content-sidebar-handover.md",
+      "sourceBlob": "1f106546819554f989261b58a2467a19ebaf733c",
+      "targetBlob": "1f106546819554f989261b58a2467a19ebaf733c",
+      "adapted": false
+    },
+    {
+      "path": "contentful/assets/action-tiles/gewerbe.svg",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "assets/action-tiles/gewerbe.svg",
+      "sourceBlob": "577a88ed41ccbdc325f5336242cce1eef5452754",
+      "targetBlob": "577a88ed41ccbdc325f5336242cce1eef5452754",
+      "adapted": false
+    },
+    {
+      "path": "contentful/assets/action-tiles/grundstueck.svg",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "assets/action-tiles/grundstueck.svg",
+      "sourceBlob": "365556660b93ba271aa06ba575aa6d8de39a6582",
+      "targetBlob": "365556660b93ba271aa06ba575aa6d8de39a6582",
+      "adapted": false
+    },
+    {
+      "path": "contentful/assets/action-tiles/haus.svg",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "assets/action-tiles/haus.svg",
+      "sourceBlob": "414a420ca3818b640b59e60c10ad7a1aa0c2f26e",
+      "targetBlob": "414a420ca3818b640b59e60c10ad7a1aa0c2f26e",
+      "adapted": false
+    },
+    {
+      "path": "contentful/assets/action-tiles/wohnung.svg",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "assets/action-tiles/wohnung.svg",
+      "sourceBlob": "265e990ea78135b780e76c03b80f2e746179a194",
+      "targetBlob": "265e990ea78135b780e76c03b80f2e746179a194",
+      "adapted": false
+    },
+    {
+      "path": "contentful/assets/callouts/avatar_man.png",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "assets/callouts/avatar_man.png",
+      "sourceBlob": "d4e3d68ba49e6dbcaad02a86342b3e7dfc2588fc",
+      "targetBlob": "d4e3d68ba49e6dbcaad02a86342b3e7dfc2588fc",
+      "adapted": false
+    },
+    {
+      "path": "contentful/assets/callouts/news.png",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "assets/callouts/news.png",
+      "sourceBlob": "bd95705b6236a5f17dd428eca18cff97cc2aa741",
+      "targetBlob": "bd95705b6236a5f17dd428eca18cff97cc2aa741",
+      "adapted": false
+    },
+    {
+      "path": "contentful/assets/callouts/star.png",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "assets/callouts/star.png",
+      "sourceBlob": "d42e3a2d93d431c3876a057cfad2786ec800bde7",
+      "targetBlob": "d42e3a2d93d431c3876a057cfad2786ec800bde7",
+      "adapted": false
+    },
+    {
+      "path": "contentful/assets/scaling-editorial/building-scaling-editorial-test-1920x1080.png",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "assets/scaling-editorial/building-scaling-editorial-test-1920x1080.png",
+      "sourceBlob": "b6805037f77451675e4e933569dfee1698cbe173",
+      "targetBlob": "b6805037f77451675e4e933569dfee1698cbe173",
+      "adapted": false
+    },
+    {
+      "path": "contentful/assets/scaling-editorial/ux/fonts/MakeItBetter-Bold.woff2",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "assets/scaling-editorial/ux/fonts/MakeItBetter-Bold.woff2",
+      "sourceBlob": "981a9efee10f5af7c2b3b9965887385529127283",
+      "targetBlob": "981a9efee10f5af7c2b3b9965887385529127283",
+      "adapted": false
+    },
+    {
+      "path": "contentful/assets/scaling-editorial/ux/fonts/MakeItBetter-Regular.woff2",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "assets/scaling-editorial/ux/fonts/MakeItBetter-Regular.woff2",
+      "sourceBlob": "e83382a7ab5e00e8a0635bb5f767bf1acf6a6f68",
+      "targetBlob": "e83382a7ab5e00e8a0635bb5f767bf1acf6a6f68",
+      "adapted": false
+    },
+    {
+      "path": "contentful/assets/scaling-editorial/ux/fonts/MakeItBetter-XBold.woff2",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "assets/scaling-editorial/ux/fonts/MakeItBetter-XBold.woff2",
+      "sourceBlob": "834677d209130b20790e51fb5f0079e17e219188",
+      "targetBlob": "834677d209130b20790e51fb5f0079e17e219188",
+      "adapted": false
+    },
+    {
+      "path": "contentful/assets/scaling-editorial/ux/news/lead.jpg",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "assets/scaling-editorial/ux/news/lead.jpg",
+      "sourceBlob": "b88fcf3d366045fc32e1cf2749122d64a902bf2d",
+      "targetBlob": "b88fcf3d366045fc32e1cf2749122d64a902bf2d",
+      "adapted": false
+    },
+    {
+      "path": "contentful/assets/scaling-editorial/ux/news/lt1.webp",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "assets/scaling-editorial/ux/news/lt1.webp",
+      "sourceBlob": "c14b59461268bb37de2e138015b08f0db1f0083b",
+      "targetBlob": "c14b59461268bb37de2e138015b08f0db1f0083b",
+      "adapted": false
+    },
+    {
+      "path": "contentful/assets/scaling-editorial/ux/news/lt2.webp",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "assets/scaling-editorial/ux/news/lt2.webp",
+      "sourceBlob": "f743e5931d70827f8e96c68f868b4e1519b3cd05",
+      "targetBlob": "f743e5931d70827f8e96c68f868b4e1519b3cd05",
+      "adapted": false
+    },
+    {
+      "path": "contentful/assets/scaling-editorial/ux/news/lt3.jpg",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "assets/scaling-editorial/ux/news/lt3.jpg",
+      "sourceBlob": "db278a960610a02883e2418234acdf409e12c0cf",
+      "targetBlob": "db278a960610a02883e2418234acdf409e12c0cf",
+      "adapted": false
+    },
+    {
+      "path": "contentful/assets/scaling-editorial/ux/news/mf1.jpg",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "assets/scaling-editorial/ux/news/mf1.jpg",
+      "sourceBlob": "b1660701840fd0bff57e95b500d7ed78df99fbe4",
+      "targetBlob": "b1660701840fd0bff57e95b500d7ed78df99fbe4",
+      "adapted": false
+    },
+    {
+      "path": "contentful/assets/scaling-editorial/ux/news/mf2.jpg",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "assets/scaling-editorial/ux/news/mf2.jpg",
+      "sourceBlob": "255e251cc35a8124dda769f005ec27fc32f12766",
+      "targetBlob": "255e251cc35a8124dda769f005ec27fc32f12766",
+      "adapted": false
+    },
+    {
+      "path": "contentful/assets/scaling-editorial/ux/news/mf4.webp",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "assets/scaling-editorial/ux/news/mf4.webp",
+      "sourceBlob": "2fcafd4265f9e6131bdf01711ee7e644b4980ded",
+      "targetBlob": "2fcafd4265f9e6131bdf01711ee7e644b4980ded",
+      "adapted": false
+    },
+    {
+      "path": "contentful/assets/scaling-editorial/ux/news/mf6.jpg",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "assets/scaling-editorial/ux/news/mf6.jpg",
+      "sourceBlob": "2a3d0e9b9d041dd04836ee72cde629afc08d2d85",
+      "targetBlob": "2a3d0e9b9d041dd04836ee72cde629afc08d2d85",
+      "adapted": false
+    },
+    {
+      "path": "contentful/assets/scaling-editorial/ux/news/rec1.jpg",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "assets/scaling-editorial/ux/news/rec1.jpg",
+      "sourceBlob": "07258140d71a49c9547ee5e6e7ebe621dadb089b",
+      "targetBlob": "07258140d71a49c9547ee5e6e7ebe621dadb089b",
+      "adapted": false
+    },
+    {
+      "path": "contentful/assets/scaling-editorial/ux/news/rec2.webp",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "assets/scaling-editorial/ux/news/rec2.webp",
+      "sourceBlob": "15d3ccdab891b71e5418a93747cd3ff7f5281183",
+      "targetBlob": "15d3ccdab891b71e5418a93747cd3ff7f5281183",
+      "adapted": false
+    },
+    {
+      "path": "contentful/assets/scaling-editorial/ux/news/rec3.avif",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "assets/scaling-editorial/ux/news/rec3.avif",
+      "sourceBlob": "e1a914f988f1aca3ba4ec555e9402cc15bca16e3",
+      "targetBlob": "e1a914f988f1aca3ba4ec555e9402cc15bca16e3",
+      "adapted": false
+    },
+    {
+      "path": "contentful/assets/scaling-editorial/ux/news/rec4.webp",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "assets/scaling-editorial/ux/news/rec4.webp",
+      "sourceBlob": "62fdf5b461157bbb13c4408c9a34ded085df19fb",
+      "targetBlob": "62fdf5b461157bbb13c4408c9a34ded085df19fb",
+      "adapted": false
+    },
+    {
+      "path": "contentful/assets/scaling-editorial/ux/news/trend1.png",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "assets/scaling-editorial/ux/news/trend1.png",
+      "sourceBlob": "1eb230adec4818e158c556a139c9d690a1ff97a5",
+      "targetBlob": "1eb230adec4818e158c556a139c9d690a1ff97a5",
+      "adapted": false
+    },
+    {
+      "path": "contentful/assets/scaling-editorial/ux/news/trend2.png",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "assets/scaling-editorial/ux/news/trend2.png",
+      "sourceBlob": "af03e79522498280c93bd0596e32613763a9c5ca",
+      "targetBlob": "af03e79522498280c93bd0596e32613763a9c5ca",
+      "adapted": false
+    },
+    {
+      "path": "contentful/assets/scaling-editorial/ux/news/trend3.png",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "assets/scaling-editorial/ux/news/trend3.png",
+      "sourceBlob": "c5c172e619b75b45697766e1c6db07c5fac15938",
+      "targetBlob": "c5c172e619b75b45697766e1c6db07c5fac15938",
+      "adapted": false
+    },
+    {
+      "path": "contentful/assets/scaling-editorial/ux/news/twArch.jpg",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "assets/scaling-editorial/ux/news/twArch.jpg",
+      "sourceBlob": "74e7aa706fec13cc84480207b3e5fc7bf17914ed",
+      "targetBlob": "74e7aa706fec13cc84480207b3e5fc7bf17914ed",
+      "adapted": false
+    },
+    {
+      "path": "contentful/assets/scaling-editorial/ux/news/twBes.jpg",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "assets/scaling-editorial/ux/news/twBes.jpg",
+      "sourceBlob": "421bd13dbe02c3f24aad69f8651c1950d0bf6a4d",
+      "targetBlob": "421bd13dbe02c3f24aad69f8651c1950d0bf6a4d",
+      "adapted": false
+    },
+    {
+      "path": "contentful/assets/scaling-editorial/ux/news/twPromi.webp",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "assets/scaling-editorial/ux/news/twPromi.webp",
+      "sourceBlob": "e07928ea3d281b0a05a3d9303967e3cf266a8486",
+      "targetBlob": "e07928ea3d281b0a05a3d9303967e3cf266a8486",
+      "adapted": false
+    },
+    {
+      "path": "contentful/assets/servicetiles/badge_plus.svg",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "assets/servicetiles/badge_plus.svg",
+      "sourceBlob": "464f9f9458a1d6fe0fcce78d99cbbdfaf1b4e930",
+      "targetBlob": "464f9f9458a1d6fe0fcce78d99cbbdfaf1b4e930",
+      "adapted": false
+    },
+    {
+      "path": "contentful/assets/servicetiles/finanzieren.svg",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "assets/servicetiles/finanzieren.svg",
+      "sourceBlob": "4b2c9e7d40a6827662224076bcbcd1b7034f9319",
+      "targetBlob": "4b2c9e7d40a6827662224076bcbcd1b7034f9319",
+      "adapted": false
+    },
+    {
+      "path": "contentful/assets/servicetiles/mieter-kaeufer-plus.svg",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "assets/servicetiles/mieter-kaeufer-plus.svg",
+      "sourceBlob": "e61c258d793056e221882ef3eeeb01a1cf50505c",
+      "targetBlob": "e61c258d793056e221882ef3eeeb01a1cf50505c",
+      "adapted": false
+    },
+    {
+      "path": "contentful/assets/servicetiles/mobile-service-icon.svg",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "assets/servicetiles/mobile-service-icon.svg",
+      "sourceBlob": "5d072572417e3712af1e08bd9593d21379ed8f0e",
+      "targetBlob": "5d072572417e3712af1e08bd9593d21379ed8f0e",
+      "adapted": false
+    },
+    {
+      "path": "contentful/assets/servicetiles/schufa-bonitaetscheck.svg",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "assets/servicetiles/schufa-bonitaetscheck.svg",
+      "sourceBlob": "55127e24f3d5227a32d697e287e1974f2699ef40",
+      "targetBlob": "55127e24f3d5227a32d697e287e1974f2699ef40",
+      "adapted": false
+    },
+    {
+      "path": "contentful/assets/servicetiles/suche-speichern.svg",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "assets/servicetiles/suche-speichern.svg",
+      "sourceBlob": "a0a09312d61c27e0de622ffc2b85029a774156b1",
+      "targetBlob": "a0a09312d61c27e0de622ffc2b85029a774156b1",
+      "adapted": false
+    },
+    {
+      "path": "contentful/assets/servicetiles/umziehen.svg",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "assets/servicetiles/umziehen.svg",
+      "sourceBlob": "2c0d1a26586486f51e96ec7ff4c0b2b4349b3633",
+      "targetBlob": "2c0d1a26586486f51e96ec7ff4c0b2b4349b3633",
+      "adapted": false
+    },
+    {
+      "path": "contentful/concepts/scaling-editorial-structured-content/README.md",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "concepts/scaling-editorial-structured-content/README.md",
+      "sourceBlob": "faa17413a5420c8b7c7bebccf6c8604eba9e7699",
+      "targetBlob": "faa17413a5420c8b7c7bebccf6c8604eba9e7699",
+      "adapted": false
+    },
+    {
+      "path": "contentful/concepts/scaling-editorial-structured-content/action-examples.json",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "concepts/scaling-editorial-structured-content/action-examples.json",
+      "sourceBlob": "5bcc4547344c297a9cbdb4af5bb039f76408b43d",
+      "targetBlob": "5bcc4547344c297a9cbdb4af5bb039f76408b43d",
+      "adapted": false
+    },
+    {
+      "path": "contentful/concepts/scaling-editorial-structured-content/content-contract.md",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "concepts/scaling-editorial-structured-content/content-contract.md",
+      "sourceBlob": "78731b8bd40ae1ad9e42d05b25e4bdc361d77c28",
+      "targetBlob": "78731b8bd40ae1ad9e42d05b25e4bdc361d77c28",
+      "adapted": false
+    },
+    {
+      "path": "contentful/concepts/scaling-editorial-structured-content/normalized-article.example.json",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "concepts/scaling-editorial-structured-content/normalized-article.example.json",
+      "sourceBlob": "c338b48a390c444898a91a347f7defd5fbc01117",
+      "targetBlob": "c338b48a390c444898a91a347f7defd5fbc01117",
+      "adapted": false
+    },
+    {
+      "path": "contentful/concepts/scaling-editorial-structured-content/proof.mjs",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "concepts/scaling-editorial-structured-content/proof.mjs",
+      "sourceBlob": "5c23048239091ac3ee73e0ee8979b2d88efff4db",
+      "targetBlob": "5c23048239091ac3ee73e0ee8979b2d88efff4db",
+      "adapted": false
+    },
+    {
+      "path": "contentful/concepts/scaling-editorial-structured-content/proof.test.mjs",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "concepts/scaling-editorial-structured-content/proof.test.mjs",
+      "sourceBlob": "3e5aad6ebcc9aa6e5ac30418213fbcef743a7c1a",
+      "targetBlob": "3e5aad6ebcc9aa6e5ac30418213fbcef743a7c1a",
+      "adapted": false
+    },
+    {
+      "path": "contentful/docs/known-gaps.md",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "docs/known-gaps.md",
+      "sourceBlob": "5f3439ffce9ba2a7412da2a46299ab23f9b844d8",
+      "targetBlob": "5f3439ffce9ba2a7412da2a46299ab23f9b844d8",
+      "adapted": false
+    },
+    {
+      "path": "contentful/docs/runtime-delivery.md",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "docs/runtime-delivery.md",
+      "sourceBlob": "ab3cc871197163179d7aa15dd8bfc41fd24b621a",
+      "targetBlob": "ab3cc871197163179d7aa15dd8bfc41fd24b621a",
+      "adapted": false
+    },
+    {
+      "path": "contentful/gpt-package/building-policy.md",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "gpt-package/building-policy.md",
+      "sourceBlob": "5a32ec2ea49f7974b7963d960618814e184980fd",
+      "targetBlob": "5a32ec2ea49f7974b7963d960618814e184980fd",
+      "adapted": false
+    },
+    {
+      "path": "contentful/gpt-package/component-library.html",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "gpt-package/component-library.html",
+      "sourceBlob": "61519558abb4224778b26fc9c3fcef3bc9461346",
+      "targetBlob": "61519558abb4224778b26fc9c3fcef3bc9461346",
+      "adapted": false
+    },
+    {
+      "path": "contentful/gpt-package/contentful-integration.md",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "gpt-package/contentful-integration.md",
+      "sourceBlob": "6c03fa1a3f3a70325b1b4f8201c9492bd7f44cbd",
+      "targetBlob": "6c03fa1a3f3a70325b1b4f8201c9492bd7f44cbd",
+      "adapted": false
+    },
+    {
+      "path": "contentful/gpt-package/cosma-icons-static.md",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "gpt-package/cosma-icons-static.md",
+      "sourceBlob": "0da0feb1cb3c20fb4ee8a96e9d9de005a1859d5a",
+      "targetBlob": "0da0feb1cb3c20fb4ee8a96e9d9de005a1859d5a",
+      "adapted": false
+    },
+    {
+      "path": "contentful/gpt-package/main-instructions.md",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "gpt-package/main-instructions.md",
+      "sourceBlob": "a042d11259c769f5238fb4ecf33fcfc710cdb52e",
+      "targetBlob": "a042d11259c769f5238fb4ecf33fcfc710cdb52e",
+      "adapted": false
+    },
+    {
+      "path": "contentful/gpt-package/migration-mode.md",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "gpt-package/migration-mode.md",
+      "sourceBlob": "f94eb75f300fefe80ca6ba3d2e589b10c5ab4aa1",
+      "targetBlob": "f94eb75f300fefe80ca6ba3d2e589b10c5ab4aa1",
+      "adapted": false
+    },
+    {
+      "path": "contentful/libraries/design-library.html",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "libraries/design-library.html",
+      "sourceBlob": "6e470bfb05075a92adc505a4e79529e518fe6a16",
+      "targetBlob": "6e470bfb05075a92adc505a4e79529e518fe6a16",
+      "adapted": false
+    },
+    {
+      "path": "contentful/libraries/design-tokens.md",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "libraries/design-tokens.md",
+      "sourceBlob": "ee32190d4e8d229a86ef22747a2364c18548a498",
+      "targetBlob": "ee32190d4e8d229a86ef22747a2364c18548a498",
+      "adapted": false
+    },
+    {
+      "path": "contentful/libraries/module-library-elements.html",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "libraries/module-library-elements.html",
+      "sourceBlob": "2c880155190a18c3ed2f5ff5c5895da409781594",
+      "targetBlob": "2c880155190a18c3ed2f5ff5c5895da409781594",
+      "adapted": false
+    },
+    {
+      "path": "contentful/libraries/module-library-page-modules-1.html",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "libraries/module-library-page-modules-1.html",
+      "sourceBlob": "08f78604a7acd03b8658ad6c47c7bbf63cdd40e5",
+      "targetBlob": "08f78604a7acd03b8658ad6c47c7bbf63cdd40e5",
+      "adapted": false
+    },
+    {
+      "path": "contentful/libraries/module-library-page-modules.html",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "libraries/module-library-page-modules.html",
+      "sourceBlob": "43d49e054839c04035e9a9dbd00768dc2d0e770c",
+      "targetBlob": "43d49e054839c04035e9a9dbd00768dc2d0e770c",
+      "adapted": false
+    },
+    {
+      "path": "contentful/libraries/module-library.html",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "libraries/module-library.html",
+      "sourceBlob": "c79061bae65938f225fbaa40222f3091fbbded69",
+      "targetBlob": "c79061bae65938f225fbaa40222f3091fbbded69",
+      "adapted": false
+    },
+    {
+      "path": "contentful/libraries/runtime-rules.md",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "libraries/runtime-rules.md",
+      "sourceBlob": "223308f0138c5fda0b9e66bca4523714f27abfc3",
+      "targetBlob": "223308f0138c5fda0b9e66bca4523714f27abfc3",
+      "adapted": false
+    },
+    {
+      "path": "contentful/migration/crawl/gold-memberschaften-produktdetails/pages/anbieten-gewerbliche-anbieter-inserieren-mitgliedschaft2015-vermarktung-kontaktplus-3c7eef3686/assets/asset-1-08459f28dae8.jpg",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "migration/crawl/gold-memberschaften-produktdetails/pages/anbieten-gewerbliche-anbieter-inserieren-mitgliedschaft2015-vermarktung-kontaktplus-3c7eef3686/assets/asset-1-08459f28dae8.jpg",
+      "sourceBlob": "87947c406971a3feef57898600fee18f9c9ff1e3",
+      "targetBlob": "87947c406971a3feef57898600fee18f9c9ff1e3",
+      "adapted": false
+    },
+    {
+      "path": "contentful/migration/crawl/gold-memberschaften-produktdetails/pages/anbieten-gewerbliche-anbieter-inserieren-mitgliedschaft2015-vermarktung-kontaktplus-3c7eef3686/assets/asset-2-dcd074169bc8.jpg",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "migration/crawl/gold-memberschaften-produktdetails/pages/anbieten-gewerbliche-anbieter-inserieren-mitgliedschaft2015-vermarktung-kontaktplus-3c7eef3686/assets/asset-2-dcd074169bc8.jpg",
+      "sourceBlob": "dc2ef656975b6bb00b1c76745f98f48af63f5841",
+      "targetBlob": "dc2ef656975b6bb00b1c76745f98f48af63f5841",
+      "adapted": false
+    },
+    {
+      "path": "contentful/migration/crawl/gold-memberschaften-produktdetails/pages/anbieten-gewerbliche-anbieter-inserieren-mitgliedschaft2015-vermarktung-kontaktplus-3c7eef3686/assets/asset-3-a8cf7a6c7c75.jpg",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "migration/crawl/gold-memberschaften-produktdetails/pages/anbieten-gewerbliche-anbieter-inserieren-mitgliedschaft2015-vermarktung-kontaktplus-3c7eef3686/assets/asset-3-a8cf7a6c7c75.jpg",
+      "sourceBlob": "b032b4d8e3b011fe360622a83f3b77464cc69665",
+      "targetBlob": "b032b4d8e3b011fe360622a83f3b77464cc69665",
+      "adapted": false
+    },
+    {
+      "path": "contentful/migration/crawl/gold-memberschaften-produktdetails/pages/anbieten-gewerbliche-anbieter-inserieren-mitgliedschaft2015-vermarktung-kontaktplus-3c7eef3686/assets/asset-4-5148d9800820.jpg",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "migration/crawl/gold-memberschaften-produktdetails/pages/anbieten-gewerbliche-anbieter-inserieren-mitgliedschaft2015-vermarktung-kontaktplus-3c7eef3686/assets/asset-4-5148d9800820.jpg",
+      "sourceBlob": "f39a9c32780824e23b3864502f7dd6f544785f5d",
+      "targetBlob": "f39a9c32780824e23b3864502f7dd6f544785f5d",
+      "adapted": false
+    },
+    {
+      "path": "contentful/migration/crawl/gold-memberschaften-produktdetails/pages/anbieten-gewerbliche-anbieter-inserieren-mitgliedschaft2015-vermarktung-kontaktplus-3c7eef3686/assets/asset-5-5c6e5be5b160.png",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "migration/crawl/gold-memberschaften-produktdetails/pages/anbieten-gewerbliche-anbieter-inserieren-mitgliedschaft2015-vermarktung-kontaktplus-3c7eef3686/assets/asset-5-5c6e5be5b160.png",
+      "sourceBlob": "0b4fa8da1f2b3cd0210efc59ebbba8582ebf741b",
+      "targetBlob": "0b4fa8da1f2b3cd0210efc59ebbba8582ebf741b",
+      "adapted": false
+    },
+    {
+      "path": "contentful/migration/crawl/gold-memberschaften-produktdetails/pages/anbieten-gewerbliche-anbieter-inserieren-mitgliedschaft2015-vermarktung-kontaktplus-3c7eef3686/assets/asset-6-235d56ffd61e.bin",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "migration/crawl/gold-memberschaften-produktdetails/pages/anbieten-gewerbliche-anbieter-inserieren-mitgliedschaft2015-vermarktung-kontaktplus-3c7eef3686/assets/asset-6-235d56ffd61e.bin",
+      "sourceBlob": "8b9c3e6f16f1006a150153be99d26d9f02fd15cd",
+      "targetBlob": "8b9c3e6f16f1006a150153be99d26d9f02fd15cd",
+      "adapted": false
+    },
+    {
+      "path": "contentful/migration/crawl/gold-memberschaften-produktdetails/pages/anbieten-gewerbliche-anbieter-inserieren-mitgliedschaft2015-vermarktung-kontaktplus-3c7eef3686/assets/asset-7-e3aca9620c5c.bin",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "migration/crawl/gold-memberschaften-produktdetails/pages/anbieten-gewerbliche-anbieter-inserieren-mitgliedschaft2015-vermarktung-kontaktplus-3c7eef3686/assets/asset-7-e3aca9620c5c.bin",
+      "sourceBlob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "targetBlob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "adapted": false
+    },
+    {
+      "path": "contentful/migration/crawl/gold-memberschaften-produktdetails/pages/anbieten-gewerbliche-anbieter-inserieren-mitgliedschaft2015-vermarktung-kontaktplus-3c7eef3686/assets/asset-8-9cc2b73d6f98.bin",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "migration/crawl/gold-memberschaften-produktdetails/pages/anbieten-gewerbliche-anbieter-inserieren-mitgliedschaft2015-vermarktung-kontaktplus-3c7eef3686/assets/asset-8-9cc2b73d6f98.bin",
+      "sourceBlob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "targetBlob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "adapted": false
+    },
+    {
+      "path": "contentful/migration/crawl/gold-memberschaften-produktdetails/pages/anbieten-gewerbliche-anbieter-inserieren-mitgliedschaft2015-vermarktung-kontaktplus-3c7eef3686/content.json",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "migration/crawl/gold-memberschaften-produktdetails/pages/anbieten-gewerbliche-anbieter-inserieren-mitgliedschaft2015-vermarktung-kontaktplus-3c7eef3686/content.json",
+      "sourceBlob": "2a4b0bdc981583550c94db64d145a601f6cd4183",
+      "targetBlob": "2a4b0bdc981583550c94db64d145a601f6cd4183",
+      "adapted": false
+    },
+    {
+      "path": "contentful/migration/crawl/gold-memberschaften-produktdetails/pages/anbieten-gewerbliche-anbieter-inserieren-mitgliedschaft2015-vermarktung-kontaktplus-3c7eef3686/metadata.json",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "migration/crawl/gold-memberschaften-produktdetails/pages/anbieten-gewerbliche-anbieter-inserieren-mitgliedschaft2015-vermarktung-kontaktplus-3c7eef3686/metadata.json",
+      "sourceBlob": "b20a073828ee948bc231878d33fc4b31bcc5ded8",
+      "targetBlob": "b20a073828ee948bc231878d33fc4b31bcc5ded8",
+      "adapted": false
+    },
+    {
+      "path": "contentful/migration/crawl/gold-memberschaften-produktdetails/pages/anbieten-gewerbliche-anbieter-inserieren-mitgliedschaft2015-vermarktung-kontaktplus-3c7eef3686/rendered.html",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "migration/crawl/gold-memberschaften-produktdetails/pages/anbieten-gewerbliche-anbieter-inserieren-mitgliedschaft2015-vermarktung-kontaktplus-3c7eef3686/rendered.html",
+      "sourceBlob": "9645730c70c7423ed13482b2094d8651b27d7233",
+      "targetBlob": "9645730c70c7423ed13482b2094d8651b27d7233",
+      "adapted": false
+    },
+    {
+      "path": "contentful/migration/crawl/gold-memberschaften-produktdetails/pages/anbieten-gewerbliche-anbieter-inserieren-mitgliedschaft2015-vermarktung-kontaktplus-3c7eef3686/screenshot-fullpage.png",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "migration/crawl/gold-memberschaften-produktdetails/pages/anbieten-gewerbliche-anbieter-inserieren-mitgliedschaft2015-vermarktung-kontaktplus-3c7eef3686/screenshot-fullpage.png",
+      "sourceBlob": "464e0ecf65754a55e1d78637447c41b0464d9040",
+      "targetBlob": "464e0ecf65754a55e1d78637447c41b0464d9040",
+      "adapted": false
+    },
+    {
+      "path": "contentful/references/GPT-M/00-system-priority (1).md",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "references/GPT-M/00-system-priority (1).md",
+      "sourceBlob": "f78130abdb27e4c756d084ddd28afe899699df84",
+      "targetBlob": "f78130abdb27e4c756d084ddd28afe899699df84",
+      "adapted": false
+    },
+    {
+      "path": "contentful/references/GPT-M/03-contentful-modeling.md",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "references/GPT-M/03-contentful-modeling.md",
+      "sourceBlob": "4fa81bf76ca7dc8bb2f62d3d143d98cc850b3df2",
+      "targetBlob": "4fa81bf76ca7dc8bb2f62d3d143d98cc850b3df2",
+      "adapted": false
+    },
+    {
+      "path": "contentful/references/GPT-M/04-seo-guide.md",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "references/GPT-M/04-seo-guide.md",
+      "sourceBlob": "5691466c86497d9026bc99076d5e3aa40e6bc654",
+      "targetBlob": "5691466c86497d9026bc99076d5e3aa40e6bc654",
+      "adapted": false
+    },
+    {
+      "path": "contentful/references/GPT-M/05-accessibility.md",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "references/GPT-M/05-accessibility.md",
+      "sourceBlob": "b77f8f57c3856600a89c491c7ae924b646bd081e",
+      "targetBlob": "b77f8f57c3856600a89c491c7ae924b646bd081e",
+      "adapted": false
+    },
+    {
+      "path": "contentful/references/GPT-M/08-mcp-workflow.md",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "references/GPT-M/08-mcp-workflow.md",
+      "sourceBlob": "049d6119168264463199ad00c5c80e0b08e9ee01",
+      "targetBlob": "049d6119168264463199ad00c5c80e0b08e9ee01",
+      "adapted": false
+    },
+    {
+      "path": "contentful/references/GPT-M/09-ai-behavior.md",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "references/GPT-M/09-ai-behavior.md",
+      "sourceBlob": "d7489bdd1f411614136780798537a80462efdf51",
+      "targetBlob": "d7489bdd1f411614136780798537a80462efdf51",
+      "adapted": false
+    },
+    {
+      "path": "contentful/references/GPT-M/component-library.html",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "references/GPT-M/component-library.html",
+      "sourceBlob": "b82f8e23826d5e8a67ee4bb0a0e65f80179e8a22",
+      "targetBlob": "b82f8e23826d5e8a67ee4bb0a0e65f80179e8a22",
+      "adapted": false
+    },
+    {
+      "path": "contentful/references/GPT-M/guardrails.md",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "references/GPT-M/guardrails.md",
+      "sourceBlob": "1ad357af1ddb13ff1c667389f317c23dec0e5775",
+      "targetBlob": "1ad357af1ddb13ff1c667389f317c23dec0e5775",
+      "adapted": false
+    },
+    {
+      "path": "contentful/references/GPT-M/how-it-works.md",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "references/GPT-M/how-it-works.md",
+      "sourceBlob": "645107f600f086da73bde77bbe19201a8c5ce424",
+      "targetBlob": "645107f600f086da73bde77bbe19201a8c5ce424",
+      "adapted": false
+    },
+    {
+      "path": "contentful/references/GPT-M/icon_library.md",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "references/GPT-M/icon_library.md",
+      "sourceBlob": "5fee59281062337386d7b149925dd871543fb1b1",
+      "targetBlob": "5fee59281062337386d7b149925dd871543fb1b1",
+      "adapted": false
+    },
+    {
+      "path": "contentful/references/GPT-M/main-instructions.md",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "references/GPT-M/main-instructions.md",
+      "sourceBlob": "0713d0db1e066b82f54200335546c881019a15d3",
+      "targetBlob": "0713d0db1e066b82f54200335546c881019a15d3",
+      "adapted": false
+    },
+    {
+      "path": "contentful/references/GPT-M/openapi.yaml",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "references/GPT-M/openapi.yaml",
+      "sourceBlob": "2a92cf40be2b046ecddfb488033cc27fdde0e96e",
+      "targetBlob": "2a92cf40be2b046ecddfb488033cc27fdde0e96e",
+      "adapted": false
+    },
+    {
+      "path": "contentful/references/GPT-M/tone-of-voice.md",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "references/GPT-M/tone-of-voice.md",
+      "sourceBlob": "f57a867f6eab34c7ce2496029ef8e0895ff53570",
+      "targetBlob": "f57a867f6eab34c7ce2496029ef8e0895ff53570",
+      "adapted": false
+    },
+    {
+      "path": "contentful/references/GPT-before-rebuild:/component-library.html",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "references/GPT-before-rebuild:/component-library.html",
+      "sourceBlob": "59d105284c43626ff071e948567725adbe09ace3",
+      "targetBlob": "59d105284c43626ff071e948567725adbe09ace3",
+      "adapted": false
+    },
+    {
+      "path": "contentful/references/GPT-before-rebuild:/contentful-integration.md",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "references/GPT-before-rebuild:/contentful-integration.md",
+      "sourceBlob": "b0f486ba18429c3aa40004c642fd74062f90ae70",
+      "targetBlob": "b0f486ba18429c3aa40004c642fd74062f90ae70",
+      "adapted": false
+    },
+    {
+      "path": "contentful/references/GPT-before-rebuild:/cosma-icons-static.md",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "references/GPT-before-rebuild:/cosma-icons-static.md",
+      "sourceBlob": "0da0feb1cb3c20fb4ee8a96e9d9de005a1859d5a",
+      "targetBlob": "0da0feb1cb3c20fb4ee8a96e9d9de005a1859d5a",
+      "adapted": false
+    },
+    {
+      "path": "contentful/references/GPT-before-rebuild:/foundation-rules.md",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "references/GPT-before-rebuild:/foundation-rules.md",
+      "sourceBlob": "2d608e53c99aacceae520c39db8cb6076599fb8e",
+      "targetBlob": "2d608e53c99aacceae520c39db8cb6076599fb8e",
+      "adapted": false
+    },
+    {
+      "path": "contentful/references/GPT-before-rebuild:/instructions.md",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "references/GPT-before-rebuild:/instructions.md",
+      "sourceBlob": "67de5aefbc9c3f7b9406328c9919394e51c065ca",
+      "targetBlob": "67de5aefbc9c3f7b9406328c9919394e51c065ca",
+      "adapted": false
+    },
+    {
+      "path": "contentful/references/GPT-before-rebuild:/module-contracts.md",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "references/GPT-before-rebuild:/module-contracts.md",
+      "sourceBlob": "d9a97c09b846c7ea52ca6b0b151e7909e17bd6c5",
+      "targetBlob": "d9a97c09b846c7ea52ca6b0b151e7909e17bd6c5",
+      "adapted": false
+    },
+    {
+      "path": "contentful/references/GPT-before-rebuild:/page-templates.md",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "references/GPT-before-rebuild:/page-templates.md",
+      "sourceBlob": "2df7629a48dce0297d2a949d9e6e8a10c3c4ac7e",
+      "targetBlob": "2df7629a48dce0297d2a949d9e6e8a10c3c4ac7e",
+      "adapted": false
+    },
+    {
+      "path": "contentful/references/GPT-before-rebuild:/runtime-rules.md",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "references/GPT-before-rebuild:/runtime-rules.md",
+      "sourceBlob": "907fbc60ddec6d105fcda3053501e5a8c8a1b673",
+      "targetBlob": "907fbc60ddec6d105fcda3053501e5a8c8a1b673",
+      "adapted": false
+    },
+    {
+      "path": "contentful/references/GPT-before-rebuild:/source-duplicate-mode.md",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "references/GPT-before-rebuild:/source-duplicate-mode.md",
+      "sourceBlob": "7e783357cbd1a685fa40a946a3b351e4c2df748a",
+      "targetBlob": "7e783357cbd1a685fa40a946a3b351e4c2df748a",
+      "adapted": false
+    },
+    {
+      "path": "contentful/references/contentful-actions:/openapi.yaml",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "references/contentful-actions:/openapi.yaml",
+      "sourceBlob": "8578f350ea85b432220ef167cbb3f72dfa655599",
+      "targetBlob": "8578f350ea85b432220ef167cbb3f72dfa655599",
+      "adapted": false
+    },
+    {
+      "path": "contentful/references/incubator/ekomi-reviews.html",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "references/incubator/ekomi-reviews.html",
+      "sourceBlob": "03627602e99d7e041fa2ba8043045df8e813fa6c",
+      "targetBlob": "03627602e99d7e041fa2ba8043045df8e813fa6c",
+      "adapted": false
+    },
+    {
+      "path": "contentful/runtime/contentful/lpbuilder-bridge.css",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "runtime/contentful/lpbuilder-bridge.css",
+      "sourceBlob": "b8b1c6e3b4d72d58cfd0b7795d9e0746dcd24bb8",
+      "targetBlob": "b8b1c6e3b4d72d58cfd0b7795d9e0746dcd24bb8",
+      "adapted": false
+    },
+    {
+      "path": "contentful/runtime/contentful/lpbuilder-runtime.js",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "runtime/contentful/lpbuilder-runtime.js",
+      "sourceBlob": "3054478526e0efc4d3aa6035ef56257cf5b8966a",
+      "targetBlob": "3054478526e0efc4d3aa6035ef56257cf5b8966a",
+      "adapted": false
+    },
+    {
+      "path": "contentful/runtime/published-baseline.json",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "runtime/published-baseline.json",
+      "sourceBlob": "1659f8fac9aff8efb3905d0d9d96adbffa2619b2",
+      "targetBlob": "1659f8fac9aff8efb3905d0d9d96adbffa2619b2",
+      "adapted": false
+    },
+    {
+      "path": "contentful/scripts/build-scaling-editorial-ux.cjs",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "scripts/build-scaling-editorial-ux.cjs",
+      "sourceBlob": "f973b122efdb243e2c53d536152353e95351b1b9",
+      "targetBlob": "f973b122efdb243e2c53d536152353e95351b1b9",
+      "adapted": false
+    },
+    {
+      "path": "contentful/scripts/capture-scaling-editorial-layout-correction.cjs",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "scripts/capture-scaling-editorial-layout-correction.cjs",
+      "sourceBlob": "6164e1ce158a24b91cf3d0af98409791103c6c1f",
+      "targetBlob": "6164e1ce158a24b91cf3d0af98409791103c6c1f",
+      "adapted": false
+    },
+    {
+      "path": "contentful/scripts/capture-scaling-editorial-refinement.cjs",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "scripts/capture-scaling-editorial-refinement.cjs",
+      "sourceBlob": "2b489a86770e64add7e9c9451deded0af50fbda2",
+      "targetBlob": "2b489a86770e64add7e9c9451deded0af50fbda2",
+      "adapted": false
+    },
+    {
+      "path": "contentful/scripts/capture-scaling-editorial-ux-contentful.cjs",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "scripts/capture-scaling-editorial-ux-contentful.cjs",
+      "sourceBlob": "8ec05867ab3aa233a01db4fdc5e9c2c70898bc3b",
+      "targetBlob": "8ec05867ab3aa233a01db4fdc5e9c2c70898bc3b",
+      "adapted": false
+    },
+    {
+      "path": "contentful/scripts/capture-scaling-editorial-ux-rollout.cjs",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "scripts/capture-scaling-editorial-ux-rollout.cjs",
+      "sourceBlob": "2d600157e1c5e0e8046dc13a0c860ce8538b43ec",
+      "targetBlob": "2d600157e1c5e0e8046dc13a0c860ce8538b43ec",
+      "adapted": false
+    },
+    {
+      "path": "contentful/scripts/capture-scaling-editorial-ux.cjs",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "scripts/capture-scaling-editorial-ux.cjs",
+      "sourceBlob": "eb7e49760a04419e3c6fe2cdef438408e64c4469",
+      "targetBlob": "eb7e49760a04419e3c6fe2cdef438408e64c4469",
+      "adapted": false
+    },
+    {
+      "path": "contentful/scripts/check-scaling-editorial-refinement.js",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "scripts/check-scaling-editorial-refinement.js",
+      "sourceBlob": "61861e98f774be89ce271caabb06501ee04abe05",
+      "targetBlob": "61861e98f774be89ce271caabb06501ee04abe05",
+      "adapted": false
+    },
+    {
+      "path": "contentful/scripts/check-scaling-editorial-ux-browser.js",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "scripts/check-scaling-editorial-ux-browser.js",
+      "sourceBlob": "e78d4410a8f1df98251310728723fe9e4f2f2b54",
+      "targetBlob": "e78d4410a8f1df98251310728723fe9e4f2f2b54",
+      "adapted": false
+    },
+    {
+      "path": "contentful/scripts/correct-scaling-editorial-layout.py",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "scripts/correct-scaling-editorial-layout.py",
+      "sourceBlob": "3d1188d92d67b0ef5aefac584087409e6135dc0d",
+      "targetBlob": "3d1188d92d67b0ef5aefac584087409e6135dc0d",
+      "adapted": false
+    },
+    {
+      "path": "contentful/scripts/migrate-scaling-editorial-ux.py",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "scripts/migrate-scaling-editorial-ux.py",
+      "sourceBlob": "3e220fdb9cef7dbc3995bb58e16edc3014aa7fc8",
+      "targetBlob": "3e220fdb9cef7dbc3995bb58e16edc3014aa7fc8",
+      "adapted": false
+    },
+    {
+      "path": "contentful/scripts/normalize-static-inline-svg.cjs",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "scripts/normalize-static-inline-svg.cjs",
+      "sourceBlob": "fec135be5cb3da287dd4d41368d25cf37e0ffae7",
+      "targetBlob": "fec135be5cb3da287dd4d41368d25cf37e0ffae7",
+      "adapted": false
+    },
+    {
+      "path": "contentful/scripts/prepare-scaling-editorial-ux-placeholder-test.py",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "scripts/prepare-scaling-editorial-ux-placeholder-test.py",
+      "sourceBlob": "0a758970cc2ac942dbb4db6305ed442a65d8d5df",
+      "targetBlob": "0a758970cc2ac942dbb4db6305ed442a65d8d5df",
+      "adapted": false
+    },
+    {
+      "path": "contentful/scripts/refine-scaling-editorial-portal.py",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "scripts/refine-scaling-editorial-portal.py",
+      "sourceBlob": "6b25b72aa7f74c98396bde024d2c3c09d3f72b7f",
+      "targetBlob": "6b25b72aa7f74c98396bde024d2c3c09d3f72b7f",
+      "adapted": false
+    },
+    {
+      "path": "contentful/scripts/sync-component-library-preview.cjs",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "scripts/sync-component-library-preview.cjs",
+      "sourceBlob": "1aa915f7d37841df1a7a9d9afdff4ed722e203b3",
+      "targetBlob": "1aa915f7d37841df1a7a9d9afdff4ed722e203b3",
+      "adapted": false
+    },
+    {
+      "path": "contentful/scripts/verify-consolidation.py",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "scripts/verify-consolidation.py",
+      "sourceBlob": "210cd611748162d6d5856b234d85cf5ee4de7a2e",
+      "targetBlob": "210cd611748162d6d5856b234d85cf5ee4de7a2e",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/beispieldaten-darstellungstest-inline-svg.html",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/beispieldaten-darstellungstest-inline-svg.html",
+      "sourceBlob": "a9b74b119f8daa906a0a6b0a9fdaaa6e9a501f51",
+      "targetBlob": "a9b74b119f8daa906a0a6b0a9fdaaa6e9a501f51",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-article-preview.html",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-article-preview.html",
+      "sourceBlob": "1b391819df82939c6ec9d7e13b5d91886b96d3a9",
+      "targetBlob": "1b391819df82939c6ec9d7e13b5d91886b96d3a9",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-article-with-sidebar-preview.html",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-article-with-sidebar-preview.html",
+      "sourceBlob": "c152fbcd6a4cff2ae32f23b3eb0bc4500dea8fda",
+      "targetBlob": "c152fbcd6a4cff2ae32f23b3eb0bc4500dea8fda",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-article-with-sidebar.html",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-article-with-sidebar.html",
+      "sourceBlob": "a61fed2c98ee3649ba127ed89017d01035c2e697",
+      "targetBlob": "a61fed2c98ee3649ba127ed89017d01035c2e697",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-article-with-sidebar.md",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-article-with-sidebar.md",
+      "sourceBlob": "36dbb1c3a6a09f5538743d09854a53b118270410",
+      "targetBlob": "36dbb1c3a6a09f5538743d09854a53b118270410",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-article.html",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-article.html",
+      "sourceBlob": "ce1e20ec70562de2dca14995993de80f5649453b",
+      "targetBlob": "ce1e20ec70562de2dca14995993de80f5649453b",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-article.md",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-article.md",
+      "sourceBlob": "0fca3a5e066d221b469eba093218f87658442dc9",
+      "targetBlob": "0fca3a5e066d221b469eba093218f87658442dc9",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-category-overview-preview.html",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-category-overview-preview.html",
+      "sourceBlob": "76453259360fa8b2d4ee5019d235afec571b76dc",
+      "targetBlob": "76453259360fa8b2d4ee5019d235afec571b76dc",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-category-overview.html",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-category-overview.html",
+      "sourceBlob": "c68bf1eb0b5cf0c234cbbc6bdf8df6e994d11308",
+      "targetBlob": "c68bf1eb0b5cf0c234cbbc6bdf8df6e994d11308",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-news-portal-prototype/README.md",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-news-portal-prototype/README.md",
+      "sourceBlob": "e15ba2535645a1c5a90b72e81882c69348d0e3c4",
+      "targetBlob": "e15ba2535645a1c5a90b72e81882c69348d0e3c4",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-news-portal-prototype/app.js",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-news-portal-prototype/app.js",
+      "sourceBlob": "5d8e75033263e954ce9199e0e4b7b898ce5d5f22",
+      "targetBlob": "5d8e75033263e954ce9199e0e4b7b898ce5d5f22",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-news-portal-prototype/index.html",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-news-portal-prototype/index.html",
+      "sourceBlob": "856d10580f6973ff19beb2683982b681e8fbc5b9",
+      "targetBlob": "856d10580f6973ff19beb2683982b681e8fbc5b9",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-news-portal-prototype/portal-data.js",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-news-portal-prototype/portal-data.js",
+      "sourceBlob": "25a81bbd2ceebe455cb73405b1feecd1142eb617",
+      "targetBlob": "25a81bbd2ceebe455cb73405b1feecd1142eb617",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-news-portal-prototype/styles.css",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-news-portal-prototype/styles.css",
+      "sourceBlob": "964800c6aee965453675dde4f225ce4d46aa070e",
+      "targetBlob": "964800c6aee965453675dde4f225ce4d46aa070e",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/README.md",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/README.md",
+      "sourceBlob": "a0e3c19e23322bcea46e726321728782c29727a5",
+      "targetBlob": "a0e3c19e23322bcea46e726321728782c29727a5",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/article-preview.html",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/article-preview.html",
+      "sourceBlob": "9d6dd5faa6ca00171284b68b8a9bc0c522c05730",
+      "targetBlob": "9d6dd5faa6ca00171284b68b8a9bc0c522c05730",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/article-template.html",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/article-template.html",
+      "sourceBlob": "1110ea977719c44035e0006e5a2e217d2b2f9b2c",
+      "targetBlob": "1110ea977719c44035e0006e5a2e217d2b2f9b2c",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/article.html",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/article.html",
+      "sourceBlob": "68c843069fd4c591b636a8e58af58b55c583baed",
+      "targetBlob": "68c843069fd4c591b636a8e58af58b55c583baed",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/category-preview.html",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/category-preview.html",
+      "sourceBlob": "4de1643b2c39bc65275b3d1a0ace6a97346eeb76",
+      "targetBlob": "4de1643b2c39bc65275b3d1a0ace6a97346eeb76",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/category-template.html",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/category-template.html",
+      "sourceBlob": "1d90bee4c62900bc21e3c7bff8cace05edb2f6d2",
+      "targetBlob": "1d90bee4c62900bc21e3c7bff8cace05edb2f6d2",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/category.html",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/category.html",
+      "sourceBlob": "153ba1470e8d350e1d2750c708a2128b901f0202",
+      "targetBlob": "153ba1470e8d350e1d2750c708a2128b901f0202",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/contentful-handoff/README.md",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/contentful-handoff/README.md",
+      "sourceBlob": "783322f3a920c214571b74b14536fad7cf7c3e3a",
+      "targetBlob": "783322f3a920c214571b74b14536fad7cf7c3e3a",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/contentful-handoff/asset-url-mapping.csv",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/contentful-handoff/asset-url-mapping.csv",
+      "sourceBlob": "976ec40de8652fc4abde3848b75b35f2b2d59fe3",
+      "targetBlob": "976ec40de8652fc4abde3848b75b35f2b2d59fe3",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/contentful-handoff/host-font-check.json",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/contentful-handoff/host-font-check.json",
+      "sourceBlob": "a4d704e3c88d95d6b747307e8b52c4ccdf807a4b",
+      "targetBlob": "a4d704e3c88d95d6b747307e8b52c4ccdf807a4b",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/contentful-handoff/slug-preflight.json",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/contentful-handoff/slug-preflight.json",
+      "sourceBlob": "c3db7e039ec0e303b35807b533c84760c8a64f4d",
+      "targetBlob": "c3db7e039ec0e303b35807b533c84760c8a64f4d",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/contentful-test/README.md",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/contentful-test/README.md",
+      "sourceBlob": "4baf15e3d63edcaad87277b39dd775876e78653b",
+      "targetBlob": "4baf15e3d63edcaad87277b39dd775876e78653b",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/contentful-test/article.html",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/contentful-test/article.html",
+      "sourceBlob": "4edaa8e8cf86b063518e3a2d0af85268e95e7448",
+      "targetBlob": "4edaa8e8cf86b063518e3a2d0af85268e95e7448",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/contentful-test/browser-checks.json",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/contentful-test/browser-checks.json",
+      "sourceBlob": "440ad844ca6ee1aabd86eccb76e8be5bd7c506eb",
+      "targetBlob": "440ad844ca6ee1aabd86eccb76e8be5bd7c506eb",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/contentful-test/category.html",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/contentful-test/category.html",
+      "sourceBlob": "5f23a7503f87be480b57b8e9a9754fd405558f6f",
+      "targetBlob": "5f23a7503f87be480b57b8e9a9754fd405558f6f",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/contentful-test/entries.json",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/contentful-test/entries.json",
+      "sourceBlob": "d70b62a91f13485303b10e986b5e08b37371df1d",
+      "targetBlob": "d70b62a91f13485303b10e986b5e08b37371df1d",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/contentful-test/home.html",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/contentful-test/home.html",
+      "sourceBlob": "74e01fe1ce5c55529b87f7ee5b1618583c421c36",
+      "targetBlob": "74e01fe1ce5c55529b87f7ee5b1618583c421c36",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/contentful-test/manifest.json",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/contentful-test/manifest.json",
+      "sourceBlob": "735082e1b746d67379bf4a539f24a83954096067",
+      "targetBlob": "735082e1b746d67379bf4a539f24a83954096067",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/contentful-test/targets.json",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/contentful-test/targets.json",
+      "sourceBlob": "3f36017ec4e346ed3f747738d84b7306bb35c63a",
+      "targetBlob": "3f36017ec4e346ed3f747738d84b7306bb35c63a",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/home-preview.html",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/home-preview.html",
+      "sourceBlob": "f4135d7273db6dd8280def08eb6674a612495ace",
+      "targetBlob": "f4135d7273db6dd8280def08eb6674a612495ace",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/home-template.html",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/home-template.html",
+      "sourceBlob": "32aba30426c055148588ba6064fc3a46636f97d8",
+      "targetBlob": "32aba30426c055148588ba6064fc3a46636f97d8",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/home.html",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/home.html",
+      "sourceBlob": "578556d1f6bf19f588e7288b6e339bc727ac4c87",
+      "targetBlob": "578556d1f6bf19f588e7288b6e339bc727ac4c87",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/layout-correction/README.md",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/layout-correction/README.md",
+      "sourceBlob": "b9b5fc669a427ebaa7aadf37f50f1e736fd478eb",
+      "targetBlob": "b9b5fc669a427ebaa7aadf37f50f1e736fd478eb",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/layout-correction/after.json",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/layout-correction/after.json",
+      "sourceBlob": "d48694150159f23e4870b603020f03164df29c5f",
+      "targetBlob": "d48694150159f23e4870b603020f03164df29c5f",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/layout-correction/baseline/22O849wA6VAVgxOYVT9zvB.json",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/layout-correction/baseline/22O849wA6VAVgxOYVT9zvB.json",
+      "sourceBlob": "ff5aa74d5960555bb384a25b53d3536374d55149",
+      "targetBlob": "ff5aa74d5960555bb384a25b53d3536374d55149",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/layout-correction/baseline/2RuvfNtI6Yj8TlbSf385F4.json",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/layout-correction/baseline/2RuvfNtI6Yj8TlbSf385F4.json",
+      "sourceBlob": "c771b4f948ce7a6cac1905135b9a8e7d3661c07b",
+      "targetBlob": "c771b4f948ce7a6cac1905135b9a8e7d3661c07b",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/layout-correction/baseline/3Ae2iqznVqvIhriXHIwObO.json",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/layout-correction/baseline/3Ae2iqznVqvIhriXHIwObO.json",
+      "sourceBlob": "370b37900e6b010484c2b31775c696e1af6180c2",
+      "targetBlob": "370b37900e6b010484c2b31775c696e1af6180c2",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/layout-correction/baseline/3jW0RGwxmANB4DmBNvvo36.json",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/layout-correction/baseline/3jW0RGwxmANB4DmBNvvo36.json",
+      "sourceBlob": "7e494efc3869eb81b0683c36dbbba51048b825f1",
+      "targetBlob": "7e494efc3869eb81b0683c36dbbba51048b825f1",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/layout-correction/baseline/45DjdzK0dQkNOXwIDOc4zh.json",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/layout-correction/baseline/45DjdzK0dQkNOXwIDOc4zh.json",
+      "sourceBlob": "6909043716663dd92e61fe7012650cddf2ede400",
+      "targetBlob": "6909043716663dd92e61fe7012650cddf2ede400",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/layout-correction/baseline/5AAlQUHwGoilHwuVLwzsdi.json",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/layout-correction/baseline/5AAlQUHwGoilHwuVLwzsdi.json",
+      "sourceBlob": "d4efe4a8b89d5a72f4d681f61d9b34101a204ca8",
+      "targetBlob": "d4efe4a8b89d5a72f4d681f61d9b34101a204ca8",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/layout-correction/baseline/5brtogQ8wFhVwFlkP9vli7.json",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/layout-correction/baseline/5brtogQ8wFhVwFlkP9vli7.json",
+      "sourceBlob": "5a8fbb357fef292dcb3441451e1e43dcc00c6830",
+      "targetBlob": "5a8fbb357fef292dcb3441451e1e43dcc00c6830",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/layout-correction/baseline/5wAUjIQ8GgUwy7U6J15yOq.json",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/layout-correction/baseline/5wAUjIQ8GgUwy7U6J15yOq.json",
+      "sourceBlob": "df586f0b51b16172925e5e2c07885cd78d993ba6",
+      "targetBlob": "df586f0b51b16172925e5e2c07885cd78d993ba6",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/layout-correction/baseline/6OL3zbn7WnUyNqOJTYqpCH.json",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/layout-correction/baseline/6OL3zbn7WnUyNqOJTYqpCH.json",
+      "sourceBlob": "06b6367412fd4736167886613fe25354c2968c53",
+      "targetBlob": "06b6367412fd4736167886613fe25354c2968c53",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/layout-correction/baseline/6WCIJwOfi73csgCGC1O6ay.json",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/layout-correction/baseline/6WCIJwOfi73csgCGC1O6ay.json",
+      "sourceBlob": "bf235b7b17c543e1da4fec77dbc34d49e48e0552",
+      "targetBlob": "bf235b7b17c543e1da4fec77dbc34d49e48e0552",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/layout-correction/baseline/6mXLg2EBqEsR8RCEqqJ8Lm.json",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/layout-correction/baseline/6mXLg2EBqEsR8RCEqqJ8Lm.json",
+      "sourceBlob": "a9fcc7f0cb3293a4f9efb84301742829b4a95873",
+      "targetBlob": "a9fcc7f0cb3293a4f9efb84301742829b4a95873",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/layout-correction/baseline/Ik1AQUW6OAxQCqgnkcq0J.json",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/layout-correction/baseline/Ik1AQUW6OAxQCqgnkcq0J.json",
+      "sourceBlob": "e6fe7dcbfe66184818d3a0fa9968b15b1fe770c5",
+      "targetBlob": "e6fe7dcbfe66184818d3a0fa9968b15b1fe770c5",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/layout-correction/baseline/LxsfE8MGOPJPbSOYTR4hw.json",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/layout-correction/baseline/LxsfE8MGOPJPbSOYTR4hw.json",
+      "sourceBlob": "b8225e579244ad67c2b07947ef96d732b1afb7ba",
+      "targetBlob": "b8225e579244ad67c2b07947ef96d732b1afb7ba",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/layout-correction/baseline/Q9IRHEZmuUMcEcnVB6c3c.json",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/layout-correction/baseline/Q9IRHEZmuUMcEcnVB6c3c.json",
+      "sourceBlob": "7c6a4be3e39b885871dc1d46d16b952276c937dd",
+      "targetBlob": "7c6a4be3e39b885871dc1d46d16b952276c937dd",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/layout-correction/baseline/SoSCcB5Z1fjKJDcU9GmHG.json",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/layout-correction/baseline/SoSCcB5Z1fjKJDcU9GmHG.json",
+      "sourceBlob": "b04249b1b6f6b091168c3c3ee9023b6ef4f06789",
+      "targetBlob": "b04249b1b6f6b091168c3c3ee9023b6ef4f06789",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/layout-correction/baseline/ZLh6zjq5DgOlN4nYwvjmC.json",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/layout-correction/baseline/ZLh6zjq5DgOlN4nYwvjmC.json",
+      "sourceBlob": "a40e91852a705b1180bf4ba7f301a1cdaf21622a",
+      "targetBlob": "a40e91852a705b1180bf4ba7f301a1cdaf21622a",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/layout-correction/before.json",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/layout-correction/before.json",
+      "sourceBlob": "cffa80cd2b3f18458d592b11ace49766795187d7",
+      "targetBlob": "cffa80cd2b3f18458d592b11ace49766795187d7",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/layout-correction/breadcrumb-before.json",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/layout-correction/breadcrumb-before.json",
+      "sourceBlob": "6a81e8347d54499c5edc2b20546aa2a1bd6b4a0e",
+      "targetBlob": "6a81e8347d54499c5edc2b20546aa2a1bd6b4a0e",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/layout-correction/deployment.json",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/layout-correction/deployment.json",
+      "sourceBlob": "780efe8b04c1c3b7e1df60d74b1081da57235ed1",
+      "targetBlob": "780efe8b04c1c3b7e1df60d74b1081da57235ed1",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/layout-correction/entries.json",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/layout-correction/entries.json",
+      "sourceBlob": "29ba176e8361b13aea5f6382a8aab8022167c61b",
+      "targetBlob": "29ba176e8361b13aea5f6382a8aab8022167c61b",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/layout-correction/integrity-checks.json",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/layout-correction/integrity-checks.json",
+      "sourceBlob": "5b26d88260b79337d0b9fba5b63ca4e7c3ae03a9",
+      "targetBlob": "5b26d88260b79337d0b9fba5b63ca4e7c3ae03a9",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/layout-correction/manifest.json",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/layout-correction/manifest.json",
+      "sourceBlob": "3076692ee48f7e87629801cdc466dbfa855aa35b",
+      "targetBlob": "3076692ee48f7e87629801cdc466dbfa855aa35b",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/layout-correction/payloads/22O849wA6VAVgxOYVT9zvB.html",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/layout-correction/payloads/22O849wA6VAVgxOYVT9zvB.html",
+      "sourceBlob": "d0301f1bead366dce17316cc98450f05eb592cdf",
+      "targetBlob": "d0301f1bead366dce17316cc98450f05eb592cdf",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/layout-correction/payloads/2RuvfNtI6Yj8TlbSf385F4.html",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/layout-correction/payloads/2RuvfNtI6Yj8TlbSf385F4.html",
+      "sourceBlob": "def76d1243040042689609a810b79b81dcec29ee",
+      "targetBlob": "def76d1243040042689609a810b79b81dcec29ee",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/layout-correction/payloads/3Ae2iqznVqvIhriXHIwObO.html",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/layout-correction/payloads/3Ae2iqznVqvIhriXHIwObO.html",
+      "sourceBlob": "0ddf3272ff23a0aa74167b8924b01bcc14605c01",
+      "targetBlob": "0ddf3272ff23a0aa74167b8924b01bcc14605c01",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/layout-correction/payloads/3jW0RGwxmANB4DmBNvvo36.html",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/layout-correction/payloads/3jW0RGwxmANB4DmBNvvo36.html",
+      "sourceBlob": "ee3912c450901ef8eaa6dea5e3e505d52d22afee",
+      "targetBlob": "ee3912c450901ef8eaa6dea5e3e505d52d22afee",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/layout-correction/payloads/45DjdzK0dQkNOXwIDOc4zh.html",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/layout-correction/payloads/45DjdzK0dQkNOXwIDOc4zh.html",
+      "sourceBlob": "e8acf7bb26986123498d7d549db6c5dc6d410ef1",
+      "targetBlob": "e8acf7bb26986123498d7d549db6c5dc6d410ef1",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/layout-correction/payloads/5AAlQUHwGoilHwuVLwzsdi.html",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/layout-correction/payloads/5AAlQUHwGoilHwuVLwzsdi.html",
+      "sourceBlob": "e88572d5dd076d7661865c4d372c511fdbac3a28",
+      "targetBlob": "e88572d5dd076d7661865c4d372c511fdbac3a28",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/layout-correction/payloads/5brtogQ8wFhVwFlkP9vli7.html",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/layout-correction/payloads/5brtogQ8wFhVwFlkP9vli7.html",
+      "sourceBlob": "8f4002d5692a073d8e1048c4a0c4ade10d7529ab",
+      "targetBlob": "8f4002d5692a073d8e1048c4a0c4ade10d7529ab",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/layout-correction/payloads/5wAUjIQ8GgUwy7U6J15yOq.html",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/layout-correction/payloads/5wAUjIQ8GgUwy7U6J15yOq.html",
+      "sourceBlob": "d3a24a305c38bb9614e671cab293eca771d5bd65",
+      "targetBlob": "d3a24a305c38bb9614e671cab293eca771d5bd65",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/layout-correction/payloads/6OL3zbn7WnUyNqOJTYqpCH.html",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/layout-correction/payloads/6OL3zbn7WnUyNqOJTYqpCH.html",
+      "sourceBlob": "ebd3840b3ebb8e44834d5397966bbe576bf741cc",
+      "targetBlob": "ebd3840b3ebb8e44834d5397966bbe576bf741cc",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/layout-correction/payloads/6WCIJwOfi73csgCGC1O6ay.html",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/layout-correction/payloads/6WCIJwOfi73csgCGC1O6ay.html",
+      "sourceBlob": "32ad1ad03edd4e6c358e171bf82edf8ff4f16d96",
+      "targetBlob": "32ad1ad03edd4e6c358e171bf82edf8ff4f16d96",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/layout-correction/payloads/6mXLg2EBqEsR8RCEqqJ8Lm.html",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/layout-correction/payloads/6mXLg2EBqEsR8RCEqqJ8Lm.html",
+      "sourceBlob": "062114febc3cc89195e01b104028854b8f937faa",
+      "targetBlob": "062114febc3cc89195e01b104028854b8f937faa",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/layout-correction/payloads/Ik1AQUW6OAxQCqgnkcq0J.html",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/layout-correction/payloads/Ik1AQUW6OAxQCqgnkcq0J.html",
+      "sourceBlob": "5716395506df111b7f648d193414dc69916e83e6",
+      "targetBlob": "5716395506df111b7f648d193414dc69916e83e6",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/layout-correction/payloads/LxsfE8MGOPJPbSOYTR4hw.html",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/layout-correction/payloads/LxsfE8MGOPJPbSOYTR4hw.html",
+      "sourceBlob": "378e42ba6e04b1a273e1569b154b11a7d64ac41e",
+      "targetBlob": "378e42ba6e04b1a273e1569b154b11a7d64ac41e",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/layout-correction/payloads/Q9IRHEZmuUMcEcnVB6c3c.html",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/layout-correction/payloads/Q9IRHEZmuUMcEcnVB6c3c.html",
+      "sourceBlob": "9c02e473b4361845a27d9a732c697d58f83424e3",
+      "targetBlob": "9c02e473b4361845a27d9a732c697d58f83424e3",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/layout-correction/payloads/SoSCcB5Z1fjKJDcU9GmHG.html",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/layout-correction/payloads/SoSCcB5Z1fjKJDcU9GmHG.html",
+      "sourceBlob": "6c865bb7b4e4c6aac6edb31d9dd1317f407dbb10",
+      "targetBlob": "6c865bb7b4e4c6aac6edb31d9dd1317f407dbb10",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/layout-correction/payloads/ZLh6zjq5DgOlN4nYwvjmC.html",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/layout-correction/payloads/ZLh6zjq5DgOlN4nYwvjmC.html",
+      "sourceBlob": "e4b5dabd24a834e76664e7c406b80ec3eef0d8ff",
+      "targetBlob": "e4b5dabd24a834e76664e7c406b80ec3eef0d8ff",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/layout-correction/prewrite/2RuvfNtI6Yj8TlbSf385F4.json",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/layout-correction/prewrite/2RuvfNtI6Yj8TlbSf385F4.json",
+      "sourceBlob": "2dbaabdfd163224cab1512903b956f98169b6152",
+      "targetBlob": "2dbaabdfd163224cab1512903b956f98169b6152",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/layout-correction/prewrite/45DjdzK0dQkNOXwIDOc4zh.json",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/layout-correction/prewrite/45DjdzK0dQkNOXwIDOc4zh.json",
+      "sourceBlob": "e511cbb929a834c802eb9f47143a5b02970cfeb4",
+      "targetBlob": "e511cbb929a834c802eb9f47143a5b02970cfeb4",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/layout-correction/prewrite/5brtogQ8wFhVwFlkP9vli7.json",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/layout-correction/prewrite/5brtogQ8wFhVwFlkP9vli7.json",
+      "sourceBlob": "f3f23696cc1c2f473df9b25af974e7f7aad22037",
+      "targetBlob": "f3f23696cc1c2f473df9b25af974e7f7aad22037",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/layout-correction/prewrite/5wAUjIQ8GgUwy7U6J15yOq.json",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/layout-correction/prewrite/5wAUjIQ8GgUwy7U6J15yOq.json",
+      "sourceBlob": "90bf2d8b794f4f5bbadc5c8ff25579c28f39fc1d",
+      "targetBlob": "90bf2d8b794f4f5bbadc5c8ff25579c28f39fc1d",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/layout-correction/prewrite/6OL3zbn7WnUyNqOJTYqpCH.json",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/layout-correction/prewrite/6OL3zbn7WnUyNqOJTYqpCH.json",
+      "sourceBlob": "a5d28cbce282a3de1b298e15af8ca286c06b0bfa",
+      "targetBlob": "a5d28cbce282a3de1b298e15af8ca286c06b0bfa",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/layout-correction/prewrite/Ik1AQUW6OAxQCqgnkcq0J.json",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/layout-correction/prewrite/Ik1AQUW6OAxQCqgnkcq0J.json",
+      "sourceBlob": "088fc64508f2ba19133842802b2077b027d63344",
+      "targetBlob": "088fc64508f2ba19133842802b2077b027d63344",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/layout-correction/prewrite/Q9IRHEZmuUMcEcnVB6c3c.json",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/layout-correction/prewrite/Q9IRHEZmuUMcEcnVB6c3c.json",
+      "sourceBlob": "ec4b995a466da615eb86a59cd9e8e62b16e4402b",
+      "targetBlob": "ec4b995a466da615eb86a59cd9e8e62b16e4402b",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/layout-correction/readback/22O849wA6VAVgxOYVT9zvB.json",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/layout-correction/readback/22O849wA6VAVgxOYVT9zvB.json",
+      "sourceBlob": "d41d8bfc68c761fe8ac9f8df450c6ec542d3e10f",
+      "targetBlob": "d41d8bfc68c761fe8ac9f8df450c6ec542d3e10f",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/layout-correction/readback/2RuvfNtI6Yj8TlbSf385F4.json",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/layout-correction/readback/2RuvfNtI6Yj8TlbSf385F4.json",
+      "sourceBlob": "41314a86d3214b4eed7aa2678e563995ec01e100",
+      "targetBlob": "41314a86d3214b4eed7aa2678e563995ec01e100",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/layout-correction/readback/3Ae2iqznVqvIhriXHIwObO.json",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/layout-correction/readback/3Ae2iqznVqvIhriXHIwObO.json",
+      "sourceBlob": "c907f20ea9a49c3c7f8acc933543a096bde2b648",
+      "targetBlob": "c907f20ea9a49c3c7f8acc933543a096bde2b648",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/layout-correction/readback/3jW0RGwxmANB4DmBNvvo36.json",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/layout-correction/readback/3jW0RGwxmANB4DmBNvvo36.json",
+      "sourceBlob": "5e11d36e527d1e67c1ae6690828099aa11a57167",
+      "targetBlob": "5e11d36e527d1e67c1ae6690828099aa11a57167",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/layout-correction/readback/45DjdzK0dQkNOXwIDOc4zh.json",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/layout-correction/readback/45DjdzK0dQkNOXwIDOc4zh.json",
+      "sourceBlob": "aaa99f55e95e1052761ed41587c2bf6308d0ba07",
+      "targetBlob": "aaa99f55e95e1052761ed41587c2bf6308d0ba07",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/layout-correction/readback/5AAlQUHwGoilHwuVLwzsdi.json",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/layout-correction/readback/5AAlQUHwGoilHwuVLwzsdi.json",
+      "sourceBlob": "0a1c54c4a2b3c6784031406020e19b7acebf59e4",
+      "targetBlob": "0a1c54c4a2b3c6784031406020e19b7acebf59e4",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/layout-correction/readback/5brtogQ8wFhVwFlkP9vli7.json",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/layout-correction/readback/5brtogQ8wFhVwFlkP9vli7.json",
+      "sourceBlob": "1980f9772c4f81ba8ba1050f7713773b83da7f9c",
+      "targetBlob": "1980f9772c4f81ba8ba1050f7713773b83da7f9c",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/layout-correction/readback/5wAUjIQ8GgUwy7U6J15yOq.json",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/layout-correction/readback/5wAUjIQ8GgUwy7U6J15yOq.json",
+      "sourceBlob": "20f8a17662beaeae46256ee8eb5f8ea9c8d873cb",
+      "targetBlob": "20f8a17662beaeae46256ee8eb5f8ea9c8d873cb",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/layout-correction/readback/6OL3zbn7WnUyNqOJTYqpCH.json",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/layout-correction/readback/6OL3zbn7WnUyNqOJTYqpCH.json",
+      "sourceBlob": "5f7d4d9e55b15240787b14cb4d241155e63eb3c9",
+      "targetBlob": "5f7d4d9e55b15240787b14cb4d241155e63eb3c9",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/layout-correction/readback/6WCIJwOfi73csgCGC1O6ay.json",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/layout-correction/readback/6WCIJwOfi73csgCGC1O6ay.json",
+      "sourceBlob": "d66d41f19498fd943df7afada59dab33167f2419",
+      "targetBlob": "d66d41f19498fd943df7afada59dab33167f2419",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/layout-correction/readback/6mXLg2EBqEsR8RCEqqJ8Lm.json",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/layout-correction/readback/6mXLg2EBqEsR8RCEqqJ8Lm.json",
+      "sourceBlob": "76947648dca3351aa72b3edeb5e6e0f5746e67b3",
+      "targetBlob": "76947648dca3351aa72b3edeb5e6e0f5746e67b3",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/layout-correction/readback/Ik1AQUW6OAxQCqgnkcq0J.json",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/layout-correction/readback/Ik1AQUW6OAxQCqgnkcq0J.json",
+      "sourceBlob": "7b1fd60da9ac32761dc3279be5ab87364604d6dd",
+      "targetBlob": "7b1fd60da9ac32761dc3279be5ab87364604d6dd",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/layout-correction/readback/LxsfE8MGOPJPbSOYTR4hw.json",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/layout-correction/readback/LxsfE8MGOPJPbSOYTR4hw.json",
+      "sourceBlob": "b74ea960f16f8dc01258f0f1967d9ac611daeaf8",
+      "targetBlob": "b74ea960f16f8dc01258f0f1967d9ac611daeaf8",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/layout-correction/readback/Q9IRHEZmuUMcEcnVB6c3c.json",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/layout-correction/readback/Q9IRHEZmuUMcEcnVB6c3c.json",
+      "sourceBlob": "31e0a3f9dce618b8b1cd2b90b848ba9d9980c0bd",
+      "targetBlob": "31e0a3f9dce618b8b1cd2b90b848ba9d9980c0bd",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/layout-correction/readback/SoSCcB5Z1fjKJDcU9GmHG.json",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/layout-correction/readback/SoSCcB5Z1fjKJDcU9GmHG.json",
+      "sourceBlob": "ed99b83fda836b9b5bf0c424490e5179282f4883",
+      "targetBlob": "ed99b83fda836b9b5bf0c424490e5179282f4883",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/layout-correction/readback/ZLh6zjq5DgOlN4nYwvjmC.json",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/layout-correction/readback/ZLh6zjq5DgOlN4nYwvjmC.json",
+      "sourceBlob": "ff2d7e953a706d7b454d7bfa1914659fcc436371",
+      "targetBlob": "ff2d7e953a706d7b454d7bfa1914659fcc436371",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/layout-correction/results.json",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/layout-correction/results.json",
+      "sourceBlob": "84e435553ef108a336e0aeae18039f813142e072",
+      "targetBlob": "84e435553ef108a336e0aeae18039f813142e072",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/layout-correction/targets.json",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/layout-correction/targets.json",
+      "sourceBlob": "487793e643826071a58dcbcd02d8461d894daa38",
+      "targetBlob": "487793e643826071a58dcbcd02d8461d894daa38",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/portal-config.json",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/portal-config.json",
+      "sourceBlob": "7068a55f6cca02c07226059408175dd0568a5205",
+      "targetBlob": "7068a55f6cca02c07226059408175dd0568a5205",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/README.md",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/portal-refinement-20261107/README.md",
+      "sourceBlob": "3c0770679e74a417894c23bcaf4a10fe24bdf242",
+      "targetBlob": "3c0770679e74a417894c23bcaf4a10fe24bdf242",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/baseline/22O849wA6VAVgxOYVT9zvB.json",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/portal-refinement-20261107/baseline/22O849wA6VAVgxOYVT9zvB.json",
+      "sourceBlob": "ff5aa74d5960555bb384a25b53d3536374d55149",
+      "targetBlob": "ff5aa74d5960555bb384a25b53d3536374d55149",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/baseline/2RuvfNtI6Yj8TlbSf385F4.json",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/portal-refinement-20261107/baseline/2RuvfNtI6Yj8TlbSf385F4.json",
+      "sourceBlob": "a2605e2d8ec69f8a2c17dc63bff3cdc768773ace",
+      "targetBlob": "a2605e2d8ec69f8a2c17dc63bff3cdc768773ace",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/baseline/3Ae2iqznVqvIhriXHIwObO.json",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/portal-refinement-20261107/baseline/3Ae2iqznVqvIhriXHIwObO.json",
+      "sourceBlob": "370b37900e6b010484c2b31775c696e1af6180c2",
+      "targetBlob": "370b37900e6b010484c2b31775c696e1af6180c2",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/baseline/3jW0RGwxmANB4DmBNvvo36.json",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/portal-refinement-20261107/baseline/3jW0RGwxmANB4DmBNvvo36.json",
+      "sourceBlob": "7e494efc3869eb81b0683c36dbbba51048b825f1",
+      "targetBlob": "7e494efc3869eb81b0683c36dbbba51048b825f1",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/baseline/45DjdzK0dQkNOXwIDOc4zh.json",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/portal-refinement-20261107/baseline/45DjdzK0dQkNOXwIDOc4zh.json",
+      "sourceBlob": "11499bb210d3507bc0c9a58f53661d1a4fba5416",
+      "targetBlob": "11499bb210d3507bc0c9a58f53661d1a4fba5416",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/baseline/5AAlQUHwGoilHwuVLwzsdi.json",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/portal-refinement-20261107/baseline/5AAlQUHwGoilHwuVLwzsdi.json",
+      "sourceBlob": "d4efe4a8b89d5a72f4d681f61d9b34101a204ca8",
+      "targetBlob": "d4efe4a8b89d5a72f4d681f61d9b34101a204ca8",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/baseline/5brtogQ8wFhVwFlkP9vli7.json",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/portal-refinement-20261107/baseline/5brtogQ8wFhVwFlkP9vli7.json",
+      "sourceBlob": "e76d00ac0330bb9365d65db2c7239b8df28cee90",
+      "targetBlob": "e76d00ac0330bb9365d65db2c7239b8df28cee90",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/baseline/5wAUjIQ8GgUwy7U6J15yOq.json",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/portal-refinement-20261107/baseline/5wAUjIQ8GgUwy7U6J15yOq.json",
+      "sourceBlob": "073d87b3735576d7bcf0b6c3d29f64f1eff85d10",
+      "targetBlob": "073d87b3735576d7bcf0b6c3d29f64f1eff85d10",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/baseline/6OL3zbn7WnUyNqOJTYqpCH.json",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/portal-refinement-20261107/baseline/6OL3zbn7WnUyNqOJTYqpCH.json",
+      "sourceBlob": "bce5f5827b173a3748158e42ba5de880bd05a143",
+      "targetBlob": "bce5f5827b173a3748158e42ba5de880bd05a143",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/baseline/6WCIJwOfi73csgCGC1O6ay.json",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/portal-refinement-20261107/baseline/6WCIJwOfi73csgCGC1O6ay.json",
+      "sourceBlob": "bf235b7b17c543e1da4fec77dbc34d49e48e0552",
+      "targetBlob": "bf235b7b17c543e1da4fec77dbc34d49e48e0552",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/baseline/6mXLg2EBqEsR8RCEqqJ8Lm.json",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/portal-refinement-20261107/baseline/6mXLg2EBqEsR8RCEqqJ8Lm.json",
+      "sourceBlob": "a9fcc7f0cb3293a4f9efb84301742829b4a95873",
+      "targetBlob": "a9fcc7f0cb3293a4f9efb84301742829b4a95873",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/baseline/Ik1AQUW6OAxQCqgnkcq0J.json",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/portal-refinement-20261107/baseline/Ik1AQUW6OAxQCqgnkcq0J.json",
+      "sourceBlob": "2264a582382589a17bd1a45e6cd06a4aa2e4a4c5",
+      "targetBlob": "2264a582382589a17bd1a45e6cd06a4aa2e4a4c5",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/baseline/LxsfE8MGOPJPbSOYTR4hw.json",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/portal-refinement-20261107/baseline/LxsfE8MGOPJPbSOYTR4hw.json",
+      "sourceBlob": "b8225e579244ad67c2b07947ef96d732b1afb7ba",
+      "targetBlob": "b8225e579244ad67c2b07947ef96d732b1afb7ba",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/baseline/Q9IRHEZmuUMcEcnVB6c3c.json",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/portal-refinement-20261107/baseline/Q9IRHEZmuUMcEcnVB6c3c.json",
+      "sourceBlob": "99199de5430cbf50b30fb56f5ec7cf9c0e4b26a8",
+      "targetBlob": "99199de5430cbf50b30fb56f5ec7cf9c0e4b26a8",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/baseline/SoSCcB5Z1fjKJDcU9GmHG.json",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/portal-refinement-20261107/baseline/SoSCcB5Z1fjKJDcU9GmHG.json",
+      "sourceBlob": "b04249b1b6f6b091168c3c3ee9023b6ef4f06789",
+      "targetBlob": "b04249b1b6f6b091168c3c3ee9023b6ef4f06789",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/baseline/ZLh6zjq5DgOlN4nYwvjmC.json",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/portal-refinement-20261107/baseline/ZLh6zjq5DgOlN4nYwvjmC.json",
+      "sourceBlob": "a40e91852a705b1180bf4ba7f301a1cdaf21622a",
+      "targetBlob": "a40e91852a705b1180bf4ba7f301a1cdaf21622a",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/browser-checks.json",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/portal-refinement-20261107/browser-checks.json",
+      "sourceBlob": "8efa934572495a8c81c72d39abc7208d29958c26",
+      "targetBlob": "8efa934572495a8c81c72d39abc7208d29958c26",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/dates.json",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/portal-refinement-20261107/dates.json",
+      "sourceBlob": "e52e3ed99d2e447f7cabc3e34a096e1e4f9203e7",
+      "targetBlob": "e52e3ed99d2e447f7cabc3e34a096e1e4f9203e7",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/deployment.json",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/portal-refinement-20261107/deployment.json",
+      "sourceBlob": "7d9dc5f39f935f19935134746eb7cd6d5a99d321",
+      "targetBlob": "7d9dc5f39f935f19935134746eb7cd6d5a99d321",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/identity-proof-LxsfE8MGOPJPbSOYTR4hw.json",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/portal-refinement-20261107/identity-proof-LxsfE8MGOPJPbSOYTR4hw.json",
+      "sourceBlob": "d4ca2803e32614f9c8cb14d6bae658c1be2c1f49",
+      "targetBlob": "d4ca2803e32614f9c8cb14d6bae658c1be2c1f49",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/integrity-checks.json",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/portal-refinement-20261107/integrity-checks.json",
+      "sourceBlob": "bf5f1da73aa38798b53c55dc628732c9f105f3cb",
+      "targetBlob": "bf5f1da73aa38798b53c55dc628732c9f105f3cb",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/local-browser-checks.json",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/portal-refinement-20261107/local-browser-checks.json",
+      "sourceBlob": "3c4064b9138907f00e8eb16adce57f9a32db4803",
+      "targetBlob": "3c4064b9138907f00e8eb16adce57f9a32db4803",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/manifest.json",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/portal-refinement-20261107/manifest.json",
+      "sourceBlob": "cf41dc60db206688014d7312c879db59c60a6de9",
+      "targetBlob": "cf41dc60db206688014d7312c879db59c60a6de9",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/news-entry.json",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/portal-refinement-20261107/news-entry.json",
+      "sourceBlob": "8f5436832e5bb8bdb7f4233b01e0ca68a3d1c5e1",
+      "targetBlob": "8f5436832e5bb8bdb7f4233b01e0ca68a3d1c5e1",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/news-home.html",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/portal-refinement-20261107/news-home.html",
+      "sourceBlob": "47949c9c74ce6831898c19f1b31fed677725ed45",
+      "targetBlob": "47949c9c74ce6831898c19f1b31fed677725ed45",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/news-preflight.json",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/portal-refinement-20261107/news-preflight.json",
+      "sourceBlob": "647eeae22d43003b0fcbc476152567a3737b4c65",
+      "targetBlob": "647eeae22d43003b0fcbc476152567a3737b4c65",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/payloads/22O849wA6VAVgxOYVT9zvB.html",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/portal-refinement-20261107/payloads/22O849wA6VAVgxOYVT9zvB.html",
+      "sourceBlob": "c21d6a9ca807f100a734aa2b86504e120dcd6681",
+      "targetBlob": "c21d6a9ca807f100a734aa2b86504e120dcd6681",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/payloads/2RuvfNtI6Yj8TlbSf385F4.html",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/portal-refinement-20261107/payloads/2RuvfNtI6Yj8TlbSf385F4.html",
+      "sourceBlob": "4edaa8e8cf86b063518e3a2d0af85268e95e7448",
+      "targetBlob": "4edaa8e8cf86b063518e3a2d0af85268e95e7448",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/payloads/3Ae2iqznVqvIhriXHIwObO.html",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/portal-refinement-20261107/payloads/3Ae2iqznVqvIhriXHIwObO.html",
+      "sourceBlob": "613d1a13746da2dd63ffff6e4eeb97e2b73001a7",
+      "targetBlob": "613d1a13746da2dd63ffff6e4eeb97e2b73001a7",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/payloads/3jW0RGwxmANB4DmBNvvo36.html",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/portal-refinement-20261107/payloads/3jW0RGwxmANB4DmBNvvo36.html",
+      "sourceBlob": "9e33aed5629869d08155159009c98a6f0b3f2849",
+      "targetBlob": "9e33aed5629869d08155159009c98a6f0b3f2849",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/payloads/45DjdzK0dQkNOXwIDOc4zh.html",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/portal-refinement-20261107/payloads/45DjdzK0dQkNOXwIDOc4zh.html",
+      "sourceBlob": "56682756a2d8522d82b6f67ea4e0e6351ff62cf7",
+      "targetBlob": "56682756a2d8522d82b6f67ea4e0e6351ff62cf7",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/payloads/5AAlQUHwGoilHwuVLwzsdi.html",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/portal-refinement-20261107/payloads/5AAlQUHwGoilHwuVLwzsdi.html",
+      "sourceBlob": "327c973490fc6380b9212af30b384b6529d7950a",
+      "targetBlob": "327c973490fc6380b9212af30b384b6529d7950a",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/payloads/5brtogQ8wFhVwFlkP9vli7.html",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/portal-refinement-20261107/payloads/5brtogQ8wFhVwFlkP9vli7.html",
+      "sourceBlob": "a44cbdf1f7970ff7190228a97af54485f6aec78b",
+      "targetBlob": "a44cbdf1f7970ff7190228a97af54485f6aec78b",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/payloads/5wAUjIQ8GgUwy7U6J15yOq.html",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/portal-refinement-20261107/payloads/5wAUjIQ8GgUwy7U6J15yOq.html",
+      "sourceBlob": "d23a4ba9fbaa50c83bb4101a3c42c4c1e723cc18",
+      "targetBlob": "d23a4ba9fbaa50c83bb4101a3c42c4c1e723cc18",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/payloads/6OL3zbn7WnUyNqOJTYqpCH.html",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/portal-refinement-20261107/payloads/6OL3zbn7WnUyNqOJTYqpCH.html",
+      "sourceBlob": "85ebc4e8b59fb1f6b393923e84a895171d161bd7",
+      "targetBlob": "85ebc4e8b59fb1f6b393923e84a895171d161bd7",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/payloads/6WCIJwOfi73csgCGC1O6ay.html",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/portal-refinement-20261107/payloads/6WCIJwOfi73csgCGC1O6ay.html",
+      "sourceBlob": "74e01fe1ce5c55529b87f7ee5b1618583c421c36",
+      "targetBlob": "74e01fe1ce5c55529b87f7ee5b1618583c421c36",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/payloads/6mXLg2EBqEsR8RCEqqJ8Lm.html",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/portal-refinement-20261107/payloads/6mXLg2EBqEsR8RCEqqJ8Lm.html",
+      "sourceBlob": "36ebe87b0fda243aa1670fed06c5f98ab5d7d06f",
+      "targetBlob": "36ebe87b0fda243aa1670fed06c5f98ab5d7d06f",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/payloads/Ik1AQUW6OAxQCqgnkcq0J.html",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/portal-refinement-20261107/payloads/Ik1AQUW6OAxQCqgnkcq0J.html",
+      "sourceBlob": "73ed44667b583c382aa37533f175a3672efd5f7a",
+      "targetBlob": "73ed44667b583c382aa37533f175a3672efd5f7a",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/payloads/LxsfE8MGOPJPbSOYTR4hw.html",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/portal-refinement-20261107/payloads/LxsfE8MGOPJPbSOYTR4hw.html",
+      "sourceBlob": "1271d6dc0b4b99b775d3166d81f69eccc41b8847",
+      "targetBlob": "1271d6dc0b4b99b775d3166d81f69eccc41b8847",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/payloads/Q9IRHEZmuUMcEcnVB6c3c.html",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/portal-refinement-20261107/payloads/Q9IRHEZmuUMcEcnVB6c3c.html",
+      "sourceBlob": "18de792a1b7376ac23d0d7113f86314e11118d65",
+      "targetBlob": "18de792a1b7376ac23d0d7113f86314e11118d65",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/payloads/SoSCcB5Z1fjKJDcU9GmHG.html",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/portal-refinement-20261107/payloads/SoSCcB5Z1fjKJDcU9GmHG.html",
+      "sourceBlob": "58d53db864b6891b849d0303222574f5fa65861f",
+      "targetBlob": "58d53db864b6891b849d0303222574f5fa65861f",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/payloads/ZLh6zjq5DgOlN4nYwvjmC.html",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/portal-refinement-20261107/payloads/ZLh6zjq5DgOlN4nYwvjmC.html",
+      "sourceBlob": "5f23a7503f87be480b57b8e9a9754fd405558f6f",
+      "targetBlob": "5f23a7503f87be480b57b8e9a9754fd405558f6f",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/prewrite/22O849wA6VAVgxOYVT9zvB.json",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/portal-refinement-20261107/prewrite/22O849wA6VAVgxOYVT9zvB.json",
+      "sourceBlob": "d41d8bfc68c761fe8ac9f8df450c6ec542d3e10f",
+      "targetBlob": "d41d8bfc68c761fe8ac9f8df450c6ec542d3e10f",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/prewrite/2RuvfNtI6Yj8TlbSf385F4.json",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/portal-refinement-20261107/prewrite/2RuvfNtI6Yj8TlbSf385F4.json",
+      "sourceBlob": "41314a86d3214b4eed7aa2678e563995ec01e100",
+      "targetBlob": "41314a86d3214b4eed7aa2678e563995ec01e100",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/prewrite/3Ae2iqznVqvIhriXHIwObO.json",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/portal-refinement-20261107/prewrite/3Ae2iqznVqvIhriXHIwObO.json",
+      "sourceBlob": "c907f20ea9a49c3c7f8acc933543a096bde2b648",
+      "targetBlob": "c907f20ea9a49c3c7f8acc933543a096bde2b648",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/prewrite/3jW0RGwxmANB4DmBNvvo36.json",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/portal-refinement-20261107/prewrite/3jW0RGwxmANB4DmBNvvo36.json",
+      "sourceBlob": "5e11d36e527d1e67c1ae6690828099aa11a57167",
+      "targetBlob": "5e11d36e527d1e67c1ae6690828099aa11a57167",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/prewrite/45DjdzK0dQkNOXwIDOc4zh.json",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/portal-refinement-20261107/prewrite/45DjdzK0dQkNOXwIDOc4zh.json",
+      "sourceBlob": "aaa99f55e95e1052761ed41587c2bf6308d0ba07",
+      "targetBlob": "aaa99f55e95e1052761ed41587c2bf6308d0ba07",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/prewrite/5AAlQUHwGoilHwuVLwzsdi.json",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/portal-refinement-20261107/prewrite/5AAlQUHwGoilHwuVLwzsdi.json",
+      "sourceBlob": "0a1c54c4a2b3c6784031406020e19b7acebf59e4",
+      "targetBlob": "0a1c54c4a2b3c6784031406020e19b7acebf59e4",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/prewrite/5brtogQ8wFhVwFlkP9vli7.json",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/portal-refinement-20261107/prewrite/5brtogQ8wFhVwFlkP9vli7.json",
+      "sourceBlob": "1980f9772c4f81ba8ba1050f7713773b83da7f9c",
+      "targetBlob": "1980f9772c4f81ba8ba1050f7713773b83da7f9c",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/prewrite/5wAUjIQ8GgUwy7U6J15yOq.json",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/portal-refinement-20261107/prewrite/5wAUjIQ8GgUwy7U6J15yOq.json",
+      "sourceBlob": "20f8a17662beaeae46256ee8eb5f8ea9c8d873cb",
+      "targetBlob": "20f8a17662beaeae46256ee8eb5f8ea9c8d873cb",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/prewrite/6OL3zbn7WnUyNqOJTYqpCH.json",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/portal-refinement-20261107/prewrite/6OL3zbn7WnUyNqOJTYqpCH.json",
+      "sourceBlob": "5f7d4d9e55b15240787b14cb4d241155e63eb3c9",
+      "targetBlob": "5f7d4d9e55b15240787b14cb4d241155e63eb3c9",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/prewrite/6WCIJwOfi73csgCGC1O6ay.json",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/portal-refinement-20261107/prewrite/6WCIJwOfi73csgCGC1O6ay.json",
+      "sourceBlob": "d66d41f19498fd943df7afada59dab33167f2419",
+      "targetBlob": "d66d41f19498fd943df7afada59dab33167f2419",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/prewrite/6mXLg2EBqEsR8RCEqqJ8Lm.json",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/portal-refinement-20261107/prewrite/6mXLg2EBqEsR8RCEqqJ8Lm.json",
+      "sourceBlob": "76947648dca3351aa72b3edeb5e6e0f5746e67b3",
+      "targetBlob": "76947648dca3351aa72b3edeb5e6e0f5746e67b3",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/prewrite/Ik1AQUW6OAxQCqgnkcq0J.json",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/portal-refinement-20261107/prewrite/Ik1AQUW6OAxQCqgnkcq0J.json",
+      "sourceBlob": "7b1fd60da9ac32761dc3279be5ab87364604d6dd",
+      "targetBlob": "7b1fd60da9ac32761dc3279be5ab87364604d6dd",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/prewrite/LxsfE8MGOPJPbSOYTR4hw.json",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/portal-refinement-20261107/prewrite/LxsfE8MGOPJPbSOYTR4hw.json",
+      "sourceBlob": "b74ea960f16f8dc01258f0f1967d9ac611daeaf8",
+      "targetBlob": "b74ea960f16f8dc01258f0f1967d9ac611daeaf8",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/prewrite/Q9IRHEZmuUMcEcnVB6c3c.json",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/portal-refinement-20261107/prewrite/Q9IRHEZmuUMcEcnVB6c3c.json",
+      "sourceBlob": "31e0a3f9dce618b8b1cd2b90b848ba9d9980c0bd",
+      "targetBlob": "31e0a3f9dce618b8b1cd2b90b848ba9d9980c0bd",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/prewrite/SoSCcB5Z1fjKJDcU9GmHG.json",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/portal-refinement-20261107/prewrite/SoSCcB5Z1fjKJDcU9GmHG.json",
+      "sourceBlob": "ed99b83fda836b9b5bf0c424490e5179282f4883",
+      "targetBlob": "ed99b83fda836b9b5bf0c424490e5179282f4883",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/prewrite/ZLh6zjq5DgOlN4nYwvjmC.json",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/portal-refinement-20261107/prewrite/ZLh6zjq5DgOlN4nYwvjmC.json",
+      "sourceBlob": "ff2d7e953a706d7b454d7bfa1914659fcc436371",
+      "targetBlob": "ff2d7e953a706d7b454d7bfa1914659fcc436371",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/readback/22O849wA6VAVgxOYVT9zvB.json",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/portal-refinement-20261107/readback/22O849wA6VAVgxOYVT9zvB.json",
+      "sourceBlob": "cb3d9bb556147251097c30074a57d5d1be610140",
+      "targetBlob": "cb3d9bb556147251097c30074a57d5d1be610140",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/readback/2RuvfNtI6Yj8TlbSf385F4.json",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/portal-refinement-20261107/readback/2RuvfNtI6Yj8TlbSf385F4.json",
+      "sourceBlob": "0a6d1233785e2054f573eab9bf31cff78b29007d",
+      "targetBlob": "0a6d1233785e2054f573eab9bf31cff78b29007d",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/readback/3Ae2iqznVqvIhriXHIwObO.json",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/portal-refinement-20261107/readback/3Ae2iqznVqvIhriXHIwObO.json",
+      "sourceBlob": "2fd7b31606563015ac597aecf698f7933e2d4207",
+      "targetBlob": "2fd7b31606563015ac597aecf698f7933e2d4207",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/readback/3jW0RGwxmANB4DmBNvvo36.json",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/portal-refinement-20261107/readback/3jW0RGwxmANB4DmBNvvo36.json",
+      "sourceBlob": "325c86d1b7eecb427c0ad505b046701e7def4ff6",
+      "targetBlob": "325c86d1b7eecb427c0ad505b046701e7def4ff6",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/readback/45DjdzK0dQkNOXwIDOc4zh.json",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/portal-refinement-20261107/readback/45DjdzK0dQkNOXwIDOc4zh.json",
+      "sourceBlob": "87e05a1d3b91f0cc13220aab5ea3f769bcc10f6a",
+      "targetBlob": "87e05a1d3b91f0cc13220aab5ea3f769bcc10f6a",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/readback/5AAlQUHwGoilHwuVLwzsdi.json",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/portal-refinement-20261107/readback/5AAlQUHwGoilHwuVLwzsdi.json",
+      "sourceBlob": "e022029371f8c548beea09117f81f74a06e36e36",
+      "targetBlob": "e022029371f8c548beea09117f81f74a06e36e36",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/readback/5brtogQ8wFhVwFlkP9vli7.json",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/portal-refinement-20261107/readback/5brtogQ8wFhVwFlkP9vli7.json",
+      "sourceBlob": "c982ec53393773d1cd74b4a81b7a2f7239fb03d8",
+      "targetBlob": "c982ec53393773d1cd74b4a81b7a2f7239fb03d8",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/readback/5wAUjIQ8GgUwy7U6J15yOq.json",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/portal-refinement-20261107/readback/5wAUjIQ8GgUwy7U6J15yOq.json",
+      "sourceBlob": "40aa00790059a92fdea57f463e215d7139646183",
+      "targetBlob": "40aa00790059a92fdea57f463e215d7139646183",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/readback/5zLuKbEgpZyVu1BFJMc2DG.json",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/portal-refinement-20261107/readback/5zLuKbEgpZyVu1BFJMc2DG.json",
+      "sourceBlob": "b57101c9a3f4d5561b135ee9f5a64b29346a52f8",
+      "targetBlob": "b57101c9a3f4d5561b135ee9f5a64b29346a52f8",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/readback/6OL3zbn7WnUyNqOJTYqpCH.json",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/portal-refinement-20261107/readback/6OL3zbn7WnUyNqOJTYqpCH.json",
+      "sourceBlob": "003820e4babb5c38230722878a338cc8bd78aaa3",
+      "targetBlob": "003820e4babb5c38230722878a338cc8bd78aaa3",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/readback/6WCIJwOfi73csgCGC1O6ay.json",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/portal-refinement-20261107/readback/6WCIJwOfi73csgCGC1O6ay.json",
+      "sourceBlob": "051b8e3241cc46aa98a40793fc41f449e49a5c6d",
+      "targetBlob": "051b8e3241cc46aa98a40793fc41f449e49a5c6d",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/readback/6mXLg2EBqEsR8RCEqqJ8Lm.json",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/portal-refinement-20261107/readback/6mXLg2EBqEsR8RCEqqJ8Lm.json",
+      "sourceBlob": "6681c7c76471058b2082a81bbfa5e76d86fa7055",
+      "targetBlob": "6681c7c76471058b2082a81bbfa5e76d86fa7055",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/readback/Ik1AQUW6OAxQCqgnkcq0J.json",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/portal-refinement-20261107/readback/Ik1AQUW6OAxQCqgnkcq0J.json",
+      "sourceBlob": "ce2ff803952cf037693d87cc2cf820cd346553a2",
+      "targetBlob": "ce2ff803952cf037693d87cc2cf820cd346553a2",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/readback/LxsfE8MGOPJPbSOYTR4hw.json",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/portal-refinement-20261107/readback/LxsfE8MGOPJPbSOYTR4hw.json",
+      "sourceBlob": "9b91cd248f6b433e9aa0dcd96b4dc3077f3b2057",
+      "targetBlob": "9b91cd248f6b433e9aa0dcd96b4dc3077f3b2057",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/readback/Q9IRHEZmuUMcEcnVB6c3c.json",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/portal-refinement-20261107/readback/Q9IRHEZmuUMcEcnVB6c3c.json",
+      "sourceBlob": "d204edde70c75d0f73df30f031fbf6066bfb3a41",
+      "targetBlob": "d204edde70c75d0f73df30f031fbf6066bfb3a41",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/readback/SoSCcB5Z1fjKJDcU9GmHG.json",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/portal-refinement-20261107/readback/SoSCcB5Z1fjKJDcU9GmHG.json",
+      "sourceBlob": "2ec13dad468b6a4e480a8e64a4cd08e3b36a1cd6",
+      "targetBlob": "2ec13dad468b6a4e480a8e64a4cd08e3b36a1cd6",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/readback/ZLh6zjq5DgOlN4nYwvjmC.json",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/portal-refinement-20261107/readback/ZLh6zjq5DgOlN4nYwvjmC.json",
+      "sourceBlob": "8a4f100bb62c9c698250a149e3d97c95192f3b9b",
+      "targetBlob": "8a4f100bb62c9c698250a149e3d97c95192f3b9b",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/results.json",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/portal-refinement-20261107/results.json",
+      "sourceBlob": "030b40c45d96d069183af7d40dbb7aa4a5fadca7",
+      "targetBlob": "030b40c45d96d069183af7d40dbb7aa4a5fadca7",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/targets.json",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/portal-refinement-20261107/targets.json",
+      "sourceBlob": "5d86a8f90256245951decb8b6f311fffcfff0f9a",
+      "targetBlob": "5d86a8f90256245951decb8b6f311fffcfff0f9a",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/portal-rollout/README.md",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/portal-rollout/README.md",
+      "sourceBlob": "288ce96cfefe0da4cb60a0bda918843cfaa14aa9",
+      "targetBlob": "288ce96cfefe0da4cb60a0bda918843cfaa14aa9",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/portal-rollout/baseline/22O849wA6VAVgxOYVT9zvB.json",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/portal-rollout/baseline/22O849wA6VAVgxOYVT9zvB.json",
+      "sourceBlob": "409eec421096ccc14538fea8f44d7918038cfc30",
+      "targetBlob": "409eec421096ccc14538fea8f44d7918038cfc30",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/portal-rollout/baseline/3Ae2iqznVqvIhriXHIwObO.json",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/portal-rollout/baseline/3Ae2iqznVqvIhriXHIwObO.json",
+      "sourceBlob": "33f65db58077b4b1f96c778b1b70c3da9ab41567",
+      "targetBlob": "33f65db58077b4b1f96c778b1b70c3da9ab41567",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/portal-rollout/baseline/3jW0RGwxmANB4DmBNvvo36.json",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/portal-rollout/baseline/3jW0RGwxmANB4DmBNvvo36.json",
+      "sourceBlob": "9f77f02f01c3b3e39ed8716dd8335220033f572d",
+      "targetBlob": "9f77f02f01c3b3e39ed8716dd8335220033f572d",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/portal-rollout/baseline/45DjdzK0dQkNOXwIDOc4zh.json",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/portal-rollout/baseline/45DjdzK0dQkNOXwIDOc4zh.json",
+      "sourceBlob": "97d631bbb0b96bf627139fd38d143c3a656abe0d",
+      "targetBlob": "97d631bbb0b96bf627139fd38d143c3a656abe0d",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/portal-rollout/baseline/5AAlQUHwGoilHwuVLwzsdi.json",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/portal-rollout/baseline/5AAlQUHwGoilHwuVLwzsdi.json",
+      "sourceBlob": "dbbaee92bf21d1116c67808874884c66553be8ce",
+      "targetBlob": "dbbaee92bf21d1116c67808874884c66553be8ce",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/portal-rollout/baseline/5brtogQ8wFhVwFlkP9vli7.json",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/portal-rollout/baseline/5brtogQ8wFhVwFlkP9vli7.json",
+      "sourceBlob": "7d0c79dd64703251f4c7dc3bbf4a2d6802f98326",
+      "targetBlob": "7d0c79dd64703251f4c7dc3bbf4a2d6802f98326",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/portal-rollout/baseline/5wAUjIQ8GgUwy7U6J15yOq.json",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/portal-rollout/baseline/5wAUjIQ8GgUwy7U6J15yOq.json",
+      "sourceBlob": "e80684b410e449fb88dafeb20dcf854da18969cf",
+      "targetBlob": "e80684b410e449fb88dafeb20dcf854da18969cf",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/portal-rollout/baseline/6OL3zbn7WnUyNqOJTYqpCH.json",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/portal-rollout/baseline/6OL3zbn7WnUyNqOJTYqpCH.json",
+      "sourceBlob": "da18cc7116f9cc395fcb803c5d40d1f1cc123a8e",
+      "targetBlob": "da18cc7116f9cc395fcb803c5d40d1f1cc123a8e",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/portal-rollout/baseline/6mXLg2EBqEsR8RCEqqJ8Lm.json",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/portal-rollout/baseline/6mXLg2EBqEsR8RCEqqJ8Lm.json",
+      "sourceBlob": "bc6ac17b3d2529740ef3a62167e9d00f59df990d",
+      "targetBlob": "bc6ac17b3d2529740ef3a62167e9d00f59df990d",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/portal-rollout/baseline/Ik1AQUW6OAxQCqgnkcq0J.json",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/portal-rollout/baseline/Ik1AQUW6OAxQCqgnkcq0J.json",
+      "sourceBlob": "869d0a7ffb576e6894579f8252b70599af96dae1",
+      "targetBlob": "869d0a7ffb576e6894579f8252b70599af96dae1",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/portal-rollout/baseline/LxsfE8MGOPJPbSOYTR4hw.json",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/portal-rollout/baseline/LxsfE8MGOPJPbSOYTR4hw.json",
+      "sourceBlob": "78330cdbb505fdca1c9d5d46f71d8662a18f4fd4",
+      "targetBlob": "78330cdbb505fdca1c9d5d46f71d8662a18f4fd4",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/portal-rollout/baseline/Q9IRHEZmuUMcEcnVB6c3c.json",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/portal-rollout/baseline/Q9IRHEZmuUMcEcnVB6c3c.json",
+      "sourceBlob": "a5feb2695082dba5f6781eccf789da00aa184547",
+      "targetBlob": "a5feb2695082dba5f6781eccf789da00aa184547",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/portal-rollout/baseline/SoSCcB5Z1fjKJDcU9GmHG.json",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/portal-rollout/baseline/SoSCcB5Z1fjKJDcU9GmHG.json",
+      "sourceBlob": "b781304e97256d22d3281439f0e9f74c4127b348",
+      "targetBlob": "b781304e97256d22d3281439f0e9f74c4127b348",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/portal-rollout/browser-checks.json",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/portal-rollout/browser-checks.json",
+      "sourceBlob": "d2f4c528080e28a1492ff3c2ffff5b3e3ce8af1b",
+      "targetBlob": "d2f4c528080e28a1492ff3c2ffff5b3e3ce8af1b",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/portal-rollout/comparison-state.json",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/portal-rollout/comparison-state.json",
+      "sourceBlob": "f6e9b8799d9f5f8ffd0325286ff83adb6ca0ae84",
+      "targetBlob": "f6e9b8799d9f5f8ffd0325286ff83adb6ca0ae84",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/portal-rollout/image-delivery-checks.json",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/portal-rollout/image-delivery-checks.json",
+      "sourceBlob": "57451e46df9e7b3b2c039c7e19d1b1dd25266a69",
+      "targetBlob": "57451e46df9e7b3b2c039c7e19d1b1dd25266a69",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/portal-rollout/integrity-checks.json",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/portal-rollout/integrity-checks.json",
+      "sourceBlob": "39e5fd9dfbe89c81888ea9fa869ef7e267aff8e0",
+      "targetBlob": "39e5fd9dfbe89c81888ea9fa869ef7e267aff8e0",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/portal-rollout/manifest.json",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/portal-rollout/manifest.json",
+      "sourceBlob": "1e6bf42448ab70cf1f4600058338a0004292d37f",
+      "targetBlob": "1e6bf42448ab70cf1f4600058338a0004292d37f",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/portal-rollout/payloads/22O849wA6VAVgxOYVT9zvB.html",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/portal-rollout/payloads/22O849wA6VAVgxOYVT9zvB.html",
+      "sourceBlob": "d0301f1bead366dce17316cc98450f05eb592cdf",
+      "targetBlob": "d0301f1bead366dce17316cc98450f05eb592cdf",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/portal-rollout/payloads/3Ae2iqznVqvIhriXHIwObO.html",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/portal-rollout/payloads/3Ae2iqznVqvIhriXHIwObO.html",
+      "sourceBlob": "0ddf3272ff23a0aa74167b8924b01bcc14605c01",
+      "targetBlob": "0ddf3272ff23a0aa74167b8924b01bcc14605c01",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/portal-rollout/payloads/3jW0RGwxmANB4DmBNvvo36.html",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/portal-rollout/payloads/3jW0RGwxmANB4DmBNvvo36.html",
+      "sourceBlob": "ee3912c450901ef8eaa6dea5e3e505d52d22afee",
+      "targetBlob": "ee3912c450901ef8eaa6dea5e3e505d52d22afee",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/portal-rollout/payloads/45DjdzK0dQkNOXwIDOc4zh.html",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/portal-rollout/payloads/45DjdzK0dQkNOXwIDOc4zh.html",
+      "sourceBlob": "4c6253bc6cc7d8a359fc1b14bae399093bfe7a67",
+      "targetBlob": "4c6253bc6cc7d8a359fc1b14bae399093bfe7a67",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/portal-rollout/payloads/5AAlQUHwGoilHwuVLwzsdi.html",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/portal-rollout/payloads/5AAlQUHwGoilHwuVLwzsdi.html",
+      "sourceBlob": "e88572d5dd076d7661865c4d372c511fdbac3a28",
+      "targetBlob": "e88572d5dd076d7661865c4d372c511fdbac3a28",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/portal-rollout/payloads/5brtogQ8wFhVwFlkP9vli7.html",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/portal-rollout/payloads/5brtogQ8wFhVwFlkP9vli7.html",
+      "sourceBlob": "d97397e092f402b948a87dbcab51d7eabec3abef",
+      "targetBlob": "d97397e092f402b948a87dbcab51d7eabec3abef",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/portal-rollout/payloads/5wAUjIQ8GgUwy7U6J15yOq.html",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/portal-rollout/payloads/5wAUjIQ8GgUwy7U6J15yOq.html",
+      "sourceBlob": "34b7255d04ef9d8ec665ac26f64ee9ed33ff7599",
+      "targetBlob": "34b7255d04ef9d8ec665ac26f64ee9ed33ff7599",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/portal-rollout/payloads/6OL3zbn7WnUyNqOJTYqpCH.html",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/portal-rollout/payloads/6OL3zbn7WnUyNqOJTYqpCH.html",
+      "sourceBlob": "c24fbf97c2cb9412dd1afa66c102690e62c65a75",
+      "targetBlob": "c24fbf97c2cb9412dd1afa66c102690e62c65a75",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/portal-rollout/payloads/6mXLg2EBqEsR8RCEqqJ8Lm.html",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/portal-rollout/payloads/6mXLg2EBqEsR8RCEqqJ8Lm.html",
+      "sourceBlob": "062114febc3cc89195e01b104028854b8f937faa",
+      "targetBlob": "062114febc3cc89195e01b104028854b8f937faa",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/portal-rollout/payloads/Ik1AQUW6OAxQCqgnkcq0J.html",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/portal-rollout/payloads/Ik1AQUW6OAxQCqgnkcq0J.html",
+      "sourceBlob": "17291a55f03bedd51d6ac211352be838be91cd7e",
+      "targetBlob": "17291a55f03bedd51d6ac211352be838be91cd7e",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/portal-rollout/payloads/LxsfE8MGOPJPbSOYTR4hw.html",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/portal-rollout/payloads/LxsfE8MGOPJPbSOYTR4hw.html",
+      "sourceBlob": "378e42ba6e04b1a273e1569b154b11a7d64ac41e",
+      "targetBlob": "378e42ba6e04b1a273e1569b154b11a7d64ac41e",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/portal-rollout/payloads/Q9IRHEZmuUMcEcnVB6c3c.html",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/portal-rollout/payloads/Q9IRHEZmuUMcEcnVB6c3c.html",
+      "sourceBlob": "18df4c6f491aba3acc2679e474b01b9bdd599325",
+      "targetBlob": "18df4c6f491aba3acc2679e474b01b9bdd599325",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/portal-rollout/payloads/SoSCcB5Z1fjKJDcU9GmHG.html",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/portal-rollout/payloads/SoSCcB5Z1fjKJDcU9GmHG.html",
+      "sourceBlob": "6c865bb7b4e4c6aac6edb31d9dd1317f407dbb10",
+      "targetBlob": "6c865bb7b4e4c6aac6edb31d9dd1317f407dbb10",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/portal-rollout/readback/22O849wA6VAVgxOYVT9zvB.json",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/portal-rollout/readback/22O849wA6VAVgxOYVT9zvB.json",
+      "sourceBlob": "d41d8bfc68c761fe8ac9f8df450c6ec542d3e10f",
+      "targetBlob": "d41d8bfc68c761fe8ac9f8df450c6ec542d3e10f",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/portal-rollout/readback/3Ae2iqznVqvIhriXHIwObO.json",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/portal-rollout/readback/3Ae2iqznVqvIhriXHIwObO.json",
+      "sourceBlob": "c907f20ea9a49c3c7f8acc933543a096bde2b648",
+      "targetBlob": "c907f20ea9a49c3c7f8acc933543a096bde2b648",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/portal-rollout/readback/3jW0RGwxmANB4DmBNvvo36.json",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/portal-rollout/readback/3jW0RGwxmANB4DmBNvvo36.json",
+      "sourceBlob": "5e11d36e527d1e67c1ae6690828099aa11a57167",
+      "targetBlob": "5e11d36e527d1e67c1ae6690828099aa11a57167",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/portal-rollout/readback/45DjdzK0dQkNOXwIDOc4zh.json",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/portal-rollout/readback/45DjdzK0dQkNOXwIDOc4zh.json",
+      "sourceBlob": "e511cbb929a834c802eb9f47143a5b02970cfeb4",
+      "targetBlob": "e511cbb929a834c802eb9f47143a5b02970cfeb4",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/portal-rollout/readback/5AAlQUHwGoilHwuVLwzsdi.json",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/portal-rollout/readback/5AAlQUHwGoilHwuVLwzsdi.json",
+      "sourceBlob": "0a1c54c4a2b3c6784031406020e19b7acebf59e4",
+      "targetBlob": "0a1c54c4a2b3c6784031406020e19b7acebf59e4",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/portal-rollout/readback/5brtogQ8wFhVwFlkP9vli7.json",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/portal-rollout/readback/5brtogQ8wFhVwFlkP9vli7.json",
+      "sourceBlob": "f3f23696cc1c2f473df9b25af974e7f7aad22037",
+      "targetBlob": "f3f23696cc1c2f473df9b25af974e7f7aad22037",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/portal-rollout/readback/5wAUjIQ8GgUwy7U6J15yOq.json",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/portal-rollout/readback/5wAUjIQ8GgUwy7U6J15yOq.json",
+      "sourceBlob": "90bf2d8b794f4f5bbadc5c8ff25579c28f39fc1d",
+      "targetBlob": "90bf2d8b794f4f5bbadc5c8ff25579c28f39fc1d",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/portal-rollout/readback/6OL3zbn7WnUyNqOJTYqpCH.json",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/portal-rollout/readback/6OL3zbn7WnUyNqOJTYqpCH.json",
+      "sourceBlob": "a5d28cbce282a3de1b298e15af8ca286c06b0bfa",
+      "targetBlob": "a5d28cbce282a3de1b298e15af8ca286c06b0bfa",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/portal-rollout/readback/6mXLg2EBqEsR8RCEqqJ8Lm.json",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/portal-rollout/readback/6mXLg2EBqEsR8RCEqqJ8Lm.json",
+      "sourceBlob": "76947648dca3351aa72b3edeb5e6e0f5746e67b3",
+      "targetBlob": "76947648dca3351aa72b3edeb5e6e0f5746e67b3",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/portal-rollout/readback/Ik1AQUW6OAxQCqgnkcq0J.json",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/portal-rollout/readback/Ik1AQUW6OAxQCqgnkcq0J.json",
+      "sourceBlob": "088fc64508f2ba19133842802b2077b027d63344",
+      "targetBlob": "088fc64508f2ba19133842802b2077b027d63344",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/portal-rollout/readback/LxsfE8MGOPJPbSOYTR4hw.json",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/portal-rollout/readback/LxsfE8MGOPJPbSOYTR4hw.json",
+      "sourceBlob": "b74ea960f16f8dc01258f0f1967d9ac611daeaf8",
+      "targetBlob": "b74ea960f16f8dc01258f0f1967d9ac611daeaf8",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/portal-rollout/readback/Q9IRHEZmuUMcEcnVB6c3c.json",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/portal-rollout/readback/Q9IRHEZmuUMcEcnVB6c3c.json",
+      "sourceBlob": "ec4b995a466da615eb86a59cd9e8e62b16e4402b",
+      "targetBlob": "ec4b995a466da615eb86a59cd9e8e62b16e4402b",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/portal-rollout/readback/SoSCcB5Z1fjKJDcU9GmHG.json",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/portal-rollout/readback/SoSCcB5Z1fjKJDcU9GmHG.json",
+      "sourceBlob": "ed99b83fda836b9b5bf0c424490e5179282f4883",
+      "targetBlob": "ed99b83fda836b9b5bf0c424490e5179282f4883",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/portal-rollout/results.json",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/portal-rollout/results.json",
+      "sourceBlob": "4915b1beb7ce5ac72e0fa69252ada974ec50f5fa",
+      "targetBlob": "4915b1beb7ce5ac72e0fa69252ada974ec50f5fa",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/portal-rollout/targets.json",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/portal-rollout/targets.json",
+      "sourceBlob": "4bde2553507316b728d5963a735baf7846f834fd",
+      "targetBlob": "4bde2553507316b728d5963a735baf7846f834fd",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/preview.css",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/preview.css",
+      "sourceBlob": "42838d895906ddc0eefcb425a6daf54f4d23a66d",
+      "targetBlob": "42838d895906ddc0eefcb425a6daf54f4d23a66d",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/preview.js",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/preview.js",
+      "sourceBlob": "e4f59e6d1ca1e463063c70ca1b4361874b3cd0d0",
+      "targetBlob": "e4f59e6d1ca1e463063c70ca1b4361874b3cd0d0",
+      "adapted": false
+    },
+    {
+      "path": "contentful/templates/scaling-editorial-ux/ux-module-data.json",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "templates/scaling-editorial-ux/ux-module-data.json",
+      "sourceBlob": "a4b82b256fd3af42ba994c0c3620d63cdef49039",
+      "targetBlob": "a4b82b256fd3af42ba994c0c3620d63cdef49039",
+      "adapted": false
+    },
+    {
+      "path": "contentful/tests/fixtures/beispieldaten-darstellungstest.normalized.svg",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "tests/fixtures/beispieldaten-darstellungstest.normalized.svg",
+      "sourceBlob": "fb2edefc99b984035444aa159067527935a260d0",
+      "targetBlob": "fb2edefc99b984035444aa159067527935a260d0",
+      "adapted": false
+    },
+    {
+      "path": "contentful/tests/fixtures/locked-import-test.html",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "tests/fixtures/locked-import-test.html",
+      "sourceBlob": "a3674a0c09d3233f99f32642db952d9bd75a71ff",
+      "targetBlob": "a3674a0c09d3233f99f32642db952d9bd75a71ff",
+      "adapted": false
+    },
+    {
+      "path": "contentful/tests/fixtures/locked-import-test.md",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "tests/fixtures/locked-import-test.md",
+      "sourceBlob": "29751a4938381e7e815416ff3419970fad997681",
+      "targetBlob": "29751a4938381e7e815416ff3419970fad997681",
+      "adapted": false
+    },
+    {
+      "path": "contentful/tests/test_contentful_runtime.cjs",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "tests/test_contentful_runtime.cjs",
+      "sourceBlob": "d79e9faffa72769399ef848e032bba731d451d64",
+      "targetBlob": "d79e9faffa72769399ef848e032bba731d451d64",
+      "adapted": false
+    },
+    {
+      "path": "contentful/tests/test_gpt_package_contracts.cjs",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "tests/test_gpt_package_contracts.cjs",
+      "sourceBlob": "c50cb8f0635005551920a1fc8cffeb1bac3600e8",
+      "targetBlob": "c50cb8f0635005551920a1fc8cffeb1bac3600e8",
+      "adapted": false
+    },
+    {
+      "path": "contentful/tests/test_scaling_editorial_layout_correction.cjs",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "tests/test_scaling_editorial_layout_correction.cjs",
+      "sourceBlob": "6a067dc82fd72cf40272e45e673cc59c3a0bafa1",
+      "targetBlob": "6a067dc82fd72cf40272e45e673cc59c3a0bafa1",
+      "adapted": false
+    },
+    {
+      "path": "contentful/tests/test_scaling_editorial_refinement.cjs",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "tests/test_scaling_editorial_refinement.cjs",
+      "sourceBlob": "698cd13df0ec1a623ddd1b08bf09b4ecaa8b8ccf",
+      "targetBlob": "698cd13df0ec1a623ddd1b08bf09b4ecaa8b8ccf",
+      "adapted": false
+    },
+    {
+      "path": "contentful/tests/test_scaling_editorial_rollout.cjs",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "tests/test_scaling_editorial_rollout.cjs",
+      "sourceBlob": "41d2802f92de38846266f962e802ded486f58443",
+      "targetBlob": "41d2802f92de38846266f962e802ded486f58443",
+      "adapted": false
+    },
+    {
+      "path": "contentful/tests/test_scaling_editorial_ux.cjs",
+      "sourceRepository": "scout24-creative-ops/lp-builder-contentful",
+      "sourcePath": "tests/test_scaling_editorial_ux.cjs",
+      "sourceBlob": "ae41812d9913348acf6f778cc5ec267d77762f10",
+      "targetBlob": "ae41812d9913348acf6f778cc5ec267d77762f10",
+      "adapted": false
+    },
+    {
+      "path": "aem/.gitignore",
+      "sourceRepository": "scout24-creative-ops/project-archive",
+      "sourcePath": "projects/lp-builder/aem/files/.gitignore",
+      "sourceBlob": "e43b0f988953ae3a84b00331d0ccf5f7d51cb3cf",
+      "targetBlob": "e43b0f988953ae3a84b00331d0ccf5f7d51cb3cf",
+      "adapted": false
+    },
+    {
+      "path": "aem/AGENTS.md",
+      "sourceRepository": "scout24-creative-ops/project-archive",
+      "sourcePath": "projects/lp-builder/aem/files/AGENTS.md",
+      "sourceBlob": "ee943b7760eed49c3d13cb13e42a09a9752d42e4",
+      "targetBlob": "7acda5335d4c04ccfaf5014836f1145dc9254648",
+      "adapted": true
+    },
+    {
+      "path": "aem/agent/guardrails.md",
+      "sourceRepository": "scout24-creative-ops/project-archive",
+      "sourcePath": "projects/lp-builder/aem/files/agent/guardrails.md",
+      "sourceBlob": "a79a2913396a079f05fa077fa8bde319ca615035",
+      "targetBlob": "a79a2913396a079f05fa077fa8bde319ca615035",
+      "adapted": false
+    },
+    {
+      "path": "aem/agent/how-it-works.md",
+      "sourceRepository": "scout24-creative-ops/project-archive",
+      "sourcePath": "projects/lp-builder/aem/files/agent/how-it-works.md",
+      "sourceBlob": "645107f600f086da73bde77bbe19201a8c5ce424",
+      "targetBlob": "645107f600f086da73bde77bbe19201a8c5ce424",
+      "adapted": false
+    },
+    {
+      "path": "aem/agent/systemprompt.md",
+      "sourceRepository": "scout24-creative-ops/project-archive",
+      "sourcePath": "projects/lp-builder/aem/files/agent/systemprompt.md",
+      "sourceBlob": "b80a8ab319950c8ceef23c5adedf6f7f32db79db",
+      "targetBlob": "b80a8ab319950c8ceef23c5adedf6f7f32db79db",
+      "adapted": false
+    },
+    {
+      "path": "aem/agent/tone-of-voice.md",
+      "sourceRepository": "scout24-creative-ops/project-archive",
+      "sourcePath": "projects/lp-builder/aem/files/agent/tone-of-voice.md",
+      "sourceBlob": "fea7843cb7c293d2914c2d7098c012669dcec3a1",
+      "targetBlob": "fea7843cb7c293d2914c2d7098c012669dcec3a1",
+      "adapted": false
+    },
+    {
+      "path": "aem/agent-upload/manifest.md",
+      "sourceRepository": "scout24-creative-ops/project-archive",
+      "sourcePath": "projects/lp-builder/aem/files/agent-upload/manifest.md",
+      "sourceBlob": "b7838d3bce6fbdbfefaa1dbd163754af9a79fa11",
+      "targetBlob": "b7838d3bce6fbdbfefaa1dbd163754af9a79fa11",
+      "adapted": false
+    },
+    {
+      "path": "aem/docs/dependency-map.md",
+      "sourceRepository": "scout24-creative-ops/project-archive",
+      "sourcePath": "projects/lp-builder/aem/files/docs/dependency-map.md",
+      "sourceBlob": "e77a3beb952e5d98222d89dcfda85a8b6f51e1ba",
+      "targetBlob": "e77a3beb952e5d98222d89dcfda85a8b6f51e1ba",
+      "adapted": false
+    },
+    {
+      "path": "aem/docs/inventory.md",
+      "sourceRepository": "scout24-creative-ops/project-archive",
+      "sourcePath": "projects/lp-builder/aem/files/docs/inventory.md",
+      "sourceBlob": "65731841a086ba584f6fb3ff72d3f3ff0a156249",
+      "targetBlob": "65731841a086ba584f6fb3ff72d3f3ff0a156249",
+      "adapted": false
+    },
+    {
+      "path": "aem/docs/migration-plan.md",
+      "sourceRepository": "scout24-creative-ops/project-archive",
+      "sourcePath": "projects/lp-builder/aem/files/docs/migration-plan.md",
+      "sourceBlob": "52f65fc6bd0d1bf974c8839e45cdc7ed3073e8a8",
+      "targetBlob": "52f65fc6bd0d1bf974c8839e45cdc7ed3073e8a8",
+      "adapted": false
+    },
+    {
+      "path": "aem/docs/open-questions.md",
+      "sourceRepository": "scout24-creative-ops/project-archive",
+      "sourcePath": "projects/lp-builder/aem/files/docs/open-questions.md",
+      "sourceBlob": "1558ed4173fb5196c83b695a039b1ff94712c8f0",
+      "targetBlob": "1558ed4173fb5196c83b695a039b1ff94712c8f0",
+      "adapted": false
+    },
+    {
+      "path": "aem/knowledge/component-library.html",
+      "sourceRepository": "scout24-creative-ops/project-archive",
+      "sourcePath": "projects/lp-builder/aem/files/knowledge/component-library.html",
+      "sourceBlob": "d77b54a781c8a0dd7ad83109b1c86fc2a06b12e6",
+      "targetBlob": "d77b54a781c8a0dd7ad83109b1c86fc2a06b12e6",
+      "adapted": false
+    },
+    {
+      "path": "aem/knowledge/icon-library.html",
+      "sourceRepository": "scout24-creative-ops/project-archive",
+      "sourcePath": "projects/lp-builder/aem/files/knowledge/icon-library.html",
+      "sourceBlob": "ae7163334b7cb0b97f00f89871284903389229ae",
+      "targetBlob": "ae7163334b7cb0b97f00f89871284903389229ae",
+      "adapted": false
+    },
+    {
+      "path": "aem/knowledge/module-metadata.json",
+      "sourceRepository": "scout24-creative-ops/project-archive",
+      "sourcePath": "projects/lp-builder/aem/files/knowledge/module-metadata.json",
+      "sourceBlob": "28238ea1e21c837d9ac02e2f362bdc7ebec40472",
+      "targetBlob": "28238ea1e21c837d9ac02e2f362bdc7ebec40472",
+      "adapted": false
+    },
+    {
+      "path": "aem/tests/test_aem_output_contract.py",
+      "sourceRepository": "scout24-creative-ops/project-archive",
+      "sourcePath": "projects/lp-builder/aem/files/tests/test_aem_output_contract.py",
+      "sourceBlob": "532da77f293bd0dcb4e08161562cd85416c17219",
+      "targetBlob": "532da77f293bd0dcb4e08161562cd85416c17219",
+      "adapted": false
+    },
+    {
+      "path": "aem/tests/test_component_library_modules.cjs",
+      "sourceRepository": "scout24-creative-ops/project-archive",
+      "sourcePath": "projects/lp-builder/aem/files/tests/test_component_library_modules.cjs",
+      "sourceBlob": "8be3db78dbd787f27909969561f02686413e9a7a",
+      "targetBlob": "8be3db78dbd787f27909969561f02686413e9a7a",
+      "adapted": false
+    },
+    {
+      "path": "aem/tests/test_contentful_runtime.cjs",
+      "sourceRepository": "scout24-creative-ops/project-archive",
+      "sourcePath": "projects/lp-builder/aem/files/tests/test_contentful_runtime.cjs",
+      "sourceBlob": "dab6f8a7ac11c015504bf89cfabfccc17ba535bb",
+      "targetBlob": "bf841dc4f77bf425969d781d296cac94e4843113",
+      "adapted": true
+    }
+  ],
+  "preservedRuntime": [
+    {
+      "path": "runtime/contentful/lpbuilder-bridge.css",
+      "sha": "45282513474f290da475c6142dd97bf1bfbdbb98",
+      "mode": "100644"
+    },
+    {
+      "path": "runtime/contentful/lpbuilder-runtime.js",
+      "sha": "b9cedf79246165f5307b30a0e2a10686e2c3e08d",
+      "mode": "100644"
+    },
+    {
+      "path": "runtime/core/core-buttons.css",
+      "sha": "464f0c855d40d2d861c37738ad717dce2fd4a450",
+      "mode": "100644"
+    },
+    {
+      "path": "runtime/core/core-components.css",
+      "sha": "7280ee2540d63797ad1e6b99afb64ef3f8edacfc",
+      "mode": "100644"
+    },
+    {
+      "path": "runtime/core/core-foundations.css",
+      "sha": "05b974efabcc93a5967318005381a76d65bb54c8",
+      "mode": "100644"
+    },
+    {
+      "path": "runtime/core/core-interactions.js",
+      "sha": "46d5e1904c5ddf86c2d46a8e1e785797524e22c6",
+      "mode": "100644"
+    },
+    {
+      "path": "runtime/integrations/form-js.js",
+      "sha": "a592a1076abb3dad3d13d33263b6000d39702b1a",
+      "mode": "100644"
+    },
+    {
+      "path": "runtime/integrations/iframe-form-css.css",
+      "sha": "9b2be09773fb417fdbccaec29af05f1b9705c2d1",
+      "mode": "100644"
+    },
+    {
+      "path": "runtime/integrations/tracking-script.js",
+      "sha": "0dec7029e53e90dc73dc707b77a26d98346ab526",
+      "mode": "100644"
+    },
+    {
+      "path": "runtime/legacy/builder-preview-modules.css",
+      "sha": "31aa21d27c90d060b7bb06143df6025b7f4b641a",
+      "mode": "100644"
+    },
+    {
+      "path": "runtime/legacy/video--youtube-carousel.css",
+      "sha": "d0eea0c3f636c13917f537a273856aa6b502cfa8",
+      "mode": "100644"
+    },
+    {
+      "path": "runtime/legacy/video--youtube-carousel.js",
+      "sha": "5612117fa0243ec16edea55f7bae0f175981f3b6",
+      "mode": "100644"
+    }
+  ],
+  "excludedPrivateSourcePaths": [
+    "AWS Account/AWS as SSOT for Marketing-Assets.txt",
+    "AWS Account/Bildschirmfoto 2026-09-17 um 14.55.36.png",
+    "AWS Account/download-1.png",
+    "AWS Account/download-10.png",
+    "AWS Account/download-11.png",
+    "AWS Account/download-12.png",
+    "AWS Account/download-13.png",
+    "AWS Account/download-14.png",
+    "AWS Account/download-15.png",
+    "AWS Account/download-16.png",
+    "AWS Account/download-17.png",
+    "AWS Account/download-18.png",
+    "AWS Account/download-19.png",
+    "AWS Account/download-2.png",
+    "AWS Account/download-20.png",
+    "AWS Account/download-21.png",
+    "AWS Account/download-3.png",
+    "AWS Account/download-4.png",
+    "AWS Account/download-5.png",
+    "AWS Account/download-6.png",
+    "AWS Account/download-7.png",
+    "AWS Account/download-8.png",
+    "AWS Account/download-9.png",
+    "AWS Account/download.png",
+    "recovery/2026-11-14-aem/RESTORE.md",
+    "recovery/2026-11-14-aem/SHA256SUMS",
+    "recovery/2026-11-14-aem/aem-local-history.bundle",
+    "recovery/2026-11-14-aem/deleted-originals/runtime/contentful/lpbuilder-bridge.css",
+    "recovery/2026-11-14-aem/deleted-originals/runtime/contentful/lpbuilder-runtime.js",
+    "recovery/2026-11-14-aem/deleted-originals/tests/test_contentful_runtime.cjs",
+    "recovery/2026-11-14-aem/inventory.json",
+    "recovery/2026-11-14-aem/working-tree-deletions.patch",
+    "recovery/2026-11-14-css-js-veroeffentlichung/LOCAL-DEPENDENCIES.md",
+    "recovery/2026-11-14-css-js-veroeffentlichung/RESTORE.md",
+    "recovery/2026-11-14-css-js-veroeffentlichung/SHA256SUMS",
+    "recovery/2026-11-14-css-js-veroeffentlichung/base/runtime/contentful/lpbuilder-bridge.css",
+    "recovery/2026-11-14-css-js-veroeffentlichung/base/runtime/contentful/lpbuilder-runtime.js",
+    "recovery/2026-11-14-css-js-veroeffentlichung/inventory.json",
+    "recovery/2026-11-14-css-js-veroeffentlichung/lpbuilder-bridge.css",
+    "recovery/2026-11-14-css-js-veroeffentlichung/lpbuilder-runtime.js",
+    "recovery/2026-11-14-css-js-veroeffentlichung/working-tree.patch",
+    "recovery/2026-11-14-frontend-anbindung/RESTORE.md",
+    "recovery/2026-11-14-frontend-anbindung/SHA256SUMS",
+    "recovery/2026-11-14-frontend-anbindung/base/docs/features/lpbuilder/LP_Builder_Runtime_Integration.md",
+    "recovery/2026-11-14-frontend-anbindung/base/src/components/landingPage/LocalizedLandingPage.test.tsx",
+    "recovery/2026-11-14-frontend-anbindung/base/src/components/lpBuilder/LPBuilderPageWithRuntime.test.tsx",
+    "recovery/2026-11-14-frontend-anbindung/base/src/components/lpBuilder/LPBuilderPageWithRuntime.tsx",
+    "recovery/2026-11-14-frontend-anbindung/dependabot-typescript-7.0.2.bundle",
+    "recovery/2026-11-14-frontend-anbindung/files/docs/features/lpbuilder/LP_Builder_Runtime_Integration.md",
+    "recovery/2026-11-14-frontend-anbindung/files/src/components/landingPage/LocalizedLandingPage.test.tsx",
+    "recovery/2026-11-14-frontend-anbindung/files/src/components/lpBuilder/LPBuilderPageWithRuntime.test.tsx",
+    "recovery/2026-11-14-frontend-anbindung/files/src/components/lpBuilder/LPBuilderPageWithRuntime.tsx",
+    "recovery/2026-11-14-frontend-anbindung/inventory.json",
+    "recovery/2026-11-14-frontend-anbindung/working-tree.patch",
+    "recovery/2026-11-15-contentful-consolidation/RESTORE.md",
+    "recovery/2026-11-15-contentful-consolidation/SHA256SUMS",
+    "recovery/2026-11-15-contentful-consolidation/inventory.json",
+    "recovery/2026-11-15-contentful-consolidation/lp-builder-contentful.bundle.part-001",
+    "recovery/2026-11-15-contentful-consolidation/lp-builder-contentful.bundle.part-002",
+    "recovery/2026-11-15-contentful-consolidation/path-adjustments.json",
+    "recovery/2026-11-15-contentful-consolidation/target-files.json",
+    "templates/scaling-editorial-ux/contentful-handoff/ux-images-for-existing-upload.zip",
+    "templates/scaling-editorial-ux/contentful-test/screenshots/article-desktop.png",
+    "templates/scaling-editorial-ux/contentful-test/screenshots/article-mobile.png",
+    "templates/scaling-editorial-ux/contentful-test/screenshots/category-desktop.png",
+    "templates/scaling-editorial-ux/contentful-test/screenshots/category-mobile.png",
+    "templates/scaling-editorial-ux/contentful-test/screenshots/home-desktop.png",
+    "templates/scaling-editorial-ux/contentful-test/screenshots/home-mobile.png",
+    "templates/scaling-editorial-ux/layout-correction/screenshots/article-desktop.png",
+    "templates/scaling-editorial-ux/layout-correction/screenshots/article-mobile.png",
+    "templates/scaling-editorial-ux/layout-correction/screenshots/before-article-desktop.png",
+    "templates/scaling-editorial-ux/layout-correction/screenshots/before-article-mobile.png",
+    "templates/scaling-editorial-ux/layout-correction/screenshots/before-category-desktop.png",
+    "templates/scaling-editorial-ux/layout-correction/screenshots/before-category-mobile.png",
+    "templates/scaling-editorial-ux/layout-correction/screenshots/before-home-desktop.png",
+    "templates/scaling-editorial-ux/layout-correction/screenshots/before-home-mobile.png",
+    "templates/scaling-editorial-ux/layout-correction/screenshots/breadcrumb-before-article-desktop.png",
+    "templates/scaling-editorial-ux/layout-correction/screenshots/breadcrumb-before-article-mobile.png",
+    "templates/scaling-editorial-ux/layout-correction/screenshots/breadcrumb-before-category-desktop.png",
+    "templates/scaling-editorial-ux/layout-correction/screenshots/breadcrumb-before-category-mobile.png",
+    "templates/scaling-editorial-ux/layout-correction/screenshots/breadcrumb-before-home-desktop.png",
+    "templates/scaling-editorial-ux/layout-correction/screenshots/breadcrumb-before-home-mobile.png",
+    "templates/scaling-editorial-ux/layout-correction/screenshots/category-desktop.png",
+    "templates/scaling-editorial-ux/layout-correction/screenshots/category-mobile.png",
+    "templates/scaling-editorial-ux/layout-correction/screenshots/home-desktop.png",
+    "templates/scaling-editorial-ux/layout-correction/screenshots/home-mobile.png",
+    "templates/scaling-editorial-ux/portal-refinement-20261107/screenshots/article-desktop.png",
+    "templates/scaling-editorial-ux/portal-refinement-20261107/screenshots/article-mobile.png",
+    "templates/scaling-editorial-ux/portal-refinement-20261107/screenshots/category-desktop.png",
+    "templates/scaling-editorial-ux/portal-refinement-20261107/screenshots/category-mobile.png",
+    "templates/scaling-editorial-ux/portal-refinement-20261107/screenshots/local-article-desktop.png",
+    "templates/scaling-editorial-ux/portal-refinement-20261107/screenshots/local-article-mobile.png",
+    "templates/scaling-editorial-ux/portal-refinement-20261107/screenshots/local-category-desktop.png",
+    "templates/scaling-editorial-ux/portal-refinement-20261107/screenshots/local-category-mobile.png",
+    "templates/scaling-editorial-ux/portal-refinement-20261107/screenshots/local-market-desktop.png",
+    "templates/scaling-editorial-ux/portal-refinement-20261107/screenshots/local-market-mobile.png",
+    "templates/scaling-editorial-ux/portal-refinement-20261107/screenshots/local-news-desktop.png",
+    "templates/scaling-editorial-ux/portal-refinement-20261107/screenshots/local-news-mobile.png",
+    "templates/scaling-editorial-ux/portal-refinement-20261107/screenshots/market-desktop.png",
+    "templates/scaling-editorial-ux/portal-refinement-20261107/screenshots/market-mobile.png",
+    "templates/scaling-editorial-ux/portal-refinement-20261107/screenshots/news-desktop.png",
+    "templates/scaling-editorial-ux/portal-refinement-20261107/screenshots/news-mobile.png",
+    "templates/scaling-editorial-ux/portal-rollout/screenshots/article-desktop.png",
+    "templates/scaling-editorial-ux/portal-rollout/screenshots/article-mobile.png",
+    "templates/scaling-editorial-ux/portal-rollout/screenshots/filled-category-desktop.png",
+    "templates/scaling-editorial-ux/portal-rollout/screenshots/filled-category-mobile.png",
+    "templates/scaling-editorial-ux/portal-rollout/screenshots/placeholder-category-desktop.png",
+    "templates/scaling-editorial-ux/portal-rollout/screenshots/placeholder-category-mobile.png",
+    "templates/scaling-editorial-ux/screenshots/article-desktop.png",
+    "templates/scaling-editorial-ux/screenshots/article-mobile.png",
+    "templates/scaling-editorial-ux/screenshots/browser-checks.json",
+    "templates/scaling-editorial-ux/screenshots/category-desktop.png",
+    "templates/scaling-editorial-ux/screenshots/category-mobile.png",
+    "templates/scaling-editorial-ux/screenshots/home-desktop.png",
+    "templates/scaling-editorial-ux/screenshots/home-mobile.png"
+  ],
+  "status": "prepared-for-review; no source repository removed or runtime deployed"
+}

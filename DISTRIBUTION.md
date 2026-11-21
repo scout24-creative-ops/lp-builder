@@ -9,3 +9,11 @@ Die frueheren AEM-Prompts, Modul-/Icon-Bibliotheken, Tests und Dokumentationen l
 Die Design-Library-Anbindung wird separat erneuert. Alte AEM-Syncs, die hier `knowledge/component-library.html` erwarten, sind nach der Quellarchivierung kein aktiver Entwicklungsweg mehr. Die bestehende veroeffentlichte Library und deren Tokens wurden durch diese Umstellung nicht veraendert.
 
 Kuenftige Contentful-Releases brauchen eine ausdrueckliche Freigabe. Private Entwicklungscommits werden nicht automatisch hierher kopiert. Ein Pages-Build fuer diesen Rollenwechsel ist lediglich eine erneute Auslieferung derselben Runtime-Bytes.
+
+
+## Gemeinsames Hauptrepo — 21. November 2026
+
+Dieses Repository nimmt jetzt unter `aem/` und `contentful/` auch die jeweiligen
+Quellen auf. Die oben dokumentierte reine Distributionsrolle ist damit abgeloest.
+Die zwoelf bestehenden Runtime-Dateien und ihre URL-Vertraege bleiben identisch.
+Private Recovery-Archive und interne Arbeitsmaterialien werden nicht uebernommen.

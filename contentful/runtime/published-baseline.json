@@ -1,0 +1,92 @@
+{
+  "repository": "scout24-creative-ops/lp-builder",
+  "commit": "bb716b8ca251c5e386cdd26dde0690f007467219",
+  "base_url": "https://scout24-creative-ops.github.io/lp-builder/",
+  "files": [
+    {
+      "path": "runtime/contentful/lpbuilder-bridge.css",
+      "git_mode": "100644",
+      "git_blob": "cf63bcc68c3372da8bf53a471d936691b206777c",
+      "bytes": 55174,
+      "sha256": "9a069b03ee951bd63cbdceee928a644506dc3e373f4660c0b7c1e97c09acce74"
+    },
+    {
+      "path": "runtime/contentful/lpbuilder-runtime.js",
+      "git_mode": "100644",
+      "git_blob": "360fadd0fcf52669cd4ad77efd97d2eaf34db9c8",
+      "bytes": 20359,
+      "sha256": "912c465663c26a3a26226db13ce8952b090b7b5d91e1c7f5fc948afb51013c90"
+    },
+    {
+      "path": "runtime/core/core-buttons.css",
+      "git_mode": "100644",
+      "git_blob": "464f0c855d40d2d861c37738ad717dce2fd4a450",
+      "bytes": 3751,
+      "sha256": "ef1fa58d13d37d8678f30e7407d9494a96cc46e63fb818197024c44b707dfe7d"
+    },
+    {
+      "path": "runtime/core/core-components.css",
+      "git_mode": "100644",
+      "git_blob": "7280ee2540d63797ad1e6b99afb64ef3f8edacfc",
+      "bytes": 39356,
+      "sha256": "ffa702d533a4ede91654e9762fd5851b67bee042b8b9876c21cd82d23a590301"
+    },
+    {
+      "path": "runtime/core/core-foundations.css",
+      "git_mode": "100644",
+      "git_blob": "05b974efabcc93a5967318005381a76d65bb54c8",
+      "bytes": 9265,
+      "sha256": "da15c46adf51daaa935ec74a93c0295ef583b422a80816cf674cf7bdb201975a"
+    },
+    {
+      "path": "runtime/core/core-interactions.js",
+      "git_mode": "100644",
+      "git_blob": "46d5e1904c5ddf86c2d46a8e1e785797524e22c6",
+      "bytes": 24472,
+      "sha256": "dce8d6b603a054d9f0e5da8b379ac54353914ba195b3b9770fdb7080fb08e470"
+    },
+    {
+      "path": "runtime/integrations/form-js.js",
+      "git_mode": "100644",
+      "git_blob": "a592a1076abb3dad3d13d33263b6000d39702b1a",
+      "bytes": 397,
+      "sha256": "8e86a14168f69b74c0e2e73917f03bdb6e651004d22cfafcb925f24a8d291684"
+    },
+    {
+      "path": "runtime/integrations/iframe-form-css.css",
+      "git_mode": "100644",
+      "git_blob": "9b2be09773fb417fdbccaec29af05f1b9705c2d1",
+      "bytes": 676,
+      "sha256": "cfe5a055dfbe71da2fd319bc2d2d0714540d005e46628dd43b312158094f876c"
+    },
+    {
+      "path": "runtime/integrations/tracking-script.js",
+      "git_mode": "100644",
+      "git_blob": "0dec7029e53e90dc73dc707b77a26d98346ab526",
+      "bytes": 1257,
+      "sha256": "f77cd3e2609de2ace288263f6377da41b2d5470576eafcd252b458043dfa383b"
+    },
+    {
+      "path": "runtime/legacy/builder-preview-modules.css",
+      "git_mode": "100644",
+      "git_blob": "31aa21d27c90d060b7bb06143df6025b7f4b641a",
+      "bytes": 15759,
+      "sha256": "dd3be9e5046ea683aec8368478450b40485bdf3482c07c33a2d0ad8d95d707d4"
+    },
+    {
+      "path": "runtime/legacy/video--youtube-carousel.css",
+      "git_mode": "100644",
+      "git_blob": "d0eea0c3f636c13917f537a273856aa6b502cfa8",
+      "bytes": 13271,
+      "sha256": "7c508594bebced10363da465dde58fb23b4c7e104b5bcf110e20e2d53fbb3d82"
+    },
+    {
+      "path": "runtime/legacy/video--youtube-carousel.js",
+      "git_mode": "100644",
+      "git_blob": "5612117fa0243ec16edea55f7bae0f175981f3b6",
+      "bytes": 80644,
+      "sha256": "97b112c2b1f356cf94d4bf7f8263e3bb7a27692a6c1d6a3992e06229c0bad52c"
+    }
+  ],
+  "development_state": "runtime/contentful/ restores the existing unpublished recovery files; not deployed by this migration"
+}

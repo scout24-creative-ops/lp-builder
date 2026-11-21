@@ -1,0 +1,552 @@
+<!--
+  LP Builder – Contentful Design Tokens / Development Reference
+
+  Test Page = disposable development surface.
+  This file documents technical CoreCSS/Bridge primitives for development and
+  visual verification. It is not a user-capability inventory. User-facing modules,
+  components and variants exist only as complete marked blocks in
+  gpt-package/component-library.html. A token shown here never creates a user choice.
+  Productive CSS truth remains CoreCSS / the centrally delivered Bridge.
+-->
+<link rel="stylesheet" href="https://scout24-creative-ops.github.io/lp-builder/runtime/contentful/lpbuilder-bridge.css">
+
+<main>
+  <section class="margin-bottom-xl">
+    <h1 class="font-heading-xlarge-bold margin-bottom-m">LP Builder – Contentful Design Tokens</h1>
+    <p class="font-body-large-regular">Codex/development-only technical reference. User capabilities are defined exclusively in the Component Library.</p>
+  </section>
+
+  <section class="margin-bottom-xl">
+    <h2 class="font-heading-large-bold margin-bottom-m">1. Bridge Primitives</h2>
+
+    <section class="margin-bottom-xl">
+      <h3 class="font-heading-medium-bold margin-bottom-m">1.1 Rounded Buttons</h3>
+      <p class="margin-bottom-m"><a class="lpb-button lpb-button--filled-brand" href="#">Filled Brand</a></p>
+      <p class="margin-bottom-m"><a class="lpb-button lpb-button--filled-default" href="#">Filled Default</a></p>
+      <p class="margin-bottom-m"><a class="lpb-button lpb-button--outline-strong" href="#">Outline Strong</a></p>
+      <p><a class="lpb-button lpb-button--outline-weak" href="#">Outline Weak</a></p>
+    </section>
+
+    <section class="margin-bottom-xl">
+      <h3 class="font-heading-medium-bold margin-bottom-m">1.2 Mobile Full Width Button</h3>
+      <p class="font-body-large-regular margin-bottom-m">Mobile Full Width — opt-in</p>
+      <a class="lpb-button lpb-button--filled-brand lpb-button--mobile-full" href="#">Filled Brand, mobile full width</a>
+    </section>
+
+    <section>
+      <h3 class="font-heading-medium-bold margin-bottom-m">1.3 Chevron Link</h3>
+      <a class="lpb-chevron-link" href="#">
+        <img class="lpb-chevron-link__icon" src="https://www.immobilienscout24.de/content/dam/claude-lp-creator/assets/Chevron.svg" alt="" width="16" height="16" loading="lazy">
+        <span>Chevron Link</span>
+      </a>
+    </section>
+  </section>
+
+  <section class="margin-bottom-xl">
+    <h2 class="font-heading-large-bold margin-bottom-m">2. Typography</h2>
+
+    <section class="margin-bottom-xl">
+      <h3 class="font-heading-medium-bold margin-bottom-m">2.0 Default LP Text</h3>
+      <div class="grid grid-flex gutter-horizontal-l gutter-vertical-s">
+        <div class="grid-item one-half palm-one-whole"><div class="border lpb-radius--card lpb-color-bg--white padding-l"><p class="font-body-small-bold margin-bottom-s">DEFAULT FOR USER-FACING LP COPY (16PX)</p><p class="font-body-large-regular margin-bottom-s">Normal LP copy uses the standard body treatment.</p><code>font-body-large-regular</code></div></div>
+        <div class="grid-item one-half palm-one-whole"><div class="border lpb-radius--card lpb-color-bg--sand padding-l"><p class="font-body-small-bold margin-bottom-s">SECONDARY / COMPACT (14PX)</p><p class="font-body-medium-regular margin-bottom-s">Medium body is for metadata, annotations, technical hints, compact secondary copy, or status text. Small body remains for smaller specialist roles.</p><code>font-body-medium-regular</code></div></div>
+      </div>
+      <p class="font-body-medium-regular margin-top-m">Do not reduce typography merely to make content fit. Body Large is the normal LP default; a module policy may explicitly define another available variant when semantically justified.</p>
+    </section>
+
+    <section class="margin-bottom-xl">
+      <h3 class="font-heading-medium-bold margin-bottom-m">2.1 Heading</h3>
+
+      <div class="margin-bottom-l">
+        <p class="font-body-small-bold margin-bottom-xs">Heading XLarge Regular</p>
+        <p class="font-body-small-regular margin-bottom-xs">font-heading-xlarge-regular</p>
+        <p class="font-heading-xlarge-regular">The quick brown fox jumps over the lazy dog.</p>
+      </div>
+      <div class="margin-bottom-l">
+        <p class="font-body-small-bold margin-bottom-xs">Heading XLarge Bold</p>
+        <p class="font-body-small-regular margin-bottom-xs">font-heading-xlarge-bold</p>
+        <p class="font-heading-xlarge-bold">The quick brown fox jumps over the lazy dog.</p>
+      </div>
+      <div class="margin-bottom-l">
+        <p class="font-body-small-bold margin-bottom-xs">Heading Large Regular</p>
+        <p class="font-body-small-regular margin-bottom-xs">font-heading-large-regular</p>
+        <p class="font-heading-large-regular">The quick brown fox jumps over the lazy dog.</p>
+      </div>
+      <div class="margin-bottom-l">
+        <p class="font-body-small-bold margin-bottom-xs">Heading Large Bold</p>
+        <p class="font-body-small-regular margin-bottom-xs">font-heading-large-bold</p>
+        <p class="font-heading-large-bold">The quick brown fox jumps over the lazy dog.</p>
+      </div>
+      <div class="margin-bottom-l">
+        <p class="font-body-small-bold margin-bottom-xs">Heading Medium Regular</p>
+        <p class="font-body-small-regular margin-bottom-xs">font-heading-medium-regular</p>
+        <p class="font-heading-medium-regular">The quick brown fox jumps over the lazy dog.</p>
+      </div>
+      <div class="margin-bottom-l">
+        <p class="font-body-small-bold margin-bottom-xs">Heading Medium Bold</p>
+        <p class="font-body-small-regular margin-bottom-xs">font-heading-medium-bold</p>
+        <p class="font-heading-medium-bold">The quick brown fox jumps over the lazy dog.</p>
+      </div>
+      <div class="margin-bottom-l">
+        <p class="font-body-small-bold margin-bottom-xs">Heading Small Regular</p>
+        <p class="font-body-small-regular margin-bottom-xs">font-heading-small-regular</p>
+        <p class="font-heading-small-regular">The quick brown fox jumps over the lazy dog.</p>
+      </div>
+      <div class="margin-bottom-l">
+        <p class="font-body-small-bold margin-bottom-xs">Heading Small Bold</p>
+        <p class="font-body-small-regular margin-bottom-xs">font-heading-small-bold</p>
+        <p class="font-heading-small-bold">The quick brown fox jumps over the lazy dog.</p>
+      </div>
+      <div class="margin-bottom-l">
+        <p class="font-body-small-bold margin-bottom-xs">Heading XSmall Regular</p>
+        <p class="font-body-small-regular margin-bottom-xs">font-heading-xsmall-regular</p>
+        <p class="font-heading-xsmall-regular">The quick brown fox jumps over the lazy dog.</p>
+      </div>
+      <div>
+        <p class="font-body-small-bold margin-bottom-xs">Heading XSmall Bold</p>
+        <p class="font-body-small-regular margin-bottom-xs">font-heading-xsmall-bold</p>
+        <p class="font-heading-xsmall-bold">The quick brown fox jumps over the lazy dog.</p>
+      </div>
+    </section>
+
+    <section>
+      <h3 class="font-heading-medium-bold margin-bottom-m">2.2 Body</h3>
+
+      <div class="margin-bottom-l">
+        <p class="font-body-small-bold margin-bottom-xs">Body Large Regular</p>
+        <p class="font-body-small-regular margin-bottom-xs">font-body-large-regular</p>
+        <p class="font-body-large-regular">The quick brown fox jumps over the lazy dog.</p>
+      </div>
+      <div class="margin-bottom-l">
+        <p class="font-body-small-bold margin-bottom-xs">Body Large Bold</p>
+        <p class="font-body-small-regular margin-bottom-xs">font-body-large-bold</p>
+        <p class="font-body-large-bold">The quick brown fox jumps over the lazy dog.</p>
+      </div>
+      <div class="margin-bottom-l">
+        <p class="font-body-small-bold margin-bottom-xs">Body Medium Regular</p>
+        <p class="font-body-small-regular margin-bottom-xs">font-body-medium-regular</p>
+        <p class="font-body-medium-regular">The quick brown fox jumps over the lazy dog.</p>
+      </div>
+      <div class="margin-bottom-l">
+        <p class="font-body-small-bold margin-bottom-xs">Body Medium Bold</p>
+        <p class="font-body-medium-bold margin-bottom-xs">font-body-medium-bold</p>
+        <p class="font-body-medium-bold">The quick brown fox jumps over the lazy dog.</p>
+      </div>
+      <div class="margin-bottom-l">
+        <p class="font-body-small-bold margin-bottom-xs">Body Small Regular</p>
+        <p class="font-body-small-regular margin-bottom-xs">font-body-small-regular</p>
+        <p class="font-body-small-regular">The quick brown fox jumps over the lazy dog.</p>
+      </div>
+      <div>
+        <p class="font-body-small-bold margin-bottom-xs">Body Small Bold</p>
+        <p class="font-body-small-bold margin-bottom-xs">font-body-small-bold</p>
+        <p class="font-body-small-bold">The quick brown fox jumps over the lazy dog.</p>
+      </div>
+    </section>
+  </section>
+
+  <section class="margin-bottom-xl">
+    <h2 class="font-heading-large-bold margin-bottom-m">3. Spacing</h2>
+
+    <section class="margin-bottom-xl">
+      <h3 class="font-heading-medium-bold margin-bottom-m">3.1 Spacing Scale</h3>
+      <div class="border background-white padding-xs margin-bottom-s">padding-xs</div>
+      <div class="border background-white padding-s margin-bottom-s">padding-s</div>
+      <div class="border background-white padding-m margin-bottom-s">padding-m</div>
+      <div class="border background-white padding-l margin-bottom-s">padding-l</div>
+      <div class="border background-white padding-xl margin-bottom-s">padding-xl</div>
+      <div class="border background-white padding-xxl">padding-xxl</div>
+    </section>
+
+    <section class="margin-bottom-xl">
+      <h3 class="font-heading-medium-bold margin-bottom-m">3.2 Margin &amp; Padding Directions</h3>
+      <div class="border background-white padding-s margin-xl">margin-xl — all sides</div>
+      <div class="border background-white padding-s margin-top-xl">margin-top-xl</div>
+      <div class="border background-white padding-s margin-bottom-xl">margin-bottom-xl</div>
+      <div class="border background-white padding-top-xl margin-bottom-s">padding-top-xl</div>
+      <span class="inline-block border background-white padding-right-xl margin-bottom-s">padding-right-xl</span>
+      <div class="border background-white padding-bottom-xl margin-bottom-s">padding-bottom-xl</div>
+      <div class="border background-white padding-left-xl margin-bottom-s">padding-left-xl</div>
+      <div class="border background-white padding-vertical-xl margin-bottom-s">padding-vertical-xl</div>
+      <div class="border background-white padding-horizontal-xl margin-bottom-s">padding-horizontal-xl</div>
+      <span class="inline-block border background-white padding-s margin-right-xl">margin-right-xl</span>
+      <span class="inline-block border background-white padding-s">marker</span>
+      <div class="border background-white padding-s margin-left-xl margin-top-s">margin-left-xl</div>
+      <div class="border background-white padding-s margin-vertical-xl">margin-vertical-xl</div>
+      <span class="inline-block border background-white padding-s margin-horizontal-xl">margin-horizontal-xl</span>
+    </section>
+
+    <section class="margin-bottom-xl">
+      <h3 class="font-heading-medium-bold margin-bottom-m">3.3 None</h3>
+      <div class="border background-white margin-none">margin-none</div>
+      <div class="border background-white padding-none">padding-none</div>
+      <div class="border background-white padding-vertical-none">padding-vertical-none</div>
+    </section>
+
+    <section class="margin-bottom-xl">
+      <h3 class="font-heading-medium-bold margin-bottom-m">3.4 Gap</h3>
+      <div class="grid grid-flex gap-l">
+        <div class="border background-white padding-s">gap-l item 1</div>
+        <div class="border background-white padding-s">gap-l item 2</div>
+        <div class="border background-white padding-s">gap-l item 3</div>
+      </div>
+    </section>
+
+    <section>
+      <h3 class="font-heading-medium-bold margin-bottom-m">3.5 Responsive Spacing</h3>
+      <p class="font-body-medium-regular margin-bottom-m">Palm: ≤668px · Lap: 669–1013px · Desk: ≥1014px</p>
+      <div class="border background-white padding-xs palm-padding-xxl margin-bottom-s">padding-xs palm-padding-xxl</div>
+      <div class="border background-white padding-xs lap-padding-xxl margin-bottom-s">padding-xs lap-padding-xxl</div>
+      <div class="border background-white padding-xs desk-padding-xxl">padding-xs desk-padding-xxl</div>
+    </section>
+
+    <section class="margin-top-xl">
+      <h3 class="font-heading-medium-bold margin-bottom-m">3.6 Explicit LP Builder Page Spacers</h3>
+      <p class="font-body-medium-regular margin-bottom-m">Composition-only Bridge primitives. General sequence: page root → first module → <code>spacer-3xl</code> between independent modules. No default opening spacer; an initial Hero starts directly and is followed by <code>spacer-3xl</code>. Use <code>spacer-xxl</code> instead only between directly consecutive image-right/image-left Split-Teasers in either order, and <code>spacer-4xl</code> for an explicitly requested large section transition. Without an LP Builder footer, exactly one closing <code>spacer-4xl</code> follows the final content module. With an LP Builder footer, exactly one <code>spacer-4xl</code> precedes the footer and no spacer follows it. Use spacers only inside one <code>lpb-explicit-spacing</code> root.</p>
+      <div class="border background-white padding-s margin-bottom-s"><code>lpb-spacer--xs</code> — Palm 2px · Lap/Desktop 4px<div class="lpb-spacer lpb-spacer--xs" aria-hidden="true"></div></div>
+      <div class="border background-white padding-s margin-bottom-s"><code>lpb-spacer--s</code> — Palm 4px · Lap/Desktop 8px<div class="lpb-spacer lpb-spacer--s" aria-hidden="true"></div></div>
+      <div class="border background-white padding-s margin-bottom-s"><code>lpb-spacer--m</code> — Palm 8px · Lap/Desktop 16px<div class="lpb-spacer lpb-spacer--m" aria-hidden="true"></div></div>
+      <div class="border background-white padding-s margin-bottom-s"><code>lpb-spacer--l</code> — Palm 16px · Lap/Desktop 24px<div class="lpb-spacer lpb-spacer--l" aria-hidden="true"></div></div>
+      <div class="border background-white padding-s margin-bottom-s"><code>lpb-spacer--xl</code> — Palm 24px · Lap/Desktop 32px<div class="lpb-spacer lpb-spacer--xl" aria-hidden="true"></div></div>
+      <div class="border background-white padding-s margin-bottom-s"><code>lpb-spacer--xxl</code> — Palm 32px · Lap/Desktop 40px · consecutive image-right/image-left Split-Teaser gap<div class="lpb-spacer lpb-spacer--xxl" aria-hidden="true"></div></div>
+      <div class="border background-white padding-s margin-bottom-s"><code>lpb-spacer--3xl</code> — Palm 48px · Lap/Desktop 64px · default independent-module gap<div class="lpb-spacer lpb-spacer--3xl" aria-hidden="true"></div></div>
+      <div class="border background-white padding-s"><code>lpb-spacer--4xl</code> — Palm 50px · Lap/Desktop 80px · page end, LP Builder footer or explicit large transition<div class="lpb-spacer lpb-spacer--4xl" aria-hidden="true"></div></div>
+    </section>
+  </section>
+
+  <section class="margin-bottom-xl">
+    <h2 class="font-heading-large-bold margin-bottom-m">4. Colors &amp; Surfaces</h2>
+
+    <section class="margin-bottom-xl">
+      <h3 class="font-heading-medium-bold margin-bottom-m">4.1 Accent Colors</h3>
+      <div class="grid grid-flex gutter-horizontal-l gutter-vertical-s">
+        <div class="grid-item one-third palm-one-whole"><div class="lpb-color-bg--teal lpb-color-text--charcoal padding-l"><strong>Teal</strong><br><code>lpb-color-bg--teal</code><br><code>--brand-teal</code></div></div>
+        <div class="grid-item one-third palm-one-whole"><div class="lpb-color-bg--yellow lpb-color-text--charcoal padding-l"><strong>Yellow</strong><br><code>lpb-color-bg--yellow</code><br><code>--brand-yellow</code></div></div>
+        <div class="grid-item one-third palm-one-whole"><div class="lpb-color-bg--blue lpb-color-text--charcoal padding-l"><strong>Blue</strong><br><code>lpb-color-bg--blue</code><br><code>--brand-blue</code></div></div>
+        <div class="grid-item one-half palm-one-whole"><div class="lpb-color-bg--purple lpb-color-text--charcoal padding-l"><strong>Purple</strong><br><code>lpb-color-bg--purple</code><br><code>--brand-purple</code></div></div>
+        <div class="grid-item one-half palm-one-whole"><div class="lpb-color-bg--orange lpb-color-text--charcoal padding-l"><strong>Orange</strong><br><code>lpb-color-bg--orange</code><br><code>--brand-orange</code></div></div>
+      </div>
+    </section>
+
+    <section class="margin-bottom-xl">
+      <h3 class="font-heading-medium-bold margin-bottom-m">4.2 Neutrals</h3>
+      <div class="grid grid-flex gutter-horizontal-l gutter-vertical-s">
+        <div class="grid-item one-third palm-one-whole"><div class="lpb-color-bg--charcoal lpb-color-text--white padding-l"><strong>Charcoal</strong><br><code>lpb-color-bg--charcoal</code><br><code>--gray-1000</code></div></div>
+        <div class="grid-item one-third palm-one-whole"><div class="lpb-color-bg--white lpb-color-text--charcoal border padding-l"><strong>White</strong><br><code>lpb-color-bg--white</code><br><code>--gray-100</code></div></div>
+        <div class="grid-item one-third palm-one-whole"><div class="lpb-color-bg--sand lpb-color-text--charcoal padding-l"><strong>Sand</strong><br><code>lpb-color-bg--sand</code><br><code>--gray-200</code></div></div>
+        <div class="grid-item one-third palm-one-whole"><div class="lpb-color-bg--grey-1 lpb-color-text--charcoal padding-l"><strong>Grey 1</strong><br><code>lpb-color-bg--grey-1</code><br><code>--gray-250</code><br>Current COSMA neutral</div></div>
+        <div class="grid-item one-third palm-one-whole"><div class="lpb-color-bg--grey-2 lpb-color-text--charcoal padding-l"><strong>Grey 2</strong><br><code>lpb-color-bg--grey-2</code><br><code>--gray-300</code><br>Current COSMA neutral</div></div>
+        <div class="grid-item one-third palm-one-whole"><div class="lpb-color-bg--grey-3 lpb-color-text--charcoal padding-l"><strong>Grey 3</strong><br><code>lpb-color-bg--grey-3</code><br><code>--gray-400</code><br>Current COSMA neutral</div></div>
+        <div class="grid-item one-third palm-one-whole"><div class="lpb-color-bg--grey-4 lpb-color-text--charcoal padding-l"><strong>Grey 4</strong><br><code>lpb-color-bg--grey-4</code><br><code>--gray-650</code><br>Current COSMA neutral</div></div>
+        <div class="grid-item one-third palm-one-whole"><div class="lpb-color-bg--grey-5 lpb-color-text--charcoal padding-l"><strong>Grey 5</strong><br><code>lpb-color-bg--grey-5</code><br><code>--gray-700</code><br>Current COSMA neutral</div></div>
+        <div class="grid-item one-third palm-one-whole"><div class="lpb-color-bg--grey-6 lpb-color-text--white padding-l"><strong>Grey 6</strong><br><code>lpb-color-bg--grey-6</code><br><code>--gray-850</code><br>Current COSMA neutral</div></div>
+      </div>
+    </section>
+
+    <section>
+      <h3 class="font-heading-medium-bold margin-bottom-m">4.3 Text</h3>
+      <div class="grid grid-flex gutter-horizontal-l gutter-vertical-s">
+        <div class="grid-item one-third palm-one-whole"><div class="lpb-color-bg--white lpb-color-text--charcoal border padding-l"><strong>Charcoal text</strong><br><code>lpb-color-text--charcoal</code><br><code>--color-text-charcoal</code></div></div>
+        <div class="grid-item one-third palm-one-whole"><div class="lpb-color-bg--charcoal lpb-color-text--white padding-l"><strong>White / Inversive text</strong><br><code>lpb-color-text--white</code><br><code>--color-text-inversive</code></div></div>
+        <div class="grid-item one-third palm-one-whole"><div class="lpb-color-bg--white lpb-color-text--muted border padding-l"><strong>Muted text</strong><br><code>lpb-color-text--muted</code><br><code>--color-text-weak</code></div></div>
+      </div>
+    </section>
+  </section>
+
+  <section class="margin-bottom-xl">
+    <h2 class="font-heading-large-bold margin-bottom-m">5. Borders &amp; Radii</h2>
+
+    <section class="margin-bottom-xl">
+      <h3 class="font-heading-medium-bold margin-bottom-m">5.1 Borders</h3>
+      <div class="grid grid-flex gutter-horizontal-l gutter-vertical-s">
+        <div class="grid-item one-half palm-one-whole"><div class="border lpb-color-bg--white padding-l"><strong>All-side border</strong><br><code>border</code></div></div>
+        <div class="grid-item one-half palm-one-whole"><div class="border-top lpb-color-bg--white padding-l"><strong>Top divider</strong><br><code>border-top</code></div></div>
+        <div class="grid-item one-half palm-one-whole"><div class="border-bottom lpb-color-bg--white padding-l"><strong>Bottom divider</strong><br><code>border-bottom</code></div></div>
+        <div class="grid-item one-half palm-one-whole"><div class="border-left lpb-color-bg--white padding-l"><strong>Left divider</strong><br><code>border-left</code></div></div>
+        <div class="grid-item one-whole"><div class="border-right lpb-color-bg--white padding-l"><strong>Right divider</strong><br><code>border-right</code></div></div>
+      </div>
+    </section>
+
+    <section class="margin-bottom-xl">
+      <h3 class="font-heading-medium-bold margin-bottom-m">5.2 Radii</h3>
+
+      <h4 class="font-heading-small-bold margin-bottom-m">Approved Builder Roles</h4>
+      <div class="grid grid-flex gutter-horizontal-l gutter-vertical-s">
+        <div class="grid-item one-half palm-one-whole"><div class="border lpb-color-bg--white lpb-radius--card padding-l"><strong>Card radius</strong><br><code>lpb-radius--card</code><br><code>--border-radius-400</code><br>TECHNICAL REFERENCE</div></div>
+        <div class="grid-item one-half palm-one-whole"><div class="border lpb-color-bg--sand lpb-radius--media padding-l"><strong>Media radius</strong><br><code>lpb-radius--media</code><br><code>--border-radius-600</code><br>TECHNICAL REFERENCE</div></div>
+      </div>
+
+      <h4 class="font-heading-small-bold margin-bottom-m margin-top-xl">COSMA Radius Reference</h4>
+      <p class="font-body-medium-regular margin-bottom-m">Direct token usage in this reference is documentation only and does not expand the Builder API.</p>
+      <div class="grid grid-flex gutter-horizontal-l gutter-vertical-s">
+        <div class="grid-item one-third palm-one-whole"><div class="border lpb-color-bg--white padding-l" style="border-radius: var(--border-radius-50);"><strong>Radius 50</strong><br><code>--border-radius-50</code><br>REFERENCE ONLY</div></div>
+        <div class="grid-item one-third palm-one-whole"><div class="border lpb-color-bg--white padding-l" style="border-radius: var(--border-radius-100);"><strong>Radius 100</strong><br><code>--border-radius-100</code><br>REFERENCE ONLY</div></div>
+        <div class="grid-item one-third palm-one-whole"><div class="border lpb-color-bg--white padding-l" style="border-radius: var(--border-radius-200);"><strong>Radius 200</strong><br><code>--border-radius-200</code><br>REFERENCE ONLY</div></div>
+        <div class="grid-item one-third palm-one-whole"><div class="border lpb-color-bg--white padding-l" style="border-radius: var(--border-radius-300);"><strong>Radius 300</strong><br><code>--border-radius-300</code><br>REFERENCE ONLY</div></div>
+        <div class="grid-item one-third palm-one-whole"><div class="border lpb-color-bg--white padding-l" style="border-radius: var(--border-radius-400);"><strong>Radius 400</strong><br><code>--border-radius-400</code><br>Used by <code>lpb-radius--card</code></div></div>
+        <div class="grid-item one-third palm-one-whole"><div class="border lpb-color-bg--sand padding-l" style="border-radius: var(--border-radius-600);"><strong>Radius 600</strong><br><code>--border-radius-600</code><br>Used by <code>lpb-radius--media</code></div></div>
+        <div class="grid-item one-whole"><div class="border lpb-color-bg--white padding-l" style="border-radius: var(--border-radius-rounded);"><strong>Rounded</strong><br><code>--border-radius-rounded</code><br>REFERENCE ONLY — intended for component-specific use such as rounded buttons, not generic layout.</div></div>
+      </div>
+    </section>
+
+    <section>
+      <h3 class="font-heading-medium-bold margin-bottom-m">5.3 Guardrails</h3>
+      <ul class="font-body-medium-regular">
+        <li>Only <code>lpb-radius--card</code> and <code>lpb-radius--media</code> are approved Builder radius classes.</li>
+        <li>Other COSMA radius tokens are reference-only; the GPT must not choose arbitrary radius tokens.</li>
+        <li><code>--border-radius-rounded</code> is not a generic layout radius.</li>
+        <li>Reference examples in this Design Library do not expand the Builder API.</li>
+        <li>No arbitrary border or radius values.</li>
+        <li>Focused border is not a normal layout primitive.</li>
+      </ul>
+    </section>
+  </section>
+
+  <section class="margin-bottom-xl">
+    <h2 class="font-heading-large-bold margin-bottom-m">6. Grid &amp; Layout</h2>
+
+    <section class="margin-bottom-xl">
+      <h3 class="font-heading-medium-bold margin-bottom-m">6.1 Grid Basics</h3>
+
+      <h4 class="font-heading-small-bold margin-bottom-m">One column</h4>
+      <div class="grid grid-flex gutter-horizontal-l gutter-vertical-s margin-bottom-l">
+        <div class="grid-item one-whole"><div class="border lpb-radius--card lpb-color-bg--white padding-l"><strong>One whole</strong><br><code>grid grid-flex</code><br><code>grid-item one-whole</code></div></div>
+      </div>
+
+      <h4 class="font-heading-small-bold margin-bottom-m">Two columns 50/50</h4>
+      <div class="grid grid-flex gutter-horizontal-l gutter-vertical-s margin-bottom-l">
+        <div class="grid-item one-half palm-one-whole"><div class="border lpb-radius--card lpb-color-bg--white padding-l"><strong>Column 1</strong><br><code>one-half palm-one-whole</code></div></div>
+        <div class="grid-item one-half palm-one-whole"><div class="border lpb-radius--card lpb-color-bg--sand padding-l"><strong>Column 2</strong><br><code>one-half palm-one-whole</code></div></div>
+      </div>
+
+      <h4 class="font-heading-small-bold margin-bottom-m">Two columns 1/3 + 2/3</h4>
+      <div class="grid grid-flex gutter-horizontal-l gutter-vertical-s margin-bottom-l">
+        <div class="grid-item one-third palm-one-whole"><div class="border lpb-radius--card lpb-color-bg--grey-1 padding-l"><strong>One third</strong><br><code>one-third palm-one-whole</code></div></div>
+        <div class="grid-item two-thirds palm-one-whole"><div class="border lpb-radius--card lpb-color-bg--white padding-l"><strong>Two thirds</strong><br><code>two-thirds palm-one-whole</code></div></div>
+      </div>
+
+      <h4 class="font-heading-small-bold margin-bottom-m">Three equal columns</h4>
+      <div class="grid grid-flex gutter-horizontal-l gutter-vertical-s margin-bottom-l">
+        <div class="grid-item one-third palm-one-whole"><div class="border lpb-radius--card lpb-color-bg--white padding-l"><strong>Column 1</strong><br><code>one-third palm-one-whole</code></div></div>
+        <div class="grid-item one-third palm-one-whole"><div class="border lpb-radius--card lpb-color-bg--sand padding-l"><strong>Column 2</strong><br><code>one-third palm-one-whole</code></div></div>
+        <div class="grid-item one-third palm-one-whole"><div class="border lpb-radius--card lpb-color-bg--grey-1 padding-l"><strong>Column 3</strong><br><code>one-third palm-one-whole</code></div></div>
+      </div>
+
+      <h4 class="font-heading-small-bold margin-bottom-m">Four equal columns</h4>
+      <div class="grid grid-flex gutter-horizontal-l gutter-vertical-s margin-bottom-l">
+        <div class="grid-item one-fourth palm-one-whole"><div class="border lpb-radius--card lpb-color-bg--white padding-l"><strong>Column 1</strong><br><code>one-fourth palm-one-whole</code></div></div>
+        <div class="grid-item one-fourth palm-one-whole"><div class="border lpb-radius--card lpb-color-bg--sand padding-l"><strong>Column 2</strong><br><code>one-fourth palm-one-whole</code></div></div>
+        <div class="grid-item one-fourth palm-one-whole"><div class="border lpb-radius--card lpb-color-bg--grey-1 padding-l"><strong>Column 3</strong><br><code>one-fourth palm-one-whole</code></div></div>
+        <div class="grid-item one-fourth palm-one-whole"><div class="border lpb-radius--card lpb-color-bg--white padding-l"><strong>Column 4</strong><br><code>one-fourth palm-one-whole</code></div></div>
+      </div>
+
+      <p class="font-body-medium-regular">The approved 3/4 fraction is <code>three-fourths</code>; do not use <code>three-quarters</code>.</p>
+    </section>
+
+    <section class="margin-bottom-xl">
+      <h3 class="font-heading-medium-bold margin-bottom-m">6.2 Responsive Patterns</h3>
+
+      <h4 class="font-heading-small-bold margin-bottom-m">Two columns → Palm one column</h4>
+      <div class="grid grid-flex gutter-horizontal-l gutter-vertical-s margin-bottom-l">
+        <div class="grid-item one-half palm-one-whole"><div class="border lpb-radius--card lpb-color-bg--white padding-l"><strong>Column 1</strong><br><code>one-half palm-one-whole</code></div></div>
+        <div class="grid-item one-half palm-one-whole"><div class="border lpb-radius--card lpb-color-bg--sand padding-l"><strong>Column 2</strong><br><code>one-half palm-one-whole</code></div></div>
+      </div>
+
+      <h4 class="font-heading-small-bold margin-bottom-m">Three → two → one</h4>
+      <p class="font-body-medium-regular margin-bottom-m"><code>one-third lap-one-half palm-one-whole</code> — base/desk: three columns; lap: two columns; palm: one column.</p>
+      <div class="grid grid-flex gutter-horizontal-l gutter-vertical-s">
+        <div class="grid-item one-third lap-one-half palm-one-whole"><div class="border lpb-radius--card lpb-color-bg--white padding-l"><strong>Responsive item 1</strong></div></div>
+        <div class="grid-item one-third lap-one-half palm-one-whole"><div class="border lpb-radius--card lpb-color-bg--sand padding-l"><strong>Responsive item 2</strong></div></div>
+        <div class="grid-item one-third lap-one-half palm-one-whole"><div class="border lpb-radius--card lpb-color-bg--grey-1 padding-l"><strong>Responsive item 3</strong></div></div>
+      </div>
+    </section>
+
+    <section class="margin-bottom-xl">
+      <h3 class="font-heading-medium-bold margin-bottom-m">6.3 Gutters</h3>
+      <p class="font-body-medium-regular margin-bottom-m">Native grid gutters provide base spacing: <code>gutter-horizontal-l</code> and <code>gutter-vertical-s</code>.</p>
+      <div class="grid grid-flex gutter-horizontal-l gutter-vertical-s">
+        <div class="grid-item one-half palm-one-whole"><div class="border lpb-radius--card lpb-color-bg--white padding-l"><strong>Gutter check 1</strong></div></div>
+        <div class="grid-item one-half palm-one-whole"><div class="border lpb-radius--card lpb-color-bg--sand padding-l"><strong>Gutter check 2</strong></div></div>
+        <div class="grid-item one-half palm-one-whole"><div class="border lpb-radius--card lpb-color-bg--grey-1 padding-l"><strong>Gutter check 3</strong></div></div>
+        <div class="grid-item one-half palm-one-whole"><div class="border lpb-radius--card lpb-color-bg--white padding-l"><strong>Gutter check 4</strong></div></div>
+      </div>
+    </section>
+
+    <section class="margin-bottom-xl">
+      <h3 class="font-heading-medium-bold margin-bottom-m">6.4 Alignment</h3>
+      <p class="font-body-medium-regular margin-bottom-m"><code>align-center</code> is approved for text alignment only.</p>
+      <div class="border lpb-radius--card lpb-color-bg--white padding-l align-center">
+        <strong>Centered text</strong><br><code>align-center</code>
+      </div>
+    </section>
+
+    <section>
+      <h3 class="font-heading-medium-bold margin-bottom-m">6.5 Guardrails</h3>
+      <ul class="font-body-medium-regular">
+        <li>Native Grid and Gutters provide the base layout; do not create arbitrary grid or gap values.</li>
+        <li>Use <code>three-fourths</code>, not <code>three-quarters</code>.</li>
+        <li>Do not use arbitrary widths, generic flex utilities, wrappers, max-width, or overflow helpers as Builder APIs.</li>
+        <li>Additional module spacing is allowed only through documented spacing utilities when the relevant module policy requires it.</li>
+        <li>Do not automatically add margins to every grid item.</li>
+        <li>Mobile Card/Grid vertical spacing remains an open Frontend/module question; do not solve it with a global Layout Bridge.</li>
+      </ul>
+    </section>
+  </section>
+
+  <section class="margin-bottom-xl">
+    <h2 class="font-heading-large-bold margin-bottom-m">7. Links &amp; Lists</h2>
+
+    <section class="margin-bottom-xl">
+      <h3 class="font-heading-medium-bold margin-bottom-m">7.1 Text Links</h3>
+      <p class="font-body-medium-regular margin-bottom-m">Plain semantic <code>&lt;a&gt;</code> is the standard; no special class is needed for normal text links.</p>
+      <div class="grid grid-flex gutter-horizontal-l gutter-vertical-s">
+        <div class="grid-item one-half palm-one-whole"><div class="border lpb-radius--card lpb-color-bg--white padding-l"><strong>Inline text link</strong><p class="font-body-large-regular">Text with an <a href="/example">internal inline link</a>.</p><code>&lt;a href=&quot;/example&quot;&gt;</code></div></div>
+        <div class="grid-item one-half palm-one-whole"><div class="border lpb-radius--card lpb-color-bg--sand padding-l"><strong>Standalone text link</strong><p class="font-body-large-regular"><a href="/example">Standalone internal text link</a></p><code>&lt;a href=&quot;/example&quot;&gt;</code></div></div>
+        <div class="grid-item one-half palm-one-whole"><div class="border lpb-radius--card lpb-color-bg--grey-1 padding-l"><strong>External new-tab link</strong><p class="font-body-large-regular"><a href="https://example.com" target="_blank" rel="noopener noreferrer">External link in a new tab</a></p><code>target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;</code></div></div>
+        <div class="grid-item one-half palm-one-whole"><div class="border lpb-radius--card lpb-color-bg--white padding-l"><strong>Anchor, mail and phone</strong><p class="font-body-large-regular"><a href="#links-lists-anchor-target">Anchor link</a><br><a href="mailto:example@example.com">example@example.com</a><br><a href="tel:+493012345678">+49 30 12345678</a></p><code>href=&quot;#target-id&quot;</code></div></div>
+      </div>
+    </section>
+
+    <section class="margin-bottom-xl">
+      <h3 class="font-heading-medium-bold margin-bottom-m">7.2 Chevron Link</h3>
+      <div class="border lpb-radius--card lpb-color-bg--white padding-l">
+        <p class="font-body-small-bold margin-bottom-s">TECHNICAL REFERENCE — capability is defined in component-library.html</p>
+        <a class="lpb-chevron-link" href="/example"><img class="lpb-chevron-link__icon" src="https://www.immobilienscout24.de/content/dam/claude-lp-creator/assets/Chevron.svg" alt="" width="16" height="16" loading="lazy"><span>Mehr erfahren</span></a>
+        <p class="font-body-medium-regular margin-top-m"><code>lpb-chevron-link</code> + <code>lpb-chevron-link__icon</code> — directional standalone action only.</p>
+      </div>
+    </section>
+
+    <section class="margin-bottom-xl" id="links-lists-anchor-target">
+      <h3 class="font-heading-medium-bold margin-bottom-m">7.3 Lists</h3>
+      <div class="grid grid-flex gutter-horizontal-l gutter-vertical-s">
+        <div class="grid-item one-half palm-one-whole"><div class="border lpb-radius--card lpb-color-bg--white padding-l"><strong>Plain unordered list</strong><ul class="font-body-large-regular"><li>First item</li><li>Second item</li><li>Third item</li></ul><code>&lt;ul&gt;&lt;li&gt;</code></div></div>
+        <div class="grid-item one-half palm-one-whole"><div class="border lpb-radius--card lpb-color-bg--sand padding-l"><strong>Plain ordered list</strong><ol class="font-body-large-regular"><li>First step</li><li>Second step</li><li>Third step</li></ol><code>&lt;ol&gt;&lt;li&gt;</code></div></div>
+        <div class="grid-item one-half palm-one-whole"><div class="border lpb-radius--card lpb-color-bg--grey-1 padding-l"><strong>Nested list</strong><ul class="font-body-large-regular"><li>Parent item<ul><li>Child item one</li><li>Child item two</li></ul></li><li>Second parent item</li></ul><code>ul &gt; li &gt; ul</code></div></div>
+        <div class="grid-item one-half palm-one-whole"><div class="border lpb-radius--card lpb-color-bg--white padding-l"><strong>Bullet / benefit list</strong><ul class="list-bullet font-body-large-regular"><li>Short benefit one</li><li>Short benefit two</li><li>Short benefit three</li></ul><code>list-bullet</code></div></div>
+      </div>
+    </section>
+
+    <section class="margin-bottom-xl">
+      <h3 class="font-heading-medium-bold margin-bottom-m">7.4 Checkmark List</h3>
+      <div class="border lpb-radius--card lpb-color-bg--sand padding-l">
+        <p class="font-body-small-bold margin-bottom-s">TECHNICAL REFERENCE — capability is defined in component-library.html</p>
+        <ul class="checkmark-list">
+          <li class="checkmark-list__item"><span class="checkmark-list__icon" aria-hidden="true"></span><p class="checkmark-list__text font-body-large-regular">Positive benefit or feature one</p></li>
+          <li class="checkmark-list__item"><span class="checkmark-list__icon" aria-hidden="true"></span><p class="checkmark-list__text font-body-large-regular">Positive benefit or feature two</p></li>
+          <li class="checkmark-list__item"><span class="checkmark-list__icon" aria-hidden="true"></span><p class="checkmark-list__text font-body-large-regular">Positive benefit or feature three</p></li>
+        </ul>
+        <p class="font-body-medium-regular margin-top-m"><code>checkmark-list</code>, <code>checkmark-list__item</code>, <code>checkmark-list__icon</code>, <code>checkmark-list__text</code></p>
+      </div>
+    </section>
+
+    <section>
+      <h3 class="font-heading-medium-bold margin-bottom-m">7.5 Guardrails</h3>
+      <ul class="font-body-medium-regular">
+        <li>Plain semantic HTML first; do not invent link-variant classes.</li>
+        <li>Use <code>lpb-chevron-link</code> only for directional standalone actions.</li>
+        <li>Open an external link in a new tab only when requested.</li>
+        <li>Use nested lists only for a real content hierarchy.</li>
+        <li>Plain <code>&lt;ul&gt;</code> is the standard; use <code>list-bullet</code> for deliberately styled bullet or benefit lists.</li>
+        <li>Use <code>checkmark-list</code> for short positive benefit or feature lists.</li>
+        <li>Do not create arbitrary link or list styling; add extra spacing only through approved spacing utilities.</li>
+      </ul>
+    </section>
+  </section>
+
+  <section>
+    <h2 class="font-heading-large-bold margin-bottom-m">8. Icons</h2>
+
+    <section class="margin-bottom-xl">
+      <h3 class="font-heading-medium-bold margin-bottom-m">8.1 Primary Source</h3>
+      <div class="border lpb-radius--card lpb-color-bg--white padding-l">
+        <p class="font-body-small-bold margin-bottom-s">TECHNICAL REFERENCE — capability is defined in component-library.html</p>
+        <p class="font-body-medium-regular">COSMA/S24 Static Icon Font is the primary LP Builder – Contentful icon source. The complete verified static inventory is maintained in <code>cosma-icons-static.md</code>; this Design Library shows representative product examples only.</p>
+      </div>
+    </section>
+
+    <section class="margin-bottom-xl">
+      <h3 class="font-heading-medium-bold margin-bottom-m">8.2 Compact Content Icons — 24px</h3>
+      <p class="font-body-medium-regular margin-bottom-m">Use a genuine <code>_24</code> glyph with <code>lpb-icon--24</code> for compact content, smaller cards, benefit/info patterns and supporting actions.</p>
+      <div class="grid grid-flex gutter-horizontal-l gutter-vertical-s">
+        <div class="grid-item one-third palm-one-whole"><div class="border lpb-radius--card lpb-color-bg--white padding-l"><span class="s24-icons-s24_keyboard_24 lpb-icon--24 lpb-color-text--charcoal" aria-hidden="true"></span><p class="font-body-medium-regular margin-top-s">Keyboard</p><code>s24-icons-s24_keyboard_24 lpb-icon--24</code></div></div>
+        <div class="grid-item one-third palm-one-whole"><div class="border lpb-radius--card lpb-color-bg--white padding-l"><span class="s24-icons-s24_building_1_24 lpb-icon--24 lpb-color-text--charcoal" aria-hidden="true"></span><p class="font-body-medium-regular margin-top-s">Building</p><code>s24-icons-s24_building_1_24 lpb-icon--24</code></div></div>
+        <div class="grid-item one-third palm-one-whole"><div class="border lpb-radius--card lpb-color-bg--white padding-l"><span class="s24-icons-s24_calculator_24 lpb-icon--24 lpb-color-text--charcoal" aria-hidden="true"></span><p class="font-body-medium-regular margin-top-s">Calculator</p><code>s24-icons-s24_calculator_24 lpb-icon--24</code></div></div>
+        <div class="grid-item one-half palm-one-whole"><div class="border lpb-radius--card lpb-color-bg--white padding-l"><span class="s24-icons-s24_map_24 lpb-icon--24 lpb-color-text--charcoal" aria-hidden="true"></span><p class="font-body-medium-regular margin-top-s">Map</p><code>s24-icons-s24_map_24 lpb-icon--24</code></div></div>
+        <div class="grid-item one-half palm-one-whole"><div class="border lpb-radius--card lpb-color-bg--white padding-l"><span class="s24-icons-s24_bicycle_24 lpb-icon--24 lpb-color-text--charcoal" aria-hidden="true"></span><p class="font-body-medium-regular margin-top-s">Bicycle</p><code>s24-icons-s24_bicycle_24 lpb-icon--24</code></div></div>
+      </div>
+    </section>
+
+    <section class="margin-bottom-xl">
+      <h3 class="font-heading-medium-bold margin-bottom-m">8.3 Benefits &amp; Marketing Icons — 48px</h3>
+      <p class="font-body-medium-regular margin-bottom-m">Use a genuine <code>_48</code> glyph with <code>lpb-icon--48</code> for benefits, features, value propositions and standalone marketing icons.</p>
+      <div class="grid grid-flex gutter-horizontal-l gutter-vertical-s">
+        <div class="grid-item one-third palm-one-whole"><div class="border lpb-radius--card lpb-color-bg--sand padding-l"><span class="s24-icons-s24_keyboard_48 lpb-icon--48 lpb-color-text--charcoal" aria-hidden="true"></span><p class="font-body-medium-regular margin-top-s">Keyboard</p><code>s24-icons-s24_keyboard_48 lpb-icon--48</code></div></div>
+        <div class="grid-item one-third palm-one-whole"><div class="border lpb-radius--card lpb-color-bg--sand padding-l"><span class="s24-icons-s24_building_1_48 lpb-icon--48 lpb-color-text--charcoal" aria-hidden="true"></span><p class="font-body-medium-regular margin-top-s">Building</p><code>s24-icons-s24_building_1_48 lpb-icon--48</code></div></div>
+        <div class="grid-item one-third palm-one-whole"><div class="border lpb-radius--card lpb-color-bg--sand padding-l"><span class="s24-icons-s24_calculator_48 lpb-icon--48 lpb-color-text--charcoal" aria-hidden="true"></span><p class="font-body-medium-regular margin-top-s">Calculator</p><code>s24-icons-s24_calculator_48 lpb-icon--48</code></div></div>
+        <div class="grid-item one-half palm-one-whole"><div class="border lpb-radius--card lpb-color-bg--sand padding-l"><span class="s24-icons-s24_map_48 lpb-icon--48 lpb-color-text--charcoal" aria-hidden="true"></span><p class="font-body-medium-regular margin-top-s">Map</p><code>s24-icons-s24_map_48 lpb-icon--48</code></div></div>
+        <div class="grid-item one-half palm-one-whole"><div class="border lpb-radius--card lpb-color-bg--sand padding-l"><span class="s24-icons-s24_bicycle_48 lpb-icon--48 lpb-color-text--charcoal" aria-hidden="true"></span><p class="font-body-medium-regular margin-top-s">Bicycle</p><code>s24-icons-s24_bicycle_48 lpb-icon--48</code></div></div>
+      </div>
+    </section>
+
+    <section class="margin-bottom-xl">
+      <h3 class="font-heading-medium-bold margin-bottom-m">8.4 16px Reference</h3>
+      <div class="border lpb-radius--card lpb-color-bg--grey-1 padding-l">
+        <p class="font-body-small-bold margin-bottom-s">REFERENCE / PRODUCT UI / NOT NORMAL LP DEFAULT</p>
+        <p class="font-body-medium-regular margin-bottom-m">43 genuine 16px glyph classes are verified in the technical inventory. They are reserved for explicit small-control or product-UI contexts; no <code>lpb-icon--16</code> Builder adapter exists.</p>
+        <p class="font-body-medium-regular"><span class="s24-icons-s24_chevron_right_16" aria-hidden="true"></span> Chevron right &nbsp; <span class="s24-icons-s24_info_circle_16" aria-hidden="true"></span> Info circle &nbsp; <span class="s24-icons-s24_arrow_right_16" aria-hidden="true"></span> Arrow right</p>
+      </div>
+    </section>
+
+    <section>
+      <h3 class="font-heading-medium-bold margin-bottom-m">8.5 Guardrails</h3>
+      <ul class="font-body-medium-regular">
+        <li><code>_24</code> glyph + <code>lpb-icon--24</code>; <code>_48</code> glyph + <code>lpb-icon--48</code>. Never mix these pairs.</li>
+        <li>24px and 48px glyphs are separately optimised; never scale one glyph variant into the other role.</li>
+        <li>Use only an actual class from <code>cosma-icons-static.md</code>; do not invent names or filled variants.</li>
+        <li>No arbitrary font-size, inline sizing, inline colour or separate icon library in normal Builder code.</li>
+        <li>Icons inherit <code>currentColor</code>; use approved text/colour primitives. Decorative icons use <code>aria-hidden=&quot;true&quot;</code>.</li>
+        <li>If an icon is not inventoried, report <code>ICON GAP / FALLBACK REVIEW</code>; do not substitute a similar glyph automatically. Gondola Lift is currently such a gap.</li>
+      </ul>
+    </section>
+  </section>
+
+  <section>
+    <h2 class="font-heading-large-bold margin-bottom-m">9. Media / Images</h2>
+
+    <section class="margin-bottom-xl">
+      <h3 class="font-heading-medium-bold margin-bottom-m">9.1 Approved Asset Roles</h3>
+      <div class="grid grid-flex gutter-horizontal-l gutter-vertical-s">
+        <div class="grid-item one-half palm-one-whole"><div class="border lpb-radius--card lpb-color-bg--white padding-l"><p class="font-body-small-bold margin-bottom-s">TECHNICAL REFERENCE</p><strong>Teaser / Card</strong><p class="font-body-medium-regular">4:3 format. Recommended source: at least 800 × 600 px.</p></div></div>
+        <div class="grid-item one-half palm-one-whole"><div class="border lpb-radius--card lpb-color-bg--sand padding-l"><p class="font-body-small-bold margin-bottom-s">TECHNICAL REFERENCE</p><strong>Hero / Stage</strong><p class="font-body-medium-regular">16:9 format. Recommended source: 960 × 540 px or larger; 1920 × 1080 is a good high-quality option.</p></div></div>
+      </div>
+    </section>
+
+    <section class="margin-bottom-xl">
+      <h3 class="font-heading-medium-bold margin-bottom-m">9.2 Responsive Content Images</h3>
+      <div class="border lpb-radius--card lpb-color-bg--white padding-l">
+        <p class="font-body-small-bold margin-bottom-s">TECHNICAL REFERENCE — capability is defined in component-library.html</p>
+        <p class="font-body-medium-regular margin-bottom-m">Use <code>lpb-image--responsive</code> on raw content images. It provides responsive containment only: large images shrink to their available container; small images keep their intrinsic size and are not upscaled.</p>
+        <p class="font-body-medium-regular">Optional media treatment: <code>lpb-image--responsive lpb-radius--media</code>.</p>
+      </div>
+    </section>
+
+    <section class="margin-bottom-xl">
+      <h3 class="font-heading-medium-bold margin-bottom-m">9.3 Alternative Text</h3>
+      <div class="border lpb-radius--card lpb-color-bg--grey-1 padding-l">
+        <p class="font-body-medium-regular margin-bottom-s">Informative images require supplied meaningful <code>alt</code> text. Decorative images use <code>alt=&quot;&quot;</code>.</p>
+        <p class="font-body-medium-regular">Do not invent alt text. Missing safe image context is <code>OPEN / ASK</code>.</p>
+      </div>
+    </section>
+
+    <section>
+      <h3 class="font-heading-medium-bold margin-bottom-m">9.4 Guardrails</h3>
+      <ul class="font-body-medium-regular">
+        <li>No automatic crop, object-fit API, aspect-ratio utility, <code>srcset</code>/<code>sizes</code>, <code>picture</code>/<code>source</code>, background-image or mobile art-direction API in v0.1.</li>
+        <li>The CMS <code>ImageWrapper</code> owns advanced mobile-image, caption, link and alignment functionality. Do not recreate it in Bridge CSS or static <code>htmlSource</code>.</li>
+        <li>1:1, 4:5 and 9:16 are <code>REFERENCE / FUTURE MODULE NEED</code>, not v0.1 Builder API.</li>
+      </ul>
+    </section>
+  </section>
+</main>
+<script src="https://scout24-creative-ops.github.io/lp-builder/runtime/contentful/lpbuilder-runtime.js"></script>
+<script>window.LPBuilderRuntime.init(document.querySelector("main"));</script>

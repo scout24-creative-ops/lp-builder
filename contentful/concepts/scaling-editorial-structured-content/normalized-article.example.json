@@ -1,0 +1,93 @@
+{
+  "schemaVersion": "1.0",
+  "sourcePackageId": "demo-article-package-001",
+  "operation": {
+    "mode": "create",
+    "targetEntryId": null
+  },
+  "article": {
+    "internalName": "Demo – strukturierter Scaling-Editorial-Artikel",
+    "slug": "/dev-scaling-editorial-structured-demo",
+    "headline": "Demo: Ein Artikel wird einmal gepflegt und mehrfach dargestellt",
+    "intro": "Interner Demo-Inhalt: Artikelansicht und Teaser verwenden denselben strukturierten Introtext.",
+    "categoryKey": "immobilienmarkt",
+    "topicTags": [
+      "Angebot & Nachfrage"
+    ],
+    "author": {
+      "entryId": "demo-author-immoscout24-redaktion",
+      "name": "ImmoScout24 Redaktion",
+      "role": "Demo-Platzhalter"
+    },
+    "dates": {
+      "standDate": "2026-10-30",
+      "editorialPublishedAt": null,
+      "editorialUpdatedAt": null
+    },
+    "hero": {
+      "assetId": "demo-asset-structured-article",
+      "deliveryUrl": "https://www.static-immobilienscout24.de/fro/lpbuilder-contentful-placeholder/_/1920x1080.png",
+      "width": 1920,
+      "height": 1080,
+      "altText": "Neutraler Demo-Platzhalter für einen strukturierten Artikel",
+      "caption": "Demo-Bildunterschrift",
+      "aiDisclosure": "Demo/ungeprüft"
+    },
+    "body": {
+      "nodeType": "document",
+      "data": {},
+      "content": [
+        {
+          "nodeType": "paragraph",
+          "data": {},
+          "content": [
+            {
+              "nodeType": "text",
+              "value": "Dieser lokale Nachweis enthält keine journalistischen Tatsachen. Er zeigt ausschließlich, wie eine normalisierte Datenquelle Artikel und Teaser versorgt.",
+              "marks": [],
+              "data": {}
+            }
+          ]
+        },
+        {
+          "nodeType": "heading-2",
+          "data": {},
+          "content": [
+            {
+              "nodeType": "text",
+              "value": "Gemeinsame Daten statt kopierter Teaser",
+              "marks": [],
+              "data": {}
+            }
+          ]
+        },
+        {
+          "nodeType": "paragraph",
+          "data": {},
+          "content": [
+            {
+              "nodeType": "text",
+              "value": "Der Teaser wird aus Headline, Intro, Bild, Datum und Slug dieses Artikels abgeleitet.",
+              "marks": [],
+              "data": {}
+            }
+          ]
+        }
+      ]
+    },
+    "sources": [
+      {
+        "type": "demoNotice",
+        "label": "Keine redaktionellen Quellen – Demo-Inhalt, noch nicht zur Veröffentlichung freigegeben."
+      }
+    ],
+    "internalOpenChecks": [
+      "Contentful Content Type und Feldvalidierungen im Ziel-Space bestätigen.",
+      "Pilotbild als echtes Contentful Asset anlegen oder eindeutig wiederverwenden."
+    ]
+  },
+  "placement": {
+    "categoryEntryId": "demo-category-immobilienmarkt",
+    "promoteToFirstFeaturedPosition": true
+  }
+}

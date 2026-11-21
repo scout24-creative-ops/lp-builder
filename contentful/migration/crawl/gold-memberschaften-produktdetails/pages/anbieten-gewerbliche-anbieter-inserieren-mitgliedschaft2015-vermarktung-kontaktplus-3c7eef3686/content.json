@@ -1,0 +1,1471 @@
+[
+  {
+    "type": "heading",
+    "order": 1,
+    "text": "Produktbestandteil",
+    "href": null,
+    "asset_url": null,
+    "section": "Produktbestandteil",
+    "source_selector": "h1.hero-dd__title",
+    "attributes": {
+      "class": "hero-dd__title"
+    }
+  },
+  {
+    "type": "cta",
+    "order": 2,
+    "text": "KontaktPlus",
+    "href": null,
+    "asset_url": null,
+    "section": "Produktbestandteil",
+    "source_selector": "button.hero-dd__btn",
+    "attributes": {
+      "class": "hero-dd__btn"
+    }
+  },
+  {
+    "type": "link",
+    "order": 3,
+    "text": "Zur Produktübersicht nach Segmenten",
+    "href": "https://www.immobilienscout24.de/anbieten/gewerbliche-anbieter.html",
+    "asset_url": null,
+    "section": "Produktbestandteil",
+    "source_selector": "a",
+    "attributes": {
+    }
+  },
+  {
+    "type": "heading",
+    "order": 4,
+    "text": "Produktbestandteil",
+    "href": null,
+    "asset_url": null,
+    "section": "Produktbestandteil",
+    "source_selector": "h1.hero-dd__title",
+    "attributes": {
+      "class": "hero-dd__title"
+    }
+  },
+  {
+    "type": "cta",
+    "order": 5,
+    "text": "KontaktPlus",
+    "href": null,
+    "asset_url": null,
+    "section": "Produktbestandteil",
+    "source_selector": "button.hero-dd__btn",
+    "attributes": {
+      "class": "hero-dd__btn"
+    }
+  },
+  {
+    "type": "link",
+    "order": 6,
+    "text": "KontaktPlus",
+    "href": "https://www.immobilienscout24.de/anbieten/gewerbliche-anbieter/inserieren/mitgliedschaft2015/vermarktung/kontaktplus.html",
+    "asset_url": null,
+    "section": "Produktbestandteil",
+    "source_selector": "a.active",
+    "attributes": {
+      "class": "active"
+    }
+  },
+  {
+    "type": "link",
+    "order": 7,
+    "text": "NachrichtenManager",
+    "href": "https://www.immobilienscout24.de/anbieten/gewerbliche-anbieter/tipps/anwender-tipps/anwender-handbuch/VermarktungAkquiseMarkenbildung/Vermarktung/Kontaktemanagen/Kontaktanfragenmanagen.html",
+    "asset_url": null,
+    "section": "Produktbestandteil",
+    "source_selector": "a",
+    "attributes": {
+    }
+  },
+  {
+    "type": "link",
+    "order": 8,
+    "text": "List-All",
+    "href": "https://www.immobilienscout24.de/anbieten/gewerbliche-anbieter/lp/objekte-list-all.html",
+    "asset_url": null,
+    "section": "Produktbestandteil",
+    "source_selector": "a",
+    "attributes": {
+    }
+  },
+  {
+    "type": "link",
+    "order": 9,
+    "text": "Top-List-All",
+    "href": "https://www.immobilienscout24.de/anbieten/gewerbliche-anbieter/inserieren/weitere-produkte/top-list-all.html",
+    "asset_url": null,
+    "section": "Produktbestandteil",
+    "source_selector": "a",
+    "attributes": {
+    }
+  },
+  {
+    "type": "link",
+    "order": 10,
+    "text": "Objektdatenbank",
+    "href": "https://www.immobilienscout24.de/anbieten/gewerbliche-anbieter/tipps/anwender-tipps/anwender-handbuch/VermarktungAkquiseMarkenbildung/Vermarktung/objektdatenbank.html",
+    "asset_url": null,
+    "section": "Produktbestandteil",
+    "source_selector": "a",
+    "attributes": {
+    }
+  },
+  {
+    "type": "link",
+    "order": 11,
+    "text": "25%/50% Premium-Platzierungen",
+    "href": "https://www.immobilienscout24.de/anbieten/gewerbliche-anbieter/inserieren/weitere-produkte/premium-platzierung-25-50-prozent.html",
+    "asset_url": null,
+    "section": "Produktbestandteil",
+    "source_selector": "a",
+    "attributes": {
+    }
+  },
+  {
+    "type": "link",
+    "order": 12,
+    "text": "100% Premium-Platzierung",
+    "href": "https://www.immobilienscout24.de/anbieten/gewerbliche-anbieter/inserieren/weitere-produkte/premium-platzierung-100-prozent.html",
+    "asset_url": null,
+    "section": "Produktbestandteil",
+    "source_selector": "a",
+    "attributes": {
+    }
+  },
+  {
+    "type": "link",
+    "order": 13,
+    "text": "Suchalarm am Wochenende",
+    "href": "https://www.immobilienscout24.de/anbieten/gewerbliche-anbieter/inserieren/weitere-produkte/suchalarm-wochenende.html",
+    "asset_url": null,
+    "section": "Produktbestandteil",
+    "source_selector": "a",
+    "attributes": {
+    }
+  },
+  {
+    "type": "link",
+    "order": 14,
+    "text": "Branchenbuch",
+    "href": "https://www.immobilienscout24.de/anbieten/gewerbliche-anbieter/inserieren/mitgliedschaft2015/marke/branchenbuch.html",
+    "asset_url": null,
+    "section": "Produktbestandteil",
+    "source_selector": "a",
+    "attributes": {
+    }
+  },
+  {
+    "type": "link",
+    "order": 15,
+    "text": "ImmoScout24 Partner",
+    "href": "https://www.immobilienscout24.de/anbieten/gewerbliche-anbieter/inserieren/weitere-produkte/partner-und-experte-siegel.html",
+    "asset_url": null,
+    "section": "Produktbestandteil",
+    "source_selector": "a",
+    "attributes": {
+    }
+  },
+  {
+    "type": "link",
+    "order": 16,
+    "text": "ImmoScout24 Experte",
+    "href": "https://www.immobilienscout24.de/anbieten/gewerbliche-anbieter/inserieren/weitere-produkte/partner-und-experte-siegel.html",
+    "asset_url": null,
+    "section": "Produktbestandteil",
+    "source_selector": "a",
+    "attributes": {
+    }
+  },
+  {
+    "type": "link",
+    "order": 17,
+    "text": "Referenzobjekte",
+    "href": "https://www.immobilienscout24.de/anbieten/gewerbliche-anbieter/inserieren/weitere-produkte/referenzobjekte.html",
+    "asset_url": null,
+    "section": "Produktbestandteil",
+    "source_selector": "a",
+    "attributes": {
+    }
+  },
+  {
+    "type": "link",
+    "order": 18,
+    "text": "Anbieterbewertung",
+    "href": "https://www.immobilienscout24.de/anbieten/gewerbliche-anbieter/inserieren/weitere-produkte/anbieterbewertung.html",
+    "asset_url": null,
+    "section": "Produktbestandteil",
+    "source_selector": "a",
+    "attributes": {
+    }
+  },
+  {
+    "type": "link",
+    "order": 19,
+    "text": "Firmenlogo in der Ergebnisliste",
+    "href": "https://www.immobilienscout24.de/anbieten/gewerbliche-anbieter/inserieren/weitere-produkte/firmenlogo.html",
+    "asset_url": null,
+    "section": "Produktbestandteil",
+    "source_selector": "a",
+    "attributes": {
+    }
+  },
+  {
+    "type": "link",
+    "order": 20,
+    "text": "Image-Boost",
+    "href": "https://www.immobilienscout24.de/anbieten/gewerbliche-anbieter/tipps/anwender-tipps/anwender-handbuch/VermarktungAkquiseMarkenbildung/Image/image-held.html",
+    "asset_url": null,
+    "section": "Produktbestandteil",
+    "source_selector": "a",
+    "attributes": {
+    }
+  },
+  {
+    "type": "link",
+    "order": 21,
+    "text": "Image-Turbo-Boost",
+    "href": "https://www.immobilienscout24.de/anbieten/gewerbliche-anbieter/tipps/anwender-tipps/anwender-handbuch/VermarktungAkquiseMarkenbildung/Image/image-held.html",
+    "asset_url": null,
+    "section": "Produktbestandteil",
+    "source_selector": "a",
+    "attributes": {
+    }
+  },
+  {
+    "type": "link",
+    "order": 22,
+    "text": "Sprengnetter Weiterbildungspflicht",
+    "href": "https://www.immobilienscout24.de/anbieten/gewerbliche-anbieter/inserieren/weitere-produkte/weiterbildungspflicht-mabv.html",
+    "asset_url": null,
+    "section": "Produktbestandteil",
+    "source_selector": "a",
+    "attributes": {
+    }
+  },
+  {
+    "type": "link",
+    "order": 23,
+    "text": "Bewertungsnachweise von Sprengnetter",
+    "href": "https://www.immobilienscout24.de/anbieten/gewerbliche-anbieter/inserieren/weitere-produkte/bewertungsnachweise-sprengnetter.html",
+    "asset_url": null,
+    "section": "Produktbestandteil",
+    "source_selector": "a",
+    "attributes": {
+    }
+  },
+  {
+    "type": "link",
+    "order": 24,
+    "text": "Immobilienbewertung",
+    "href": "https://www.immobilienscout24.de/anbieten/gewerbliche-anbieter/tipps/anwender-tipps/anwender-handbuch/AnalyseundBeobachtung/Immobilienbewertung.html",
+    "asset_url": null,
+    "section": "Produktbestandteil",
+    "source_selector": "a",
+    "attributes": {
+    }
+  },
+  {
+    "type": "link",
+    "order": 25,
+    "text": "Maklersuche",
+    "href": "https://www.immobilienscout24.de/anbieten/gewerbliche-anbieter/lp/maklersuche.html",
+    "asset_url": null,
+    "section": "Produktbestandteil",
+    "source_selector": "a",
+    "attributes": {
+    }
+  },
+  {
+    "type": "link",
+    "order": 26,
+    "text": "Standortanalyse",
+    "href": "https://www.immobilienscout24.de/anbieten/gewerbliche-anbieter/inserieren/weitere-produkte/standortanalyse/",
+    "asset_url": null,
+    "section": "Produktbestandteil",
+    "source_selector": "a",
+    "attributes": {
+    }
+  },
+  {
+    "type": "link",
+    "order": 27,
+    "text": "Eigentümerabfrage",
+    "href": "https://www.immobilienscout24.de/anbieten/gewerbliche-anbieter/lp/eigentuemer-checkbox.html",
+    "asset_url": null,
+    "section": "Produktbestandteil",
+    "source_selector": "a",
+    "attributes": {
+    }
+  },
+  {
+    "type": "link",
+    "order": 28,
+    "text": "Profi-Report",
+    "href": "https://www.immobilienscout24.de/anbieten/gewerbliche-anbieter/inserieren/Mitgliedschaften/akquise-edition/Profi-Report.html",
+    "asset_url": null,
+    "section": "Produktbestandteil",
+    "source_selector": "a",
+    "attributes": {
+    }
+  },
+  {
+    "type": "link",
+    "order": 29,
+    "text": "Sprengnetter Kontaktgenerator",
+    "href": "https://www.immobilienscout24.de/anbieten/gewerbliche-anbieter/inserieren/weitere-produkte/sprengnetter-kontaktgenerator.html",
+    "asset_url": null,
+    "section": "Produktbestandteil",
+    "source_selector": "a",
+    "attributes": {
+    }
+  },
+  {
+    "type": "link",
+    "order": 30,
+    "text": "Eigentümer- und Käuferanfragen",
+    "href": "https://www.immobilienscout24.de/anbieten/gewerbliche-anbieter/inserieren/weitere-produkte/eigentuemer-und-kaeuferanfragen.html",
+    "asset_url": null,
+    "section": "Produktbestandteil",
+    "source_selector": "a",
+    "attributes": {
+    }
+  },
+  {
+    "type": "heading",
+    "order": 31,
+    "text": "Produktbestandteil",
+    "href": null,
+    "asset_url": null,
+    "section": "Produktbestandteil",
+    "source_selector": "h1.hero-dd__title",
+    "attributes": {
+      "class": "hero-dd__title"
+    }
+  },
+  {
+    "type": "cta",
+    "order": 32,
+    "text": "KontaktPlus",
+    "href": null,
+    "asset_url": null,
+    "section": "Produktbestandteil",
+    "source_selector": "button.hero-dd__btn",
+    "attributes": {
+      "class": "hero-dd__btn"
+    }
+  },
+  {
+    "type": "link",
+    "order": 33,
+    "text": "Standortanalyse",
+    "href": "https://www.immobilienscout24.de/anbieten/gewerbliche-anbieter/inserieren/weitere-produkte/standortanalyse.html",
+    "asset_url": null,
+    "section": "Produktbestandteil",
+    "source_selector": "a",
+    "attributes": {
+    }
+  },
+  {
+    "type": "link",
+    "order": 34,
+    "text": "List-All",
+    "href": "https://www.immobilienscout24.de/anbieten/gewerbliche-anbieter/lp/objekte-list-all.html",
+    "asset_url": null,
+    "section": "Produktbestandteil",
+    "source_selector": "a",
+    "attributes": {
+    }
+  },
+  {
+    "type": "link",
+    "order": 35,
+    "text": "Branchenbuch",
+    "href": "https://www.immobilienscout24.de/anbieten/gewerbliche-anbieter/inserieren/mitgliedschaft2015/marke/branchenbuch.html",
+    "asset_url": null,
+    "section": "Produktbestandteil",
+    "source_selector": "a",
+    "attributes": {
+    }
+  },
+  {
+    "type": "link",
+    "order": 36,
+    "text": "Firmenlogo in der Ergebnisliste",
+    "href": "https://www.immobilienscout24.de/anbieten/gewerbliche-anbieter/inserieren/weitere-produkte/firmenlogo.html",
+    "asset_url": null,
+    "section": "Produktbestandteil",
+    "source_selector": "a",
+    "attributes": {
+    }
+  },
+  {
+    "type": "link",
+    "order": 37,
+    "text": "KontaktPlus",
+    "href": "https://www.immobilienscout24.de/anbieten/gewerbliche-anbieter/inserieren/mitgliedschaft2015/vermarktung/kontaktplus.html",
+    "asset_url": null,
+    "section": "Produktbestandteil",
+    "source_selector": "a.active",
+    "attributes": {
+      "class": "active"
+    }
+  },
+  {
+    "type": "link",
+    "order": 38,
+    "text": "Zugang zu Hausbau Leads",
+    "href": "https://www.immobilienscout24.de/anbieten/gewerbliche-anbieter/inserieren/produkte-hausbau/hausbau-leads.html",
+    "asset_url": null,
+    "section": "Produktbestandteil",
+    "source_selector": "a",
+    "attributes": {
+    }
+  },
+  {
+    "type": "link",
+    "order": 39,
+    "text": "ImmoScout24 Partner",
+    "href": "https://www.immobilienscout24.de/anbieten/gewerbliche-anbieter/inserieren/weitere-produkte/partner-und-experte-siegel.html",
+    "asset_url": null,
+    "section": "Produktbestandteil",
+    "source_selector": "a",
+    "attributes": {
+    }
+  },
+  {
+    "type": "link",
+    "order": 40,
+    "text": "ImmoScout24 Experte",
+    "href": "https://www.immobilienscout24.de/anbieten/gewerbliche-anbieter/inserieren/weitere-produkte/partner-und-experte-siegel.html",
+    "asset_url": null,
+    "section": "Produktbestandteil",
+    "source_selector": "a",
+    "attributes": {
+    }
+  },
+  {
+    "type": "link",
+    "order": 41,
+    "text": "Anbieterseite",
+    "href": "https://www.immobilienscout24.de/anbieten/gewerbliche-anbieter/inserieren/produkte-hausbau/insertion/hausbaupakete/",
+    "asset_url": null,
+    "section": "Produktbestandteil",
+    "source_selector": "a",
+    "attributes": {
+    }
+  },
+  {
+    "type": "link",
+    "order": 42,
+    "text": "Image-Boost",
+    "href": "https://www.immobilienscout24.de/anbieten/gewerbliche-anbieter/tipps/anwender-tipps/anwender-handbuch/VermarktungAkquiseMarkenbildung/Image/image-held.html",
+    "asset_url": null,
+    "section": "Produktbestandteil",
+    "source_selector": "a",
+    "attributes": {
+    }
+  },
+  {
+    "type": "link",
+    "order": 43,
+    "text": "Exklusiv-Exposé",
+    "href": "https://www.immobilienscout24.de/anbieten/gewerbliche-anbieter/inserieren/weitere-produkte/exklusiv-expose.html",
+    "asset_url": null,
+    "section": "Produktbestandteil",
+    "source_selector": "a",
+    "attributes": {
+    }
+  },
+  {
+    "type": "link",
+    "order": 44,
+    "text": "30% Premium-Platzierung",
+    "href": "https://www.immobilienscout24.de/anbieten/gewerbliche-anbieter/inserieren/weitere-produkte/premium-platzierung-30-prozent.html",
+    "asset_url": null,
+    "section": "Produktbestandteil",
+    "source_selector": "a",
+    "attributes": {
+    }
+  },
+  {
+    "type": "link",
+    "order": 45,
+    "text": "Referenzobjekte",
+    "href": "https://www.immobilienscout24.de/anbieten/gewerbliche-anbieter/inserieren/weitere-produkte/referenzobjekte.html",
+    "asset_url": null,
+    "section": "Produktbestandteil",
+    "source_selector": "a",
+    "attributes": {
+    }
+  },
+  {
+    "type": "link",
+    "order": 46,
+    "text": "Top List All",
+    "href": "https://www.immobilienscout24.de/anbieten/gewerbliche-anbieter/inserieren/weitere-produkte/top-list-all.html",
+    "asset_url": null,
+    "section": "Produktbestandteil",
+    "source_selector": "a",
+    "attributes": {
+    }
+  },
+  {
+    "type": "link",
+    "order": 47,
+    "text": "Highlight-Eintrag",
+    "href": "https://www.immobilienscout24.de/anbieten/gewerbliche-anbieter/inserieren/weitere-produkte/highlight-eintrag.html",
+    "asset_url": null,
+    "section": "Produktbestandteil",
+    "source_selector": "a",
+    "attributes": {
+    }
+  },
+  {
+    "type": "heading",
+    "order": 48,
+    "text": "Produktbestandteil",
+    "href": null,
+    "asset_url": null,
+    "section": "Produktbestandteil",
+    "source_selector": "h1.hero-dd__title",
+    "attributes": {
+      "class": "hero-dd__title"
+    }
+  },
+  {
+    "type": "cta",
+    "order": 49,
+    "text": "KontaktPlus",
+    "href": null,
+    "asset_url": null,
+    "section": "Produktbestandteil",
+    "source_selector": "button.hero-dd__btn",
+    "attributes": {
+      "class": "hero-dd__btn"
+    }
+  },
+  {
+    "type": "link",
+    "order": 50,
+    "text": "KontaktPlus",
+    "href": "https://www.immobilienscout24.de/anbieten/gewerbliche-anbieter/inserieren/mitgliedschaft2015/vermarktung/kontaktplus.html",
+    "asset_url": null,
+    "section": "Produktbestandteil",
+    "source_selector": "a.active",
+    "attributes": {
+      "class": "active"
+    }
+  },
+  {
+    "type": "link",
+    "order": 51,
+    "text": "NachrichtenManager",
+    "href": "https://www.immobilienscout24.de/anbieten/gewerbliche-anbieter/tipps/anwender-tipps/anwender-handbuch/VermarktungAkquiseMarkenbildung/Vermarktung/Kontaktemanagen/Kontaktanfragenmanagen.html",
+    "asset_url": null,
+    "section": "Produktbestandteil",
+    "source_selector": "a",
+    "attributes": {
+    }
+  },
+  {
+    "type": "link",
+    "order": 52,
+    "text": "List-All",
+    "href": "https://www.immobilienscout24.de/anbieten/gewerbliche-anbieter/lp/objekte-list-all.html",
+    "asset_url": null,
+    "section": "Produktbestandteil",
+    "source_selector": "a",
+    "attributes": {
+    }
+  },
+  {
+    "type": "link",
+    "order": 53,
+    "text": "Branchenbuch",
+    "href": "https://www.immobilienscout24.de/anbieten/gewerbliche-anbieter/inserieren/mitgliedschaft2015/marke/branchenbuch.html",
+    "asset_url": null,
+    "section": "Produktbestandteil",
+    "source_selector": "a",
+    "attributes": {
+    }
+  },
+  {
+    "type": "link",
+    "order": 54,
+    "text": "ImmoScout24 Partner",
+    "href": "https://www.immobilienscout24.de/anbieten/gewerbliche-anbieter/inserieren/weitere-produkte/partner-und-experte-siegel.html",
+    "asset_url": null,
+    "section": "Produktbestandteil",
+    "source_selector": "a",
+    "attributes": {
+    }
+  },
+  {
+    "type": "link",
+    "order": 55,
+    "text": "ImmoScout24 Experte",
+    "href": "https://www.immobilienscout24.de/anbieten/gewerbliche-anbieter/inserieren/weitere-produkte/partner-und-experte-siegel.html",
+    "asset_url": null,
+    "section": "Produktbestandteil",
+    "source_selector": "a",
+    "attributes": {
+    }
+  },
+  {
+    "type": "link",
+    "order": 56,
+    "text": "Standortanalyse",
+    "href": "https://www.immobilienscout24.de/anbieten/gewerbliche-anbieter/inserieren/weitere-produkte/standortanalyse/",
+    "asset_url": null,
+    "section": "Produktbestandteil",
+    "source_selector": "a",
+    "attributes": {
+    }
+  },
+  {
+    "type": "link",
+    "order": 57,
+    "text": "Firmenlogo in Ergebnisliste",
+    "href": "https://www.immobilienscout24.de/anbieten/gewerbliche-anbieter/inserieren/weitere-produkte/firmenlogo.html",
+    "asset_url": null,
+    "section": "Produktbestandteil",
+    "source_selector": "a",
+    "attributes": {
+    }
+  },
+  {
+    "type": "link",
+    "order": 58,
+    "text": "Image-Boost",
+    "href": "https://www.immobilienscout24.de/anbieten/gewerbliche-anbieter/tipps/anwender-tipps/anwender-handbuch/VermarktungAkquiseMarkenbildung/Image/image-held.html",
+    "asset_url": null,
+    "section": "Produktbestandteil",
+    "source_selector": "a",
+    "attributes": {
+    }
+  },
+  {
+    "type": "link",
+    "order": 59,
+    "text": "30% Premium-Platzierung",
+    "href": "https://www.immobilienscout24.de/anbieten/gewerbliche-anbieter/inserieren/weitere-produkte/premium-platzierung-30-prozent.html",
+    "asset_url": null,
+    "section": "Produktbestandteil",
+    "source_selector": "a",
+    "attributes": {
+    }
+  },
+  {
+    "type": "link",
+    "order": 60,
+    "text": "Referenzobjekte",
+    "href": "https://www.immobilienscout24.de/anbieten/gewerbliche-anbieter/inserieren/weitere-produkte/referenzobjekte.html",
+    "asset_url": null,
+    "section": "Produktbestandteil",
+    "source_selector": "a",
+    "attributes": {
+    }
+  },
+  {
+    "type": "link",
+    "order": 61,
+    "text": "Top List All",
+    "href": "https://www.immobilienscout24.de/anbieten/gewerbliche-anbieter/inserieren/weitere-produkte/top-list-all.html",
+    "asset_url": null,
+    "section": "Produktbestandteil",
+    "source_selector": "a",
+    "attributes": {
+    }
+  },
+  {
+    "type": "link",
+    "order": 62,
+    "text": "Highlight-Eintrag",
+    "href": "https://www.immobilienscout24.de/anbieten/gewerbliche-anbieter/inserieren/weitere-produkte/highlight-eintrag.html",
+    "asset_url": null,
+    "section": "Produktbestandteil",
+    "source_selector": "a",
+    "attributes": {
+    }
+  },
+  {
+    "type": "heading",
+    "order": 63,
+    "text": "Produktbestandteil",
+    "href": null,
+    "asset_url": null,
+    "section": "Produktbestandteil",
+    "source_selector": "h1.hero-dd__title",
+    "attributes": {
+      "class": "hero-dd__title"
+    }
+  },
+  {
+    "type": "cta",
+    "order": 64,
+    "text": "KontaktPlus",
+    "href": null,
+    "asset_url": null,
+    "section": "Produktbestandteil",
+    "source_selector": "button.hero-dd__btn",
+    "attributes": {
+      "class": "hero-dd__btn"
+    }
+  },
+  {
+    "type": "link",
+    "order": 65,
+    "text": "KontaktPlus",
+    "href": "https://www.immobilienscout24.de/anbieten/gewerbliche-anbieter/inserieren/mitgliedschaft2015/vermarktung/kontaktplus.html",
+    "asset_url": null,
+    "section": "Produktbestandteil",
+    "source_selector": "a.active",
+    "attributes": {
+      "class": "active"
+    }
+  },
+  {
+    "type": "link",
+    "order": 66,
+    "text": "NachrichtenManager",
+    "href": "https://www.immobilienscout24.de/anbieten/gewerbliche-anbieter/tipps/anwender-tipps/anwender-handbuch/VermarktungAkquiseMarkenbildung/Vermarktung/Kontaktemanagen/Kontaktanfragenmanagen.html",
+    "asset_url": null,
+    "section": "Produktbestandteil",
+    "source_selector": "a",
+    "attributes": {
+    }
+  },
+  {
+    "type": "link",
+    "order": 67,
+    "text": "List All",
+    "href": "https://www.immobilienscout24.de/anbieten/gewerbliche-anbieter/lp/objekte-list-all.html",
+    "asset_url": null,
+    "section": "Produktbestandteil",
+    "source_selector": "a",
+    "attributes": {
+    }
+  },
+  {
+    "type": "link",
+    "order": 68,
+    "text": "Branchenbuch",
+    "href": "https://www.immobilienscout24.de/anbieten/gewerbliche-anbieter/inserieren/mitgliedschaft2015/marke/branchenbuch.html",
+    "asset_url": null,
+    "section": "Produktbestandteil",
+    "source_selector": "a",
+    "attributes": {
+    }
+  },
+  {
+    "type": "link",
+    "order": 69,
+    "text": "ImmoScout24 Partner",
+    "href": "https://www.immobilienscout24.de/anbieten/gewerbliche-anbieter/inserieren/weitere-produkte/partner-und-experte-siegel.html",
+    "asset_url": null,
+    "section": "Produktbestandteil",
+    "source_selector": "a",
+    "attributes": {
+    }
+  },
+  {
+    "type": "link",
+    "order": 70,
+    "text": "ImmoScout24 Experte",
+    "href": "https://www.immobilienscout24.de/anbieten/gewerbliche-anbieter/inserieren/weitere-produkte/partner-und-experte-siegel.html",
+    "asset_url": null,
+    "section": "Produktbestandteil",
+    "source_selector": "a",
+    "attributes": {
+    }
+  },
+  {
+    "type": "link",
+    "order": 71,
+    "text": "Standortanalyse",
+    "href": "https://www.immobilienscout24.de/anbieten/gewerbliche-anbieter/inserieren/weitere-produkte/standortanalyse/",
+    "asset_url": null,
+    "section": "Produktbestandteil",
+    "source_selector": "a",
+    "attributes": {
+    }
+  },
+  {
+    "type": "link",
+    "order": 72,
+    "text": "Zugang zu Gewerbe Leads",
+    "href": "https://www.immobilienscout24.de/anbieten/gewerbliche-anbieter/inserieren/produkte-gewerbe/gewerbe-leads.html",
+    "asset_url": null,
+    "section": "Produktbestandteil",
+    "source_selector": "a",
+    "attributes": {
+    }
+  },
+  {
+    "type": "link",
+    "order": 73,
+    "text": "20% auf Zusatzprodukte und Commercial Punkte",
+    "href": "https://www.immobilienscout24.de/gewerbe/lp/commercialpunkte/",
+    "asset_url": null,
+    "section": "Produktbestandteil",
+    "source_selector": "a",
+    "attributes": {
+    }
+  },
+  {
+    "type": "link",
+    "order": 74,
+    "text": "Exklusiv-Exposé",
+    "href": "https://www.immobilienscout24.de/anbieten/gewerbliche-anbieter/inserieren/weitere-produkte/exklusiv-expose.html",
+    "asset_url": null,
+    "section": "Produktbestandteil",
+    "source_selector": "a",
+    "attributes": {
+    }
+  },
+  {
+    "type": "link",
+    "order": 75,
+    "text": "Gewerbe Image Paket",
+    "href": "https://www.immobilienscout24.de/anbieten/gewerbliche-anbieter/inserieren/produkte-gewerbe/gewerbe-image-paket.html",
+    "asset_url": null,
+    "section": "Produktbestandteil",
+    "source_selector": "a",
+    "attributes": {
+    }
+  },
+  {
+    "type": "link",
+    "order": 76,
+    "text": "Produktübersicht",
+    "href": "https://www.immobilienscout24.de/anbieten/gewerbliche-anbieter.html",
+    "asset_url": null,
+    "section": "Produktbestandteil",
+    "source_selector": "a.subnav__menu-link",
+    "attributes": {
+      "class": "subnav__menu-link"
+    }
+  },
+  {
+    "type": "link",
+    "order": 77,
+    "text": "Produktdetails",
+    "href": null,
+    "asset_url": null,
+    "section": "Produktbestandteil",
+    "source_selector": "a.subnav__menu-link",
+    "attributes": {
+      "class": "subnav__menu-link"
+    }
+  },
+  {
+    "type": "link",
+    "order": 78,
+    "text": "ImmoCampus",
+    "href": "https://www.immobilienscout24.de/lp/immocampus.html",
+    "asset_url": null,
+    "section": "Produktbestandteil",
+    "source_selector": "a.subnav__menu-link",
+    "attributes": {
+      "class": "subnav__menu-link"
+    }
+  },
+  {
+    "type": "link",
+    "order": 79,
+    "text": "Erfolgsgeschichten",
+    "href": "https://www.immobilienscout24.de/lp/kundenerfolgsgeschichten.html",
+    "asset_url": null,
+    "section": "Produktbestandteil",
+    "source_selector": "a.subnav__menu-link",
+    "attributes": {
+      "class": "subnav__menu-link"
+    }
+  },
+  {
+    "type": "link",
+    "order": 80,
+    "text": "Aktuelles",
+    "href": "https://www.immobilienscout24.de/anbieten/gewerbliche-anbieter/tipps/aktuelle-themen.html",
+    "asset_url": null,
+    "section": "Produktbestandteil",
+    "source_selector": "a.subnav__menu-link",
+    "attributes": {
+      "class": "subnav__menu-link"
+    }
+  },
+  {
+    "type": "list",
+    "order": 81,
+    "text": "Produktübersicht\nProduktdetails\nImmoCampus\nErfolgsgeschichten\nAktuelles",
+    "href": null,
+    "asset_url": null,
+    "section": "Produktbestandteil",
+    "source_selector": "ul.subnav__menu",
+    "attributes": {
+      "class": "subnav__menu"
+    }
+  },
+  {
+    "type": "paragraph",
+    "order": 82,
+    "text": "Mit KontaktPlus erstellen Sie einfach individuelle Kontaktformulare für Ihre Objekte. Definieren Sie, welche Informationen Sie über Ihre:n Interessent:in erfahren wollen und erhalten damit schon vorqualifizierte Kontaktanfragen. So finden Sie schnell und effizient den:die passende:n Kandidat:in.",
+    "href": null,
+    "asset_url": null,
+    "section": "Produktbestandteil",
+    "source_selector": "p",
+    "attributes": {
+    }
+  },
+  {
+    "type": "image",
+    "order": 83,
+    "text": "",
+    "href": null,
+    "asset_url": "https://www.immobilienscout24.de/content/is24/deu/www/de/anbieten/gewerbliche-anbieter/inserieren/mitgliedschaft2015/vermarktung/kontaktplus/_jcr_content/par/image.img.jpg/1647609833537.jpg",
+    "section": "Produktbestandteil",
+    "source_selector": "img",
+    "attributes": {
+    }
+  },
+  {
+    "type": "heading",
+    "order": 84,
+    "text": "Welche Vorteile hat KontaktPlus?",
+    "href": null,
+    "asset_url": null,
+    "section": "Produktbestandteil",
+    "source_selector": "h2.margin-top-m.font-h3.align-center",
+    "attributes": {
+      "class": "margin-top-m font-h3 align-center"
+    }
+  },
+  {
+    "type": "image",
+    "order": 85,
+    "text": "",
+    "href": null,
+    "asset_url": "https://www.immobilienscout24.de/content/is24/deu/www/de/anbieten/gewerbliche-anbieter/inserieren/mitgliedschaft2015/vermarktung/kontaktplus/_jcr_content/par/flexigrid/column1/image.img.jpg/1639145843324.jpg",
+    "section": "Produktbestandteil",
+    "source_selector": "img",
+    "attributes": {
+    }
+  },
+  {
+    "type": "heading",
+    "order": 86,
+    "text": "Vordefinierte und individuelle Kontaktformulare",
+    "href": null,
+    "asset_url": null,
+    "section": "Produktbestandteil",
+    "source_selector": "h3.margin-top-m.font-h4.align-center",
+    "attributes": {
+      "class": "margin-top-m font-h4 align-center"
+    }
+  },
+  {
+    "type": "paragraph",
+    "order": 87,
+    "text": "Erstellen Sie einfach Kontaktformulare auf Ihre Objekte abgestimmt",
+    "href": null,
+    "asset_url": null,
+    "section": "Produktbestandteil",
+    "source_selector": "p",
+    "attributes": {
+    }
+  },
+  {
+    "type": "image",
+    "order": 88,
+    "text": "",
+    "href": null,
+    "asset_url": "https://www.immobilienscout24.de/content/is24/deu/www/de/anbieten/gewerbliche-anbieter/inserieren/mitgliedschaft2015/vermarktung/kontaktplus/_jcr_content/par/flexigrid/column2/image.img.jpg/1639145852289.jpg",
+    "section": "Produktbestandteil",
+    "source_selector": "img",
+    "attributes": {
+    }
+  },
+  {
+    "type": "heading",
+    "order": 89,
+    "text": "Schneller vermarkten",
+    "href": null,
+    "asset_url": null,
+    "section": "Produktbestandteil",
+    "source_selector": "h3.margin-top-m.font-h4.align-center",
+    "attributes": {
+      "class": "margin-top-m font-h4 align-center"
+    }
+  },
+  {
+    "type": "paragraph",
+    "order": 90,
+    "text": "Finden Sie schneller die:den perfekten Mieter:in oder Käufer:in.",
+    "href": null,
+    "asset_url": null,
+    "section": "Produktbestandteil",
+    "source_selector": "p",
+    "attributes": {
+    }
+  },
+  {
+    "type": "image",
+    "order": 91,
+    "text": "",
+    "href": null,
+    "asset_url": "https://www.immobilienscout24.de/content/is24/deu/www/de/anbieten/gewerbliche-anbieter/inserieren/mitgliedschaft2015/vermarktung/kontaktplus/_jcr_content/par/flexigrid/column/image.img.jpg/1639145862010.jpg",
+    "section": "Produktbestandteil",
+    "source_selector": "img",
+    "attributes": {
+    }
+  },
+  {
+    "type": "heading",
+    "order": 92,
+    "text": "Qualifizierte Kontakte",
+    "href": null,
+    "asset_url": null,
+    "section": "Produktbestandteil",
+    "source_selector": "h3.margin-top-m.font-h4.align-center",
+    "attributes": {
+      "class": "margin-top-m font-h4 align-center"
+    }
+  },
+  {
+    "type": "paragraph",
+    "order": 93,
+    "text": "Erhöhen Sie die Qualität Ihrer Kontaktanfragen.",
+    "href": null,
+    "asset_url": null,
+    "section": "Produktbestandteil",
+    "source_selector": "p",
+    "attributes": {
+    }
+  },
+  {
+    "type": "heading",
+    "order": 94,
+    "text": "Orientierungshilfe für die Einstellungen Ihrer Kontaktformulare",
+    "href": null,
+    "asset_url": null,
+    "section": "Produktbestandteil",
+    "source_selector": "h2.margin-top-m.font-h3.align-center",
+    "attributes": {
+      "class": "margin-top-m font-h3 align-center"
+    }
+  },
+  {
+    "type": "paragraph",
+    "order": 95,
+    "text": "Definieren Sie nur die Informationen als Pflichtangaben im Kontaktformular, die Sie zum Zeitpunkt der Kontaktaufnahme von Interessent:innen wirklich benötigen. Hier finden Sie eine Orientierungshilfe, welche Informationen Sie zu welchem Zeitpunkt von Interessent:innen einholen sollten.",
+    "href": null,
+    "asset_url": null,
+    "section": "Produktbestandteil",
+    "source_selector": "p",
+    "attributes": {
+    }
+  },
+  {
+    "type": "link",
+    "order": 96,
+    "text": "Orientierungshilfe öffnen",
+    "href": "https://www.immobilienscout24.de/content/dam/is24/documents/anbieten/gewerbliche-anbieter/OH_SelbstauskunftMietinteressenten.pdf",
+    "asset_url": null,
+    "section": "Produktbestandteil",
+    "source_selector": "a#element231369241.button",
+    "attributes": {
+      "id": "element231369241",
+      "class": "button",
+      "target": "_blank"
+    }
+  },
+  {
+    "type": "heading",
+    "order": 97,
+    "text": "Gerne beraten wir Sie zu unseren Mitgliedschaftten und Produktbestandteilen.",
+    "href": null,
+    "asset_url": null,
+    "section": "Produktbestandteil",
+    "source_selector": "h2.margin-top-l.font-h3.align-center",
+    "attributes": {
+      "class": "margin-top-l font-h3 align-center"
+    }
+  },
+  {
+    "type": "form",
+    "order": 98,
+    "text": "",
+    "href": null,
+    "asset_url": null,
+    "section": "Produktbestandteil",
+    "source_selector": "input",
+    "attributes": {
+    }
+  },
+  {
+    "type": "form",
+    "order": 99,
+    "text": "",
+    "href": null,
+    "asset_url": null,
+    "section": "Produktbestandteil",
+    "source_selector": "input.hide",
+    "attributes": {
+      "class": "hide"
+    }
+  },
+  {
+    "type": "form",
+    "order": 100,
+    "text": "Ich bin",
+    "href": null,
+    "asset_url": null,
+    "section": "Produktbestandteil",
+    "source_selector": "label.required.label-top",
+    "attributes": {
+      "class": "required label-top"
+    }
+  },
+  {
+    "type": "form",
+    "order": 101,
+    "text": "Bitte wählen\nImmobilienmakler:in\nGewerbemakler:in\nHausverwalter:in\nBauträger:in / Projektentwickler:in\nFertig- und Massivhausanbieter:in\nBaufinanzierer:in\nUmzugsunternehmer:in\nSonstiges",
+    "href": null,
+    "asset_url": null,
+    "section": "Produktbestandteil",
+    "source_selector": "select#par-is24form-elements-fieldset-gridcomponent-1679577284-column1-selectcomponent.select",
+    "attributes": {
+      "id": "par-is24form-elements-fieldset-gridcomponent-1679577284-column1-selectcomponent",
+      "class": "select"
+    }
+  },
+  {
+    "type": "form",
+    "order": 102,
+    "text": "Unternehmen",
+    "href": null,
+    "asset_url": null,
+    "section": "Produktbestandteil",
+    "source_selector": "label.label-top",
+    "attributes": {
+      "class": " label-top"
+    }
+  },
+  {
+    "type": "form",
+    "order": 103,
+    "text": "",
+    "href": null,
+    "asset_url": null,
+    "section": "Produktbestandteil",
+    "source_selector": "input#par-is24form-elements-fieldset-gridcomponent-1679577284-column2-text.input-text",
+    "attributes": {
+      "placeholder": "Mustermann GmbH",
+      "id": "par-is24form-elements-fieldset-gridcomponent-1679577284-column2-text",
+      "class": "input-text "
+    }
+  },
+  {
+    "type": "form",
+    "order": 104,
+    "text": "Anrede",
+    "href": null,
+    "asset_url": null,
+    "section": "Produktbestandteil",
+    "source_selector": "label.required.label-top",
+    "attributes": {
+      "class": "required label-top"
+    }
+  },
+  {
+    "type": "form",
+    "order": 105,
+    "text": "Bitte wählen\nHerr\nFrau\nDivers",
+    "href": null,
+    "asset_url": null,
+    "section": "Produktbestandteil",
+    "source_selector": "select#par-is24form-elements-fieldset-gridcomponent-column1-selectcomponent.select",
+    "attributes": {
+      "id": "par-is24form-elements-fieldset-gridcomponent-column1-selectcomponent",
+      "class": "select"
+    }
+  },
+  {
+    "type": "form",
+    "order": 106,
+    "text": "Kundennummer",
+    "href": null,
+    "asset_url": null,
+    "section": "Produktbestandteil",
+    "source_selector": "label.label-top",
+    "attributes": {
+      "class": " label-top"
+    }
+  },
+  {
+    "type": "form",
+    "order": 107,
+    "text": "",
+    "href": null,
+    "asset_url": null,
+    "section": "Produktbestandteil",
+    "source_selector": "input#par-is24form-elements-fieldset-gridcomponent-column2-text.input-text",
+    "attributes": {
+      "placeholder": "12345678",
+      "id": "par-is24form-elements-fieldset-gridcomponent-column2-text",
+      "class": "input-text "
+    }
+  },
+  {
+    "type": "form",
+    "order": 108,
+    "text": "Vorname",
+    "href": null,
+    "asset_url": null,
+    "section": "Produktbestandteil",
+    "source_selector": "label.required.label-top",
+    "attributes": {
+      "class": "required label-top"
+    }
+  },
+  {
+    "type": "form",
+    "order": 109,
+    "text": "",
+    "href": null,
+    "asset_url": null,
+    "section": "Produktbestandteil",
+    "source_selector": "input#par-is24form-elements-fieldset-gridcomponent-1203775265-column1-text.input-text",
+    "attributes": {
+      "id": "par-is24form-elements-fieldset-gridcomponent-1203775265-column1-text",
+      "class": "input-text "
+    }
+  },
+  {
+    "type": "form",
+    "order": 110,
+    "text": "Nachname",
+    "href": null,
+    "asset_url": null,
+    "section": "Produktbestandteil",
+    "source_selector": "label.required.label-top",
+    "attributes": {
+      "class": "required label-top"
+    }
+  },
+  {
+    "type": "form",
+    "order": 111,
+    "text": "",
+    "href": null,
+    "asset_url": null,
+    "section": "Produktbestandteil",
+    "source_selector": "input#par-is24form-elements-fieldset-gridcomponent-1203775265-column2-text.input-text",
+    "attributes": {
+      "placeholder": "Mustermann",
+      "id": "par-is24form-elements-fieldset-gridcomponent-1203775265-column2-text",
+      "class": "input-text "
+    }
+  },
+  {
+    "type": "form",
+    "order": 112,
+    "text": "E-Mail-Adresse",
+    "href": null,
+    "asset_url": null,
+    "section": "Produktbestandteil",
+    "source_selector": "label.label-top",
+    "attributes": {
+      "class": " label-top"
+    }
+  },
+  {
+    "type": "form",
+    "order": 113,
+    "text": "",
+    "href": null,
+    "asset_url": null,
+    "section": "Produktbestandteil",
+    "source_selector": "input#par-is24form-elements-fieldset-gridcomponent-398389499-column1-text.input-text",
+    "attributes": {
+      "id": "par-is24form-elements-fieldset-gridcomponent-398389499-column1-text",
+      "class": "input-text "
+    }
+  },
+  {
+    "type": "form",
+    "order": 114,
+    "text": "Telefonnummer",
+    "href": null,
+    "asset_url": null,
+    "section": "Produktbestandteil",
+    "source_selector": "label.required.label-top",
+    "attributes": {
+      "class": "required label-top"
+    }
+  },
+  {
+    "type": "form",
+    "order": 115,
+    "text": "",
+    "href": null,
+    "asset_url": null,
+    "section": "Produktbestandteil",
+    "source_selector": "input#par-is24form-elements-fieldset-gridcomponent-398389499-column2-text.input-text",
+    "attributes": {
+      "placeholder": "030-1234567",
+      "id": "par-is24form-elements-fieldset-gridcomponent-398389499-column2-text",
+      "class": "input-text "
+    }
+  },
+  {
+    "type": "form",
+    "order": 116,
+    "text": "Ihre Nachricht an uns",
+    "href": null,
+    "asset_url": null,
+    "section": "Produktbestandteil",
+    "source_selector": "label.label-top",
+    "attributes": {
+      "class": " label-top"
+    }
+  },
+  {
+    "type": "form",
+    "order": 117,
+    "text": "",
+    "href": null,
+    "asset_url": null,
+    "section": "Produktbestandteil",
+    "source_selector": "textarea#par-is24form-elements-fieldset-gridcomponent-1255213316-column1-textarea.textarea",
+    "attributes": {
+      "id": "par-is24form-elements-fieldset-gridcomponent-1255213316-column1-textarea",
+      "class": "textarea"
+    }
+  },
+  {
+    "type": "form",
+    "order": 118,
+    "text": "",
+    "href": null,
+    "asset_url": null,
+    "section": "Produktbestandteil",
+    "source_selector": "input#par-is24form-elements-fieldset-gridcomponent-996530839-column1-hidden-1967612094",
+    "attributes": {
+      "id": "par-is24form-elements-fieldset-gridcomponent-996530839-column1-hidden-1967612094"
+    }
+  },
+  {
+    "type": "form",
+    "order": 119,
+    "text": "",
+    "href": null,
+    "asset_url": null,
+    "section": "Produktbestandteil",
+    "source_selector": "input#par-is24form-elements-fieldset-gridcomponent-996530839-column1-hidden-804551685",
+    "attributes": {
+      "id": "par-is24form-elements-fieldset-gridcomponent-996530839-column1-hidden-804551685"
+    }
+  },
+  {
+    "type": "form",
+    "order": 120,
+    "text": "",
+    "href": null,
+    "asset_url": null,
+    "section": "Produktbestandteil",
+    "source_selector": "input#par-is24form-elements-fieldset-gridcomponent-996530839-column1-hidden-197858730",
+    "attributes": {
+      "id": "par-is24form-elements-fieldset-gridcomponent-996530839-column1-hidden-197858730"
+    }
+  },
+  {
+    "type": "form",
+    "order": 121,
+    "text": "",
+    "href": null,
+    "asset_url": null,
+    "section": "Produktbestandteil",
+    "source_selector": "input#par-is24form-elements-fieldset-gridcomponent-996530839-column1-hidden-1233771283",
+    "attributes": {
+      "id": "par-is24form-elements-fieldset-gridcomponent-996530839-column1-hidden-1233771283"
+    }
+  },
+  {
+    "type": "form",
+    "order": 122,
+    "text": "",
+    "href": null,
+    "asset_url": null,
+    "section": "Produktbestandteil",
+    "source_selector": "input#par-is24form-elements-fieldset-gridcomponent-996530839-column1-hidden",
+    "attributes": {
+      "id": "par-is24form-elements-fieldset-gridcomponent-996530839-column1-hidden"
+    }
+  },
+  {
+    "type": "form",
+    "order": 123,
+    "text": "",
+    "href": null,
+    "asset_url": null,
+    "section": "Produktbestandteil",
+    "source_selector": "input#par-is24form-elements-fieldset-gridcomponent-996530839-column2-hidden-1964967099",
+    "attributes": {
+      "id": "par-is24form-elements-fieldset-gridcomponent-996530839-column2-hidden-1964967099"
+    }
+  },
+  {
+    "type": "form",
+    "order": 124,
+    "text": "",
+    "href": null,
+    "asset_url": null,
+    "section": "Produktbestandteil",
+    "source_selector": "input#par-is24form-elements-fieldset-gridcomponent-996530839-column2-hidden-409858237",
+    "attributes": {
+      "id": "par-is24form-elements-fieldset-gridcomponent-996530839-column2-hidden-409858237"
+    }
+  },
+  {
+    "type": "form",
+    "order": 125,
+    "text": "",
+    "href": null,
+    "asset_url": null,
+    "section": "Produktbestandteil",
+    "source_selector": "input#par-is24form-elements-fieldset-gridcomponent-996530839-column2-hidden-961758524",
+    "attributes": {
+      "id": "par-is24form-elements-fieldset-gridcomponent-996530839-column2-hidden-961758524"
+    }
+  },
+  {
+    "type": "cta",
+    "order": 126,
+    "text": "Jetzt Rückruf anfordern",
+    "href": null,
+    "asset_url": null,
+    "section": "Produktbestandteil",
+    "source_selector": "button#element587755365-btn.palm-one-whole.overflow-hidden.button-primary.font-bold.float-right",
+    "attributes": {
+      "id": "element587755365-btn",
+      "class": "palm-one-whole overflow-hidden  button-primary font-bold float-right"
+    }
+  },
+  {
+    "type": "link",
+    "order": 127,
+    "text": "Jetzt Rückruf anfordern",
+    "href": "https://www.immobilienscout24.de/anbieten/gewerbliche-anbieter/inserieren/mitgliedschaft2015/vermarktung/kontaktplus.html#kontakt",
+    "asset_url": null,
+    "section": "Produktbestandteil",
+    "source_selector": "a.button-primary",
+    "attributes": {
+      "class": "button-primary"
+    }
+  }
+]
