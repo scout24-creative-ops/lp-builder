@@ -1,0 +1,43 @@
+{
+  "release": "contentful/layout-v1",
+  "stylesheet": "releases/contentful/layout-v1/lpbuilder-bridge.css",
+  "sha256": "923d6924375d34e9045761d9e9ce6557a27eefa28e00c2e6290c2cb282c657d0",
+  "bytes": 58814,
+  "base": {
+    "path": "runtime/contentful/lpbuilder-bridge.css",
+    "sha256": "26f018bc0f3bb5c2f9e660ef2cba5a8a71b4c93e95c2ba33775bed51795867dc"
+  },
+  "layoutPatch": {
+    "source": "modules/contentful-runtime/lpbuilder-bridge.css",
+    "sha256": "d136616a293dcf2f86e734ba534d90eb552f0b286f97a73c19cda74db8a37f0a"
+  },
+  "layout": {
+    "generatedFrom": "design-system/tokens/brands/immoscout24.json#layout.lp",
+    "containerMaxWidth": 1200,
+    "paddingInline": [
+      {
+        "minWidth": 0,
+        "value": 16
+      },
+      {
+        "minWidth": 669,
+        "value": 24
+      },
+      {
+        "minWidth": 1014,
+        "value": 32
+      }
+    ],
+    "referenceViewports": {
+      "desktop": 1600,
+      "mobile": 392
+    },
+    "notes": [
+      "Contentful renderer geometry verified on 2026-11-21 with a neutral draft page. Width includes padding.",
+      "Reference viewports are design/test sizes, never fixed mobile content widths.",
+      "Full-bleed media may reach the viewport edges; content aligns to the renderer container."
+    ]
+  },
+  "javascript": "runtime/contentful/lpbuilder-runtime.js",
+  "activation": "Publish this asset first, verify its bytes, then review and deploy the renderer URL change. Existing URLs stay unchanged."
+}

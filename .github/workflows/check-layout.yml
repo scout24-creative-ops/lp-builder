@@ -14,4 +14,5 @@ jobs:
         with:
           node-version: '22'
       - run: npm install --no-save playwright && npx playwright install --with-deps chromium
+      - run: python3 modules/contentful-runtime/releases/build_layout_v1.py --check
       - run: node modules/contentful-runtime/checks/test_layout.cjs
