@@ -1,0 +1,14 @@
+interface:
+  display_name: Content-Factory-LP-Builder
+  short_description: Blueprint- und CF-Landingpages in Contentful erstellen
+  default_prompt: 'Nutze $content-factory-lp-builder: Erstelle eine neue Page nach
+    Blueprint.'
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

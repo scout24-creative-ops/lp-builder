@@ -1,0 +1,2352 @@
+{
+  "date": "2026-11-21",
+  "source_commit": "6ea766255cfa13e31341f56720dfbc5fe8582229",
+  "archive": "scout24-creative-ops/_archive/repositories/lp-builder/2026-11-21/",
+  "historical_tests": {
+    "passed": 85,
+    "total": 86,
+    "known_failure": "Missing original News Home.dc.html / Category / Article UX exports; unchanged historical suite remains restorable."
+  },
+  "files": [
+    {
+      "old_path": ".gitignore",
+      "new_path": ".gitignore",
+      "disposition": "retained",
+      "sha256": "cf237c7aff44efbe6e502e645c3e06da03a69d7bdeb43392108ef3348143417e"
+    },
+    {
+      "old_path": "AGENTS.md",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "3800667d9e3a2f7f5d188e4285a5752d192b488fd9bb09bcb94b6a779e74cbd4"
+    },
+    {
+      "old_path": "DISTRIBUTION.md",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "f6ada8c5bead5e93157e3bc8081202d41734bea5b3226928450cf2dac8ae9453"
+    },
+    {
+      "old_path": "README.md",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "e8d2e45ad64a482f7c09be8d70b3dfee5e53e9ee21889eac7049668a0e7af070"
+    },
+    {
+      "old_path": "aem/.gitignore",
+      "new_path": "aem/.gitignore",
+      "disposition": "retained",
+      "sha256": "cf237c7aff44efbe6e502e645c3e06da03a69d7bdeb43392108ef3348143417e"
+    },
+    {
+      "old_path": "aem/AGENTS.md",
+      "new_path": "aem/AGENTS.md",
+      "disposition": "retained",
+      "sha256": "9d97a8edba083959e4a81aad67eda50d2d2a340c4918f838cd0aa508ed8cc588"
+    },
+    {
+      "old_path": "aem/agent/guardrails.md",
+      "new_path": "aem/agent/guardrails.md",
+      "disposition": "retained",
+      "sha256": "cf136ca0ddd1d7d577adc08c949c42b92a99836a6d3924347bdc9c760cb15b80"
+    },
+    {
+      "old_path": "aem/agent/how-it-works.md",
+      "new_path": "aem/agent/how-it-works.md",
+      "disposition": "retained",
+      "sha256": "931c49cbf609bfbdd94aa4270f14b810fb6f9ff24f94f53311c113af5a2acb6f"
+    },
+    {
+      "old_path": "aem/agent/systemprompt.md",
+      "new_path": "aem/agent/systemprompt.md",
+      "disposition": "retained",
+      "sha256": "2e3639d0e60652c81678a87562a78a24587e619f4ccb8d781db9f6e2fec42ff4"
+    },
+    {
+      "old_path": "aem/agent/tone-of-voice.md",
+      "new_path": "aem/agent/tone-of-voice.md",
+      "disposition": "retained",
+      "sha256": "3a3a878d96211ce110ad076fb39e5f702efd58f847369d046acdadbed8b8eb13"
+    },
+    {
+      "old_path": "aem/agent-upload/manifest.md",
+      "new_path": "aem/agent-upload/manifest.md",
+      "disposition": "retained",
+      "sha256": "0f6fb5eb8000ff328c4d756206151a454ac6234962e4f39db68efee5274780f5"
+    },
+    {
+      "old_path": "aem/docs/dependency-map.md",
+      "new_path": "aem/docs/dependency-map.md",
+      "disposition": "retained",
+      "sha256": "e477296f49be6051b1a7fc74de6dcde4c38a1b5ded08496125e453803b116125"
+    },
+    {
+      "old_path": "aem/docs/inventory.md",
+      "new_path": "aem/docs/inventory.md",
+      "disposition": "retained",
+      "sha256": "73c3a9bd67bc1881d8c08b9143fc2a675bae3589819add6d78e5af3fee5e17cd"
+    },
+    {
+      "old_path": "aem/docs/migration-plan.md",
+      "new_path": "aem/docs/migration-plan.md",
+      "disposition": "retained",
+      "sha256": "58d6b9abf3543f8a2bd1a3106e0e3cf7dcbe6ef01ad058d2d8efee35381cf1da"
+    },
+    {
+      "old_path": "aem/docs/open-questions.md",
+      "new_path": "aem/docs/open-questions.md",
+      "disposition": "retained",
+      "sha256": "0c0619e24317c870aa31e133ee053a982e88c71d380402a1eadae194e5bab934"
+    },
+    {
+      "old_path": "aem/knowledge/component-library.html",
+      "new_path": "aem/knowledge/component-library.html",
+      "disposition": "retained",
+      "sha256": "15130618594121d5a5b71a15b5e682cb0db6234ac73e4d6a430251729ed714f9"
+    },
+    {
+      "old_path": "aem/knowledge/icon-library.html",
+      "new_path": "aem/knowledge/icon-library.html",
+      "disposition": "retained",
+      "sha256": "f00f9ea75784f9f5cccfaf2465d16c8ebda0bd15d455950c92f3f6435105ec8b"
+    },
+    {
+      "old_path": "aem/knowledge/module-metadata.json",
+      "new_path": "aem/knowledge/module-metadata.json",
+      "disposition": "retained",
+      "sha256": "9c9e2aeb7f8be2ce210374c256787bc5d6254783d2a79d9d4cc32c59c7b3de54"
+    },
+    {
+      "old_path": "aem/tests/test_aem_output_contract.py",
+      "new_path": "aem/tests/test_aem_output_contract.py",
+      "disposition": "retained",
+      "sha256": "5e4b209ee7e4ddbc133edfe70faf9905df927b569584fbcf4d2324d39a8894de"
+    },
+    {
+      "old_path": "aem/tests/test_component_library_modules.cjs",
+      "new_path": "aem/tests/test_component_library_modules.cjs",
+      "disposition": "retained",
+      "sha256": "5409524da699b99dc867a9da39c58a50fbe9e404c7a07557358292f5baddf0bc"
+    },
+    {
+      "old_path": "aem/tests/test_contentful_runtime.cjs",
+      "new_path": "aem/tests/test_contentful_runtime.cjs",
+      "disposition": "retained",
+      "sha256": "0097fef69fdbb253361a93a9b901ac065d78437c0e182e11d6d688a2cf09ef14"
+    },
+    {
+      "old_path": "contentful/.gitignore",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "a57b39b87c75fd09fb50d56c457f7e3ee0bd0f514fbf45e948dc6c5b99ffd521"
+    },
+    {
+      "old_path": "contentful/AGENTS.md",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "f63daefde178db59c6b493e1e4e9eb987014abb7a37a9a1fb1e497e037e9bdc4"
+    },
+    {
+      "old_path": "contentful/README.md",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "3cfc5d8dcd893d423711711e61b0f968581b8ea78c52ff8bdc6e70e549e4a323"
+    },
+    {
+      "old_path": "contentful/SEO Module/lp-builder-seo-content-sidebar-handover.md",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "6dfc124e39022c749896ec2944abb741fbbec07a6aa5243dd015bc4884c8a380"
+    },
+    {
+      "old_path": "contentful/assets/action-tiles/gewerbe.svg",
+      "new_path": "modules/assets/action-tiles/gewerbe.svg",
+      "disposition": "retained",
+      "sha256": "26e3da026b1475d0220c53c1d972ea9ab7f91336cc91bfe6cc337e8dcd002a86"
+    },
+    {
+      "old_path": "contentful/assets/action-tiles/grundstueck.svg",
+      "new_path": "modules/assets/action-tiles/grundstueck.svg",
+      "disposition": "retained",
+      "sha256": "8525becb0d546f7fc25ff32ec6c4befd83a68010f1903aba415e1d86598e1302"
+    },
+    {
+      "old_path": "contentful/assets/action-tiles/haus.svg",
+      "new_path": "modules/assets/action-tiles/haus.svg",
+      "disposition": "retained",
+      "sha256": "2705b067ce53096ae3324bdcf457eba0dfc17f2fe93d7c6842d5b4bc6b11adf8"
+    },
+    {
+      "old_path": "contentful/assets/action-tiles/wohnung.svg",
+      "new_path": "modules/assets/action-tiles/wohnung.svg",
+      "disposition": "retained",
+      "sha256": "6f608fd1c8b548ca39010faad11eb5e21403041be1014496d0d866c2f89fd26a"
+    },
+    {
+      "old_path": "contentful/assets/callouts/avatar_man.png",
+      "new_path": "modules/assets/callouts/avatar_man.png",
+      "disposition": "retained",
+      "sha256": "30ef62fdaf18fa7a155f31305b290988d8fa43ff929ff8f597e451dfa7c3067e"
+    },
+    {
+      "old_path": "contentful/assets/callouts/news.png",
+      "new_path": "modules/assets/callouts/news.png",
+      "disposition": "retained",
+      "sha256": "99c64b94b0da7c86c89e3ebeb23a0c41e93d49382f3aa1b51839fd4413ba5b1a"
+    },
+    {
+      "old_path": "contentful/assets/callouts/star.png",
+      "new_path": "modules/assets/callouts/star.png",
+      "disposition": "retained",
+      "sha256": "6a8ca487e109c54df6d01313433a6dd766235cac55a91b07e7656fac8eafb0c2"
+    },
+    {
+      "old_path": "contentful/assets/scaling-editorial/building-scaling-editorial-test-1920x1080.png",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "81cb81b605584232b946fc2ac0439b415265dd4aa5bb009cc7b79808f23426be"
+    },
+    {
+      "old_path": "contentful/assets/scaling-editorial/ux/fonts/MakeItBetter-Bold.woff2",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "b395d3bcf954ec4f2cd377407d8c6b16a81df5da18736f1f1455c206ddbd6283"
+    },
+    {
+      "old_path": "contentful/assets/scaling-editorial/ux/fonts/MakeItBetter-Regular.woff2",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "706eebc778821eec9083037106e3a383894df5eea5aa2cb237f28f2bd7a78384"
+    },
+    {
+      "old_path": "contentful/assets/scaling-editorial/ux/fonts/MakeItBetter-XBold.woff2",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "fe964028848cbc12bf79b2969d22ebfcce5e296a28b201e54c06faf43c0220a7"
+    },
+    {
+      "old_path": "contentful/assets/scaling-editorial/ux/news/lead.jpg",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "c3319cd1f3beb9726d9b406a81fcac2f57ac6bd29db2ed7096959cb8d14dfb44"
+    },
+    {
+      "old_path": "contentful/assets/scaling-editorial/ux/news/lt1.webp",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "fc6330ea9e8933dfbc37d3c8a483057853e25f2a4878db88a8b94e20986b7ba7"
+    },
+    {
+      "old_path": "contentful/assets/scaling-editorial/ux/news/lt2.webp",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "08cb7723a38a10bd8de4bbdaadff66a2fee8dcf0d3ad9ed5ab1b95d91194e67b"
+    },
+    {
+      "old_path": "contentful/assets/scaling-editorial/ux/news/lt3.jpg",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "2225b3c355e6a5f7327ed1ebaf56078e305977cb4caa50ed78c2e6d6a05c2fae"
+    },
+    {
+      "old_path": "contentful/assets/scaling-editorial/ux/news/mf1.jpg",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "18ea359199d5544bcf0527508cc9452e5bb543cc5a77ccd202e64937970bbf69"
+    },
+    {
+      "old_path": "contentful/assets/scaling-editorial/ux/news/mf2.jpg",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "69b1c2d16845a80924ec10c07cabba080dc5069b46266552a5b2e6d463c4a337"
+    },
+    {
+      "old_path": "contentful/assets/scaling-editorial/ux/news/mf4.webp",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "64ba2147831bbe2c6e22d2dd03af3dace310ec624e45cb7d06bd0b694deeef3a"
+    },
+    {
+      "old_path": "contentful/assets/scaling-editorial/ux/news/mf6.jpg",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "a51642ca5f52eb7f8c78b961e03960db4e7c11d1824f9e6c86065d138895774a"
+    },
+    {
+      "old_path": "contentful/assets/scaling-editorial/ux/news/rec1.jpg",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "ec96047ad03c6a957f99c38b62f5335f4791ddd515c0eb7403090cd8db6d31df"
+    },
+    {
+      "old_path": "contentful/assets/scaling-editorial/ux/news/rec2.webp",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "9d1815b2172380f0373c6bc61e57a3634ada6068eddc6dbfe531e9b145bb21e6"
+    },
+    {
+      "old_path": "contentful/assets/scaling-editorial/ux/news/rec3.avif",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "40323838ea58bddd50a7ed59e788f9fa64e1d994f91234c14f4d5aeec5bd0dda"
+    },
+    {
+      "old_path": "contentful/assets/scaling-editorial/ux/news/rec4.webp",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "e1e0e4711ffc4ef915b8cd4a444bb2b15907c9a39fc405e5eb5fa1ddb49a5ee7"
+    },
+    {
+      "old_path": "contentful/assets/scaling-editorial/ux/news/trend1.png",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "f5f59eb5acac6b52e2cd5233b9f0aa87628651df96a1cf0a9455b33225510215"
+    },
+    {
+      "old_path": "contentful/assets/scaling-editorial/ux/news/trend2.png",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "786d33e73f01da818c5fc1a58fab20f36dcf54b656f58ea7a409ddf3bb5bee1c"
+    },
+    {
+      "old_path": "contentful/assets/scaling-editorial/ux/news/trend3.png",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "a4abdd5d96a7f3da47486abba40f1063d7e07116d071b98b7fd0a928759e0b3e"
+    },
+    {
+      "old_path": "contentful/assets/scaling-editorial/ux/news/twArch.jpg",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "4b13104a9389d3485cc77baa4446c6d1f244295238db0623246381cb94575aea"
+    },
+    {
+      "old_path": "contentful/assets/scaling-editorial/ux/news/twBes.jpg",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "4fe88d264c2c66f14fa1b0d33b7cf4a17b5893ada5dc77f4648774f009a2f703"
+    },
+    {
+      "old_path": "contentful/assets/scaling-editorial/ux/news/twPromi.webp",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "1a12fda700e699517ae92282a12094c4fc5488c94b07c51d58a8d7bf8446b86e"
+    },
+    {
+      "old_path": "contentful/assets/servicetiles/badge_plus.svg",
+      "new_path": "modules/assets/servicetiles/badge_plus.svg",
+      "disposition": "retained",
+      "sha256": "e0556d8a9833d0652081a2311fe85ba9cf881092f7aa1f62a3940bafbe331e83"
+    },
+    {
+      "old_path": "contentful/assets/servicetiles/finanzieren.svg",
+      "new_path": "modules/assets/servicetiles/finanzieren.svg",
+      "disposition": "retained",
+      "sha256": "3036e352c47b554ad4c4d9d22b57f4fbca9c537b00d5a3191bfc274f1292bacb"
+    },
+    {
+      "old_path": "contentful/assets/servicetiles/mieter-kaeufer-plus.svg",
+      "new_path": "modules/assets/servicetiles/mieter-kaeufer-plus.svg",
+      "disposition": "retained",
+      "sha256": "adddf78b5ab93c1c69b8b3c9f5f740fdbb0367663007d7db2c59dc8d50ed810c"
+    },
+    {
+      "old_path": "contentful/assets/servicetiles/mobile-service-icon.svg",
+      "new_path": "modules/assets/servicetiles/mobile-service-icon.svg",
+      "disposition": "retained",
+      "sha256": "b795699ba7585aa0087dc33109b5eff8f7c5f697b100bb78d1869d61cfde6aa6"
+    },
+    {
+      "old_path": "contentful/assets/servicetiles/schufa-bonitaetscheck.svg",
+      "new_path": "modules/assets/servicetiles/schufa-bonitaetscheck.svg",
+      "disposition": "retained",
+      "sha256": "5cf9cec5bb2dd0492df2f0985fd2eb669c67673675dd921789cb3278f45e7e62"
+    },
+    {
+      "old_path": "contentful/assets/servicetiles/suche-speichern.svg",
+      "new_path": "modules/assets/servicetiles/suche-speichern.svg",
+      "disposition": "retained",
+      "sha256": "701a8d9172c330ac4b209f3312503bef78ad4164a557c2181508f1fb68ea0a65"
+    },
+    {
+      "old_path": "contentful/assets/servicetiles/umziehen.svg",
+      "new_path": "modules/assets/servicetiles/umziehen.svg",
+      "disposition": "retained",
+      "sha256": "890845a8eca58e1583d54d764af88c28e785dcca68e0090bf4c6255a067e7af7"
+    },
+    {
+      "old_path": "contentful/concepts/scaling-editorial-structured-content/README.md",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "caf63c4f0c7689d7498e1c21c06753a55487ee2b6d1856a6debe44dd285d3ae4"
+    },
+    {
+      "old_path": "contentful/concepts/scaling-editorial-structured-content/action-examples.json",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "b091df493b930cb902676f2f49212ed1052a19b9ca52cb50616ceab591b3be2c"
+    },
+    {
+      "old_path": "contentful/concepts/scaling-editorial-structured-content/content-contract.md",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "896e74c294b49f57b88b2c0636b35c89daee4333a27b18211395ab763692836c"
+    },
+    {
+      "old_path": "contentful/concepts/scaling-editorial-structured-content/normalized-article.example.json",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "60d743a559039803669af93258f74dda9544a6aef78edc7aed86deb60e80124a"
+    },
+    {
+      "old_path": "contentful/concepts/scaling-editorial-structured-content/proof.mjs",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "19bc5ba2cefa466b6ed64c5cf89638462adb76433d526cee32fc93c41eabbf3e"
+    },
+    {
+      "old_path": "contentful/concepts/scaling-editorial-structured-content/proof.test.mjs",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "c892c922384316952626196a312699643f01e60599001144c54be2a7e8318372"
+    },
+    {
+      "old_path": "contentful/docs/known-gaps.md",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "3a1c1da56b00341e00cd8f301a7e46e6aca31e2b0ab4a1e133adbea5cd7e60b1"
+    },
+    {
+      "old_path": "contentful/docs/runtime-delivery.md",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "c516023db83adc54161623995a643fc548bee59acc825d25b9c9419d9bfdb823"
+    },
+    {
+      "old_path": "contentful/gpt-package/building-policy.md",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "737012899f995a5ba371879f3bdc4bd65956dfbcb1df3566210316fb8438cf7a"
+    },
+    {
+      "old_path": "contentful/gpt-package/component-library.html",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "84ef255448513e28f33524b020c1afed4bd3b8748566e861d019dff37bb8ee9c"
+    },
+    {
+      "old_path": "contentful/gpt-package/contentful-integration.md",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "6be7e7145a2c1752482e7137d5060984187bf39492f8b158da2e3dc47c1c507b"
+    },
+    {
+      "old_path": "contentful/gpt-package/cosma-icons-static.md",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "0fc5fd16dec539c142ea26f9499acfd72f70f79e24591858e378ad470985de9e"
+    },
+    {
+      "old_path": "contentful/gpt-package/main-instructions.md",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "b3e4865c45601eb87895be614863b74d62d15ebe3f1ea7ce35c1d74f02f4385c"
+    },
+    {
+      "old_path": "contentful/gpt-package/migration-mode.md",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "62650479ff3d8935b74a29028ad9b67eff3b44ee384adc90a4e28f7382e0e21b"
+    },
+    {
+      "old_path": "contentful/libraries/design-library.html",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "e9cc767edcd2ffe46b8148383b88f52b96c397109c3a9fbed8f9f4824088a24e"
+    },
+    {
+      "old_path": "contentful/libraries/design-tokens.md",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "7435949fd66f35631361f4601cbfc9341fd343bae33f63f413a7236458b34ff6"
+    },
+    {
+      "old_path": "contentful/libraries/module-library-elements.html",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "2b2a0a045397ae509b5cf798147f748967c3d94530c5cb6dfacb6baaddaf93cf"
+    },
+    {
+      "old_path": "contentful/libraries/module-library-page-modules-1.html",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "4ffab537dcc911e9711cddc6e44f14bff6513ec7d63d6bada2dc86416181ef75"
+    },
+    {
+      "old_path": "contentful/libraries/module-library-page-modules.html",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "c8d1dbdf2a0d5a121bed0e79881873deefa458c7ec6db83f04aad7dc2b7906c4"
+    },
+    {
+      "old_path": "contentful/libraries/module-library.html",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "6dc13ff74d692fa40baeba924c87afc3996c3d2f7787fbb99fd4ecec910711be"
+    },
+    {
+      "old_path": "contentful/libraries/runtime-rules.md",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "b5fb61c2c2167cf22394cd5487c28e57f31aca36720cf50ab7cc036cca0e8635"
+    },
+    {
+      "old_path": "contentful/migration/crawl/gold-memberschaften-produktdetails/pages/anbieten-gewerbliche-anbieter-inserieren-mitgliedschaft2015-vermarktung-kontaktplus-3c7eef3686/assets/asset-1-08459f28dae8.jpg",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "ba2a5a478c51b8c62819cc381ae639a7b19e3ff0e3de7e484902651ab48b9cde"
+    },
+    {
+      "old_path": "contentful/migration/crawl/gold-memberschaften-produktdetails/pages/anbieten-gewerbliche-anbieter-inserieren-mitgliedschaft2015-vermarktung-kontaktplus-3c7eef3686/assets/asset-2-dcd074169bc8.jpg",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "db27722b17f2c6d52562eacbe1965568fb0cb383bde4c0b95764acd224a08d7e"
+    },
+    {
+      "old_path": "contentful/migration/crawl/gold-memberschaften-produktdetails/pages/anbieten-gewerbliche-anbieter-inserieren-mitgliedschaft2015-vermarktung-kontaktplus-3c7eef3686/assets/asset-3-a8cf7a6c7c75.jpg",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "2b5f6758c7de0b5c9fb90ed24b6c1d28e23e9ae18d51dab79b3892c286fa5a94"
+    },
+    {
+      "old_path": "contentful/migration/crawl/gold-memberschaften-produktdetails/pages/anbieten-gewerbliche-anbieter-inserieren-mitgliedschaft2015-vermarktung-kontaktplus-3c7eef3686/assets/asset-4-5148d9800820.jpg",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "71f0d4c352673ff71375fd3df91ac3d7b18016172f8c14b7b31a60a5c63073b7"
+    },
+    {
+      "old_path": "contentful/migration/crawl/gold-memberschaften-produktdetails/pages/anbieten-gewerbliche-anbieter-inserieren-mitgliedschaft2015-vermarktung-kontaktplus-3c7eef3686/assets/asset-5-5c6e5be5b160.png",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "f1adaa3029271c2d2afb11b0b460035430ab898ba067e615f3641d0f25e33882"
+    },
+    {
+      "old_path": "contentful/migration/crawl/gold-memberschaften-produktdetails/pages/anbieten-gewerbliche-anbieter-inserieren-mitgliedschaft2015-vermarktung-kontaktplus-3c7eef3686/assets/asset-6-235d56ffd61e.bin",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "f3ca3118d9eceb4028fb8b62693e34913badaedfc8d62eed83ed744697bf12f9"
+    },
+    {
+      "old_path": "contentful/migration/crawl/gold-memberschaften-produktdetails/pages/anbieten-gewerbliche-anbieter-inserieren-mitgliedschaft2015-vermarktung-kontaktplus-3c7eef3686/assets/asset-7-e3aca9620c5c.bin",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "old_path": "contentful/migration/crawl/gold-memberschaften-produktdetails/pages/anbieten-gewerbliche-anbieter-inserieren-mitgliedschaft2015-vermarktung-kontaktplus-3c7eef3686/assets/asset-8-9cc2b73d6f98.bin",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "old_path": "contentful/migration/crawl/gold-memberschaften-produktdetails/pages/anbieten-gewerbliche-anbieter-inserieren-mitgliedschaft2015-vermarktung-kontaktplus-3c7eef3686/content.json",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "08756224625adc32778e87b91c8153311e96fd9ebb3666459d5415747d0a8e06"
+    },
+    {
+      "old_path": "contentful/migration/crawl/gold-memberschaften-produktdetails/pages/anbieten-gewerbliche-anbieter-inserieren-mitgliedschaft2015-vermarktung-kontaktplus-3c7eef3686/metadata.json",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "04c18f655d8c9d9f83e393ab890987eb93b1c3e0494600e7508c787777991803"
+    },
+    {
+      "old_path": "contentful/migration/crawl/gold-memberschaften-produktdetails/pages/anbieten-gewerbliche-anbieter-inserieren-mitgliedschaft2015-vermarktung-kontaktplus-3c7eef3686/rendered.html",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "5bf088dbd794030e203d877cfb69b48d0d89cd948652c05953f3dec031cbe582"
+    },
+    {
+      "old_path": "contentful/migration/crawl/gold-memberschaften-produktdetails/pages/anbieten-gewerbliche-anbieter-inserieren-mitgliedschaft2015-vermarktung-kontaktplus-3c7eef3686/screenshot-fullpage.png",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "5e50425b373537a82a7c9e1fe0216f1a522b92354e4b3aada3575caea3d56d02"
+    },
+    {
+      "old_path": "contentful/references/GPT-M/00-system-priority (1).md",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "9fec31e0220ec08ed765c97488d31959d44665b85fd443de7337b162c2afe385"
+    },
+    {
+      "old_path": "contentful/references/GPT-M/03-contentful-modeling.md",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "8e923f5a4b4ddd83e7999a0432609b6c0d43aa87212d7f7da635781d9ff2f14a"
+    },
+    {
+      "old_path": "contentful/references/GPT-M/04-seo-guide.md",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "7645c5e8303a8fc15c40f40d591d8e2d20d039d5c297e107af83ddf3a235c008"
+    },
+    {
+      "old_path": "contentful/references/GPT-M/05-accessibility.md",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "124f8c5abd86c5412602b5f0e547aced7d4f17f92994fdf38087e603f9881877"
+    },
+    {
+      "old_path": "contentful/references/GPT-M/08-mcp-workflow.md",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "560cb041885c1619893fbfd5714404fbb1360626344ab40a323987ee9da05576"
+    },
+    {
+      "old_path": "contentful/references/GPT-M/09-ai-behavior.md",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "3c7e5d80c649a3a9fad0a7e53c63de6c7b8870f586dafe99eda6067a83466e2e"
+    },
+    {
+      "old_path": "contentful/references/GPT-M/component-library.html",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "51e0316ef41611f529dc31f1090a9f99fd3a56756c863669e19dfaf9532a35e6"
+    },
+    {
+      "old_path": "contentful/references/GPT-M/guardrails.md",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "19326974c7150a8f1a59e8910ad5eab16700080bce9484b8b328fb6bc50fbefc"
+    },
+    {
+      "old_path": "contentful/references/GPT-M/how-it-works.md",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "931c49cbf609bfbdd94aa4270f14b810fb6f9ff24f94f53311c113af5a2acb6f"
+    },
+    {
+      "old_path": "contentful/references/GPT-M/icon_library.md",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "8fb15dc0bf8d8b213aea5c7cee29381288c683f1caae23fc71128bc085c2da56"
+    },
+    {
+      "old_path": "contentful/references/GPT-M/main-instructions.md",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "8168c78b9c3f0ecb5c97bbb2cd219432ad7a7dcfcb122928f1b92b01a1e17af3"
+    },
+    {
+      "old_path": "contentful/references/GPT-M/openapi.yaml",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "ec51a4d5fc7c91c45c8e0db3be3b0c443830beac36a962d12a566539be428965"
+    },
+    {
+      "old_path": "contentful/references/GPT-M/tone-of-voice.md",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "7801634b0bc0cd06817aa35492907c93fd09e4aed3de1885d4c59f8f6e049180"
+    },
+    {
+      "old_path": "contentful/references/GPT-before-rebuild:/component-library.html",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "34aa991b5d1bff3272cabe0bd8226ca039a2829340f4a876b17c5485eca2eb11"
+    },
+    {
+      "old_path": "contentful/references/GPT-before-rebuild:/contentful-integration.md",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "d658c388336cfc0deb7a7e40009b6c6516a1b02c14bdcaa9ed053c3a1efedfbc"
+    },
+    {
+      "old_path": "contentful/references/GPT-before-rebuild:/cosma-icons-static.md",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "0fc5fd16dec539c142ea26f9499acfd72f70f79e24591858e378ad470985de9e"
+    },
+    {
+      "old_path": "contentful/references/GPT-before-rebuild:/foundation-rules.md",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "97359b4a6f5aa7b8604e838ae251ae20d64dd05b952dea7d42424aadb808cd65"
+    },
+    {
+      "old_path": "contentful/references/GPT-before-rebuild:/instructions.md",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "dadb74fbc248c674423526cb4b798c5137c042e6fa5aa2fed5ecbe73423989db"
+    },
+    {
+      "old_path": "contentful/references/GPT-before-rebuild:/module-contracts.md",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "fb02d0a0006727e4b3020932069bd67cc6e0badd236c453651e2e5f9f6d29a30"
+    },
+    {
+      "old_path": "contentful/references/GPT-before-rebuild:/page-templates.md",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "16003d2f8501d18568409c77d1b5e3e4d83866a8be5e573e612ecb87691cc972"
+    },
+    {
+      "old_path": "contentful/references/GPT-before-rebuild:/runtime-rules.md",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "161aec48ac1c5ca171f632d55de41ac658349282fad1c3d77e2b14a857cb4016"
+    },
+    {
+      "old_path": "contentful/references/GPT-before-rebuild:/source-duplicate-mode.md",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "f47d0e6ffbd1be12528debcfee38e7d9a2c0d2d263e98fe148934cfed5be73aa"
+    },
+    {
+      "old_path": "contentful/references/contentful-actions:/openapi.yaml",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "2d071d248c9891fcf8370c2613152cf99500c83d2abe51e8d203adece0365445"
+    },
+    {
+      "old_path": "contentful/references/incubator/ekomi-reviews.html",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "b8181ee889d9ab3954693b00af63eef66590ae7712a1d26dc8279735032fb519"
+    },
+    {
+      "old_path": "contentful/runtime/contentful/lpbuilder-bridge.css",
+      "new_path": "modules/contentful-runtime/lpbuilder-bridge.css",
+      "disposition": "retained",
+      "sha256": "fc41a872668e79c65769a85c04ff504440f6effc543697fda2d34b36ce80c17c"
+    },
+    {
+      "old_path": "contentful/runtime/contentful/lpbuilder-runtime.js",
+      "new_path": "modules/contentful-runtime/lpbuilder-runtime.js",
+      "disposition": "retained",
+      "sha256": "3f4208b6c5291b54c88c4de011a57df209e7319deac68e5fba7bac069dbfcd28"
+    },
+    {
+      "old_path": "contentful/runtime/published-baseline.json",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "b71b8a9844a76e86ba232f4ffbd21c86e724d79d21745ebad09d18302ce2fe25"
+    },
+    {
+      "old_path": "contentful/scripts/build-scaling-editorial-ux.cjs",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "5d5fbd310e2bd7613afa953bb56f311e36961990c302dfe88aaadfeec4b98b0b"
+    },
+    {
+      "old_path": "contentful/scripts/capture-scaling-editorial-layout-correction.cjs",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "07cd37cc9ac89b8a14aa4138215bcefdbea4b5e33af0c23ca752918c669b321e"
+    },
+    {
+      "old_path": "contentful/scripts/capture-scaling-editorial-refinement.cjs",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "dd90658673eadb3534f1c5bf3da8ed79ebe8011169ea75cec1e90abafc7f8185"
+    },
+    {
+      "old_path": "contentful/scripts/capture-scaling-editorial-ux-contentful.cjs",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "ae69180445475b6b23596243f1713e6fca3789d7773e9612c2db21eeb17fd120"
+    },
+    {
+      "old_path": "contentful/scripts/capture-scaling-editorial-ux-rollout.cjs",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "a5d04c5f5538ab8308a3855e3fc8b5b23bf3d2c1a6d55626e088f20afc2edc45"
+    },
+    {
+      "old_path": "contentful/scripts/capture-scaling-editorial-ux.cjs",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "3130a09cfd3940d8f00202a9ec19f2998bd85be4fb22de4e249cb85746eaadd6"
+    },
+    {
+      "old_path": "contentful/scripts/check-scaling-editorial-refinement.js",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "e9f955aa658cb7ff91b57f929429c0fec2498e4a4c4e3c983f05531e7d4f82a2"
+    },
+    {
+      "old_path": "contentful/scripts/check-scaling-editorial-ux-browser.js",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "99c9682a3261af59ffb7c344939cff92d993fb13c3eba554e98df64ee688d176"
+    },
+    {
+      "old_path": "contentful/scripts/correct-scaling-editorial-layout.py",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "4ce6934969895410d0e1283f957f0902347611576060888db4cefa2a0f637ea7"
+    },
+    {
+      "old_path": "contentful/scripts/migrate-scaling-editorial-ux.py",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "8b4072157c216cbe9f912e5033ddaa47dd2e925e5e35ad6f660bd77442260e40"
+    },
+    {
+      "old_path": "contentful/scripts/normalize-static-inline-svg.cjs",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "f1993dc86ab849c17eae0b7b624b447b008d3aca17a532d0b94fe4934f6256ec"
+    },
+    {
+      "old_path": "contentful/scripts/prepare-scaling-editorial-ux-placeholder-test.py",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "f1ada5fb498d90d1af77155b48fc2930dac64e6f00e14cfe88e70c9c576a8125"
+    },
+    {
+      "old_path": "contentful/scripts/refine-scaling-editorial-portal.py",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "bd792df489d0a1e4d3e31d1b7cccccf7dea2a5cf4073187664fd04491e583f42"
+    },
+    {
+      "old_path": "contentful/scripts/sync-component-library-preview.cjs",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "cfca7cc3e34a686b1d03b4934935f482fad4845b5e2636eac09d0fddd89fde71"
+    },
+    {
+      "old_path": "contentful/scripts/verify-consolidation.py",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "a6b7bdbea29dcad2e206a8deb9389183608d524291520e83c715c4f3ff83f834"
+    },
+    {
+      "old_path": "contentful/templates/beispieldaten-darstellungstest-inline-svg.html",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "bd81647da25cbb782a0a6e7f0849312986b7c104030352932992c43dc4212612"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-article-preview.html",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "01aac21af2eb559c29fb241178e129155ca13329970c8018076e9858e07f1b31"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-article-with-sidebar-preview.html",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "b9abc300168a3bcbff07b63306b54dfb08b492dc1666b61c0439258b2b810bfd"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-article-with-sidebar.html",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "55ed445197deb39096ebff8632b2dff0b4727db3f301374d7eefd130f747b6bd"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-article-with-sidebar.md",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "bbcdff72ab1978c50ad0504927583b599491fee6d63a03040c1c366d6620a81e"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-article.html",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "464ea6565c3088e988e6eacd6e89f74552e390f8a9fd7fd6e70938cd51409251"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-article.md",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "811421de5e7c7b0603a90876d044390c44655f045e95cfc865a20653303191ee"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-category-overview-preview.html",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "54ebe2719b8497fe1b6454ce0e0231b7ba3aca43cf5bd3721fb27c370200f209"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-category-overview.html",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "6bed166e0fef3c2ee163d2d971c33658790a72cf3a062690c3e071d9bd50b4a2"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-news-portal-prototype/README.md",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "2702e622b4fd3b54f1178529dab25accac98784e783d4523594821e023de33d9"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-news-portal-prototype/app.js",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "c6b2328e6ba91b9c0b503f022897f9ada0b342d2a88a6effb615b2b4791614f8"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-news-portal-prototype/index.html",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "725c5947125b0fb5d8291830fcf415adadbda9d044c32395b0b24ceffb4d2ab8"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-news-portal-prototype/portal-data.js",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "b975e942e768655de79dd07b92af66bdd98a91f8c4391a92e52504387652746e"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-news-portal-prototype/styles.css",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "2d101ea22e3e9c4d44afddba2a965ecc67b9105bd92019e9aa3992a17875f6cf"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/README.md",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "4686a63908546ac01832870e41a196c2a21084f67f2143c9953ef9753be873ef"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/article-preview.html",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "8bd30e7d7b8e9264f8601ebcc239b2a098d0884efef1af47bb9f72e1bf81735f"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/article-template.html",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "955183980000695e3b6030c2ab418d85a0cb7dcc2fb0063245cf1c9d899a158c"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/article.html",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "de899c1cff66634bae8d25c38e526ecbf452d6b34f884d47a158be3e37f46dff"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/category-preview.html",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "6c9b268f01563a04f79c22d193a5c8b963e8a8ed43f356b80d8e5a35f9c200a7"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/category-template.html",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "21f6400b91ea408ff527bed26492fedeaca61bf2b5b6e60fbc42e18ee0461025"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/category.html",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "480a8d0881d0405b058d5b94e804575b7448c38aa3a7f587355ed7ad319aca95"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/contentful-handoff/README.md",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "1d332a18d202fdb39f97e28830c7d26a7a9de3dcefcb4b51b08127dc0661d080"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/contentful-handoff/asset-url-mapping.csv",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "969ce98baa823c4c3bad7797e3b17136afd6c7e706feadef899f3b9b9ec3b8ea"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/contentful-handoff/host-font-check.json",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "798148cc3ebdf9a8d83c48345133939acf9adea6e4e91046c79308949dc4ed62"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/contentful-handoff/slug-preflight.json",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "96ce34b8c27fb9fa9afed63273b35b9269c5a42ced19eeff58ce9f61a58fef84"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/contentful-test/README.md",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "d57b552f2fc708152049c4b156acec7b72ded0e17d5779870471d82a8c353825"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/contentful-test/article.html",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "1836f68e0bfc21bf7a808541fc797fd3f08a410bba5da9863bf9bb8b9a242abb"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/contentful-test/browser-checks.json",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "2b29018d908aa1ad67cc01ed97d38bdf51d7e69d37ee3eefd30c9e2fc4703996"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/contentful-test/category.html",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "b65108745be1e7bf906564042d789872c0309edd4d6e538d1fb857f73ee6c16d"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/contentful-test/entries.json",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "6a7e2503d4499bdb05da64350fc94abfad723cc613812d0b5d77c13b8a029fd9"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/contentful-test/home.html",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "1ea5ae4e3b78761862065d4c0bff09a2bda3c62dab69c1068216c61e23cc1485"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/contentful-test/manifest.json",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "9266e144edfa82f8ca44a7ebc34dc7f41d439d3b8a2ba5f23f87995171ddf9c2"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/contentful-test/targets.json",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "a15aea9c499be73590076cec5ffe9d4ca7f77ed204082f3cd932bc66130a53cc"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/home-preview.html",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "e7fa0ce2f6de49226db6e0df70593bd29265dc9d8d61702d6c00a7089dfdc82d"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/home-template.html",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "4430690f00d5d3db6ffdf24015cb1b9bb3fc4aed54c1a3532b9d6ea59daa2afc"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/home.html",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "b67214c0578772ce5e52ec3da2254a8fee379f45885c46a4b6c1e87d269883e3"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/layout-correction/README.md",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "d9e7e7b7772fe3cc910e2bb992f9592d5d10905fbef1458d63a4f4f641bb4d65"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/layout-correction/after.json",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "0811929f027cf4197ede897c218c7693bb20d45dfce817eb0881767255429abc"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/layout-correction/baseline/22O849wA6VAVgxOYVT9zvB.json",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "0c0af5c0d3e0d49b8602ef105825458e7d36e7a6d25b623c6f01fbbb4389162c"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/layout-correction/baseline/2RuvfNtI6Yj8TlbSf385F4.json",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "512b39b31a9268c1df3e52530fdcaa5ee43d03b1987ed9f2b025d30fde174cdd"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/layout-correction/baseline/3Ae2iqznVqvIhriXHIwObO.json",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "55a5c61c26d7ea347b9900dda2e845429926033f0dc59b4b04764f6e23d16646"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/layout-correction/baseline/3jW0RGwxmANB4DmBNvvo36.json",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "a8a5c6e371b38aa2cf31395265a3f871c2bf265e1269f611446f2449c44cab2d"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/layout-correction/baseline/45DjdzK0dQkNOXwIDOc4zh.json",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "469bbd031f0d79d27c54f546c5532eb660bfca32265ee087b7dfb2ca6538436b"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/layout-correction/baseline/5AAlQUHwGoilHwuVLwzsdi.json",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "306ec994016975a8ff3fb0bf2760826b5a9a8e9c8b23ca2f033e0d435e58baae"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/layout-correction/baseline/5brtogQ8wFhVwFlkP9vli7.json",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "9be78f5635de9bb87d5f22e04903e1df0e93fbadeef1e7046b15ac82018249e8"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/layout-correction/baseline/5wAUjIQ8GgUwy7U6J15yOq.json",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "9cd974dd9a8b40577f6d733fcc181c581e474e2fc252bd85a8728f8e0b017206"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/layout-correction/baseline/6OL3zbn7WnUyNqOJTYqpCH.json",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "73b27b288528340c0b9a12b9cd32ddb80c66048d08ccac929b369d5d85c5a10f"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/layout-correction/baseline/6WCIJwOfi73csgCGC1O6ay.json",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "13a3f27807554c9337ba99aea59f7e0fada1c6181aa7d9f15e8b7528f52ef2af"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/layout-correction/baseline/6mXLg2EBqEsR8RCEqqJ8Lm.json",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "42a14df3d09fc36d43dd1409065dc0fb35fea26077acaa81ff6bf317849eaac3"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/layout-correction/baseline/Ik1AQUW6OAxQCqgnkcq0J.json",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "fc7e0e4ee59a26e14257455c479541fcbeaafc9fe8c147a566215ed9d937254e"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/layout-correction/baseline/LxsfE8MGOPJPbSOYTR4hw.json",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "b34d94149938617307edc6c7dfa8fffe0730ebdb0d26fbcc0cf45aa9e77b70f1"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/layout-correction/baseline/Q9IRHEZmuUMcEcnVB6c3c.json",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "c651ea482df34b02267cc192fb01d23a502930e215070bd3c64e6705b3f27a40"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/layout-correction/baseline/SoSCcB5Z1fjKJDcU9GmHG.json",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "bed759580c275e2c24ace3b471394cfd74dccb34453b791600726f439a49de14"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/layout-correction/baseline/ZLh6zjq5DgOlN4nYwvjmC.json",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "d5a4601dee554635acc8f6a49f5dd9880a1faf04b6c09701e8ccde4fbfa93d2c"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/layout-correction/before.json",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "59d6cbba47300e0ae1171caf52916ff1d1db220666d2c45f87ebf746d59c6d94"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/layout-correction/breadcrumb-before.json",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "4f635398625d8d15a584eadc5f74f5ae7687e88cbb9e868d359217a60039c719"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/layout-correction/deployment.json",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "f34a021ea1331e6fe66129327f24df2fa888b06ae54cc0a607ee69dec0801013"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/layout-correction/entries.json",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "d92b622eac4029402e6f25fd413a07a7f95723e5dbf28ee1b7939c5521c5df8c"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/layout-correction/integrity-checks.json",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "529aed2270c24972e487cd9df1572207e5773bd1ac5dc54db018444b56bb882c"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/layout-correction/manifest.json",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "8ac657d810cc200634ff1ef60ef5f444ae1149da02a079bfc9e71575e9aa33e2"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/layout-correction/payloads/22O849wA6VAVgxOYVT9zvB.html",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "c3ad6191271bb61c958dafdedd890ce61e54439662b85de43884264a29b91339"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/layout-correction/payloads/2RuvfNtI6Yj8TlbSf385F4.html",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "8e9d9923edd271412ec4b42e4cb04c756c73326976a197d95bf9b7207b80cf54"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/layout-correction/payloads/3Ae2iqznVqvIhriXHIwObO.html",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "59daed44eae944c543853dfd6752e0ef2d0f57035f31fd51ee2de8a6ec59c0b9"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/layout-correction/payloads/3jW0RGwxmANB4DmBNvvo36.html",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "9cdfab1c77a89e0c4369114e7468ca3100e20077eccc7184448cd7c44e9f0387"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/layout-correction/payloads/45DjdzK0dQkNOXwIDOc4zh.html",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "61c0310c0a9569714a81d9a110d8efba4d78412a9b02239b2a0596fce10ff641"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/layout-correction/payloads/5AAlQUHwGoilHwuVLwzsdi.html",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "71f6a5a832ecf96fc6867d6a276a0eaf0d4d3878e76c705250a6e8e83844713a"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/layout-correction/payloads/5brtogQ8wFhVwFlkP9vli7.html",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "8c91eebcc5957db1f2b51f35bad3a21c4fdfde722c297457b909830986cc3a56"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/layout-correction/payloads/5wAUjIQ8GgUwy7U6J15yOq.html",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "8a78b2189382c894ce57e21a5fc11dc3fc434d940b3ceb0fee07fd65f5ace19c"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/layout-correction/payloads/6OL3zbn7WnUyNqOJTYqpCH.html",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "11ea8eb9230f1b7d712c9afe0e3a6ecbb5bbefba4f2130a08561b52d2a2957a6"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/layout-correction/payloads/6WCIJwOfi73csgCGC1O6ay.html",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "348b36e0477b674b1e77aae9354b7a1fa8f66ad8304612b5599544eec59cf14b"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/layout-correction/payloads/6mXLg2EBqEsR8RCEqqJ8Lm.html",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "86d246d8aa161c2b9b9b57272bc5ba66cc54a80495c96f9cc6975cd3b44ead57"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/layout-correction/payloads/Ik1AQUW6OAxQCqgnkcq0J.html",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "0b25f27a863d99932c582d1f70ebe72b3c84694170b7089ed5def737e5b726d7"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/layout-correction/payloads/LxsfE8MGOPJPbSOYTR4hw.html",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "cf217bd404fcbb601fd25481f74bf27dabc4ae3489f9d0b6958376e9e94df173"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/layout-correction/payloads/Q9IRHEZmuUMcEcnVB6c3c.html",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "2f4e0ffd35a7a1e3a05c18036b2da4d4a8f8f26b0598c119910bf2052dc27f76"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/layout-correction/payloads/SoSCcB5Z1fjKJDcU9GmHG.html",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "71d78a00da9797daf552745fe40505fc825c05e3971b8d65ab9cadfae3f02647"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/layout-correction/payloads/ZLh6zjq5DgOlN4nYwvjmC.html",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "d491b5ea80e214e1fb4ede5492c7fd08acada88269c53c7fd3afd71782e25638"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/layout-correction/prewrite/2RuvfNtI6Yj8TlbSf385F4.json",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "62bbbf293ad96a5f40834c3ec8500b9c382579db01b848a5591e4338b7a20465"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/layout-correction/prewrite/45DjdzK0dQkNOXwIDOc4zh.json",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "1b198fa126195cc271d79d6ce1df2f2955f61c7f1c1e8b98e579db2e7f3951e0"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/layout-correction/prewrite/5brtogQ8wFhVwFlkP9vli7.json",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "7a216ed088e731d310688238e24678d909d6bad1d3b314a8dac2be3d58c9ed88"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/layout-correction/prewrite/5wAUjIQ8GgUwy7U6J15yOq.json",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "278d9876b961e1391d7cf9493a26f5ad064f84ab245780d4289f22261739b1ae"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/layout-correction/prewrite/6OL3zbn7WnUyNqOJTYqpCH.json",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "5de952f3594a5db015104236cd21a6c9f981121e13a562dbb79d95d0ac7523fe"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/layout-correction/prewrite/Ik1AQUW6OAxQCqgnkcq0J.json",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "ea5ddfc36c3f0901c03befc68a8a74ed682a08dc2fc71c349aa991f2888ef281"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/layout-correction/prewrite/Q9IRHEZmuUMcEcnVB6c3c.json",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "ee18a3d800626aef02c9d53f98eb011e74c1b693601d199b8a43dbed0a90be54"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/layout-correction/readback/22O849wA6VAVgxOYVT9zvB.json",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "bb4bf6db29eb2339d9a1b91a452d809c93927a9a54d545ebae2d014606797d9d"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/layout-correction/readback/2RuvfNtI6Yj8TlbSf385F4.json",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "b70b693bae135a6d28c690e944ab7230437d84df1d0226f16d5f705630d5796d"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/layout-correction/readback/3Ae2iqznVqvIhriXHIwObO.json",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "195cb5f25b20f176d7b60b2902dbae091e8a1f30ed3476626d664c74a74affc2"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/layout-correction/readback/3jW0RGwxmANB4DmBNvvo36.json",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "7241c23b9582e15b36a4b348d417999f36ea43b91d76433a5ce27fd7d72ab4bc"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/layout-correction/readback/45DjdzK0dQkNOXwIDOc4zh.json",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "877549c92a99b225e33ec83fe388698a1ef9e05dfc1b396045d069188d7ebad0"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/layout-correction/readback/5AAlQUHwGoilHwuVLwzsdi.json",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "2c63d43218bf5c3946be204d8d91455f1c7db37925a8cbdfdc5f1b8bb78006f4"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/layout-correction/readback/5brtogQ8wFhVwFlkP9vli7.json",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "a605110fec4ccec2923a19705c14841a59f645f6039a53745bf1a6796c9c7a4d"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/layout-correction/readback/5wAUjIQ8GgUwy7U6J15yOq.json",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "02e409f4ad299f126df9486bc696b7d13059c7234328bfff0d8d3d1781cb655b"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/layout-correction/readback/6OL3zbn7WnUyNqOJTYqpCH.json",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "4dd65db8cac74fbb6dd9dbaedb87f016a01665e3c0c715deba13c8f028c17e43"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/layout-correction/readback/6WCIJwOfi73csgCGC1O6ay.json",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "160481d5ab91523b7dda4dcd1c88482862ae8cb4c6cba0660236478ce75b0b76"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/layout-correction/readback/6mXLg2EBqEsR8RCEqqJ8Lm.json",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "e661a966dc63659a302531ef4328c7ce8f9e3c90a772c4a0bf2c48d31e9ca164"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/layout-correction/readback/Ik1AQUW6OAxQCqgnkcq0J.json",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "c129273df07ad213250fcb7d4a1320188a7592f41ce0f647671b530ec01c2d87"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/layout-correction/readback/LxsfE8MGOPJPbSOYTR4hw.json",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "c9a2db57806972b495c81631e93c1bb254b69d1e083e1c83aef0b861c9364028"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/layout-correction/readback/Q9IRHEZmuUMcEcnVB6c3c.json",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "9303c7612123ce4e28fc0dc38374e1d815f4483d101c750087f4e9f880405402"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/layout-correction/readback/SoSCcB5Z1fjKJDcU9GmHG.json",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "212a2a9d3c61169267667f0e7e1d5109795af2b9f8824f22d8eb9363bfeaf683"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/layout-correction/readback/ZLh6zjq5DgOlN4nYwvjmC.json",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "4885687499b41030f6218c7fb2ad5ea35a2d8377f6aa9ba52449297f8a5e2ca2"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/layout-correction/results.json",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "dab4ab7423e6b9ea6d11b9512125dd4c68640d5e323cbac246a858c3ab14e1e1"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/layout-correction/targets.json",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "31c0a3f4ab866e59a5af6350a1e50e651dbe3cff9d62f7b77457318efbfc2ab4"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/portal-config.json",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "2c5998e26d39c02b1c54a2a8809f16c7f73fa404ab0241a91a5f245fcec1b342"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/README.md",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "4c0b763d46ffbcb2895c741a2dd31ba7cf451ddbe00160995ee2b571b1fb2b44"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/baseline/22O849wA6VAVgxOYVT9zvB.json",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "0c0af5c0d3e0d49b8602ef105825458e7d36e7a6d25b623c6f01fbbb4389162c"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/baseline/2RuvfNtI6Yj8TlbSf385F4.json",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "0ddba3636feb0c4a6e59cc0f758f912faaf8afe5b2d0ac0b807b0cd89ebbbfcf"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/baseline/3Ae2iqznVqvIhriXHIwObO.json",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "55a5c61c26d7ea347b9900dda2e845429926033f0dc59b4b04764f6e23d16646"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/baseline/3jW0RGwxmANB4DmBNvvo36.json",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "a8a5c6e371b38aa2cf31395265a3f871c2bf265e1269f611446f2449c44cab2d"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/baseline/45DjdzK0dQkNOXwIDOc4zh.json",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "55d7e60cd2d30bda64012925886cea46a5e007a9d70fa147a940c2a5f5b68b65"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/baseline/5AAlQUHwGoilHwuVLwzsdi.json",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "306ec994016975a8ff3fb0bf2760826b5a9a8e9c8b23ca2f033e0d435e58baae"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/baseline/5brtogQ8wFhVwFlkP9vli7.json",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "e8364646da8e6c86227912fbe3088ca7d6578b9bec6b3cea1f50c32a5a910fff"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/baseline/5wAUjIQ8GgUwy7U6J15yOq.json",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "51c062e3dcfeaca60f752c6c43813fd3a13f39e9da5080c32cb47dfa8cc75e45"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/baseline/6OL3zbn7WnUyNqOJTYqpCH.json",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "9b8aa0ac3b91c78d0de03daa4f38a600cc72c9261d3552910ab12bbbcda64a25"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/baseline/6WCIJwOfi73csgCGC1O6ay.json",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "13a3f27807554c9337ba99aea59f7e0fada1c6181aa7d9f15e8b7528f52ef2af"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/baseline/6mXLg2EBqEsR8RCEqqJ8Lm.json",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "42a14df3d09fc36d43dd1409065dc0fb35fea26077acaa81ff6bf317849eaac3"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/baseline/Ik1AQUW6OAxQCqgnkcq0J.json",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "0502667baecefa165330bb475ed3eca81479c19fe20cb729594274665e79909b"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/baseline/LxsfE8MGOPJPbSOYTR4hw.json",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "b34d94149938617307edc6c7dfa8fffe0730ebdb0d26fbcc0cf45aa9e77b70f1"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/baseline/Q9IRHEZmuUMcEcnVB6c3c.json",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "b1a15234c6a407b9f765dd3a0097ac9af6e1c46d5085597a4e83e164da6f3f72"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/baseline/SoSCcB5Z1fjKJDcU9GmHG.json",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "bed759580c275e2c24ace3b471394cfd74dccb34453b791600726f439a49de14"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/baseline/ZLh6zjq5DgOlN4nYwvjmC.json",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "d5a4601dee554635acc8f6a49f5dd9880a1faf04b6c09701e8ccde4fbfa93d2c"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/browser-checks.json",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "ad0941b312068bff8048cea67c438a47a5e21bbe8afa8b6a26c7833a561f8cdc"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/dates.json",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "aa0d487965b2f63fcc8465bfd3d11c944bc1ab6135d15e00c751fa00564f1498"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/deployment.json",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "91cfa95f397b6c22c1ca6542f07bf80cd1ce63fd5d72913a9423b861872604e1"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/identity-proof-LxsfE8MGOPJPbSOYTR4hw.json",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "9cdf5c5f6f6bffffa3bd3dba66232ad9013d6c7d65fd7e2912161d78d73647d4"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/integrity-checks.json",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "0b55ce60c42f14cd63ceeb8663f8aa53f0e94018fe31ca18aa4f4f2c224948fd"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/local-browser-checks.json",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "cad7dc1a8088ff90634bc47f859fa73a1be465770efd7d721fb15076edd55e88"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/manifest.json",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "b58791535f00d20975d51f9542337e79adfa1b037479861b5ac2b89140f2a126"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/news-entry.json",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "cf6cabab9b22a4c84b445a0446c36425b8a33ccc383713264596904d793cc5a1"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/news-home.html",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "ac6d0d8b537de9eefa0d6db1f089114a250f2cc30a010d2037dd1a960a74008d"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/news-preflight.json",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "bd69f094b91f6cbeeb6831f76a2b62be8126241385f71c05e3e5b3ee1e27ef03"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/payloads/22O849wA6VAVgxOYVT9zvB.html",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "60ce20372f46981731bbbb833841ad900d7c144e23256d7fbf1444091668e9d7"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/payloads/2RuvfNtI6Yj8TlbSf385F4.html",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "1836f68e0bfc21bf7a808541fc797fd3f08a410bba5da9863bf9bb8b9a242abb"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/payloads/3Ae2iqznVqvIhriXHIwObO.html",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "c7b0d139f411760cd888e68a924e21f9d434e068ab7cbb89f9bc076447290cac"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/payloads/3jW0RGwxmANB4DmBNvvo36.html",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "fa3afcd0a7005ab9d4f04178a518381148414d9b9f32296a9085079657719e0c"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/payloads/45DjdzK0dQkNOXwIDOc4zh.html",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "c95d7d9239d2d79abd48a990552b4404bf0bbbb79691be59fe29a304ef647dc2"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/payloads/5AAlQUHwGoilHwuVLwzsdi.html",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "2613347516bbfb08d1d6a4242f07625706f80faf7724889455259f295a9f2565"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/payloads/5brtogQ8wFhVwFlkP9vli7.html",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "363c5538c9cf0a2e1a4987aef5656073796b5c119b00fd1eb55046bd57dada0e"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/payloads/5wAUjIQ8GgUwy7U6J15yOq.html",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "584f326c390f5a29646592d727c9ee487b00ec2466ee97d28b075a605502a56a"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/payloads/6OL3zbn7WnUyNqOJTYqpCH.html",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "eb5c540c2bd6be852e056d8810b5c66c38aafbdfc4e7c00d7e5e6b0d0d2bab4b"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/payloads/6WCIJwOfi73csgCGC1O6ay.html",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "1ea5ae4e3b78761862065d4c0bff09a2bda3c62dab69c1068216c61e23cc1485"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/payloads/6mXLg2EBqEsR8RCEqqJ8Lm.html",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "cc06366026213a7aad68578650271e5b40e0cc2c9124c0eaeaee308501af46fc"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/payloads/Ik1AQUW6OAxQCqgnkcq0J.html",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "ffd0fb84458dce45c12c8c11a9241fb90dc8fb1de9a090b79780c63a299a0d72"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/payloads/LxsfE8MGOPJPbSOYTR4hw.html",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "5bf6117d3108cb105d5efc323ea13535a214c0cdec6cd99e835d91c28c5139f9"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/payloads/Q9IRHEZmuUMcEcnVB6c3c.html",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "6817e254305ad642750b410ab65349ce4bcad0b47316a64e634edf00db66abc3"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/payloads/SoSCcB5Z1fjKJDcU9GmHG.html",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "313a23fdd37097e3866970a179fdffa8372886cea2c7a8f674cab099bd31f819"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/payloads/ZLh6zjq5DgOlN4nYwvjmC.html",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "b65108745be1e7bf906564042d789872c0309edd4d6e538d1fb857f73ee6c16d"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/prewrite/22O849wA6VAVgxOYVT9zvB.json",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "bb4bf6db29eb2339d9a1b91a452d809c93927a9a54d545ebae2d014606797d9d"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/prewrite/2RuvfNtI6Yj8TlbSf385F4.json",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "b70b693bae135a6d28c690e944ab7230437d84df1d0226f16d5f705630d5796d"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/prewrite/3Ae2iqznVqvIhriXHIwObO.json",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "195cb5f25b20f176d7b60b2902dbae091e8a1f30ed3476626d664c74a74affc2"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/prewrite/3jW0RGwxmANB4DmBNvvo36.json",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "7241c23b9582e15b36a4b348d417999f36ea43b91d76433a5ce27fd7d72ab4bc"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/prewrite/45DjdzK0dQkNOXwIDOc4zh.json",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "877549c92a99b225e33ec83fe388698a1ef9e05dfc1b396045d069188d7ebad0"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/prewrite/5AAlQUHwGoilHwuVLwzsdi.json",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "2c63d43218bf5c3946be204d8d91455f1c7db37925a8cbdfdc5f1b8bb78006f4"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/prewrite/5brtogQ8wFhVwFlkP9vli7.json",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "a605110fec4ccec2923a19705c14841a59f645f6039a53745bf1a6796c9c7a4d"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/prewrite/5wAUjIQ8GgUwy7U6J15yOq.json",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "02e409f4ad299f126df9486bc696b7d13059c7234328bfff0d8d3d1781cb655b"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/prewrite/6OL3zbn7WnUyNqOJTYqpCH.json",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "4dd65db8cac74fbb6dd9dbaedb87f016a01665e3c0c715deba13c8f028c17e43"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/prewrite/6WCIJwOfi73csgCGC1O6ay.json",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "160481d5ab91523b7dda4dcd1c88482862ae8cb4c6cba0660236478ce75b0b76"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/prewrite/6mXLg2EBqEsR8RCEqqJ8Lm.json",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "e661a966dc63659a302531ef4328c7ce8f9e3c90a772c4a0bf2c48d31e9ca164"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/prewrite/Ik1AQUW6OAxQCqgnkcq0J.json",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "c129273df07ad213250fcb7d4a1320188a7592f41ce0f647671b530ec01c2d87"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/prewrite/LxsfE8MGOPJPbSOYTR4hw.json",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "c9a2db57806972b495c81631e93c1bb254b69d1e083e1c83aef0b861c9364028"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/prewrite/Q9IRHEZmuUMcEcnVB6c3c.json",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "9303c7612123ce4e28fc0dc38374e1d815f4483d101c750087f4e9f880405402"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/prewrite/SoSCcB5Z1fjKJDcU9GmHG.json",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "212a2a9d3c61169267667f0e7e1d5109795af2b9f8824f22d8eb9363bfeaf683"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/prewrite/ZLh6zjq5DgOlN4nYwvjmC.json",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "4885687499b41030f6218c7fb2ad5ea35a2d8377f6aa9ba52449297f8a5e2ca2"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/readback/22O849wA6VAVgxOYVT9zvB.json",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "60259ebd27dd596d9d5cb0ee55047983211ba5c097ebaa14e52e9823b1d86f92"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/readback/2RuvfNtI6Yj8TlbSf385F4.json",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "9f86099e9de48992cd76bf82dbac3c8e89bb358ad285ca523830b5f5634653c2"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/readback/3Ae2iqznVqvIhriXHIwObO.json",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "c2ade2bbbd82d3e3f1e9971306ab38b79e476642240b8dad425930b0440f7b6c"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/readback/3jW0RGwxmANB4DmBNvvo36.json",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "668e3cc3ef64f9a3e1953d3120953cb4b0ea67b776cdd11eac08bc09f29032e1"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/readback/45DjdzK0dQkNOXwIDOc4zh.json",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "649f9871c603163a7f656f284dc4f466405d77a46bde253d1e0229c74a57fdf0"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/readback/5AAlQUHwGoilHwuVLwzsdi.json",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "8cc556c88242843b2a15ec78d59c2979fc358ee09cecb47a871ef0537faa4b9a"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/readback/5brtogQ8wFhVwFlkP9vli7.json",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "761fe2f78d7f9e5bdb5b41015d89cef33297d5e24fb7877d40efefac85ef76a7"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/readback/5wAUjIQ8GgUwy7U6J15yOq.json",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "5ede2492a576a1f0b828d8be5832c3f167ed1a33d28ab0915e8c432471e9d54d"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/readback/5zLuKbEgpZyVu1BFJMc2DG.json",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "93a9dd0ed3e5c8b2c41baaa026de7b6a01bccda8b4cb630e53721d8e265f55b9"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/readback/6OL3zbn7WnUyNqOJTYqpCH.json",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "6290070cfc0010595fdc7eac3392f450597f8c65a7298acf50c7c725d2d243b5"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/readback/6WCIJwOfi73csgCGC1O6ay.json",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "aa1a7bfd06a7db039244e907be34ffaf8cdb3434c3b56e19e4410a5dd5e3a9c9"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/readback/6mXLg2EBqEsR8RCEqqJ8Lm.json",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "2ec117e2d57a320a8fad256d49c3305154cbe0960732e26882bda1c4f51c9c88"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/readback/Ik1AQUW6OAxQCqgnkcq0J.json",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "aceb3273d1e608d0f572e1751809598ce17ff27986e1c21ec5d81bbcfa657d0d"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/readback/LxsfE8MGOPJPbSOYTR4hw.json",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "caa56eeb8410c4ec8e4e3c161d094b0a8e541eea5a114702345c023f53ce3150"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/readback/Q9IRHEZmuUMcEcnVB6c3c.json",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "2460331e889fc69e7c3e1ac89fe1a2de28b783ab5b38c3e3fde043d7ddb61dbd"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/readback/SoSCcB5Z1fjKJDcU9GmHG.json",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "e598b95b24f27a7c55f8e5e77ccbfaa0eb946a56f3a034ed776790da522a5dac"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/readback/ZLh6zjq5DgOlN4nYwvjmC.json",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "559233be412ced83b1975ecaaf9c2a27fac04755aae38ebdebff68f7a4e61459"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/results.json",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "6ff8717d77dbc805d76530f4312b660a7b496f133dfa2c80baf1f88a0a9bc235"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/portal-refinement-20261107/targets.json",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "c9fcb46de7e4dee2f3cbf19d4a369040e204d4ef188dc2b7491c419df0b143a9"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/portal-rollout/README.md",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "be28de4804801e74357fc8de0518b5246ef16d7d7a9bd4baeeda0701a3c4f831"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/portal-rollout/baseline/22O849wA6VAVgxOYVT9zvB.json",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "defde8fa0c3ce40f26d26b51e8bcd1c1051e843ba60168d2dde03f5e6cfccbf9"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/portal-rollout/baseline/3Ae2iqznVqvIhriXHIwObO.json",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "00e2045b4ee32f1ff84d53a0b7dca296a3f549a7bf37fbabb5986dbf0481893e"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/portal-rollout/baseline/3jW0RGwxmANB4DmBNvvo36.json",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "e1d5e9245cc7319254484b18056c1c3731e04780596fae71a4420151d535bccd"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/portal-rollout/baseline/45DjdzK0dQkNOXwIDOc4zh.json",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "fc50f240628097327328b47eea7b805c0f61346c3176e60ea810616b5652faf9"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/portal-rollout/baseline/5AAlQUHwGoilHwuVLwzsdi.json",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "56c2d5ca48bee72b5cea546d8a6b008619f903bf6b9e082703fa6e552e2e3793"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/portal-rollout/baseline/5brtogQ8wFhVwFlkP9vli7.json",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "689d3508680f0c5dc155ef2085381f19aee84341001bf5216647aecb95ebaa57"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/portal-rollout/baseline/5wAUjIQ8GgUwy7U6J15yOq.json",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "cfd66d7eb66e90621d2ee976fc6b0d2ce3e2c65746c63cb4b5aae18337607abd"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/portal-rollout/baseline/6OL3zbn7WnUyNqOJTYqpCH.json",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "27123164bf3be240e463b5320d742e0f03052e0251ee37446976a7ceefc2aaae"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/portal-rollout/baseline/6mXLg2EBqEsR8RCEqqJ8Lm.json",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "39cea93416513cc54f457a3d896c4f7fc83fb63e8cd3fbb33e8d371df6d8078c"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/portal-rollout/baseline/Ik1AQUW6OAxQCqgnkcq0J.json",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "493547400d7f081aa01a3add8eb62a0e9526289940119fac3732d087120d84b3"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/portal-rollout/baseline/LxsfE8MGOPJPbSOYTR4hw.json",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "3157c1d23fca1c8159fa540c29b71ad857eba9c96db26a6a5b76980a7db039db"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/portal-rollout/baseline/Q9IRHEZmuUMcEcnVB6c3c.json",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "74457febeea4585f933774681e7713ff353e19926f1ed4d1fd358551f437cd5c"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/portal-rollout/baseline/SoSCcB5Z1fjKJDcU9GmHG.json",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "a859e01ed7e72f6a8443498b54339d0b6065b052096f951d6e8e98d7f38326c6"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/portal-rollout/browser-checks.json",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "b719623179007aef9bc1b3fc2bcd1f6d5dde8053664fb53d40d5d3ba1d36510c"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/portal-rollout/comparison-state.json",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "8d4a950caeab12d1103df6f74d6bae5654200f4c40fd64611d58052aee759348"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/portal-rollout/image-delivery-checks.json",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "783dfeea1a63bfea2f9a83f9fe59be3a8f5306c2b39f18429af7984f9dd42b1d"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/portal-rollout/integrity-checks.json",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "2a6551ce615be3544eebc328e4e8b477fe895cb0fd98a7a6ca236ddc98b9e2a6"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/portal-rollout/manifest.json",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "d82166410cb79770c2403a80337a67b62380de978fa51d54b311f5eb0385f319"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/portal-rollout/payloads/22O849wA6VAVgxOYVT9zvB.html",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "c3ad6191271bb61c958dafdedd890ce61e54439662b85de43884264a29b91339"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/portal-rollout/payloads/3Ae2iqznVqvIhriXHIwObO.html",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "59daed44eae944c543853dfd6752e0ef2d0f57035f31fd51ee2de8a6ec59c0b9"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/portal-rollout/payloads/3jW0RGwxmANB4DmBNvvo36.html",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "9cdfab1c77a89e0c4369114e7468ca3100e20077eccc7184448cd7c44e9f0387"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/portal-rollout/payloads/45DjdzK0dQkNOXwIDOc4zh.html",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "d1ebb1ee7fb3ef8fa7cf44a27a5dcb8927d8eb9e9e09fe9446ba7677b82a3a26"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/portal-rollout/payloads/5AAlQUHwGoilHwuVLwzsdi.html",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "71f6a5a832ecf96fc6867d6a276a0eaf0d4d3878e76c705250a6e8e83844713a"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/portal-rollout/payloads/5brtogQ8wFhVwFlkP9vli7.html",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "eea46ada7f7a5d8e5bab4a4136830de15f578ca7a6ac8cc28206cfe2adecdcd0"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/portal-rollout/payloads/5wAUjIQ8GgUwy7U6J15yOq.html",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "619020cdc57ee061742870827d15e6aea6a7539bfab7028e89a04b46dde3c319"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/portal-rollout/payloads/6OL3zbn7WnUyNqOJTYqpCH.html",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "dbaa10e3068d7e009e3c11ac47d7aef9b8886e312e0f8007be18825fbea11cd9"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/portal-rollout/payloads/6mXLg2EBqEsR8RCEqqJ8Lm.html",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "86d246d8aa161c2b9b9b57272bc5ba66cc54a80495c96f9cc6975cd3b44ead57"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/portal-rollout/payloads/Ik1AQUW6OAxQCqgnkcq0J.html",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "f38b653ef8377dc986407d7360600624dc861555775142d8bb677d3827abfaa5"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/portal-rollout/payloads/LxsfE8MGOPJPbSOYTR4hw.html",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "cf217bd404fcbb601fd25481f74bf27dabc4ae3489f9d0b6958376e9e94df173"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/portal-rollout/payloads/Q9IRHEZmuUMcEcnVB6c3c.html",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "0c602e5299c1536b810cd0f013e156217f1a4823a855dcb0d738291761fcc15f"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/portal-rollout/payloads/SoSCcB5Z1fjKJDcU9GmHG.html",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "71d78a00da9797daf552745fe40505fc825c05e3971b8d65ab9cadfae3f02647"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/portal-rollout/readback/22O849wA6VAVgxOYVT9zvB.json",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "bb4bf6db29eb2339d9a1b91a452d809c93927a9a54d545ebae2d014606797d9d"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/portal-rollout/readback/3Ae2iqznVqvIhriXHIwObO.json",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "195cb5f25b20f176d7b60b2902dbae091e8a1f30ed3476626d664c74a74affc2"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/portal-rollout/readback/3jW0RGwxmANB4DmBNvvo36.json",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "7241c23b9582e15b36a4b348d417999f36ea43b91d76433a5ce27fd7d72ab4bc"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/portal-rollout/readback/45DjdzK0dQkNOXwIDOc4zh.json",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "1b198fa126195cc271d79d6ce1df2f2955f61c7f1c1e8b98e579db2e7f3951e0"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/portal-rollout/readback/5AAlQUHwGoilHwuVLwzsdi.json",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "2c63d43218bf5c3946be204d8d91455f1c7db37925a8cbdfdc5f1b8bb78006f4"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/portal-rollout/readback/5brtogQ8wFhVwFlkP9vli7.json",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "7a216ed088e731d310688238e24678d909d6bad1d3b314a8dac2be3d58c9ed88"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/portal-rollout/readback/5wAUjIQ8GgUwy7U6J15yOq.json",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "278d9876b961e1391d7cf9493a26f5ad064f84ab245780d4289f22261739b1ae"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/portal-rollout/readback/6OL3zbn7WnUyNqOJTYqpCH.json",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "5de952f3594a5db015104236cd21a6c9f981121e13a562dbb79d95d0ac7523fe"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/portal-rollout/readback/6mXLg2EBqEsR8RCEqqJ8Lm.json",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "e661a966dc63659a302531ef4328c7ce8f9e3c90a772c4a0bf2c48d31e9ca164"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/portal-rollout/readback/Ik1AQUW6OAxQCqgnkcq0J.json",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "ea5ddfc36c3f0901c03befc68a8a74ed682a08dc2fc71c349aa991f2888ef281"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/portal-rollout/readback/LxsfE8MGOPJPbSOYTR4hw.json",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "c9a2db57806972b495c81631e93c1bb254b69d1e083e1c83aef0b861c9364028"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/portal-rollout/readback/Q9IRHEZmuUMcEcnVB6c3c.json",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "ee18a3d800626aef02c9d53f98eb011e74c1b693601d199b8a43dbed0a90be54"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/portal-rollout/readback/SoSCcB5Z1fjKJDcU9GmHG.json",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "212a2a9d3c61169267667f0e7e1d5109795af2b9f8824f22d8eb9363bfeaf683"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/portal-rollout/results.json",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "34b8eba9e97dc157903f973c82522462361ab989f8b4220510b2af04ea2e0d58"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/portal-rollout/targets.json",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "80be9fe9648893e25a53414e536ebceed7e15a80da85553e662095257cfe5be3"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/preview.css",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "1c935062935c068af496882cf6f9924f2c88439c98034eb8caf09e3b2d1aebbd"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/preview.js",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "7e98da04c6faf3684f4f0349fb119a768bd5c49e2258010475ba1b3146687384"
+    },
+    {
+      "old_path": "contentful/templates/scaling-editorial-ux/ux-module-data.json",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "27d6e0e3f7a27558fdc67812078a459693970ed719faf0b514792bb486267907"
+    },
+    {
+      "old_path": "contentful/tests/fixtures/beispieldaten-darstellungstest.normalized.svg",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "2a578409c15ef4d11146f0b0fcc3254d8fcd5627dc47ac0f4985a44a6c9fb8d1"
+    },
+    {
+      "old_path": "contentful/tests/fixtures/locked-import-test.html",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "99066c12b5f807920cad3b553e97b8c6deb05ec4fd7d054b68e82f2e0f5868f6"
+    },
+    {
+      "old_path": "contentful/tests/fixtures/locked-import-test.md",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "b4f66d598020137b9bc5b2157309fec65c462141780108e189f138e8700eee42"
+    },
+    {
+      "old_path": "contentful/tests/test_contentful_runtime.cjs",
+      "new_path": "modules/contentful-runtime/checks/test_runtime.cjs",
+      "disposition": "retained",
+      "sha256": "6c51efd5d9324a5c886f8faa19fa99c7d2591c59fc5da45456dbe1a9aa7b3f0f"
+    },
+    {
+      "old_path": "contentful/tests/test_gpt_package_contracts.cjs",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "570fa803f4df1d19428183c1d58db42529c67cbeee7cc96c53f1b9ad20c0f5bb"
+    },
+    {
+      "old_path": "contentful/tests/test_scaling_editorial_layout_correction.cjs",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "842abd0d2748a16a389c20f46ca17a6cc338373c607b66ee6129ad395ff444ad"
+    },
+    {
+      "old_path": "contentful/tests/test_scaling_editorial_refinement.cjs",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "35241a0b9e94912a1daba3440237c84e3a2201e55c4750a5715099911337558e"
+    },
+    {
+      "old_path": "contentful/tests/test_scaling_editorial_rollout.cjs",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "56d70174e565fa419b22153e098834048e11b4bd6cf2950fe22d7bb0ead67361"
+    },
+    {
+      "old_path": "contentful/tests/test_scaling_editorial_ux.cjs",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "e39c255235a06e6f536b5daa38a3d021200af7b9aebc8fd14c3a05d189c45edf"
+    },
+    {
+      "old_path": "distribution-manifest.json",
+      "new_path": "distribution-manifest.json",
+      "disposition": "retained",
+      "sha256": "beec8d5c9d2a63a4e7e5dd60e5bcd86bfa5557b8771e2d1c5f9b85527261bfc1"
+    },
+    {
+      "old_path": "repository-consolidation.json",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "a5e5af3b6b8d0bdefaf2143981a61dbcf40594883421819ecc2e0bc8c11d4e4d"
+    },
+    {
+      "old_path": "runtime/contentful/lpbuilder-bridge.css",
+      "new_path": "runtime/contentful/lpbuilder-bridge.css",
+      "disposition": "retained",
+      "sha256": "26f018bc0f3bb5c2f9e660ef2cba5a8a71b4c93e95c2ba33775bed51795867dc"
+    },
+    {
+      "old_path": "runtime/contentful/lpbuilder-runtime.js",
+      "new_path": "runtime/contentful/lpbuilder-runtime.js",
+      "disposition": "retained",
+      "sha256": "049c949fecf7b88dac9386614c45b66a5e215dca4bff2cd040fb0baf73161692"
+    },
+    {
+      "old_path": "runtime/core/core-buttons.css",
+      "new_path": "runtime/core/core-buttons.css",
+      "disposition": "retained",
+      "sha256": "ef1fa58d13d37d8678f30e7407d9494a96cc46e63fb818197024c44b707dfe7d"
+    },
+    {
+      "old_path": "runtime/core/core-components.css",
+      "new_path": "runtime/core/core-components.css",
+      "disposition": "retained",
+      "sha256": "ffa702d533a4ede91654e9762fd5851b67bee042b8b9876c21cd82d23a590301"
+    },
+    {
+      "old_path": "runtime/core/core-foundations.css",
+      "new_path": "runtime/core/core-foundations.css",
+      "disposition": "retained",
+      "sha256": "da15c46adf51daaa935ec74a93c0295ef583b422a80816cf674cf7bdb201975a"
+    },
+    {
+      "old_path": "runtime/core/core-interactions.js",
+      "new_path": "runtime/core/core-interactions.js",
+      "disposition": "retained",
+      "sha256": "dce8d6b603a054d9f0e5da8b379ac54353914ba195b3b9770fdb7080fb08e470"
+    },
+    {
+      "old_path": "runtime/integrations/form-js.js",
+      "new_path": "runtime/integrations/form-js.js",
+      "disposition": "retained",
+      "sha256": "8e86a14168f69b74c0e2e73917f03bdb6e651004d22cfafcb925f24a8d291684"
+    },
+    {
+      "old_path": "runtime/integrations/iframe-form-css.css",
+      "new_path": "runtime/integrations/iframe-form-css.css",
+      "disposition": "retained",
+      "sha256": "cfe5a055dfbe71da2fd319bc2d2d0714540d005e46628dd43b312158094f876c"
+    },
+    {
+      "old_path": "runtime/integrations/tracking-script.js",
+      "new_path": "runtime/integrations/tracking-script.js",
+      "disposition": "retained",
+      "sha256": "f77cd3e2609de2ace288263f6377da41b2d5470576eafcd252b458043dfa383b"
+    },
+    {
+      "old_path": "runtime/legacy/builder-preview-modules.css",
+      "new_path": "runtime/legacy/builder-preview-modules.css",
+      "disposition": "retained",
+      "sha256": "dd3be9e5046ea683aec8368478450b40485bdf3482c07c33a2d0ad8d95d707d4"
+    },
+    {
+      "old_path": "runtime/legacy/video--youtube-carousel.css",
+      "new_path": "runtime/legacy/video--youtube-carousel.css",
+      "disposition": "retained",
+      "sha256": "7c508594bebced10363da465dde58fb23b4c7e104b5bcf110e20e2d53fbb3d82"
+    },
+    {
+      "old_path": "runtime/legacy/video--youtube-carousel.js",
+      "new_path": "runtime/legacy/video--youtube-carousel.js",
+      "disposition": "retained",
+      "sha256": "97b112c2b1f356cf94d4bf7f8263e3bb7a27692a6c1d6a3992e06229c0bad52c"
+    },
+    {
+      "old_path": "scripts/check-repository-consolidation.py",
+      "new_path": null,
+      "disposition": "archived_original",
+      "sha256": "6f634eae0fc606bdedd5d9d435d18abb5df418aaf6559e452eab3cd346903101"
+    }
+  ]
+}
