@@ -1,0 +1,17 @@
+{
+  "release": "contentful/layout-v2",
+  "stylesheet": "releases/contentful/layout-v2/lpbuilder-bridge.css",
+  "sha256": "deae561698e6afcb89deaf83dc98f929b1ed894bf3381d07b2252aba9d66b03c",
+  "bytes": 59321,
+  "base": {
+    "path": "releases/contentful/layout-v1/lpbuilder-bridge.css",
+    "sha256": "923d6924375d34e9045761d9e9ce6557a27eefa28e00c2e6290c2cb282c657d0"
+  },
+  "editorialListPatch": {
+    "source": "modules/contentful-runtime/lpbuilder-bridge.css",
+    "sourceCommit": "2f8bb43ea41cb6d828beeac7c5d8fe6130c3c784",
+    "sha256": "ff8430062125f3c829c27229b3acce01cd6c5b851ab6554bdc8796da955ad821"
+  },
+  "javascript": "runtime/contentful/lpbuilder-runtime.js",
+  "activation": "Publish and verify the asset bytes before changing the renderer. Existing release URLs remain unchanged."
+}
