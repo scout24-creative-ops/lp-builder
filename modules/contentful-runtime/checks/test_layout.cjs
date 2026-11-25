@@ -31,5 +31,28 @@ let browser;
     }
   }
   }
+  // Exercise article markup under the host reset without changing the frozen layout-v1 release.
+  const developmentCss=fs.readFileSync(path.join(root,stylesheets[0]),'utf8');
+  for(const width of [1280,390]){
+    await page.setViewportSize({width,height:1000});
+    await page.setContent(`<style>ul,ol,li{list-style:none;margin:0;padding:0}${developmentCss}</style>
+      <main class="lpb-editorial-ux"><div class="lpb-editorial-article__body">
+        <ul id="bullets" class="font-body-large-regular"><li>Gleichrangiger Punkt</li></ul>
+        <ol id="steps" start="3"><li>Erster sichtbarer Schritt</li></ol>
+      </div><ul id="outside"><li>Keine Liste im Artikeltext</li></ul></main>`,{waitUntil:'domcontentloaded'});
+    const marks=await page.evaluate(()=>Object.fromEntries(['bullets','steps','outside'].map(id=>{
+      const list=document.getElementById(id),item=list.firstElementChild,style=getComputedStyle(item);
+      return [id,{type:style.listStyleType,display:style.display,inset:parseFloat(getComputedStyle(list).paddingInlineStart)}];
+    })));
+    assert.equal(marks.bullets.type,'disc');
+    assert.equal(marks.steps.type,'decimal');
+    for(const id of ['bullets','steps']){
+      assert.equal(marks[id].display,'list-item');
+      assert.ok(marks[id].inset>0);
+    }
+    assert.equal(marks.outside.type,'none');
+    assert.equal(marks.outside.inset,0);
+  }
+  console.log('Editorial bullets and numbering survive the host reset at desktop and mobile widths.');
   console.log('Development and layout-v1 Hero content align at 10 viewport boundaries (40 combinations); protected runtime remains unchanged.');
 })().catch(e=>{console.error(e);process.exitCode=1}).finally(async()=>{await browser?.close()});
