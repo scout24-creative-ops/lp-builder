@@ -619,6 +619,11 @@ a.lpb-news-nav__item:focus-visible { outline: 2px solid #333333; outline-offset:
 .lpb-editorial-ux .lpb-editorial-article__media-frame { border-radius: var(--lpb-editorial-image-radius); }
 .lpb-editorial-ux .lpb-editorial-article__media-caption { font-size: 12px; line-height: 18px; margin-top: 8px; }
 .lpb-editorial-ux .lpb-editorial-article__body > p { font-size: 16px; line-height: 26px; margin: 0 0 16px; }
+/* The host reset suppresses native markers. Restore them only for lists in running article copy. */
+.lpb-editorial-ux .lpb-editorial-article__body > :is(ul, ol) { font-size: 16px; line-height: 26px; margin: 0 0 16px; padding-inline-start: 1.5em; }
+.lpb-editorial-ux .lpb-editorial-article__body > ul { list-style-type: disc; }
+.lpb-editorial-ux .lpb-editorial-article__body > ol { list-style-type: decimal; }
+.lpb-editorial-ux .lpb-editorial-article__body > :is(ul, ol) > li { list-style-type: inherit; }
 .lpb-editorial-ux .lpb-editorial-article__body > h2 { font-size: 26px; line-height: 36px; margin: 32px 0 16px; }
 .lpb-editorial-ux .lpb-editorial-article__body > h3 { font-size: 20px; line-height: 30px; margin: 24px 0 16px; }
 .lpb-editorial-ux-breadcrumb { font-size: 14px; line-height: 22px; }
